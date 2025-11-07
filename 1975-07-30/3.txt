@@ -1,0 +1,64 @@
+
+
+
+
+
+________________________________________________________________________________
+Number 1                           UNIX NEWS                              Page 3
+________________________________________________________________________________
+
+
+
+     Harvard has  announced  the  availability  in  the  near  future  of  their
+software.   It  will be available to other academic institutions for the nominal
+cost of reproducing it.  The system is running in a heavy-use  student  environ-
+ment  and  they expect to have some documentation by the end of the summer.  For
+details write:
+                                  Lewis A. Law
+                         Director of Technical Services
+                       Science Center, Harvard University
+                                1 Oxford Street
+                             Cambridge, Mass. 02138
+
+
+
+                             REQUESTS FOR SOFTWARE
+
+     From P. De Souza, Heriot-Watt University:
+
+          We are interested in getting in touch with UNIX  users  who  may  have
+          developed  a  BCPL compiler/interpreter, a driver for a Vector General
+          display, or a software link to a PDP-10
+
+
+                           INSTALLATION DESCRIPTIONS
+
+                           University of Saskatchewan
+
+               PDP11/40 with 48Kw of core (expanding to 64Kw)
+               3 terminals (2 more on order)
+               1 DC11 dial-up interface and a CDI Teleterm 1030
+               2 RK11 disk drives (1 on order)
+               1 DH11 on order to replace current line interfaces
+
+     We also have a PDP11/20 with TTY, high speed paper tape and a VT01  display
+scope.   This is currently connected to the PDP11/40 by a DL11-E serial line but
+will soon be replaced by a DR11-C parallel interface.  One current project is to
+write  a  monitor  for  the PDP11/20 so that its peripherals become available to
+UNIX users.
+
+
+
+
+
+
+
+
+    (Printed on an LA36 from NROFF directly to Hectomaster.  Great fun!  NF)
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+
+
+
+     *   *   *   *   *****   *   *           *   *   *****   *   *    ****
+     *   *   **  *     *      * *            **  *   *       *   *   *
+     *   *   * * *     *       *             * * *   ***     * * *    ***
+     *   *   *  **     *      * *            *  **   *       ** **       *
+      ***    *   *   *****   *   *           *   *   *****   *   *   ****
+________________________________________________________________________________
+Circulation 37                   July 30, 1975                          Number 1
+________________________________________________________________________________
+
+
+                                   UNIX NEWS
+
+     This mailing is the first "permanent" issue of the UNIX NEWS.  As previous-
+ly  announced,  this  will  be a bimonthly. mailed at the end of each odd month,
+Where a special issue is warranted, we will include its  contents  in  the  next
+regularly numbered issue.  Preceding this issue, there were three mailings.  The
+first was the invitation to be placed on the mailing list which is reproduced in
+this  issue.   The second was a notice of the June 18th New York meeting and the
+Harvard software.  The third was the "special issue" dated  Julw  16  announcing
+the new edition of UNIX.
+
+     There were no objections to publishing the mailing list and so we  are  in-
+cluding  it in this issue.  The integer part of the sequence number on the first
+line corresponds to a list of licensees that Ken Thompson keeps.  The fractional
+part  designates  multiple  installations  under a single license.  Since we now
+have several such, we will mail a copy of the newsletter to  each,  provided  we
+receive a returned copy of the coupon on the invitation to subscribe.
+
+     The original letter went to approximately 76 people, all but 6 of whom  re-
+plied.   Subsequent  letters  recently went to 20 new installations and, to date
+the mailing list contains 37 names.  Our only communications problems  are  with
+locations where the only name is a contracts officer and with multiple installa-
+tions.  I would ask each of you to scan the list of names and let me know of any
+installations you know of which are not on the list.
+
+
+                             USER SOFTWARE EXCHANGE
+
+     It is apparent that there is lots of user software under UNIX  that  is  of
+general  use  and  this  newsletter's greatest utility is probably in announcing
+availability of software.  We invite discussion in this  newsletter  of  general
+philosophy  with  respect to licensing, distribution, costs, and the relation of
+commercial licensees to software exchange.
+
+
+                                NEW YORK MEETING
+
+     The meeting on June 18 at the City University of New York was  attended  by
+over  40  people from 20 installations.  Each installation described briefly its
+function and idiosyncrasies.  We will not try to reproduce them  here  since  we
+expect  one  page  write-ups  for  subsequent  inclusion from each installation.
+(Several such are included in this issue.) There  was  unanimous  sentiment  for
+keeping the users' group and its newsletter as informal as possible.
+
+
+
+________________________________________________________________________________
+                           Address Correspondence to
+Prof. H. Ferentz   Physics Dept.   Brooklyn College of CUNY  Brooklyn, NY  11210
+________________________________________________________________________________
+
