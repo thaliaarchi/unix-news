@@ -2,6 +2,7 @@
 
 - [July 30, 1975](https://archive.org/details/unix_news_july-30-1975) (3/11 pages)
 - [October 8, 1975](https://archive.org/details/unix_news_oct-8-1975) (0/2 pages)
+- [February 10, 1976](https://archive.org/details/unix_news_feb-10-1976) (1/8 pages)
 
 ## License
 

@@ -1,0 +1,56 @@
+                                  -2-
+
+
+         NOTE:  These measurements should be taken with the under-
+         standing that the installation measured has a very fast
+         swapping device and plenty of memory.
+
+     6.  Ken indicated that the group concept for protection is soon
+         to be abandonded.  Instead of 8 group bit and user ids, there
+         will be sixteen bit user ids.  If the high order bit of the
+         user id is 1, then the next seven bits will define a "class."
+         A user who is a member of a class can only reference files in
+         that class ,plus those files in class 0 (public files), and
+         then only subject to the usual interpretation of the pro-
+         tection bits.
+
+     7.  There is in C an undocumented keyword, "long."  Long floats
+         are double; long ints are 32 bit integers.  Long adds are
+         compiled in line, multiplies and divides call procedures which
+         are not yet in the library.  The code may be buggy.
+
+
+Many of the attendees described work in progress at their installations.
+A few of the more important developments:
+
+
+
+
+
+        ���������������������������������������������������������
+        baud CHI terminals.  It will run at slower speeds without
+        modification, but 1200 baud is probably too slow.
+
+        The philosophy of the editor is to display a "window" of
+        the two-dimensional text.  By means of cursor control
+        buttons (arrow keys), the cursor can be moved to a desired
+        location and text entered merely by typing it in.  Various
+        function buttons are used to:
+
+            open or close space (lines or blocks)
+            move the window forward, backward, and horizontally
+             over the text
+            delete characters
+            search
+            insert characters
+            create new windows on the same or other files.
+
+        The editor is coded so that terminal handling is done by
+        a module which can be changed to comply with the specifi-
+        cations of terminals other than the Ann Arbors used at
+        Rand.  (This was done at Yale.)  Such terminals must have
+        cursor control capability.
+
+        The editor operates on single keystroke commands, and
+        therefore runs in raw mode; thus it imposes a somewhat
+        heavier load on the system than ed.
