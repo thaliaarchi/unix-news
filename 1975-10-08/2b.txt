@@ -1,0 +1,40 @@
+        Performance Tip for the "Small System" UNIX User
+
+     In some measurements done  at  the  Naval  Postgraduate
+School,  it  was  found  that a simple change to sched() im-
+proved (real elapsed time) performance on our  benchmark  by
+26%  in a 48K word system (real time 7:08 vs. 5:18 minutes);
+the same change only saved 6% in  a  96k  word  environment.
+The  amount  of  swapping  can  be reduced by making sched()
+have two passes.  In the first pass,  only  those  processes
+with n-size >= p-size of the requesting process are eligible
+for swapout; if no memory was allocated in the first pass, a
+second  pass  is  performed using the original algorithm (no
+size check).  The net effect  is  that  the  only  processes
+which  will  be  swapped out during the first pass are those
+which will yield sufficient  memory  to  start  the  process
+which  is  being  swapped in;  the check must not be done on
+the second pass as there is  the  possibility  of  deadlock.
+The change is less effective for large systems because there
+is less swapping going on.
+                                        Gerry Barksdale, NPS
+
+      Considerations in File System / Device Configuration
+
+     In a gross sense, UNIX files may be  broken  down  into
+four  major  groups:  the  root directory (with all the high
+usage commands in /bin);  the temporary files (/tmp); normal
+user  files  (/usr); and, the swap "files".  The root should
+probably be put on the fastest access device you have avail-
+able  (it will fit on an RF11)--it's really used a lot:  Try
+to keep /tmp files away from the  same  device  as  root;  a
+separate  controller  is even better.  User files take a lot
+of space;  your largest storage medium won't be  enough  for
+very  long.   UNIX  tries to keep swap traffic down:  if you
+have > 40k words and a desperate user community, an RK05  is
+adequate.   In  a  nutshell, try to separate the various ca-
+tegories of "files" if you're interested in  better  perfor-
+mance.   Note:   the  distributed system has everything on a
+single RK05 pack; a bit of work is needed to trim  the  root
+to fit on an RF11, but it's well worth it in our experience.
+                                        Gerry Barksdale, NPS

@@ -1,0 +1,58 @@
+     *   *   *   *   *****   *   *           *   *   *****   *   *    ****
+     *   *   **  *     *      * *            **  *   *       *   *   *
+     *   *   * * *     *       *             * * *   ***     * * *    ***
+     *   *   *  **     *      * *            *  **   *       ** **       *
+      ***    *   *   *****   *   *           *   *   *****   *   *   ****
+________________________________________________________________________________
+Circulation 60                  October 8, 1975                         Number 2
+________________________________________________________________________________
+
+
+                                NEW YORK MEETING
+
+     The next meeting in the East will be held on Monday, October 27.  No formal
+agenda  has been set.  The principal topic will be discussion of experience with
+The Sixth Edition.  Dennis Richie will be available and will  discuss  bugs  and
+ways  of  crashing  the  system.   Following the procedures of our last meeting,
+there will be no formal agenda.  We will be meeting at:
+
+                              The Graduate Center
+                          City University of New York
+                               33 West 42 Street
+                                    Room 207
+
+                                October 27, 1975
+                              10:00 AM to 4:30 PM
+
+
+
+
+                                MONTEREY MEETING
+
+     The first meeting in the West will be held on Friday, October  31,  at  the
+Naval Post Graduate School.  For details contact:
+
+                             Prof. Belton E. Allen
+                                   Code 72AN
+                             Computer Science Group
+                           Naval Postgraduate School
+                          Monterey, California  93940
+
+                                  919-933-7339
+
+
+
+
+                                  UNIX HOTLINE
+
+     We are currently installing a "Unix News Hotline".  When installed, we will
+announce  a telephone number with an unprotected login name which will engage in
+a dialog to give you any late news (meetings, bugs, patches, etc.) and take from
+you any similar information you have.
+
+
+
+________________________________________________________________________________
+                           Address Correspondence to
+Prof. M. Ferentz   Physics Dept.   Brooklyn College of CUNY  Brooklyn, NY  11210
+________________________________________________________________________________

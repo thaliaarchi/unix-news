@@ -1,0 +1,35 @@
+                                  -4-
+
+
+     4.  UCLA has
+
+
+         a.  A PASCAL to C compiler.
+
+         b.  Remote reboot.
+
+         c.  A system dump formatter.
+
+         d.  Modified dh.c and dhdm.c to support more than one dh11
+
+         e.  Qdump, a program to put multiple disk images on tape.  It
+             dumps all the tracks unlike DEC's rollin, and runs much
+             faster than dump.  It works with rk disk packs but is
+             easily modified to dump other types of disks.
+
+     5.  Data Disk, Incorporated has
+
+         a.  Implemented semaphores and event channels.
+
+     6.  UC San Diego
+
+         a.  Runs UNIX on a Cal Data 145.
+
+         b.  Has a "machine independent interface" and a driver that
+             allows them to communicate with other machines and devices
+             at their installation.
+
+         c.  Has a very fast Fortran compiler.
+
+
+J. Lowry/S. Zucker
