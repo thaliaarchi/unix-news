@@ -1,0 +1,56 @@
+UCLA Security Kernel - Gerry Popek__________________________________
+
+    The object of the UCLA work is to produce a verifiably secure
+operating system.  UCLA has implemented a security kernel in PASCAL
+(a PASCAL to C translator is available from UCLA) and hope to apply
+automatic verification to the PASCAL code.  The kernel has been
+designed to be the minimum amount of software that can guarantee
+data security.  The code consists of 4-5K words, includng a few
+drivers, and was initially designed as the basis for a Virtual
+Machine Monitor (VMM).  For the sake of efficiency they have
+decided to try instead to interface UNIX directly to the security
+kernel by system calls in the same fashion as MERT, the Bell Labs
+Multi-Environment Real Time System.  They plan to run a separate
+stripped down version of UNIX in supervisor mode as a part of each
+UNIX "process" with the various UNIXs communicating by means of
+shared segments and a kernel supplied message facility.  No attempt
+is made to guarantee confinement.  The kernel is to provide
+protection for processes, devices, whole file systems, and
+segments, so the size of the protected objects is large ("the grain
+of protection is coarse").
+
+    In addition to the UNIX processes, there will be a scheduler
+process and an initiator, the former providing data to the kernel
+assigning execution priorties to the various processes, and the
+latter replacing the UNIX logon process with code that establishes
+the protection environment for the user that signs on.
+
+    The main problems anticipated are:
+
+    (1) The coordination of use of the shared segments
+        between UNIXs.  One shared segment wil be used for
+        the storage of inodes, file table entries, etc. for
+        each file system.  Semaphores may be required in
+        addition to the kernel message facility to coordinate
+        access to these segments.
+    (2) Constructing an ARPANET NCP or TCP.  It is likely that
+        some of this will have to be built into the kernel
+
+INGRES Data Base Management System - Eugene Wong (Berkeley)___________________________________________________________
+
+    Eugene Wong described the Interactive Graphics and Retrieval
+System (INGRES) that runs on a PDP 11/40 under UNIX.  The current
+system uses four large processes that call each other sequentially.
+Some benefit could be obtained from better interprocess communication
+so that some of the processes could proceed in parallel.
+(See the ..CC '75 for details on INGRES.)
+
+
+
+
+
+
+
+
+
+                               -2-

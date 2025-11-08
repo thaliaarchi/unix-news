@@ -1,0 +1,25 @@
+                                         9 March 1976
+
+
+
+TO:      LIST
+
+FROM:    John Lowry, Carl Sunshine, Steve Zucker
+
+SUBJECT: NOTES ON WEST COAST UNIX USER'S MEETING,
+         Berkeley, California, February 27-28, 1976
+
+
+
+    The meeting was attended by about 35 people (half from
+Berkeley), and hosted by Bob Fabry (Berkeley).  (See us for a
+complete list of participants and addresses.)  First there were
+four major presentations on the UCLA Security Kernel, The INGRES
+data base system, The Harvard Radcliffe Student Timesharing System
+(HRSTS), and the Berkeley PDP 11/70 system (Ken Thompson).  Then
+each attendee presented a brief summary of activity at his site.
+Friday evening and Saturday were devoted to discussing several
+general topics of interest including interprocess communication,
+the ARPANET software, multiple-machine UNIX systems, and UNIX
+development and standards.  This note summarizes each of these
+three areas.

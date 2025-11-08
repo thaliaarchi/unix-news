@@ -1,0 +1,59 @@
+    As usual, Ken had a number of interesting things to say:
+
+    1) It appears that the group concept is about to disappear
+       from UNIX, in favor of 16-bit user ids.  At Berkeley,
+       the 16-bit ids are partitioned as follows (with a major
+       intent to segragate students from each other, and from
+       the rest of the world).
+
+       UID=0:  Super-user (no change)
+       UID<0:  Student.  No reference to other student's
+               files, only "own" files and "public" files,
+               those with owner UID between 1 and 255 (to
+               which normal protections apply).
+       UID>0   All others.  No reference to students' files.
+               Normal access protection applies to all files.
+
+       For class use, the upper 8 bits of the UID is the
+       class number.  The teacher has a UID with the low
+       order 8 bits 0, and can access students' files.
+
+    2. Disk file quotas:  If a directory contains a file
+       named .Q (a quota), then, when the directory inode is
+       in use, the .Q inode is associated with it in the
+       incore inode table.  The .Q inode contains the
+       maximum number of blocks that may be used by files
+       in the directory and its decendents, and a count
+       of the number of used blocks.  A subdirectory inherits
+       the quota of its ancestors.  A new system call was
+       added to make directories with quotas.  There were some
+       problems associated with the link operation.  It is
+       allowed to exceed quotas temporarily so that the MV
+       operation (rename) cannot cause quotas to be exceeded.
+
+    3. A limit was placed on the number of active processes
+       that a user can own.  (Enforced in the fork operation:
+       while searching the processor table a count is made.)
+
+    4. Ken noted a circumstance under which locks on
+       inodes were not honored within the kernel.  He went
+       through the kernel and located a number of other
+       places where the same potential for failure exists.
+       The fixes will appear in the next release.
+
+    5. An interesting technique for measuring disk activity
+       was devised.  It involves keeping a software busy
+       bit for each of n devices (major or minor) in the
+       low order bits of a word.  The word is used as an index
+       into a "time" table of 2**n 32 bit integers.  Each
+       time a clock ("uncorrelated" with the scheduling
+       clock) interrupts, the selected "time" entry is
+       incremented.  As a result, the "time" entries record
+       the busy time for each combination of devices.  By
+       also counting the number of words transferred and the
+       number of transactions on each device, the seek times
+       (including latency and transfer times) can be obtained.
+
+
+
+                               -4-

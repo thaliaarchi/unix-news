@@ -1,0 +1,62 @@
+
+
+
+
+     *   *   *   *   *****   *   *           *   *   *****   *   *    ****
+     *   *   **  *     *      * *            **  *   *       *   *   *
+     *   *   * * *     *       *             * * *   ***     * * *    ***
+     *   *   *  **     *      * *            *  **   *       ** **       *
+      ***    *   *   *****   *   *           *   *   *****   *   *   ****
+________________________________________________________________________________
+Number 4                         March 19, 1976                           Page 3
+________________________________________________________________________________
+
+
+
+
+                                  MAILING LIST
+
+     The attached mailing list is a major revision of the old list.  It is based
+upon  a list of licensees dated February 1976 and is ordered on state and by zip
+code within the state.  It is likely that errors have crept in during the  edit-
+ing.   Please check your listing and send in corrections.  An area of difficulty
+is multiple installations under a single license.  If  you  know  of  facilities
+other than those listed, please let us know.
+
+
+                               SOFTWARE EXCHANGE
+
+     As of a few days ago, there were no user submissions to  the  software  ex-
+change.   The  exchange  does have a new C compiler and a new ar.c.  We hope the
+lack of submissions indicates that everybody is busy putting things in shape  to
+send in.
+
+     In setting up the exchange, we are hoping that people will send in  "trivi-
+al"  things as well as significant things.  The trivial is often the most dupli-
+cated in effort.
+
+
+                                    MANUALS
+
+     Informal discussions indicate that  permission  might  be  granted  to  the
+Users' Group to allow a single printer to reproduce the manuals and sell them to
+us in individual or quantity lots.  In order to determine whether this  is  rea-
+sonable or desirable, we need an estimate of the number of copies of each of the
+manuals you might order.  If you  are  interested  in  this  collective  venture
+please contact Lou Katz (see mailing list).
+
+
+
+
+
+
+
+
+
+
+              All UNIX NEWS correspondence should be addressed to:
+
+                         Prof. Melvin Ferentz
+                         Physics Dept.
+                         Brooklyn College of CUNY
+                         Brooklyn, NY  11210

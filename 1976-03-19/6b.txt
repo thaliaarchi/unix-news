@@ -1,0 +1,56 @@
+    6. Using the technique in 5, Ken determined that for the
+       Berkeley system it was more efficient to sue the RJS04
+       "swapping" disk for the "root" file system (/usr, /tmp, ...)
+       and an RK04 for swapping.
+
+    7. A bottleneck was eliminated by allocating two swap buffer
+       headers to avoid putting a process to sleep only to wake
+       it up again to be swapped out.
+
+    8. Bell labs is working on a C-oriented microprocessor.
+       Get in touch with Sandy Fraser at Bell for information.
+
+    9. We learned several things that may improve our response.
+
+       a. Allocate more buffers.  Berkeley uses 30, and we are
+          certainly underallocated.  A measurement technique
+          for determining buffer utilization was suggested.
+       b. The terminal output high and low water marks were set
+          for the 300 baud terminals in use at Bell.  With our
+          9600 baud terminals we should greatly increase these
+          parameters, and the number of character queue elements.
+
+
+                   Site Activity Summaries_______________________
+
+Steve Holmgren
+Center for Adv Comp. - Illinois
+
+    Runs an 11/45 with 128k, RP04, RK's, magtape.
+    Does text processing.
+    Developed NCP (currently has no server).
+    Also doing work on local networking.
+
+Mike O'Halley - Berkeley
+
+    11/40 system
+    Runs the Illinois NCP.
+    Does real time speech processing.
+    Has added contiguous files.
+
+John Bass - Cal Poly San Luis Obispo
+
+    Runs UNIX on an 11/35 (the OEM version of the 40)
+    Does graphics, data entry, 3-D display for architecture,
+    and language processing.
+
+
+
+
+
+
+
+
+
+
+                               -5-

@@ -1,0 +1,58 @@
+Mark Kampo - UCLA
+
+    Is rewriting tty.o.
+    Is doing security research.
+    Has PSDAL, PASCAL, and EUCLID translators.
+    Has a TENEX compatible NROFF written in C.
+    Has send message, many new drivers, limited server ftp for
+    the Ilinois NCP.
+    Is connected with coordinated distribution of UNIX software.
+
+TOVAK - Berkeley
+
+    Has worked on Dijkstra's primitives (semaphores).
+    Knows about the GT40.
+    Has implemented very distant host ARPANET protocol.
+    Has implemented contiguous files.
+    Has RK05 dump code for m45.s and dump-interpreting software.
+    Interested in network graphics program.
+
+Oliver Whitby - SRI
+
+    Considering UNIX for scientific communication
+    (Technical Journal Production).
+
+Gary Raetz - Naval Postgraduate School
+
+    Working with a variety of display device.
+    Has 8080 assembler.
+    Has a DDT and line editor.
+
+Ira Fuchs - C.U.N.Y.
+
+    CT44 system
+    Runs as text editor front end for 370.
+    Reported that April 1 of the East Coast Meeting
+      will emphasize graphics.
+
+                          Discussion Topics_________________
+
+
+Interprocess Communication (IPC):
+
+    Steve Zucker and Carl Sunshine presented the shortcomings of
+Current UNIX IPC facilities.  Steve outlined his Port and mpipe
+implementation.   (The two Rand papers had been passed out the
+day before, but few attendees had had a chance to read them.) There
+was agreement from several other sites that an ability to wait for
+multiple inputs would be very desirable, and that mpipes seemed a
+good way to do this.  Bob Fabry was unhappy with the different
+interface mpipes provided to the reader (the presence of headers).
+
+
+
+
+
+
+
+                               -7-

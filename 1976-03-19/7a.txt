@@ -1,0 +1,57 @@
+Dave Farber - UCLA
+
+    Has a PASCAL to C translator.
+    Has made changes to ed (e.g., warnings, writeout on hangup).
+
+Jeff Schribman - UCB 11/70
+
+    Currently has RP03 type disks, DEC RJS04 and RK05's.  The
+    RK05 will leave shortly.
+    Machine connected to CDC 6400.
+    Runs a RJE station
+
+Harvey Weinstein - Survey Research Center, UCB
+
+    Working on computer assisted telephone interviews.
+
+Bill Bridge - Data Disk
+
+    Runs an 11/35 with LSI-11 hardware to control terminals.
+    Developing an automated newspaper production system to run
+    on 11/70s with LSI-11's.
+
+Oliver Roubine - SRI
+
+    Has developed a better C debugger.
+
+Art Wilson - UCSD
+
+    Has a Fortran which uses 11/40 floating point from Illinois.
+    Has an 8080 cross assembler
+    They use the machine for various chemistry applications.
+
+Mike Ubell - UCS
+
+    Has GT-40 debugger and Fortran editor.
+
+John Lowry, Carl Sunshine, Steve Zucker - Rand
+
+    Runs UNIX on 11/45 with 128K, RP04, RK05's.
+    Doing intelligent terminal research.
+    Have developed a 2 dimensional editor, currently being recoded
+    to use ed as a subroutine.
+    Interested in improved interprocess communication -- passed out
+    paper with ideas concerning how this might be accomplished.
+    Has remind, a better version of CRON.
+    Has file compression routines (25-40% storage savings on typical
+      program and text files).
+    Runs the Rand NCP (including server).
+
+
+
+
+
+
+
+
+                               -6-

@@ -1,0 +1,56 @@
+HRSTS - Harvard-Radcliffe Student Timesharing System - _______________________________________________________
+Chuck Prenner (Formerly of Harvard, now at Berkeley)____________________________________________________
+
+    An impressive amount of software has been developed for
+HRSTS.  The following items were mentioned:
+
+    1.  BASIC:  two versions, one based on DEC RT11 BASIC
+                with matrix extensions, another based on
+                DEC RSTS BASIC (which users must first purchase
+                from DEC).
+    2.  MACRO
+        LINKER - (Version 6 compatible)
+        DDT - (Brought to RAND by Bob Greenberg)
+    3.  TECO editor
+    4.  PILCOM - (like diff)
+    4.- HARVARD SHELLS:
+                A simplified shell for student use (hand-holding)
+                Command completion as in TENEX
+    6.  Terminal driver with several interesting features
+                (a) Page mode for graphics terminals
+                (b) Setable break characters
+                (c) The ability to suspend and restart output
+    7.  PPL and ECLI  Extensible languages
+                Manuals can be obtained from:
+                Center for Research in Computing Techniques
+                33 Oxford Street
+                Cambridge, Massachusetts  07138
+
+Chuck also spoke of a very good (fast) Fortran that runs under
+UNIX.  It is a modification of DEC Fortran and it is available
+(after paying DEC a $2500 fee) from:
+                Dick Shore
+                CULC (Commercial Union Leasing Corp.)
+                New York
+
+The Berkeley 11/70 System - Ken Thompson________________________________________
+
+    Berkeley runs a severely core-limited system, having only
+64K words of memory to support an average load of 15 users
+(22-24 users peak).  They use four "home-brew" multiplexers,
+each having 8 lines.  Three of the lines are connected to 11/10
+machines used for teaching assembly language programming and
+interrupt I/O.  They have 2 RK05 disks, an RJS04 swapping
+disk, and 2 RP03 compatible DIVA disks (50 megabytes each).
+
+
+
+
+
+
+
+
+
+
+
+                               -3-
