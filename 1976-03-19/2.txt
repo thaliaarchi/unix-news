@@ -1,0 +1,69 @@
+
+
+
+     *   *   *   *   *****   *   *           *   *   *****   *   *    ****
+     *   *   **  *     *      * *            **  *   *       *   *   *
+     *   *   * * *     *       *             * * *   ***     * * *    ***
+     *   *   *  **     *      * *            *  **   *       ** **       *
+      ***    *   *   *****   *   *           *   *   *****   *   *   ****
+________________________________________________________________________________
+Number 4                         March 19, 1976                           Page 2
+________________________________________________________________________________
+
+
+
+
+                             JOHNS HOPKINS SOFTWARE
+
+     The Unix Hotline has on it notices from Johns  Hopkins  University  on  the
+availability of several pieces of software.
+
+     A version of BASIC-PLUS (version 5B-24) adapted for Unix is available  from
+Johns Hopkins University, Department of Electrical Engineering. It is fully com-
+patible with RSTS/E BASIC-PLUS: nearly any program run on RSTS/E BASIC will work
+on this one.  The only exceptions are:
+
+               1) programs are limited to 12K
+               2) None of the privileged "sys" calls are available; most
+   of the unprivileged ones are.
+
+All of the I/O facilities of BASIC-PLUS (record I/O, virtual arrays, etc.)  work
+on  the  Unix  version:  full  pathnames  can be specified on OPEN, RUN, NAME-AS
+statements. A "public library" feature allows one to keep frequently used  BASIC
+programs  in  a  directory  which  is referenced whenever a '$' is prefixed to a
+pathname.
+
+Binary copies are available to those with  a  RSTS  binary  license;  source  is
+available  to those with source license. Distribution is available on Dectape or
+RK disk.
+
+     A UNIXed version of MACRO (PDP-11 assembler) is available from JHU Electri-
+cal  Engineering.   It has "macro library" and "cross reference" capability, and
+is reasonably efficient. To get binary, you need a DEC MACRO binary license  for
+RT11,  RSX11D,  or  DOS; to get source, a DEC source license. Distribution on RK
+disks or DECtape.
+
+     A UNIXed version of Per Brinch-Hansen's "Sequential  Pascal"  compiler  and
+interpreter  are available from JHU-Electrical Engineering The compiler is writ-
+ten in Pascal, consists of 7 passes, and is  rather slow. Output from  the  com-
+piler  is  run under a separate Pascal interpreter.  Compiled files can call the
+interpreter automatically;  hence  Pascal  programs cam be invoked as  commands.
+The  lexical  conventions  have  been  improved   over  Brinch-Hansen's original
+specification;  lowercase and tabs are accepted,  and  []  are  used  for  array
+specifiers  instead  of (. .). Most of the  UNIX system  entries  can be invoked
+from Pascal; users can easily add their own following the design  of  those  al-
+ready installed.
+
+Prerequisite software: MACRO assembler (available  from  JHU  for licensees) and
+Jeff Rottman's Linker (available from Princeton).
+
+Distribution on RK disk or Dectape.
+
+Contact,
+
+                Dr. W. H. Huggins
+                Department of Electrical Engineering
+                The Johns Hopkins University
+                Baltimore, MD 21218
+
+A service charge may be involved.

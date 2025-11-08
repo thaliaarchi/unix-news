@@ -1,0 +1,68 @@
+
+
+     *   *   *   *   *****   *   *           *   *   *****   *   *    ****
+     *   *   **  *     *      * *            **  *   *       *   *   *
+     *   *   * * *     *       *             * * *   ***     * * *    ***
+     *   *   *  **     *      * *            *  **   *       ** **       *
+      ***    *   *   *****   *   *           *   *   *****   *   *   ****
+________________________________________________________________________________
+Number 4                         March 19, 1976                           Page 1
+________________________________________________________________________________
+
+
+
+          ***********************************************************
+          *                                                         *
+          *                         NOTICE                          *
+          *                                                         *
+          *      This document may contain information covered      *
+          *      by  one  or  more  licenses,  copyrights, and      *
+          *      non-disclosure  agreements.   Circulation  of      *
+          *      this  document  is restricted to holders of a      *
+          *      license for the  UNIX  software  system  from      *
+          *      Western  Electric.   Such license holders may      *
+          *      reproduce this document for uses in conformi-      *
+          *      ty with the UNIX license.                          *
+          *                                                         *
+          *      All  other  circulation  or  reproduction  is      *
+          *      prohibited.                                        *
+          *                                                         *
+          ***********************************************************
+
+
+                               MEETING AT HARVARD
+
+     The next meeting in the East will be held at Harvard  University  on  April
+first and second.  The letter with details on hotels, which appeared in the last
+issue, is repeated below.
+
+     Thursday, April 1 will be devoted mostly to graphics.  The meeting will be-
+gin  at  1:00 PM on that day so that most people will be able to arrive thursday
+morning.  The Lecture Hall will be available into the evening.  We will have ac-
+cess  to  the Harvard-Radcliffe system on thursday evening and during the day on
+friday.
+
+     The friday session will begin at 10:00 AM and last as  long  as  necessary.
+In  addition  to  the usual short reports by installations, there will be longer
+reports by:
+
+               Tucker Taft on the HRSTS system.
+               Bruce Borden on Fortran IV Plus under UNIX
+               Helnz Lycksama on MERT
+                                 The Satellite Processor system
+                                 Mini-UNIX and LSI-UNIX.
+               Dennis Ritchie on the C compiler and the future of UNIX.
+
+     The Lecture Hall is equipped for demonstrations.   A  terminal  with  large
+screen  display is available and may be used with the HRSTS system or, via dial-
+up, with your own system.  If you are bringing materials to mount at Harvard for
+demonstration, we remind you that the only transfer medium on the Harvard system
+is Dectape.  If you need to mount from other media, and if you  hurry,  arrange-
+ments can be made to copy your materials to Dectape from RK05 or magtape (800 or
+1600)  in  New  York.   Contact  Mel  Fercutz   (212-780-5569)   or   Lou   Katz
+(232-579-8501) for details.  Another possibility would be to transmit the files,
+if your UNIX can be made to look like a terminal, to either UNIX or Wylbur.   To
+transmit  to UNIX or Wylbur in New York, contact Ira Fuchs (232-977-0000).  Call
+Lew Law (617-495-2627)  if  you  wish  to  explore  the  possibility  of  direct
+transmission  to HRSTS.  If you have any special audio-visual needs, contact Lew
+Law's office.
