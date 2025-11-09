@@ -1,0 +1,80 @@
+          *   *   *   *   *****   *   *           *   *   *****   *   *    ****
+          *   *   **  *     *      * *            **  *   *       *   *   *
+          *   *   * * *     *       *             * * *   ***     * * *    ***
+          *   *   *  **     *      * *            *  **   *       ** **       *
+           ***    *   *   *****   *   *           *   *   *****   *   *   ****
+__________________________________________________________________________________________
+Volume 2 Number 4                       April 1977                                  Page 1
+__________________________________________________________________________________________
+
+
+                                      SUMMER MEETING
+
+     The Users' Group meeting in Urbana, Illinois will be held Thursday May 19 through Sa-
+turday May 21.  Details on program, transportation and housing follow.
+
+
+                                      ACCOMMODATIONS
+
+Within easy walking distance of the meeting place are:
+
+                        Century 21 Hotel                Illini Union
+                        203 E. John                     (on campus)
+                        217-384-2100                    217-333-1241
+
+All meetings will be held in the Main Lecture Hall of the Coordinated Science Lab.
+
+THURSDAY MAY 19      9:00 - 10:00   Opening announcements, setting final agenda
+
+                    10:00 - 12:00   WHO IS DOING WHAT SESSION
+                                    Recent Developments at Bell, Illinois, UCLA, Rand,
+                                    Harvard.  Anyone with something to contribute.
+
+                     1:00 -  5:00   INTER-PROCESS COMMUNICATIONS
+                                    System modifications for IPC
+                                    Rand and Illinois mods.
+                                    Can we set Users'Group Standards?
+
+                      Evening       Graphics
+
+FRIDAY MAY 20        9:00 - 10:30       LANGUAGES
+                                    New C-Compiler, C on other processors
+                                    Pascal, APL, ECL, etc.
+
+                    10:30 - 12:00   SECURE UNIX SYSTEMS
+                                    UCLA and Mitre-Bedford
+
+                     1:00 -  3:00   NETWORKING
+                                    Unix-to-Unix
+                                    ARPANET, Autodin 11
+
+                     3:00 -  5:00   DATA BASE SYSTEMS
+                                    Children's Museum
+                                    N. Y. Telephone Version of Ingres
+                                    Yale Registration System
+                                    Columbia Medical System
+
+                      Evening       CLOSED SESSION
+                                    Unix Internals
+
+SATURDAY MAY 21     10:00 - 12:00   TEXT PROCESSING
+                                    roff, nroff, troff, various editors, output devices
+
+                    12:00 -  3:00   CATCH-UP SESSION
+                                    To be scheduled during the conference
+
+During both evenings there will be informal "Counselor" session during  which  experienced
+Unix hands will try to answer questions of our less experienced bretheren and sisteren.
+
+
+
+
+
+
+
+
+
+__________________________________________________________________________________________
+                                    UNIX NEWS ADDRESS
+Prof. Melvin Ferentz             Brooklyn College of CUNY              Brooklyn, NY  11210
+__________________________________________________________________________________________
