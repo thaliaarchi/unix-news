@@ -1,0 +1,84 @@
+          *   *   *   *   *****   *   *           *   *   *****   *   *    ****
+          *   *   **  *     *      * *            **  *   *       *   *   *
+          *   *   * * *     *       *             * * *   ***     * * *    ***
+          *   *   *  **     *      * *            *  **   *       ** **       *
+           ***    *   *   *****   *   *           *   *   *****   *   *   ****
+__________________________________________________________________________________________
+Number 11                             November 1976                                 Page 1
+__________________________________________________________________________________________
+
+
+               ***********************************************************
+               *                                                         *
+               *                         NOTICE                          *
+               *                                                         *
+               *      This document may contain information covered      *
+               *      by  one  or  more  licenses,  copyrights, and      *
+               *      non-disclosure  agreements.   Circulation  of      *
+               *      this  document  is restricted to holders of a      *
+               *      license for the  UNIX  software  system  from      *
+               *      Western  Electric.   Such license holders may      *
+               *      reproduce this document for uses in conformi-      *
+               *      ty with the Unix license.                          *
+               *                                                         *
+               *      All  other  circulation  or  reproduction  is      *
+               *      prohibited.                                        *
+               *                                                         *
+               ***********************************************************
+
+
+                            SECOND SOFTWARE DISTRIBUTION
+
+     On the following pages you will find an  announcement  of  the  availability  of  the
+Second Software Distribution and its contents.
+
+     Magnetic tapes should be sent to:
+
+                    Michael T. O'Brien
+                    Dept. of Information Engineering
+                    University of Illinois at Chicago Circle
+                    Box 4348
+                    Chicago, Illinois 60680
+
+     As noted in the announcement the default request is for the latest distribution which
+will  be  in  "stp"  format (see below).  To receive anything else you must have explicit,
+understandable instructions.  To get either the Harvard or Toronto distributions you  must
+submit  an  executed  license  agreement  and  be  an  academic institution, i. e.  a non-
+commercial licensee of Western Electric.  Commercial licensees must deal with Toronto  and
+Harvard on an individual basis.
+
+
+                              ADDITION TO THE DISTRIBUTION
+
+     Included in the distribution will be two new forms ot tp.  One is  a  rewrite  of  tp
+from assembler to c.  It is believed by the author to be identical in function to standard
+tp.  The second is an enhancement for magnetic tape called super-tp (stp).  It allows  up-
+dates to an stp magtape.  The distribution referred to above will be written with stp.  It
+may be read with standard tp, but any additions to the standard distribution on  the  same
+tape  will  be placed there by an update run of stp and will be readable only by stp.  The
+documentation of stp on the distribution tape will be self explanatory (we hope).
+
+
+                                        STOP PRESS
+
+     The following message was just received from Chicago Circle.
+
+        I got the "diff" listing of all changes to Bell Unix system proper from "standard"
+version 6, which apparently means the currently distributed version 6.  There are some bug
+fixes which are not in my version 6, which are in the currently distributed  v6.   Anyway,
+I've  itemized  some  50  changes, and sent the list to Ken for verification and comments.
+The changes will be available through the center by special request: hence, the uninitiat-
+ed  will  not  be  tempted to do a number on themselves, as they might be if the mess were
+suddenly dumped in their laps.
+
+        Also, a new tape is in the process of preparation, and should be available as soon
+as  it  clears  the lawyers, for the usual free license and handling fee.  It contains the
+new nroff, the new C, the new I/O library (faster & smaller than anything to date), and a
+bunch of other such things.  It will be available from Bell, not the Center.  Ken is going
+to send a formal notice to the News.
+
+WARNING:  Most of us do not have the "currently districted V6".  CAVEAT EMPTOR
+
+__________________________________________________________________________________________
+                                    UNIX NEWS ADDRESS
+Prof. Melvin Ferentz             Brooklyn College of CUNY              Brooklyn, NY  11210

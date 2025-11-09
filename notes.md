@@ -5,6 +5,9 @@
   - Page 2: a UNIXed version of MACRO (PDP-11 assembler) from JHU
     Electrical Engineering.
   - Page 6: MERT, the Bell Labs Multi-Environment Real Time System
+- 1976-11:
+  - Page 1: Second Software Distribution, tp rewrite from assembly to C,
+    super-tp (stp), v6 changes
 - 1977-01:
   - Page 1: Second Software Distribution, Yale Shell
   - Page 2: Yale Shell
