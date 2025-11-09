@@ -5,3 +5,5 @@
   - Page 2: a UNIXed version of MACRO (PDP-11 assembler) from JHU
     Electrical Engineering.
   - Page 6: MERT, the Bell Labs Multi-Environment Real Time System
+- 1977-03:
+  - Page 1: Lions' Commentary and mini-UNIX

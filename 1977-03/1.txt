@@ -1,0 +1,64 @@
+*   *   *   *   *****   *   *           *   *   *****   *   *    ****
+*   *   **  *     *      * *            **  *   *       *   *   *
+*   *   * * *     *       *             * * *   ***     * * *    ***
+*   *   *  **     *      * *            *  **   *       ** **       *
+ ***    *   *   *****   *   *           *   *   *****   *   *   ****
+______________________________________________________________________
+Volume 2 Number 3             March 1977                        Page 1
+______________________________________________________________________
+
+
+     ***********************************************************
+     *                                                         *
+     *                         NOTICE                          *
+     *                                                         *
+     *      This document may contain information covered      *
+     *      by  one  or  more  licenses,  copyrights, and      *
+     *      non-disclosure  agreements.   Circulation  of      *
+     *      this  document  is restricted to holders of a      *
+     *      license for the  UNIX  software  system  from      *
+     *      Western  Electric.   Such license holders may      *
+     *      reproduce this document for uses in conformi-      *
+     *      ty with the UNIX license.                          *
+     *                                                         *
+     *      All  other  circulation  or  reproduction  is      *
+     *      prohibited.                                        *
+     *                                                         *
+     ***********************************************************
+
+                            URBANA MEETING
+
+     Announcement of the Urbana meeting and a map of the campus appear
+in  this  issue.  Those wishing to be placed on the agenda should con-
+tact Steve Holmgren as soon as possible.
+
+     Since very little, if any, of the discussions at meetings in fact
+involves  "disclosure",  it  was decided, at the last Harvard meeting,
+that we would not bar non-licensees from our meetings.   If  there  is
+need  for a session at which "disclosure" does take place, the program
+committee will schedule a "closed" meeting.
+
+     The next issue of this newsletter will be posted  no  later  than
+May  5th  in  New  York  so it should arrive during the following week
+everywhere.  It will contain the final notice of the meeting  and  the
+preliminary  agenda.   Reservations for lodging should be made as soon
+as possible.
+
+
+                               NEW BOOK
+
+     Your attention is called to the book announced in the letter from
+New  South  Wales.   Orders should be sent as soon as possible so they
+may determine their print order.  Ken Thompson has seen the first ver-
+sion of the book and reports that it is a good job.
+
+
+                          LICENSED MATERIALS
+
+     We have just received a new list of available licensed  materials
+from Western electric.  The list will appear in the May issue since we
+want to keep this newsletter and its sequel small to  speed  delivery.
+Among  the items listed are mini-UNIX (previously announced) and "PHO-
+TOTYPESETTER VERSION 7" which is new.  It operates under UNIX and  in-
+cludes  text  formatting and mathematical processing.  For further de-
+tails contact Dick Shahpazian 919-697-2861.
