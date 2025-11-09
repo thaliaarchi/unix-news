@@ -1,0 +1,83 @@
+          *   *   *   *   *****   *   *           *   *   *****   *   *    ****
+          *   *   **  *     *      * *            **  *   *       *   *   *
+          *   *   * * *     *       *             * * *   ***     * * *    ***
+          *   *   *  **     *      * *            *  **   *       ** **       *
+           ***    *   *   *****   *   *           *   *   *****   *   *   ****
+__________________________________________________________________________________________
+Volume 2 Number 1               December 1976 January 1977                          Page 1
+__________________________________________________________________________________________
+
+
+               ***********************************************************
+               *                                                         *
+               *                         NOTICE                          *
+               *                                                         *
+               *      This document may contain information covered      *
+               *      by  one  or  more  licenses,  copyrights, and      *
+               *      non-disclosure  agreements.   Circulation  of      *
+               *      this  document  is restricted to holders of a      *
+               *      license for the  UNIX  software  system  from      *
+               *      Western  Electric.   Such license holders may      *
+               *      reproduce this document for uses in conformi-      *
+               *      ty with the Unix license.                          *
+               *                                                         *
+               *      All  other  circulation  or  reproduction  is      *
+               *      prohibited.                                        *
+               *                                                         *
+               ***********************************************************
+
+
+                                      HOTLINE CHANGE
+
+     For the next few months, the processor that services  the  hotline  will  be  running
+operating systems other than UNIX. (for shame!) Accordingly, on February 15, the telephone
+number for the hotline will be changed to 212-859-6853.  It is still 300 baud only.
+
+
+                               SECOND SOFTWARE DISTRIBUTION
+
+     Due to problems with the magnetic tape drives at Chicago Circle, the mailing  of  the
+second software distribution was not begun until January 10.  Domestic shipments were sent
+as "library material", overseas by air.  The delay did allow for the inclusion  of  a  few
+last  minute  items  not on the list in the November Unix News.  Among the major additions
+are:
+                    1.  Improved RJS-04 Driver
+                    2.  DOS BASIC under Unix.
+                    3.  Shared data space for user programs.
+                    4.  Improved TU-16 Driver to handle multiple files per tape.
+                    5.  APL
+                    6.  Yale Shell
+
+     Since Chicago Circle no longer has access to 1600 bpi tape drives,  tapes  should  be
+sent as follows:
+
+
+               800 bpi                                       1600 bpi
+          Michael T. O'Brien                              Melvin Ferentz
+          Dept. of Information Engineering                Physics Dept.
+          University of Illinois at Chicago Circle        Brooklyn College of CUNY
+          Box 4348                                        Brooklyn, New York 11210
+          Chicago, Illinois 60680
+
+
+
+
+
+                                        UNIX NEWS
+
+     Enclosed is your invoice for Unix News.  If the year 1976 is not struck from the  in-
+voice  it  means  we think you haven't paid for that year.  We expect to publish 10 issues
+this year omitting one summer month and combining December and January as we have in  this
+issue.  Upon payment for 1976, new subscribers will receive all of Volume 1.
+
+
+
+
+
+
+
+
+__________________________________________________________________________________________
+                                    UNIX NEWS ADDRESS
+Prof. Melvin Ferentz             Brooklyn College of CUNY              Brooklyn, NY  11210
+__________________________________________________________________________________________

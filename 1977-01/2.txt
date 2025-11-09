@@ -1,0 +1,81 @@
+          *   *   *   *   *****   *   *           *   *   *****   *   *    ****
+          *   *   **  *     *      * *            **  *   *       *   *   *
+          *   *   * * *     *       *             * * *   ***     * * *    ***
+          *   *   *  **     *      * *            *  **   *       ** **       *
+           ***    *   *   *****   *   *           *   *   *****   *   *   ****
+__________________________________________________________________________________________
+Volume 2 Number 1               December 1976 January 1977                          Page 2
+__________________________________________________________________________________________
+
+
+
+
+
+                                        YALE SHELL
+
+     The Yale Shell is an enhancement of the standard shell written by John Levine.  It is
+a  proper  superset  of  the  standard shell which includes, among other things, alpha and
+numeric shell variables as well as a private "bin" directory for user shell command  files
+which are accessible regardless of your current directory.
+
+     At the October Meeting at Harvard it was agreed that this shell would be adopted as a
+Users'  Group "standard".  This means that the assumption will be made that each installa-
+tion has it and software distributions may use its features.  The other Users' Group stan-
+dard  program  in  the distribution is "stp".  Future Users' Group standard programs might
+include enhanced magnetic tape and tty drivers.  The later would require the  perhaps  im-
+possible task of agreeing on its attributes.
+
+
+                                      DRIVERS WANTED
+
+     Among the drivers recently requested are those for floppy disks, Gould 5000, and  the
+DZ11  with modem control.  If you have any of these, and are willing to share them, please
+send them to the address below, preferable in machine readable form (magtape, Dectape, pa-
+per tape).  We will subdistribute to requestees.  We will also send it to Chicago for sub-
+sequent software distribution.
+
+
+                                       STP PROBLEMS
+
+ Word has drifted back to New York of troubles with "stp".  If you have had  such,  either
+input  it  to  the  hotline  or,  if  you  prefer  talking  to people, call Mel Ferentz at
+212-977-5371.  Messages, if no answer, may be left at 212-977-8000.
+
+
+
+
+        QUES: What sort of problems?
+
+
+        ANS: TU16 driver; see Vol 2, #2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+__________________________________________________________________________________________
+                                    UNIX NEWS ADDRESS
+Prof. Melvin Ferentz             Brooklyn College of CUNY              Brooklyn, NY  11210
+__________________________________________________________________________________________

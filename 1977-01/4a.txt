@@ -1,0 +1,72 @@
+                     Oregon
+          Climatic    State
+Research Institute   University   Corvallis, Oregon 97331   (503) 764-3714
+
+
+                                              14 January 1977
+
+
+
+
+
+
+
+
+Prof. Melvin Ferentz
+Professor of Physics
+Data Acquisition Facility
+School of Science
+Brooklyn College of the City of New York
+Brooklyn, NY  11210
+
+
+Dear Sir:
+
+     I was given your name, from a few sources, as the person to contact
+regarding the availability of software to run under UNIX.
+
+     I am investigating the possibility of using a PDP11/34 as a "smart"
+terminal to acquire access to various large-scale computers and to perform
+some local applications.  There are a few pieces of software I need to help
+put this together.  There may be others as I get more deeply into its de-
+sign, but for now I have the following list:
+
+   1.  CDC UT200 emulator
+
+   2.  IBM 2780 emulator
+
+   3.  A DN11 software interface
+
+   4.  A DU11 software interface
+
+   5.  A DF11 software interface
+
+   6.  A faster FORTRAN (I understand the standard UNIX FORTRAN is very slow)
+
+     I understand there is a central collecting place for the various software
+packages available under UNIX.  If you can refer me to that place, I will ap-
+preciate it.
+
+     It would be a help if I could get back issues of the UNIX working group
+notes and publications.  Can you help me in that area?  I would like to be-
+come a member of that group.  How do I accomplish this?
+
+
+     I would appreciate any help and/or names of persons to contact
+who may have similar requirements.
+
+                                             Sincerely yours,
+
+                                             Robert L. Mobley
+
+                                             Robert L. Mobley
+                                             Director of Computations
+
+
+RLM:df
+
+
+
+
+
+                                                                                          �-4
