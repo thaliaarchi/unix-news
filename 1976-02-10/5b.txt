@@ -1,0 +1,34 @@
+                    RT-11 Fortran under Unix________________________
+
+     We  have  a  modified  version  of  PDP-11  Fortran  IV  (as
+described  in DEC-11-LFLBA-B-D) which runs under Unix.  Libraries
+are available for all PDP-11 configurations.
+
+
+     Binary versions may be obtained by any installation with the
+Dec binary license.  Source may be obtained by those with the Dec
+source license.  A Unix version of the Macro  assembler  is   re-
+quired  to  use  the  source code.  Users must make their own ar-
+rangements for this.
+
+
+     The product may be obtained on one RK05  cartridge  or  four
+Dectapes.  There is a handling charge of $200, which includes the
+cost of the medium.  (Note: delivery time for  Dectapes  will  be
+substantially greater than  for RK05 cartridges).
+
+
+
+
+
+Write to -
+
+
+          Peter Bloomfield
+          Department of Statistics
+          Princeton University
+          Princeton NJ  08540
+
+
+
+          Phone (509) 452-4195

@@ -1,0 +1,76 @@
+     *   *   *   *   *****   *   *           *   *   *****   *   *    ****
+     *   *   **  *     *      * *            **  *   *       *   *   *
+     *   *   * * *     *       *             * * *   ***     * * *    ***
+     *   *   *  **     *      * *            *  **   *       ** **       *
+      ***    *   *   *****   *   *           *   *   *****   *   *   ****
+________________________________________________________________________________
+Number 3                       February 10, 1976                          Page 1
+________________________________________________________________________________
+
+
+          ***********************************************************
+          *                                                         *
+          *                         NOTICE                          *
+          *                                                         *
+          *      This document may contain information covered      *
+          *      by  one  or  more  licenses,  copyrights, and      *
+          *      non-disclosure  agreements.   Circulation  of      *
+          *      this  document  is restricted to holders of a      *
+          *      license for the  UNIX  software  system  from      *
+          *      Western  Electric.   Such license holders may      *
+          *      reproduce this document for uses in conformi-      *
+          *      ty with the Unix license.                          *
+          *                                                         *
+          *      All  other  circulation  or  reproduction  is      *
+          *      prohibited.                                        *
+          *                                                         *
+          ***********************************************************
+
+
+                                   DISCLOSURE
+
+     Our correspondence  with  Western  Electric  vis-a-vis  the  non-disclosure
+agreement  is  reproduced  in this issue.  It is agreed that as long as a notice
+similar to the one printed above appears, we may disclose  to  each  other.   In
+machine readable form, share modifications to the licensed software  by  sending
+the modified text.
+
+
+                                    HOTLINE
+
+     The Unix Hotline telephone  number  is  212-489-0337.   It  is  a  300-baud
+DL11-E.  The login name "unixnews" has no password and connects to a shell which
+is a stripped down version of "ed".  We hope its use  is  self  explanatory  and
+your comments and improvements are solicited.
+
+
+                                    MEETINGS
+
+     Notices of the next meetings on East and West Coasts  are  included  below.
+Since  the  notice was printed, Mike Stonebraker of Berkeley has agreed to speak
+at the West Coast Meeting on INGRESS, his relational data base system.
+
+     The East Coast meeting will concentrate on  graphics  on  Thursday  and  on
+everything else on Friday.  Details will appear in the next Unix News and on the
+Hotline.
+
+
+                               SOFTWARE EXCHANGE
+
+     Arrangements have been made to establish a central  facility  for  the  ex-
+change  of  machine  readable  materials.  The University of Illinois at Chicago
+Circle has offered its facilities.  Magnetic tapes, Dectapes, or rk-disks should
+be sent to:
+
+                    Michael T. O'Brien
+                    Dept of Information Engineering
+                    University of Illinois at Chicago Circle
+                    Box 43488
+                    Chicago, Illinois 60630
+
+     At least initially, the plan is to collect everything sent in and  to  send
+everything  to  each  installation on request.  Special arrangements can be made
+with Mike for materials covered by licenses.  Rather than tying the distribution
+to  particular dates, Mike will ship what he has when he receives your tape.  He
+does ask that installations request distributions no more frequently than  every
+three months.

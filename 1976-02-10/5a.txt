@@ -1,0 +1,51 @@
+                                                      Western Electric
+
+Administration                                        222 Broadway
+                                                      New York, N. Y. 10038
+                                                      212 571-2345
+
+
+
+
+
+
+
+
+
+Professor Melvin Ferentz, Editor, UNIX News
+Professor of Physics
+DATA ACQUISITION FACILITY
+School of Science
+Brooklyn College of The City
+  of New York
+Brooklyn, New York   11210
+
+Dear Professor Ferentz:
+
+In response to your letter of November 26, 1975, please be advised
+that we have no plans to change the language in our standard UNIX
+Software Agreement, which is used to license educational institu-
+tions for "academic and educational purposes" only.  However, we
+have no objections to our UNIX licensees communicating with each
+other since the licensee is under the same obligation of confiden-
+tiality with respect to the LICENSED SOFTWARE.  You are welcome, if
+you so desire, to visit with us here at Western Electric, where we
+would be pleased to discuss with you our agreement, as it relates to
+your needs.
+
+With regard to your request for a current list of UNIX licensees, I
+am providing you with such a list as requested (See attached list).
+I will endeavor to provide you with updates to this list periodically.
+
+In conclusion, you did inquire about several Bell System Software
+Programs, which are presently not available for licensing.  I have
+forwarded your request for these programs to the Bell Telephone
+Laboratories.  Should they become available for licensing, I will
+contact you.
+
+                                             Very truly yours,
+
+                                             S. Jones for
+
+                                             R. G. SHAHPAZIAN
+Att.

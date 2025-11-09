@@ -1,0 +1,56 @@
+UNIVERSITY OF CALIFORNIA, BERKELEY
+
+____________________________________________________________________________________________________________
+BERKELEY * DAVIS * IRVINE * LOS ANGELES * RIVERSIDE * SAN DIEGO * SAN FRANCISCO * SANTA BARBARA * SANTA CRUZ
+____________________________________________________________________________________________________________
+
+
+
+COLLEGE OF ENGINEERING                         BERKELEY, CALIFORNIA  94720
+DEPARTMENT OF ELECTRICAL ENGINEERING
+  AND COMPUTER SCIENCES
+COMPUTER SCIENCE DIVISION
+
+
+
+                                         February 3, 1976
+
+
+
+Dear "West Coast" Unix User:
+
+A second informal meeting of the still unformed West Coast Unix Users Group
+will be hosted by the Computer Science Division on Friday and Saturday,
+February 27 and 28 in Berkeley, California.  The timing of the meeting is meant
+to coordinate with COMPCON which is being held in San Francisco the 24th to
+the 25th.
+
+Features of the meeting will be a talk by Jerry Popek of UCLA about his effort
+to put UNIX on top of a security kernel, the latest information from Ken Thomp-
+son, a report on the Harvard UNIX system by Chuck Prenner, a talk on a new de-
+bugger for both C and assembly languages by Bill Allen of the Naval Postgraduate
+School, tours of the Berkeley PDP 11/70, and the two day format to allow greater
+informal exchange.  In addition, it is hoped that each attending group will make
+a short presentation on their current work.
+
+A block of rooms are being held for us by the Hotel Durant, which is located
+next to campus.  The enclosed sheet explains the arrangement.  Note that an
+early reply is required to guarantee you of a room.  Please make all housing
+arrangements directly with the Hotel Durant.
+
+The meeting will convene in the Hughes Room, 431 Cory Hall, at 10:00 a.m. on
+February 27.  A note or call from groups planning to attend is appreciated but
+not required.  Please invite any interested persons who are not on the mailing
+list.
+
+                                         Sincerely,
+
+                                         Bob Fabry
+
+                                         Professor Robert S. Fabry
+
+Phone: (415) 642 2714
+Messages: (415) 642 1024
+
+RSF:cd
+Enc.

@@ -2,7 +2,7 @@
 
 - [July 30, 1975](https://archive.org/details/unix_news_july-30-1975) (6/11 pages)
 - [October 8, 1975](https://archive.org/details/unix_news_oct-8-1975) (2/2 pages)
-- [February 10, 1976](https://archive.org/details/unix_news_feb-10-1976) (1/8 pages)
+- [February 10, 1976](https://archive.org/details/unix_news_feb-10-1976) (8/8 pages)
 - [March 19, 1976](https://archive.org/details/unix_news_march-19-1976) (8/15 pages)
 - [April 30, 1976](https://archive.org/details/unix_news_april-30-1976) (0/13 pages)
 - [May–June 1976](https://archive.org/details/unix_news_may-june-1976) (0/11 pages)

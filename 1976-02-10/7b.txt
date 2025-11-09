@@ -1,0 +1,51 @@
+                     WEST COAST UNIX USERS MEETING_____________________________
+
+
+
+A meeting of the West Coast UNIX Users was held at the Naval Postgraduate
+School, Monterey, California on October 31.  About 20 people attended the
+meeting.  The University of California accounted for about half the parti-
+cipants, including representatives from the Berkeley, UCLA, and San Diego
+campuses.  There were also people from the Stanford Medical School, Data
+Disk, Inc. (Sunnyvale, Ca.), the Naval Postgraduate School, and Rand.
+
+
+The featured speaker was Ken Thompson who is teaching at Berkeley this
+year.  Among the things he had to say:
+
+     1.  There is much duplication of effort in the UNIX community.
+         He pointed out the existence of a bimonthly newsletter, to
+         which the various installations should contribute, and which
+         should receive wider circulation within installations.
+
+     2.  DEC will soon announce cheaper and faster replacements for
+         the 11/40 and 11/45.  However, the new machines will have
+         11/40-style memory mapping, i.e., no split I/D spaces, so
+         they won't support large UNIX installations.  Only the 11/70
+         will have the required hardware.
+
+     3.  Some of Ken's recent research has been concerned with link-
+         ing multiple processors running UNIX.  He has successfully
+         linked two such processors.  Thus the shell interprets
+         !<command> as a request to run <command> on the foreign machine
+         and "cat x > !foo" outputs to file foo on the foreign machine.
+
+     4.  Ken said that the present scheduling algorithm lacks sophisti-
+         cation because they could not think of anything better at the
+         time.  He believes that he now has a better algorithm, which
+         uses short-term averages of compute time to real time to give
+         better service to interactive processes at the expense of
+         compute-bound processes.
+
+     5.  With regard to efficiency, Ken said that measurements by pro-
+         gram-counter sampling with a very high priority clock indicated
+         that 15 percent of the time spent in the kernel is used by CSV
+         and CRTN, the C language subroutine call and return, which save
+         registers.  He suggests that these should be microcoded, at
+         least for use by the kernel.
+
+         Measurements also indicated that 10 percent of the kernel time
+         is spent in searching the proc table in "swtch," which decides
+         which process to run.  He suggests that the proc table should
+         be hash coded or that processes in RUN state should be linked
+         (cost:  50 words).

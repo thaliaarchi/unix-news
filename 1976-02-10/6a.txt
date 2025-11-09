@@ -1,0 +1,46 @@
+                                        October 31, 1975
+
+
+
+
+Dear Dr. Ferentz:
+
+
+Enclosed are copies of our documentation and source code for  the
+new RK driver and for the CR and DK11-E drivers.
+
+As you will note, the RK driver and its documentation are  rather
+lengthy.  It may well be unreasonable for them to appear directly
+in the Unix News. One solution, therefore,  would  simply  be  to
+inform  other users of its existence and have them write directly
+to me for copies. On the other hand, I can supply spirit duplica-
+tor masters of them if you like from our Qume printer.
+
+You can publish any section of this stuff  that  seems  relevant.
+The  rest  may be kept for your own use or garbaged, as appropri-
+ate.
+
+In  any event, I would appreciate your publication of the follow-
+ing notice in the News:
+
+"Software  now  available for free distribution to UNIX licensees
+from the Children's Museum includes:
+
+1.  A  new,  highly-optimized  driver for the RK11/RO03/RK05 disk
+cartridge system;
+2. A version of FOCAL, implemented in C;
+3. A driver for the CR11 card reader;
+4. A driver for the DL11-E modem control typewriter interface.
+
+
+
+
+
+
+
+
+
+
+                                        CHILDRENS
+
+                            the Jamaicaway / Boston 02130 / Ja2-4800
