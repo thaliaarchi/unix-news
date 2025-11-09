@@ -1,0 +1,79 @@
+          *   *   *   *   *****   *   *           *   *   *****   *   *    ****
+          *   *   **  *     *      * *            **  *   *       *   *   *
+          *   *   * * *     *       *             * * *   ***     * * *    ***
+          *   *   *  **     *      * *            *  **   *       ** **       *
+           ***    *   *   *****   *   *           *   *   *****   *   *   ****
+__________________________________________________________________________________________
+Volume 2 Number 5                    May - June 1977                                Page 1
+__________________________________________________________________________________________
+
+
+
+               ***********************************************************
+               *                                                         *
+               *                         NOTICE                          *
+               *                                                         *
+               *      This document may contain information covered      *
+               *      by  one  or  more  licenses,  copyrights, and      *
+               *      non-disclosure  agreements.   Circulation  of      *
+               *      this  document  is restricted to holders of a      *
+               *      license for the  UNIX  software  system  from      *
+               *      Western  Electric.   Such license holders may      *
+               *      reproduce this document for uses in conformi-      *
+               *      ty with the Unix license.                          *
+               *                                                         *
+               *      All  other  circulation  or  reproduction  is      *
+               *      prohibited.                                        *
+               *                                                         *
+               ***********************************************************
+
+
+                               THIRD SOFTWARE DISTRIBUTION
+
+     The Third Software Distribution is now being prepared  for  release.   We  expect  to
+start  mailing  it out in late July.  The Software Distribution Center has been moved from
+Chicago Circle to the City University of New York.  We all owe Mike O'Brien a debt of gra-
+titude  for the work he has done in setting up the software distribution service.  Mike is
+leaving Chicago for the West Coast soon.   He prepared  the  Third  Distribution  and  has
+passed  on  to  me  (Mel  Ferentz)  all of the tapes people sent him as well as the entire
+correspondence file.
+
+     The distributions will be prepared on the City University's 360/168, which we view as
+a  suitable back-end for a UNIX system.  Complete details on the distribution will be con-
+tained in the next Unix News.  Those of you who have already sent tapes  to  Chicago  will
+receive  your  tapes  mailed from New York.  No further tapes should be mailed to Chicago.
+The CUNY COmputer Center sells tapes over-the-counter and while we will continue to  write
+onto  your tape if you send one, the preferred medium for us is to write your distribution
+on a virgin 2400 foot tape.  An order form will be included with the next newsletter.
+
+
+                                      URBANA MEETING
+
+     The Urbana Meeting was attended by over 150 people and was a great success.  The  at-
+tendance  list  will  be published as soon as we get a tape from Steve Holmgren to replace
+the one he sent us that was folded and spindled by our favorite postal service.
+
+     We have been promised minutes of the meeting which will also appear as  soon  as  re-
+ceived.
+
+
+                           CHILDREN'S MUSEUM INFORMATION SYSTEM
+
+     The Children's Museum has announced the availability of  its  "Information  System  -
+Version 3".  A four page product description was distributed at the Urbana Meeting.  For a
+copy of the description, more details, or licensing information contact Bill  Mayhew,  The
+Children's Museum, Jamaicaway, Boston, MA 02130.
+
+
+                                 FUTURE SOFTWARE RELEASES
+
+     At the Urbana Meeting it was said (announced is too  strong  a  verb)  that  Bell  is
+preparing  Programmer's  Work  Bench  for  release this summer with Version 7 of Unix soon
+thereafter.  Mini-Unix has been released and LSI-Unix and Mert will probably follow  along
+at some later date.
+
+
+__________________________________________________________________________________________
+                                    UNIX NEWS ADDRESS
+Prof. Melvin Ferentz             Brooklyn College of CUNY              Brooklyn, NY  11210
+__________________________________________________________________________________________

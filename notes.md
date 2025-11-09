@@ -10,3 +10,5 @@
   - Page 4a: Second meeting in Australia on 1977-02-18 at UNSW, and third to be
     held in July or August
   - Page 4b: Lions' Commentary
+- 1977-06:
+  - Page 1: PWB, V7, Mini-Unix, LSI-Unix, Mert
