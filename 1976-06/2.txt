@@ -1,0 +1,80 @@
+__________________________________________________________________________________________
+Number 6                              May-June 1976                                 Page 2
+__________________________________________________________________________________________
+
+
+                                         MEETINGS
+
+     Notice is given in the letter from the University of New South  Wales  of  the  first
+Eastern Hemisphere "East Coast Meeting".
+
+     Our Correspondent's notes have been misplaced and the report on the  Harvard  meeting
+will appear in a future issue.
+
+
+                                         MANUALS
+
+     The response to Harvard's offer to print the manuals was much greater  than  expected
+and  the  offer is repeated.  The original notice, with a new closing date, follows:
+
+     The Science Center at Harvard is willing to undertake the  task  of  reproducing  and
+distributing  the manuals for UNIX.  The enclosed order form may be returned no later than
+August 2, 1976.  All orders received by that date will be part  of  the  second  printing.
+Closing dates for subsequent printings, if any, will be announced.
+
+     For logistical reasons, each of the manuals  will  be  available  only  as  indicated
+below,  with  3 hole punching and no binding.  Orders should be batched, one order per in-
+stallation and will be mailed to a single address which must be at the users' group's  ad-
+dress of record for the installation.
+
+     The "UNIX PROGRAMMER'S MANUAL" Sixth Edition dated May 1975 will be reproduced in its
+entirety.   Most installations will want to remove several pages which most users need not
+worry about.
+
+     "DOCUMENTS FOR USE WITH THE UNIX TIME-SHARING SYSTEM" Sixth Edition  will  be  repro-
+duced omitting sections 1 (Setting Up UNIX) and 13 (On the Security of Unix).
+
+     The price of each manual will be dependent upon the total number of orders  for  that
+manual  and  will range between $8.00, if 100 copies are printed, and $12.00, if as few as
+10 copies are printed.  The order form may be sent in advance of, or with purchase  orders
+or checks.  Assume the $12.00 figure.  Correct invoices and refunds will be sent.
+
+
+                                     SEVENTH EDITION?
+
+     Conversations with Dick Shahpazian  and  Dennis  Ritchie  indicate  some  ambivalence
+within  Bell-Western with respect to a new edition of UNIX.  There are a number of changes
+that exist at Murray Hill and Ken Thompson is bringing many more back  from  his  year  at
+Berkeley.   It  seems  clear that there will eventually be a new edition incorporating the
+non-incremental changes.  The question that is still unresolved is whether a "totally  de-
+bugged"  edition  six  will  be  formally, or informally, released to the users before the
+quantum jump to edition seven.
+
+     Mike O'Brien and I have expressed the desire that such a  release  be   made  to  the
+software  exchange,  if  only  for archival purposes.  The argument against, of course, is
+that time taken by Ritchie and Thompson to produce such a version is time taken away  from
+new  goodies  and the preparation of the next version for distribution.  We don't know how
+influential they will be, but your comments are welcome and if sent to Unix News  will  be
+read by the powers that be at the vendor.
+
+
+                                EXODUS FROM THE INNER CITY
+
+     As part of a major move of Western Electric from New York, the Patent Licensing func-
+tion at Western is moving to the "sun belt".  Effective July 1, the address is:
+
+
+
+
+
+                                   Richard G. Shahpazian
+                                   Patent License Manager
+                                   Western Electic
+                                   P. O. Box 25000
+                                   Greensboro, NC  27420
+
+                                   telephone 919-697-2861
+__________________________________________________________________________________________
+                                    UNIX NEWS ADDRESS
+Prof. Melvin Ferentz             Brooklyn College of CUNY              Brooklyn, NY  11210
+__________________________________________________________________________________________

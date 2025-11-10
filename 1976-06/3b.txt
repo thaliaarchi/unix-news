@@ -1,0 +1,43 @@
+CONTENTS OF FIRST MAILING
+UNIX SDC
+
+1)  Motorola M6800 assembler  (C)
+
+2)  "em" (ed for mortals) - for faster terminals.  A superset of ed.  (C)
+
+3)  "setup" - general management package for downline loading of satellites  (C)
+
+Above from Jon Rowson, Queen Mary College, University of London.
+
+4)  Ken Knowlton's EXPLOR and MINI-EXPLOR in FORTRAN, plus MINI-EXPLOR in C -
+    for easy, fancy line-printer graphics.  With examples.
+
+5)  DL-11E driver  which handles dialups.  Good for CENTREX phone systems which
+    do not have long-space disconnect or second-party disconnect in the
+    hardware.  (C)
+
+Above from Lou Katz, Columbia College of Physicians and Surgeons.
+
+
+6)  "rtpip" - file-handling package which can transfer DECtape and RK05 files
+    between UNIX and RT-11 formats.  Well commented and documented.
+
+Above from Computer Science Group, Katholieke Universiteit, Netherlands.
+
+
+7)  PDP 11/40 UNIX FORTRAN - completely rewritten runtime system, uses 11/40
+    FIS and runs on no other kind of machine (except Cal Data's with FIS, of
+    course).  Runs fast, but supports single precision only.
+
+8)  "convert", and attempt at a program to convert 11/45 Floating Point assembly
+    language to 11/40's by inserting a "jsr" to a special entry in "fptrap".
+    Each floating instruction thereby grows by two words, but no signalling
+    takes place.  System overhead is greatly lowered.  May fail if assembly
+    source is in very weird format.
+
+Above from Chemistry Department, University of California at San Diego.
+
+
+9)  New archiver - includes "ar.c", new "ld.c" which reads the new style, and
+    "arcv.c" which converts from old to new formats.  The stinker is that
+    "ar.c" uses long (double-word) integers, which can only be compiled by the

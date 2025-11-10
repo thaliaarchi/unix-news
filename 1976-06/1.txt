@@ -1,0 +1,78 @@
+          *   *   *   *   *****   *   *           *   *   *****   *   *    ****
+          *   *   **  *     *      * *            **  *   *       *   *   *
+          *   *   * * *     *       *             * * *   ***     * * *    ***
+          *   *   *  **     *      * *            *  **   *       ** **       *
+           ***    *   *   *****   *   *           *   *   *****   *   *   ****
+__________________________________________________________________________________________
+Number 6                              May-June 1976                                 Page 1
+__________________________________________________________________________________________
+
+
+               ***********************************************************
+               *                                                         *
+               *                         NOTICE                          *
+               *                                                         *
+               *      This document may contain information covered      *
+               *      by  one  or  more  licenses,  copyrights, and      *
+               *      non-disclosure  agreements.   Circulation  of      *
+               *      this  document  is restricted to holders of a      *
+               *      license for the  UNIX  software  system  from      *
+               *      Western  Electric.   Such license holders may      *
+               *      reproduce this document for uses in conformi-      *
+               *      ty with the Unix license.                          *
+               *                                                         *
+               *      All  other  circulation  or  reproduction  is      *
+               *      prohibited.                                        *
+               *                                                         *
+               ***********************************************************
+
+
+                                        UNIX NEWS
+
+     Due to the closing of facilities of the City University of New York  at  the  end  of
+May, there was no May issue of Unix News.  The University is back in business and we would
+hope there will be no further closings.  Our fiscal year and our current Board of Trustees
+both expire at the end of June.
+
+     The suggestion from Australia that the hotline information be captured is well taken.
+We  will,  in  the  future, reproduce all hotline information which is worthy of permanent
+recording in Unix News and remove it from the hotline file.  The hotline will then contain
+only messages less than two months old.
+
+     The response to the survey questionaire has been approximately 30% to date.  It  will
+be compiled and made available.  If we can arrange for the keyboarding, it will be machine
+readable and available from the Chicago Circle Software Exchange as well as  on  line.   A
+concise form of the "haves" and "wants" will be published here.
+
+
+                                    SOFTWARE EXCHANGE
+
+     Notice is reproduced below of the first mailing from the Software Exchange.   If  you
+are on the reproduced list you will receive a tape.  If you are not and want a copy send a
+magnetic tape or 5 Dectapes.
+
+     The Harvard software, with the exception of Basic is now at Chicago Circle.   If  you
+wish  the Harvard software, sign the license agreement and mail it together with a tape to
+Chicago.  If you are not an academic institution, or if you want Basic, get in touch  with
+Lew Law at Harvard.  Ignore the part of the notice that asks for money if you are ordering
+from Chicago.
+
+     If you attempt to use the new archiver, you will need the program below:
+
+
+
+                               mktemp(name)
+                               char *name;
+                               {       register char *ptr;
+                                       register r;
+
+                                       ptr = name;
+                                       while (*ptr++);
+                                       --ptr;
+                                       r = getpid();
+                                       do  *--ptr = '0' + (r%10);
+                                               while (r = r/10);
+                                       while    (stat(name) >= 0)
+                                               *--ptr = 'a';
+                                       return(name);
+                               }

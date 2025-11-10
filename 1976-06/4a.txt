@@ -1,0 +1,39 @@
+     new C compiler which we can't distribute yet.  Therefore, executable
+     modules are included.  Instructions included.
+
+Above from Bell Telephone Labs.
+
+
+10)  Modified "ac.c" - takes "-t" flag to do accounting over ports as well as
+     people.  Useful for finding out which terminals or lines are used most
+     often.
+
+11)  Modified "kl.c" which handles DL-11E dialup lines.  Expects hardware to
+     handle second-party and long-space disconnects, but is smaller than #5.
+
+Above from University of Illinois at Chicago Circle.
+
+
+     The modified versions of C, nroff, and UNIX cannot be distributed until
+
+Bell Laboratories has released them.  If Bell decides that they have been
+
+"substantially changed", any or all of them may require a separate license
+
+from Western Electric.
+
+     The Harvard HRSTSS software is separately handled.  This edition of the
+
+newsletter should include an order form for the software.  The manuals must
+
+still be purchased from Harvard.
+
+     The following should be a complete list of those slated to receive a tape.
+
+If you want your name added to the list, send a magtape or several DECtapes to:
+
+         Michael T. O'Brien
+         Department of Information Engineering
+         University of Illinois at Chicago Circle
+         P. O. Box  4348
+         Chicago, Illinois  60680

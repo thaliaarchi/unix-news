@@ -1,0 +1,56 @@
+                       HRSTSS Software_______________
+
+
+
+
+The following software has been developed or modified by Harvard
+University for use with the Bell Unix operating system on a PDP
+11/45:
+
+PPL, BASIC, LISP 1.5, DDT,CDDT, MACRO 11, LINKER, HARVARD SHELL.
+This software is available to other academic institutions under
+the following conditionsL
+
+1)  The Institution or recognized representatives thereof shall
+sign an agreement that:
+
+     a)  the software provided shall be used only by the insti-
+     tution signing the agreement and shall under no circumstances
+     be further distributed;
+
+     b)  the software provided shall be used for academic, non-
+     commercial purposes only.
+
+2)  For BASIC, proof of purchase of a Digital Equipment Corp.
+License to use BASIC/PTS V01 Software ($500) or its equivalent
+must be furnished.  A copy of the DEC invoice for payment for
+purchase of the license is sufficient.
+
+3)  No support for the software will be provided.
+
+4)  Additions and improvements to the software provided shall be
+made available to Harvard University on a reciprocal basis.
+
+5)  Payment will be made for DECtapes and documentation* plus a
+$10 handling fee for each DECtape.
+
+Requests and inquiries should be sent to:
+
+                      Lewis A. Law
+                      Director of Technical Services
+                      Science Center, Harvard University
+                      1 Oxford Street
+                      Cambridge, Massachusetts  02138
+
+                      617-495-2627
+
+
+
+
+
+
+
+
+
+*Documentation, other than Users Manuals, will be available
+hopefully by mid-1975.
