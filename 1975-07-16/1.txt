@@ -1,0 +1,60 @@
+     *   *   *   *   *****   *   *           *   *   *****   *   *    ****
+     *   *   **  *     *      * *            **  *   *       *   *   *
+     *   *   * * *     *       *             * * *   ***     * * *    ***
+     *   *   *  **     *      * *            *  **   *       ** **       *
+      ***    *   *   *****   *   *           *   *   *****   *   *   ****
+________________________________________________________________________________
+Circulation ��                  July 16, 1975                   Special Issue
+________________________________________________________________________________
+
+        The contents of this "special issue" will be repeated to the ������
+���� ����� to be mailed the last week of July.
+
+                        NEW  SYSTEM  AVAILABLE
+
+        The Sixth Edition - June 1975 of the UNIX system is now available
+for distribution to licensees.  Commercial users should contact Western
+Electric for details.  Academics can receive the new system for a service
+fee of $150.00.  Normal distribution is on 800 bpi - 9 track tape.  You
+need not send a tape, Just a check for $150.00 addressed to:
+
+                        C. W. Christ, Jr.
+                        Room 40312
+                        Murray Hill,  NJ  07974
+
+The tape contains a single file which extracts to 3 RK-packs or equivalent.
+These contain:
+                Pack0   The system except for /usr/source
+                Pack1   /usr/source
+                Pack2   Documentation in machine readable form
+
+Those who require distribution on RK-packs should send two or three packs
+along with their checks.  The package also includes one hard-copy of each
+of the 19 documents.
+
+        Among the new "goodies" are:
+
+                1)      Separate I and D space for the resident monitor on
+                        11/45s and 11/70s
+                2)      Huge files (up to 16 megabytes)
+                3)      A preprocessor for structured Fortran
+                4)      TMG
+                5)      A preprocessor for DC,  with arbitrary precision
+                6)      Many fixes and rewrites of system programs from "as"
+                        to "c"
+                7)      Much improved comments embedded in system source
+                8)      More graceful death on running out of resources and
+                        other crashes
+
+                                ����  ���
+
+        �� ��� ������  ������ �   �� �� � on t�re of �� ��� �� ���������
+ �        ���  �� �ire �� r ir �� ��  ��� ��� ��� �� ��� � ��   ��  ��   ��
+�   � � � �  �� �  tre � ��� ��� � � �� �� ����� ������  � �   �  ��   � ��
+     � �   �  �  � �� � �  ��� �� �    �� �� � ��    �   � �  ���   �    ��
+         � ��� � ����
+
+________________________________________________________________________________
+                        Address Correspondence to
+Prof. M. Ferentz   Physics Dept.   Brooklyn College of CUNY  Brooklyn, NY  11210
+________________________________________________________________________________
