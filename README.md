@@ -5,7 +5,9 @@ Transcriptions of UNIX News from 1975 to 1977.
 This was the first newsletter for UNIX and it provides unique insight into the
 early community outside of Bell Labs. It announced news, showcased modifications
 sites made to their installations, coordinated meetups, listed the first
-licensees and mailing list subscribers, and distributed patches.
+licensees and mailing list subscribers, and distributed patches. For a good
+history of this period, see ["Unix at 25"](https://landley.net/history/mirror/unix/art3.htm)
+by Peter H. Salus.
 
 In July 1977, UNIX News was renamed to ;login: and switched to typesetting with
 troff. I do not currently plan to transcribe those issues, unless it can be
