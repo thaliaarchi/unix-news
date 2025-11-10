@@ -5,6 +5,7 @@
   - Page 2: a UNIXed version of MACRO (PDP-11 assembler) from JHU
     Electrical Engineering.
   - Page 6: MERT, the Bell Labs Multi-Environment Real Time System
+  - Page 12: Ed Catmull
 - 1976-06:
   - Page 1: `mktemp` for new archiver
   - Pages 3b-4a: new-style ar.c and ld.c, and arc.v to convert old to new from
