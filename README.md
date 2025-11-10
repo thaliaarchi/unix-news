@@ -27,7 +27,7 @@ of issues July 16, 1975 to September 1978 [[TUHS mirror](https://www.tuhs.org/Ar
   - 4\. UNIX News [March 19, 1976](https://archive.org/details/unix_news_march-19-1976) (10.5/15 pages)
   - 5\. UNIX News [April 30, 1976](https://archive.org/details/unix_news_april-30-1976) (0/13 pages)
   - 6\. UNIX News [May–June 1976](https://archive.org/details/unix_news_may-june-1976) (4/11 pages)
-  - 7\. UNIX News [July 1976](http://www.toad.com/early-usenix-newsletters/197607-unix-news-n7.pdf) (0/1 page)
+  - 7\. UNIX News [July 1976](http://www.toad.com/early-usenix-newsletters/197607-unix-news-n7.pdf) (1/1 page)
   - 8\. UNIX News [August 1976](https://archive.org/details/unix_news_august-1976) (0/4 pages)
   - 9\. UNIX News [September 1976](https://archive.org/details/unix_news_september-1976) (6/6 pages)
   - 10\. UNIX News [October 1976](https://archive.org/details/unix_news_october-1976) (0/7 pages)

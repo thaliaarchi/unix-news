@@ -1,0 +1,4 @@
+                                        UNIX NEWS
+
+     The mailing list for UNIX NEWS is now over 125.  To date we have received checks from
+55  installations.

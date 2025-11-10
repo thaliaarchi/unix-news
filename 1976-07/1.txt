@@ -1,0 +1,77 @@
+          *   *   *   *   *****   *   *           *   *   *****   *   *    ****
+          *   *   **  *     *      * *            **  *   *       *   *   *
+          *   *   * * *     *       *             * * *   ***     * * *    ***
+          *   *   *  **     *      * *            *  **   *       ** **       *
+           ***    *   *   *****   *   *           *   *   *****   *   *   ****
+__________________________________________________________________________________________
+Number 7                                July 1976                                   Page 1
+__________________________________________________________________________________________
+
+
+               ***********************************************************
+               *                                                         *
+               *                         NOTICE                          *
+               *                                                         *
+               *      This document may contain information covered      *
+               *      by  one  or  more  licenses,  copyrights, and      *
+               *      non-disclosure  agreements.   Circulation  of      *
+               *      this  document  is restricted to holders of a      *
+               *      license for the  UNIX  software  system  from      *
+               *      Western  Electric.   Such license holders may      *
+               *      reproduce this document for uses in conformi-      *
+               *      ty with the Unix license.                          *
+               *                                                         *
+               *      All  other  circulation  or  reproduction  is      *
+               *      prohibited.                                        *
+               *                                                         *
+               ***********************************************************
+
+
+                                     HARVARD MEETING
+
+     The next meeting in the Eastern United States will be at Harvard  University  Science
+Center.   The  meeting will begin at 2:00 PM on Friday October 1 and continue through Sun-
+day.
+
+     The program committee, Lew Law (Harvard), Tucker Taft (Harvard), and Lou Katz (Colum-
+bia) will arrange the agenda.  Those wishing to speak should contact any one of the three.
+
+
+                                         HOTLINE
+
+     The next issue will contain a summary of all information on the hotline  up  to  July
+31.  Sometime in October this information will be removed from the system.
+
+
+                                        UNIX NEWS
+
+     The mailing list for UNIX NEWS is now over 125.  To date we have received checks from
+55  installations.  If you find an invoice with this mailing it means we have not received
+a check from your installation.  We will run out of money for mailing with  the  September
+issue.
+
+     This mailing includes your  installations  listing  in  our  list  of  installations.
+Please send corrections, if any, immediately since we plan to reprint the list soon.
+
+
+
+                                        MINI-UNIX
+
+     Mini-Unix for the PDP 11/10 is now available.  Contact Mr. Shahpazian for licensing.
+
+
+                                    SOFTWARE EXCHANGE
+
+     The first mailing has gone out and Chicago Circle is short of tapes.  If you have one
+of theirs, please return it.  If you want the distribution, send a tape to:
+
+                    Michael T. O'Brien
+                    Dept. Of Information Engineering
+                    University of Illinois at Chicago Circle
+                    Box 4348
+                    Chicago, Illinois 60680
+
+__________________________________________________________________________________________
+                                    UNIX NEWS ADDRESS
+Prof. Melvin Ferentz             Brooklyn College of CUNY              Brooklyn, NY  11210
+__________________________________________________________________________________________
