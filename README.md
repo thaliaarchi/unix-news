@@ -21,7 +21,7 @@ of issues July 16, 1975 to September 1978 [[TUHS mirror](https://www.tuhs.org/Ar
 
 - Volume 1:
   - Special. UNIX News [July 16, 1975](http://www.toad.com/early-usenix-newsletters/19750716-unix-news-special-issue-darker.pdf) (1/1 page) [[alt](http://www.toad.com/early-usenix-newsletters/19750716-unix-news-special-issue.pdf)]
-  - 1\. UNIX News [July 30, 1975](https://archive.org/details/unix_news_july-30-1975) (6/11 pages)
+  - 1\. UNIX News [July 30, 1975](https://archive.org/details/unix_news_july-30-1975) (11/11 pages)
   - 2\. UNIX News [October 8, 1975](https://archive.org/details/unix_news_oct-8-1975) (2/2 pages)
   - 3\. UNIX News [February 10, 1976](https://archive.org/details/unix_news_feb-10-1976) (8/8 pages)
   - 4\. UNIX News [March 19, 1976](https://archive.org/details/unix_news_march-19-1976) (10.5/15 pages)

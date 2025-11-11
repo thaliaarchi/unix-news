@@ -1,0 +1,63 @@
+                                                      PAGE 5
+
+
+
+
+
+16K word banks of three ported memory.  UNIX compatible dev-
+
+ice drivers have been developed  for  each  of  these  peri-
+
+pherals.
+
+    To control this diverse hardware suite, we have  evolved
+
+MUNIX, a tightly-coupled symmetric multiprocessor version of
+
+UNIX.  A single copy of the system residing in shared memory
+
+is  executed  by  both  processors  independently.   P and V
+
+operators are used for synchronization.  In order to provide
+
+the  increased  address  space necessary to support the mul-
+
+tiprocessor system, UNIX was modified to seperate  kernel  I
+
+and D space.  In support of the signal acquisition research,
+
+a new process classification,  real-time,  has  been  added.
+
+When  a process is granted real-time status, it is locked in
+
+memory, given the highest priority possible, and preemptive-
+
+ly allocated a processor whenever it comes ready.
+
+    Other completed  work  includes  the  development  of  a
+
+dynamic  symbolic debugging tool having breakpoint capabili-
+
+ty, a rather basic PDP 11 virtual machine monitor which exe-
+
+cutes  under  MUNIX,  several on-line diagnostic packages, a
+
+line editor which facilitates correction of typing mistakes,
+
+system  calls which gracefully stop or bootstrap the system,
+
+and enhancements to the text editor, the text processor, the
+
+C  compiler,  and  the  loader.  Work presently underway in-
+
+cludes a performance measurement subsytem, several  adaptive
+
+schedulers,  a  demand  paged memory manager, and a hardened
+
+file system.
+
+    NPS  developed  software is available as a nine track tp
+
+tape to any Bell Labs approved site.
+
+                            -2-

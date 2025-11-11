@@ -1,0 +1,63 @@
+______________________________________________________________________
+NUMBER 1                      UNIX NEWS                      PAGE 4
+______________________________________________________________________
+
+
+                       MUNIX - A Multiprocessor UNIX
+
+                    B. E. Allen and G. L. Barksdale, Jr.
+                           Computer Science Group
+                         Naval Postgraduate School
+                         Monterey, California 93940
+
+
+
+            The  Naval  Postgraduate  School  Signal  Processing and
+
+        Display Laboratory is a  university  laboratory  engaged  in
+
+        research  efforts  in  computer graphics, signal processing,
+
+        operating systems, and hybrid computing.  The laboratory  is
+
+        used  for  student  instruction  as  well as for student and
+
+        faculty research.
+
+            The  configuration  of the Signal Processing and Display
+
+        Laboratory is shown in Figure 1.  The system can  be  viewed
+
+        as  a  three  bus ensemble, with the respective functions of
+
+        data acquisition, signal processing, and display,  When  bus
+
+        cycles  are  not  required  by real-time processes, the data
+
+        acquisition and display busses support  program  development
+
+        activities.   The  display system includes a 256K word fixed
+
+        head disk, a Ramtek color display, a Tektronix 4014  display
+
+        with enhanced graphics, a Vector General 3D system, a Hughes
+
+        Conographic   console,   a   data   tablet,    a    Versatek
+
+        printer/plotter,  and  an EPC graphic recorder.  Peripherals
+
+        for the Data Acquisition controller include both large  (96M
+
+        words)  and small (2.5M words) disk systems, magnetic tapes,
+
+        a card reader, a line printer, and a sixteen line  programm-
+
+        able  terminal  multiplexer.   Dual  ported core memory (88K
+
+        words) is accessible from either UNIBUS.   The  signal  pro-
+
+        cessing  subsystem  consists of a CSP 125 controller with 4K
+
+        words of 125 nanosecond memory, an array processor, and  two
+
+                                    -1-

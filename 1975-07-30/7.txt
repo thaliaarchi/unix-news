@@ -1,0 +1,53 @@
+                                                                   PAGE 7
+
+                            Toronto Unix System
+
+
+1) Hardware
+
+   Device                       Existence                   Driver
+
+a) PDP11/45                       Yes
+    - floating point
+    - 80+K core
+
+b) SI 9500-I Disk                 Soon                        No
+
+c) Diva dd14 Disk                 Soon                        No
+
+d) 3-Rivers Graphic Wonder        Yes                         Yes and No
+
+e) GT-40                          Leaving Soon                Yes
+
+f) Versateck D1200A
+    Printer/Plotter               Soon                        No
+    - DMA
+
+g) Colour Video System            Being Built                 No
+
+h) Summagraphic                   Yes                         Yes
+    Data Tablet
+
+i) Calcomp Microfilm              Yes                         No
+    Plotter
+
+j) line printer                   Yes                         Yes
+
+k) card reader                    Yes                         No
+
+l) 1600 BPI tape drive            Yes                         Yes
+
+
+2) Software Already Developed
+
+   a) GT-40 driver
+
+   b) New improved mag tape driver      Mike Tilso
+          - allows seeks in raw mode    __________
+          - knows about files           (416) 978-4800
+          - crashes less frequently
+
+   c) C paragrapher
+
+   d) "grabcore" - a system routine to free up and reserve a specific
+      piece of core for double-port devices

@@ -1,0 +1,45 @@
+[Graphic: Configuration of the Signal Processing and Display Laboratory]
+
+ASCII       16 port                                 88K                                     Datum
+Terminals   multiplexer                             Core                                    Drum
+
+
+
+
+1.25MW                                              AED                                     EPC
+Disks           DATA ACQUISITION BUS                Disk                   DISPLAY BUS      Graphic
+                                                    Control                                 Recorder
+
+                             Console                                 Console
+                                                                                            Versatec
+            Card                                                                            Printer/
+            Reader                                                                          Plotter
+
+                             PDP                                     DEC
+                             11/50                                   Paper                  Ramtek
+                                                                     Tape                   GX-100
+            Printer                                                                         Color/Mono
+
+
+                                                                                            Vector
+                             16K                                     PDP                    General
+         7    9     9        MOS                                     11/50                  3D3I
+Digi Data
+Tapes                                                                16K
+                                      Array                          MOS                    Conographic
+                                      Processor                                             Display
+
+
+                                      16K                     16K
+                                      Core                    Core                          Tektronix
+                                               S.P. BUS                                     Display
+
+                                      CSP                     A/D
+                                      125
+
+
+
+
+
+                        Figure 1. Configuration of the Signal Processing
+                                  and Display Laboratory

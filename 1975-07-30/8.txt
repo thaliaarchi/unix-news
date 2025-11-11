@@ -1,0 +1,59 @@
+________________________________________________________________________________
+Number 1                           UNIX NEWS                              Page 8
+________________________________________________________________________________
+
+
+
+                            Boston Children's Museum
+
+     UNIX at the Children's Museum has  been  fully  operational  since  August,
+1974.  Development  work  jointly  with  Harvard  University  began the previous
+winter, making us one of the first non-Bell users.
+
+Our hardware configuration includes :
+
+     *PDP11/40 processor with EIS
+     *48K core memory (MM/MF11-L)
+     *KW11L line clock
+     *2 RK03 (a.k.a. Diablo) disk drives on RK11-c controller
+     *6 VT05 terminals operating at 600 and 2400 baud on DL11-E controllers
+     *1 LA30 DECwriter at 300 baud on DL11-A
+     *1 ASR33 teletype on DL11-A
+     *1 ComData modem on dialup line, 110 baud on DL11-E
+     *1 LP11-HA upper/lower case 60-column line printer
+     *1 VOTRAX VS-5 voice synthesizer on DK11-E
+     *1 QUME Q30 high-quality 30-cps printer
+        (a.k.a. Diablo HyType, or the guts of the QSI etc. terminal) on DR11-C
+
+Further, we are designing and  will  begin  construction  soon  on  several  new
+hardware  devices  and interfaces, including a dirt-cheap DR11-C equivalent that
+is capable of driving our scaled-down elcheapo versions of things like the  LOGO
+project's "turtle".
+
+Our hardware and software is extensively kidproofed, and modifications have been
+made to the UNIX terminal driver to include modes whereby newline characters are
+ignored on "empty" or "null" lines, and whereby all characters typed by the user
+are thrown away if the system si in the midst of typing on the terminal. Attrac-
+tive rubout handling (backspace-erase line) has also been added for VT05  termi-
+nals.
+
+Software that we have developed that may be of interest to other users includes:
+
+*FOCAL, written in C and modeled after PDP-8 FOCAL by a high-school student
+*a PDP-8 simulator (simple memory-and-a-single-terminal machines only at this
+  time), also in C, by the same student (interrupts are not currently being
+  supported but are being worked on)
+*a rewritten standard UNIX shell (pipelines not yet implemented)
+  with user-settable prompts, a "change to default directory" command,
+  standard accounting options, a monitor option that copies all typein to a
+  hidden file (for keeping tabs on potentially malicious users), and others
+*a new more-conversational PS command that displays critical process data
+  in English (SWAPPED/IN CORE, SLEEP/WAIT/RUN, etc.)
+*an RK disk driver that optimizes seeking through queue-diddling.
+
+Under development and scheduled for imminent completion is a general-purpose in-
+formation  storage and retrieval system. A license fee will probably be made for
+nonprofits  on  request.  Please  contact me to discuss media conversion; we can
+supply RK disk, DECtape, or paper (gak) tape.
+
+Bill Mayhew, The Children's Museum, Jamaicaway, Boston MA 02130
