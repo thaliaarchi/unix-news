@@ -37,10 +37,10 @@
     shaded pictures.
     ```
 
-- [*The Utilization of Procedure Models in Digital Image Synthesis*](https://utah-primoprod.hosted.exlibrisgroup.com/permalink/f/dtufc4/UUU_ALMA21257605240002001) \
+- [*The Utilization of Procedure Models in Digital Image Synthesis*](https://collections.lib.utah.edu/ark:/87278/s651906h) \
   Martin Edward Newell (University of Utah) \
-  Doctor of Philosophy dissertation, Summer 1975 (June)
-  [[PDF](https://collections.lib.utah.edu/ark:/87278/s651906h)]
+  Doctor of Philosophy dissertation \
+  Department of Computer Science, University of Utah, Summer 1975 (June)
 
   Supervisory committee: David C. Evans, Steven A. Coons, Richard F.
   Riesenfeld, Thomas G. Stockham, Jr
@@ -48,38 +48,12 @@
   Acknowledgements: David Evans, Ivan Sutherland, Steven Coons, Rich
   Riesenfeld, Tom Stockham, Mike Milochik, Sandy Newell
 
-- ["The Utilization of Procedure Models in Digital Image Synthesis"](https://utah-primoprod.hosted.exlibrisgroup.com/permalink/f/dtufc4/digcoll_uuu_11ir_uspace/707127) \
+- ["The Utilization of Procedure Models in Digital Image Synthesis"](https://collections.lib.utah.edu/ark:/87278/s6hh73p6) \
   Martin Edward Newell (University of Utah) \
   Journal article, 1976
-  [[PDF](https://collections.lib.utah.edu/ark:/87278/s6hh73p6)]
 
-- ["Texture and Reflection in Computer Generated Images"](https://dl.acm.org/doi/10.1145/563274.563322) \
-  James F. Blinn, Martin E. Newell (University of Utah) \
-  Proceedings of SIGGRAPH '76, 14-16 July 1976, p.266
-
-  Paper announcement or abstract.
-
-- ["Texture and Reflection in Computer Generated Images"](https://dl.acm.org/doi/10.1145/360349.360353) \
-  James F. Blinn, Martin E. Newell \
-  Communications of the ACM, 1 October 1976 \
-  Volume 19, Issue 10, p.542-547
-
-  Has renderings of the Utah Teapot.
-
-  > **Resource Requirements**
-  >
-  >    The images shown in this paper were all generated
-  > on a PDP-11/45 computer having a 256K-byte random
-  > access frame buffer which was used as the depth buffer.
-  > The main routines were written in Fortran and the
-  > critical parts were written in assembly language. The
-  > computation time of the extended subdivision algo-
-  > rithm is roughly proportional to the area covered by
-  > visible objects. Images of nontextured objects of
-  > the type used in this paper take about 25 minutes. The
-  > addition of texture or reflection increases this time by
-  > about l0 percent. All images have a resolution of
-  > 512×512 picture elements.
+- "Texture and Reflection in Computer Generated Images" \
+  with Blinn, 1 October 1976
 
 - ["The Progression of Realism in Computer Generated Images"](https://dl.acm.org/doi/10.1145/800179.810236) \
   Martin E. Newell (Xerox Palo Alto Research Center),
@@ -92,9 +66,8 @@
 
   Paper abstract.
 
-- ["Clipping Using Homogeneous Coordinates"](https://dl.acm.org/doi/10.1145/800248.807398) \
-  James F. Blinn (Caltech/JPL), Martin E. Newell (XEROX/PARC) \
-  Proceedings of SIGGRAPH '78, 23 August 1978, p.245-251
+- "Clipping Using Homogeneous Coordinates" \
+  with Blinn, 23 August 1978
 
 - ["Exploitation of Hierarchy in Analyses of Integrated Circuit Artwork"](https://ieeexplore.ieee.org/document/1270011) \
   Martin E. Newell, Daniel T. Fitzpatrick (Xerox) \
