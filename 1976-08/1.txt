@@ -1,0 +1,63 @@
+     *   *   *   *   *****   *   *           *   *   *****   *   *    ****
+     *   *   **  *     *      * *            **  *   *       *   *   *
+     *   *   * * *     *       *             * * *   ***     * * *    ***
+     *   *   *  **     *      * *            *  **   *       ** **       *
+      ***    *   *   *****   *   *           *   *   *****   *   *   ****
+________________________________________________________________________________
+Number 8                          August 1976                             Page 1
+________________________________________________________________________________
+
+          ***********************************************************
+          *                                                         *
+          *                         NOTICE                          *
+          *                                                         *
+          *      This document may contain information covered      *
+          *      by  one  or  more  licenses,  copyrights, and      *
+          *      non-disclosure  agreements.   Circulation  of      *
+          *      this  document  is restricted to holders of a      *
+          *      license for the  UNIX  software  system  from      *
+          *      Western  Electric.   Such license holders may      *
+          *      reproduce this document for uses in conformi-      *
+          *      ty with the UNIX license.                          *
+          *                                                         *
+          *      All  other  circulation  or  reproduction  is      *
+          *      prohibited.                                        *
+          *                                                         *
+          ***********************************************************
+
+                                HARVARD MEETING
+
+     As previously announced, the next meeting in the Eastern United States will
+be  at  the  Harvard University Science Center starting at 2:00 PM on Friday Oc-
+tober 1 and ending early in the afternoon of Sunday October 3.
+
+     The program committee members are  Tucker  Taft  (617-495-3353),  Lou  Katz
+(212-694-3501) and Lew Law (617-495-2627).
+
+     For people flying to Boston, the quickest route to  Harvard  Square  is  to
+take  the  airport  bus to the airport subway station, take a Blue Line train to
+Government Center, change to a Green Line to Park Street, then change to  a  Red
+Line  to  Harvard  Square.  This takes  20 to 30 minutes.  The alternative is to
+take a cab at a cost of about $7.00.
+
+Accommodations: Sheraton Commander Hotel, 16 Garden Street
+                        617-547-4800
+                Holiday Inn, 1651 Mass. Avenue
+                        617-491-1000
+                Harvard Motor Hotel, 110 Mt. Auburn St.
+                        617-864-5200
+
+All are within walking distance of the Science Center.  A map of the area is  on
+the flip side.
+
+                                   UNIX NEWS
+
+     The September issue will appear after the Harvard meeting and will  contain
+the  membership  list  and Hotline information.  The closing date for receipt of
+corrections to the mailing list is October 5, 1976.
+
+     To date we have received checks from 3/4 of the installations.
+
+________________________________________________________________________________
+                                UNIX NEWS ADDRESS
+Prof. Melvin Ferentz        Brooklyn College of CUNY          Brooklyn, NY 11210

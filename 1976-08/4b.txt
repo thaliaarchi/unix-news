@@ -1,0 +1,22 @@
+September 14, 1976
+
+Subject: Floating point simulator in I/D space
+
+    We have found that the floating point simulator package does
+not operate properly with I/D space separation.  The difficulty is
+cause (1) by fetching the floating point instruction from the
+program, and (2) incorrectly interpreting such addressing modes
+as immediate and absolute. The changes to fix this require being
+able to access the I space as data.  It is our guess that the MFPI
+instruction can be used for this purpose. Even so, rather extensive
+modifications tothe floating point interpreter are required.  We
+would like toknow if anyone else has discoverd this and fixed this problem.
+
+    Also, we find that cdb will not operate properly if floating point
+simulation is being used, and have corrected the problem. We would
+be glad to let anyone know about this who cares.
+
+        Alan G. Nemeth
+        M.I.T. Lincoln Laboratory
+        Lexington, Ma. 02173
+        (617)862-5500 x696 or x212

@@ -1,0 +1,56 @@
+                  האוניברסיטה העברית בירושלים
+
+            THE HEBREW UNIVERSITY OF JERUSALEM
+
+                COMPUTER SCIENCE LABORATORY
+                 INSTITUTE OF MATHEMATICS
+
+                    August 17, 1976
+
+Professor M. Ferentz
+Physics Department
+Brooklyn College of CUNY
+Brooklyn, New York 11210
+U.S.A
+
+Dear Professor Ferentz:
+        After a long wait we finally have a working version of
+Unix. That is, for almost four months now we have been working
+under Unix, but single user and being extremly careful, because
+of our little BUG, which was described in our June 14th letter.
+But since yesterday, when an 8k bank of memory stopped working,
+and was taken out for repair, with it also went our timing bug.
+It will be quite interesting to see what happens when the bank
+is again operational. At least our Dec man now knows that it was
+a hardware problem all along and Unix is as good as its fame.
+
+        Our lab has:
+                1       PDP 11/45 with no floating point
+                48k     memory (8k MOS + 40 core)
+                1       RK05 ( + one on its way)
+                1       DL11
+                1       DU11
+                1       VT11
+                1       VARIAN electrostatic printer/plotter
+                3       CDC 714 terminal
+                We also have a NOVA 800 with 16k, which among its
+                peripherals there is a Diablo Hytipe.
+
+        We have so far developed software for file transfer to the
+NOVA and the CDC Ciber (this one belonging to the Computer Center)
+which work on an asynchronous interface (DL11), but are working
+hard to connect the CDC through a synchronous interface (DU11).
+Noel Kropf is responsible for the driver of the VT11 and most
+debugging of the system, and since he has left for more fertile
+grounds, (i.e Columbia Univ.), we've lost a great help.
+
+        Our main fields will be graphics, communications and compi-
+lers so anyone willing to share information on these is welcomed.
+
+        Finally I want to thank David Barach at Yale Univ. for making
+us feel that we weren't alone in our struggle.
+
+                                                Sincerely
+
+                                            D B
+                                            Daniel Braniss

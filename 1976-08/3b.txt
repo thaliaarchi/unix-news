@@ -1,0 +1,47 @@
+Malcolm Blanchard                                  24 August 1976
+Computer Graphics Lab
+New York Institute of Technology
+P.O. Box 178
+Old Westbury, New York 11568
+
+Prof. Melvin Ferentz
+Physics Department
+Brooklyn College of CUNY
+Brooklyn, New York 11218
+
+Dear Mel:
+
+I have discovered that icheck with the -s switch  does  not  work
+for  devices  with  more  than  32768  blocks.  The problem is in
+icheck's subroutine makefree.  It  was  treating  the  number  of
+blocks  as  a signed number.  The following is a fixed version of
+makefree.  Be aware that the printer that produces  this  listing
+prints an underbar as '←'.
+
+makefree()
+{
+        register char *i;
+        register j;
+
+        sblock.s←nfree = 0;
+        sblock.s←ninode = 0;
+        sblock.s←flock = 0;
+        sblock.s←ilock = 0;
+        sblock.s←fmod = 0;
+        free(0);                                            See
+        for(i=sblock.s←fsize-1; i>=sblock.s←isize+2; i--) {
+                j = i;                                      Unix
+                if ((bmap[(j>>4)&07777] & (1<<(j&017)))==0)
+                        free(i);
+        }                                                 News #10
+        bwrite(1, &sblock);
+        close(fi);
+        sync();
+        return;
+}
+
+Sincerely,
+
+Malcolm Blanchard
+
+Malcolm Blanchard

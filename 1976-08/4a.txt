@@ -1,0 +1,58 @@
+Texas Student Publications
+
+
+                                                                      P.O. BOX D
+                                                                  AUSTIN TEXAS �����
+                                                                    (512) 47?-5244
+
+                                                         September 10, 1976
+
+
+Professor Melvin Ferentz
+Physics Department
+Brooklyn College of CUNY
+Brooklyn, New York  11210
+
+SUBJECT:  "UNIX News"
+
+Dear Professor Ferentz:
+
+We have discovered a bug in our C compiler.  Contrary to the statement
+on page 16 of the "C Reference Manual", "...The length of the array is
+taken to be the maximum of the number of expressions in the list and
+the square-bracketed constant in the array's declarator. ...", we found
+that, in the case of an array initialized to a character string, the
+length of the array was set to the length of the character string, rather
+than the greater value in the square brackets.  We have not determined
+either the cause of the error or if the same thing occurs on other types
+of initialization.
+
+I hope this information is of some use.
+
+
+Yours,
+
+David M Phillips
+
+David M. Phillips
+
+
+DMP/dm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The University of Texas at Austin • Texas Student Publications Building 3.200
