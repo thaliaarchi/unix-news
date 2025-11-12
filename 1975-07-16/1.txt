@@ -4,11 +4,11 @@
      *   *   *  **     *      * *            *  **   *       ** **       *
       ***    *   *   *****   *   *           *   *   *****   *   *   ****
 ________________________________________________________________________________
-Circulation ��                  July 16, 1975                   Special Issue
+Circulation 49                  July 16, 1975                   Special Issue
 ________________________________________________________________________________
 
-        The contents of this "special issue" will be repeated to the ������
-���� ����� to be mailed the last week of July.
+        The contents of this "special issue" will be repeated in the normal
+July issue to be mailed the last week of July.
 
                         NEW  SYSTEM  AVAILABLE
 
@@ -19,14 +19,14 @@ fee of $150.00.  Normal distribution is on 800 bpi - 9 track tape.  You
 need not send a tape, Just a check for $150.00 addressed to:
 
                         C. W. Christ, Jr.
-                        Room 40312
+                        Room 6A312
                         Murray Hill,  NJ  07974
 
 The tape contains a single file which extracts to 3 RK-packs or equivalent.
 These contain:
-                Pack0   The system except for /usr/source
-                Pack1   /usr/source
-                Pack2   Documentation in machine readable form
+                pack0)  The system except for /usr/source
+                pack1)  /usr/source
+                pack2)  Documentation in machine readable form
 
 Those who require distribution on RK-packs should send two or three packs
 along with their checks.  The package also includes one hard-copy of each
@@ -46,15 +46,15 @@ of the 19 documents.
                 8)      More graceful death on running out of resources and
                         other crashes
 
-                                ����  ���
+                                UNIX  NEWS
 
-        �� ��� ������  ������ �   �� �� � on t�re of �� ��� �� ���������
- �        ���  �� �ire �� r ir �� ��  ��� ��� ��� �� ��� � ��   ��  ��   ��
-�   � � � �  �� �  tre � ��� ��� � � �� �� ����� ������  � �   �  ��   � ��
-     � �   �  �  � �� � �  ��� �� �    �� �� � ��    �   � �  ���   �    ��
-         � ��� � ����
+        At the users' meeting in New York on June 18 it was decided that the
+UNIX NEWS will be irregular in format but regular in mailing.  We will try to
+be in the mails by the last day of each odd month.  Where, as in this case,
+a special issue is warranted we will mail it and include the contents also
+in the regular mailing.
 
 ________________________________________________________________________________
                         Address Correspondence to
-Prof. M. Ferentz   Physics Dept.   Brooklyn College of CUNY  Brooklyn, NY  11210
+Prof. M. Ferentz   Physics Dept.   Brooklyn College of CUNY  Brooklyn, NY 11210
 ________________________________________________________________________________

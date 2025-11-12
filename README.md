@@ -24,7 +24,7 @@ Later issues are available on [usenix.org](https://www.usenix.org/publications/l
 and have not yet been incorporated in the list below.
 
 - Volume 1:
-  - Special. UNIX News [July 16, 1975](http://www.toad.com/early-usenix-newsletters/19750716-unix-news-special-issue-darker.pdf) (1/1 page) [[alt](http://www.toad.com/early-usenix-newsletters/19750716-unix-news-special-issue.pdf)]
+  - Special. UNIX News [July 16, 1975](https://www.tuhs.org/pipermail/tuhs/2023-October/029087.html) (1/1 page)
   - 1\. UNIX News [July 30, 1975](https://archive.org/details/unix_news_july-30-1975) (11/11 pages)
   - 2\. UNIX News [October 8, 1975](https://archive.org/details/unix_news_oct-8-1975) (2/2 pages)
   - 3\. UNIX News [February 10, 1976](https://archive.org/details/unix_news_feb-10-1976) (8/8 pages)
