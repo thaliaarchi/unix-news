@@ -1,0 +1,11 @@
+fed >x
+n
+q
+ed - x
+v/^name-[123456789]/d
+1,$s/^/p /
+w
+q
+sort +0.7n -o x x
+fed <x >y
+echo name list in x names in y

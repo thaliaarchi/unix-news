@@ -1,7 +1,26 @@
 # Lists of UNIX users
 
+- Ken's list from Dennis_Tapes, June 27, 1975:
+  51 UNIX licensees listed and 55 installations listed
+
+  In a DECtape donated by Dennis Ritchie is a `fed(6)`/`form(6)` form letter
+  document from Ken listing UNIX licensees that closely resembles the first UNIX
+  News list. It is generated with the `nmrc` shell script in V6. See Jonathan
+  Gray's [2023-07-12 TUHS message](https://www.tuhs.org/pipermail/tuhs/2023-July/028601.html)
+  discovering this.
+
+  TUHS [`Archive/Applications/Dennis_Tapes/dmr_tapes.tar/ken/ken.tar/distr/{form.m,nmrc}`](https://www.tuhs.org/Archive/Applications/Dennis_Tapes/):
+
+  ```
+  Mode       UID GID  Size Date                Name
+  ---------- --- --- ----- ------------------- ---------------
+  -rw-rw-rw-   6   1 20992 1975-06-27 20:30:20 ./distr/form.m
+  -rw-rw-rw-   6   1   114 1975-06-27 20:31:44 ./distr/nmrc
+  ...
+  ```
+
 - UNIX News [July 16, 1975](https://www.tuhs.org/pipermail/tuhs/2023-October/029087.html):
-  49 UNIX licensees
+  49 UNIX licensees counted
 
   The number of worldwide UNIX licenses [[Hendrik-Jan Thomassen](https://www.youtube.com/watch?v=boahlBmc-NY&t=2434s)
   at 41:06]:
@@ -10,7 +29,7 @@
   This letter was one year after KU Nijmegen received their copy [at 41:18].
 
 - UNIX News [July 30, 1975](https://archive.org/details/unix_news_july-30-1975),
-  pages 9–11: 37 members listed and at least 51 UNIX licenses
+  pages 9–11: 37 members listed and at least 51 UNIX licenses counted
 
   The number of UNIX News members:
   > Circulation 37 [page 1]
@@ -31,11 +50,10 @@
   > and let me know of any installations you know of which are not on the list.
   > [page 1]
 
-  Presumably, any installations which did not respond to the letter were removed
-  from the list, creating the gaps in the Ken's sequence numbers. The highest
-  number in the sequence is 51, though there could be more. Presumably, the
-  count from two weeks prior did not include the two Bell Labs installations
-  (0.1 and 0.2) and two new licenses were added.
+  Any installations which did not respond to the letter were removed from the
+  list, creating the gaps in the Ken's sequence numbers. The highest number in
+  the sequence is 51, which matches Ken's list from a month prior, so it is
+  unlikely there were any new licensees since then.
 
 - UNIX News [March 19, 1976](https://archive.org/details/unix_news_march-19-1976),
   pages 11–14a: 80 members listed
@@ -50,7 +68,7 @@
   > facilities other than those listed, please let us know. [page 3]
 
 - UNIX News [July 1976](http://www.toad.com/early-usenix-newsletters/197607-unix-news-n7.pdf):
-  over 125 members
+  over 125 members counted
 
   > **UNIX NEWS**
   >
@@ -85,7 +103,7 @@
   > 2.  The details are in directory "bklyn" of distribution 2. [page 1]
 
 - ;login: [October 1977](https://archive.org/details/login_october-1977):
-  over 250 members
+  over 250 members counted
 
   > **USERS GROUP**
   >

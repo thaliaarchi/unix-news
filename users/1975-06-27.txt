@@ -1,0 +1,409 @@
+
+name-1:
+Professor Cyrus Levinthal
+Department of Biological Sciences
+Schermerhorn Hall
+Columbia University
+New York, New York 10027
+
+
+name-1a:
+Mr. Reidar Bornholdt
+Dept. of Biological Science
+653 Scherm Ext.
+Columbia University
+New York, N. Y. 10027
+
+
+name-2:
+Prof. T. A. Marsland
+Department of Computing Science
+The University of Alberta
+Edmonton, Canada
+
+
+name-3:
+Mr. Bill Mayhew
+The Children's Museum
+The Jamaicaway
+Boston, Massachusetts 02130
+
+
+name-4:
+Prof. Bruce W. Arden
+Department of Electrical Engineering
+Brackett Hall, Engineering Quadrangle
+Princeton University
+Princeton, New Jersey 08540
+
+
+name-5:
+Mr. E. J. Desautels
+The University of Wisconsin
+Computer Science Department
+1210 West Dayton Street
+Madison, Wisconsin 53706
+
+
+name-6:
+Mr. A. J. Lindstrom
+Sponsored Research Administrator
+California Institute of Technology
+Pasadena, California 91109
+
+
+name-7:
+Mr. Gary M. Goins
+Department of Biometry
+Wearn Research Building
+Case Western University
+Cleveland, Ohio 44106
+
+
+name-8:
+Prof. W. H. Huggins
+Department of Electrical Engineering
+The Johns Hopkins University
+Baltimore, Maryland 21218
+
+
+name-9:
+Mr. Brent Byer
+Aiken Computation Lab
+Harvard University
+Cambridge, Massachusetts 02138
+
+
+name-10:
+Dr. Vladimir Slamecka
+Computer Center
+School of Information and Computer Science
+Georgia Institute of Technology
+Atlanta, Georgia 30332
+
+
+name-11:
+Dr. Kenneth King
+Office of the Dean for Computer Systems
+535 East 80th Street
+New York, New York 10021
+
+
+name-11a:
+Prof. Melvin Ferentz
+Physics Dept.
+Brooklyn College of CUNY
+Brooklyn, N.Y. 11210
+
+
+name-12:
+James P. Lewis, Director
+Computer Center
+Columbia University
+College of Physicians and Surgeons
+630 West 168th Street
+New York, N. Y. 10032
+
+
+name-13:
+Mr. Rusty Whitney
+Director of Computing
+Oregon Museum of Science and Industry
+4015 S.W. Canyon Road
+Portland, Oregon 97221
+
+
+name-14:
+Mr. Gideon Yuval
+Computer Science Department
+The Hebrew University of Jerusalem
+Jerusalem, Israel
+
+
+name-15:
+Mr. Stanley C. Bateman
+University of California
+Contracts and Grants Office
+San Francisco, California 94143
+
+
+name-16:
+Prof. D. A. Michalopoulos
+Department of Quantitative Methods
+The California State University
+Fullerton, California 92634
+
+
+name-17:
+Prof. N. Marcuvitz
+Polytechnic Institute of New York
+Long Island Center
+Route 110
+Farmingdale, New York 11735
+
+
+name-18:
+Prof. R. W. Peebles
+Computer Communications Network Group
+University of Waterloo
+Waterloo, Ontario
+Canada N2L 3G1
+
+
+name-19:
+Mr. Martin E. Newell
+The University of Utah
+College of Engineering
+Salt Lake City, Utah 84112
+
+
+name-20:
+Prof. D. A. Jardine
+Dept. of Computing Science
+Queen's University at Kingston
+Kingston, Ontario
+Canada
+
+
+name-21:
+Prof. Ralph H. Bjork
+Science Building
+Saint Olaf College
+Northfield, Minnesota 55057
+
+
+name-22:
+Prof C. Frank Starmer
+Duke University
+Durham, North Carolina 27710
+
+
+name-23:
+Prof. R. S. Fabry
+Evans Hall
+University of California
+Berkeley, Calif 94720
+
+
+name-24:
+Dr. M. S. Cole
+Queen Mary College
+University of London
+Mile End Road
+London E1 4NS, England
+
+
+name-25:
+Mr. John E. Ecklund
+Yale University
+10 Hillhouse Avenue
+New Haven, Connecticut  06520
+
+
+name-26:
+Dr. P. Weiner
+Information Sciences Dept.
+The Rand Corporation
+1700 Main Street
+Santa Monica, California 90406
+
+
+name-26a:
+Ms. Lois H. Heiser
+Information Sciences Dept.
+The Rand Corporation
+1700 Main Street
+Santa Monica, California 90406
+
+
+name-27:
+Prof. D. B. Gillies
+Dept. of Computer Science
+University of Illinois
+Urbana, Illinois 61801
+
+
+name-27a:
+Greg Chesson
+Dept. of Computer Science
+University of Illinois
+Urbana, Illinois 61801
+
+
+name-28:
+Mr John Vanderford
+Institute for Physical Sciences
+The University of Texas at Dallas
+PO Box 688
+Richardson, Texas 75080
+
+
+name-29:
+Prof. E. Milgrom
+Faculte des Sciences Appliquees
+Unite D'Informatique
+Universite Catholique de Louvain
+Chenin Du Cyclotron 2
+1348 Louvain-La-Neuve, Belgique
+
+
+name-30:
+Prof C.J. Karzmark
+Dept of Radiology
+Stanford University School of Medicine
+300 Pasteur Drive
+Stanford, California 94305
+
+
+name-31:
+Mr. Travis Wood
+University of Alabama in Birmingham
+522 Spain, UAB
+University Station
+Birmingham, Alabama 35294
+
+
+name-32:
+Mr. William C. Ripperger
+Knox College Computer Center
+Knox College
+Galesburg, Ill 61401
+
+
+name-33:
+Mr. J. Tansley
+Medical Computing Group
+Medical School
+University of Edinbourgh
+Teviot Place
+Edinburgh EH8 9A6, Scotland
+
+
+name-34:
+Mr. Belton E. Allen
+Instructor of Computer Science
+Naval Postgraduate School
+Monterey, California 93940
+
+
+name-35:
+Prof. James D. Foley
+University of North Carolina at Chapel Hill
+New West Hall
+Chapel Hill, North Carolina
+
+
+name-36:
+Mr. Dustin H. Heuston
+The Spence School
+22 E. 91st St.
+New York, New York 10028
+
+
+name-37:
+Mr. T. C. Stevens
+Computer Research Dept
+University of Toronto
+Toronto, Canada M5S 1A1
+
+
+name-38:
+R. M. Kavanaugh
+Dept of Computational Science
+University of Sakatchewan
+Saskatoon, S7N 0W0 Canada
+
+
+name-39:
+D. R. McNeil
+Statistical Computing Lab
+Princeton University
+Princeton, N.J. 08540
+
+
+name-40:
+H. L. Counts, Jr.
+Purchasing
+Denison University
+P.O. Box 119
+Granville, Ohio 43023
+
+
+name-41:
+H. Bellmar
+Minuteman Regional Vocational
+High School District
+758 Merrett Road
+Lexington, Mass 02173
+
+
+name-42:
+James Curry
+IASSA
+2361 Laxenburg
+Vienna, Austria
+
+
+name-43:
+Carl Henry
+Computer Center
+Carleton College
+Northfield, Minn 55057
+
+
+name-44:
+D. W. de Bakker
+Dept. of Computer Science
+Foundation Mathematisch Centrum
+2e Boerhaavestraar 49
+Amsterdam 1005, The Netherlands
+
+
+name-45:
+S. Grodstein
+East Brunswick High School
+22 Milltown Rd.
+East Brunswick, NJ 08816
+
+
+name-46:
+C. W. Tan
+Division of Engineering
+The Cooper Union
+Cooper Square
+New York, NY 10003
+
+
+name-47:
+H. S. Eisenstein
+University of South Carolina
+Columbia, SC 29208
+
+
+name-48:
+R. Whitfeld
+University of New South Wales
+PO Box 1
+Kensington, NSW Austrialia 2D33
+
+
+name-49:
+J. van den Bas
+Katholieke Universiteit, Toernooiveld
+Nijmegen, The Netherlands
+
+
+name-50:
+P. L. De Souza
+Dept of Elictrical Engineering
+Heriot-Watt University
+31-35 Grassmarket
+Edinburgh EH12H5 Scotland
+
+
+name-51:
+R. J. Collins
+Dept of Computer Science
+University of Manitoba
+Winnipeg, Manitoba, Canada R3T2N2
+
