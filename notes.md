@@ -1,5 +1,8 @@
 # Notes from UNIX News
 
+- 1975-07-16:
+  - Hendrik-Jan Thomassen at 41:34: C. W. Christ, Jr. was the librarian at
+    Murray Hill
 - 1975-07-30:
   - 9: OMSI
   - 10: Martin Newell
