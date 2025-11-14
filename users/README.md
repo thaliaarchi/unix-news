@@ -6,8 +6,10 @@ members, and USENIX conference registrants.
 | Date             | Count                                       | Source                   |
 | ---------------- | ------------------------------------------- | ------------------------ |
 |                  | 4 UNIX-7 installs                           | Losh FOSDEM '20          |
-| June 1972        | 10 installs                                 | Pirzada 1988 p.33        |
-| February 1973    | 16 installs                                 | Pirzada 1988 p.33        |
+| June 12, 1972    | 10 installs                                 | Second Edition manual    |
+| February 1973    | 16 installs                                 | Third Edition manual     |
+| November 1973    | >20 installs                                | Fourth Edition manual    |
+| June 1974        | >50 installs                                | Fifth Edition manual     |
 | June 27, 1975    | [51 licensees, 55 installs](1975-06-27.txt) | Ken's Dennis_Tapes list  |
 | July 16, 1975    | ≥49 licensees                               | UNIX News July 16, 1975  |
 | July 30, 1975    | [37 mailing, ≥51 licensees](1975-07-30.txt) | UNIX News July 30, 1975  |
@@ -23,6 +25,30 @@ TODO:
 - Trace Pirzada and Losh sources
 
 ## Sources
+
+- ["Unix Programmer's Manual: Second Edition"](http://squoze.net/UNIX/v2man/man0) \
+  Ken Thompson and Dennis Ritchie, June 12, 1972
+
+  > Finally, the number of UNIX installations has grown to 10, with more
+  > expected.
+
+- ["Unix Programmer's Manual: Third Edition"](http://squoze.net/UNIX/v3man/man0) \
+  Ken Thompson and Dennis Ritchie, February 1973
+
+  > Finally, the number of UNIX installations has grown to 16, with more
+  > expected.
+
+- ["Unix Programmer's Manual: Fourth Edition"](http://squoze.net/UNIX/v4man/man0.pdf) \
+  Ken Thompson and Dennis Ritchie, November 1973
+
+  > The number of UNIX installations is now above 20, and many more are
+  > expected.
+
+- ["Unix Programmer's Manual: Fifth Edition"](http://squoze.net/UNIX/v5man/man0.pdf) \
+  Ken Thompson and Dennis Ritchie, June 1974
+
+  > The number of UNIX installations is now above 50, and many more are
+  > expected.
 
 - Ken's list from Dennis_Tapes, June 27, 1975:
   51 UNIX licensees listed and 55 installations listed
@@ -157,9 +183,9 @@ TODO:
 
   - Summer 1971: the patent office was successfully preparing their patent
     applications on UNIX [page 31]
-  - V2 in June 1972: 10 installations [page 33]
+  - V2 in June 1972: 10 installations [page 33, V2 manual]
   - c.1972/1973: SCCS-C forked from V2/V3 [page 32, my interpretation]
-  - V3 in February 1973: 16 installations [page 33]
+  - V3 in February 1973: 16 installations [page 33, V3 manual]
   - Ken had a list of the first 25 licensees (later licensing was handled by
     AT&T and they have records) [page 64]
   - c.1973: PWB forked from V2/V3 [page 32, my interpretation]
