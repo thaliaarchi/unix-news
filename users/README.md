@@ -1,5 +1,29 @@
 # Lists of early UNIX users
 
+Numbers of UNIX licensees, installations, UNIX News / ;login: mailing list
+members, and USENIX conference registrants.
+
+| Date             | Count                                       | Source                   |
+| ---------------- | ------------------------------------------- | ------------------------ |
+|                  | 4 UNIX-7 installs                           | Losh FOSDEM '20          |
+| June 1972        | 10 installs                                 | Pirzada 1988 p.33        |
+| February 1973    | 16 installs                                 | Pirzada 1988 p.33        |
+| June 27, 1975    | [51 licensees, 55 installs](1975-06-27.txt) | Ken's Dennis_Tapes list  |
+| July 16, 1975    | ≥49 licensees                               | UNIX News July 16, 1975  |
+| July 30, 1975    | [37 mailing, ≥51 licensees](1975-07-30.txt) | UNIX News July 30, 1975  |
+| March 19, 1976   | [80 mailing](1976-03-19.txt)                | UNIX News March 19, 1976 |
+| July 1976        | >125 mailing                                | UNIX News July 1976      |
+| September 1976   | [138 mailing](1976-09.txt)                  | UNIX News September 1976 |
+| July 1977        | 168 mailing [TODO]                          | ;login: July 1977        |
+| October 1977     | >250 mailing                                | ;login: October 1977     |
+| January 28, 1980 | 447 Boulder USENIX [TODO]                   | ;login: February 1980    |
+
+TODO:
+- Transcribe July 1977 and February 1980 lists
+- Trace Pirzada and Losh sources
+
+## Sources
+
 - Ken's list from Dennis_Tapes, June 27, 1975:
   51 UNIX licensees listed and 55 installations listed
 
@@ -20,7 +44,7 @@
   ```
 
 - UNIX News [July 16, 1975](https://www.tuhs.org/pipermail/tuhs/2023-October/029087.html):
-  49 UNIX licensees counted
+  at least 49 UNIX licensees counted
 
   The number of worldwide UNIX licenses [[Hendrik-Jan Thomassen](https://www.youtube.com/watch?v=boahlBmc-NY&t=2434s)
   at 41:06]:
