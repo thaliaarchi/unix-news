@@ -1,0 +1,68 @@
+OCTOBER 1978                 AUSTRALIAN UNIX USERS GROUP NEWSLETTER                  VOL I  NO I
+
+
+
+                     ******************************************************
+                     * This document may contain information covered by   *
+                     * one or more Licenses, copyrights and               *
+                     * non-disclosure aggreements. Circulation of this    *
+                     * document is restricted to holders of a license for *
+                     * the UNIX software system from Western Electric.    *
+                     * Such license holders may reproduce this document   *
+                     * for uses in conformity with the UNIX license.  All *
+                     * other circulation or reproduction is prohibited.   *
+                     ******************************************************
+
+
+
+
+     Well here it is !!!!
+
+     WHAT ?????
+
+     At the last User Group Meeting in August it was decided that a newsletter should be
+produced to be distributed among Unix users in Australia so here it is the inaugural Australian
+UNIX User's Group Newsletter (AUUGN for short - nothing phallic intended). This Newsletter will
+attempt to promote better communication twixt the growing number of UNIX users in Australia, BUT
+a Newsletter is only as good as those who contribute SO if at any time information that may be
+of use or interest to other UNIX users comes your way please forward it for inclusion in the
+next issue.
+
+     It is my intention to produce six Newsletters a year. If you do not wish to receive the
+Newsletter just let me know, On the other hand if you do wish to receive it and are not on the
+attached list please mail your address.
+
+____________________________
+
+US UNIX User Group Newletter
+____________________________
+
+ITEM               DESCRIPTION                          COST
+
+ 1                 Subscription to UNIX News            $ 5.00
+                   Jan 1978 - June 1978
+
+ 2                 Subscription to Unix News            $25.00
+                   July 1978 - Dec 1978
+
+ 3                 Subscription to Unix News            $25.00
+                   Jan 1979 - June 1979
+
+This newsletter early in its life was very good value, in the last year it has been very patchy
+which I suspect resulted from the vast number of people wanting it. Now that a fee is involved
+I beleive that it should be worth receiving. If you wish to subscribe then forward a cheque
+(payable to 'The Rockerfeller University') to:
+
+         Dr Melvin Ferentz
+         The Rockefeller University Box 8
+         1230 York Avenue
+         NEW YORK  NY  10021
+         USA
+
+
+
+
+
+
+
+1                                                                                          AUUGN

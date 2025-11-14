@@ -18,6 +18,7 @@ members, and USENIX conference registrants.
 | September 1976   | [138 mailing](1976-09.txt)                  | UNIX News September 1976 |
 | July 1977        | 168 mailing [TODO]                          | ;login: July 1977        |
 | October 1977     | >250 mailing                                | ;login: October 1977     |
+| October 1978     | [38 AUUGN mailing](../auugn/1978-10/4.txt)  | AUUGN October 1978       |
 | January 28, 1980 | 447 Boulder USENIX [TODO]                   | ;login: February 1980    |
 
 TODO:
@@ -158,6 +159,9 @@ TODO:
   > **USERS GROUP**
   >
   > The membership in the Users' Group now exceeds 250. [page 1]
+
+- Australian UNIX Users Group Newsletter [October 1978](https://archive.org/details/auugnv01.1):
+  38 AUUGN members [listed](../auugn/1978-10/4.txt)
 
 - ;login: [February 1980](https://archive.org/details/login_february-1980),
   pages 19a–22b: 447 Boulder Usenix conference registrants listed
