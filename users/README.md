@@ -18,6 +18,7 @@ members, and USENIX conference registrants.
 | September 1976   | [138 mailing](1976-09.txt)                  | UNIX News September 1976 |
 | July 1977        | 168 mailing [TODO]                          | ;login: July 1977        |
 | October 1977     | >250 mailing                                | ;login: October 1977     |
+| January 6, 1978  | 300 Bell installs, ≫300 non-Bell installs   | BSTJ 57.6 page 1947      |
 | October 1978     | [38 AUUGN mailing](../auugn/1978-10/4.txt)  | AUUGN October 1978       |
 | January 28, 1980 | 447 Boulder USENIX [TODO]                   | ;login: February 1980    |
 
@@ -178,6 +179,22 @@ TODO:
   > there were 450 attendees at the USENIX meeting, which is the largest
   > attendance yet. [page 3a]
 
+- ["UNIX Time-Sharing System: A Retrospective"](https://archive.org/details/bstj57-6-1947) \
+  Dennis Ritchie \
+  The Bell System Technical Journal, Volume 57, No. 6, July–August 1978
+
+  > Manuscript received January 6, 1978 [page 1]
+
+  > A version of this paper was presented at the Tenth Hawaii International
+  > Conference on the System Sciences, Honolulu, January, 1977. [page 1947]
+
+  > Since its development in 1971, it has become quite widely used, although
+  > publicity efforts on its behalf have been minimal, and the license under
+  > which it is made available outside the Bell System explicitly excludes
+  > maintenance. Currently, there are more than 300 Bell System installations,
+  > and an even larger number in universities, secondary schools, and commercial
+  > and government institutions. [page 1948]
+
 - *A Statistical Examination of The Evolution of the UNIX System* \
   Shamim Sharifuddin Pirzada \
   Imperial College of Science, Technology and Medicine, University of London \
@@ -318,7 +335,7 @@ TODO:
 
   Are these DECtapes under the floorboards the Dennis_Tapes?
 
-- ["Hidden Early History of Unix"](https://papers.freebsd.org/2020/FOSDEM/losh-Hidden_early_history_of_Unix.files/slides.pdf) \
+- ["Hidden Early History of Unix"](https://papers.freebsd.org/2020/fosdem/losh-hidden_early_history_of_unix/) \
   Warner Losh \
   FOSDEM '20
 
@@ -327,4 +344,23 @@ TODO:
   > - Ported to PDP-7, PDP-9 and PDP-15
   >   - Total install base was 4 (1 pdp-7, 2 pdp-9 and 1 pdp-15)
 
-  Sources mentioned: PDP-7 UNIX manual
+  > **4th Edition (November 1973)**
+  >
+  > - […]
+  > - Key revision for Bell System adoption and specialization
+  > - First version released to Universities (4 or 5 universities)
+  > - USENIX forms
+
+  > **When was the first fork Unix version?**
+  >
+  > - BSD forking 7th Edition (well, 32V, 7th edition for VAX)? (1980)
+  > - PWB 1.0 fork of 6th Edition? (Started 1973, first release 1977)
+  > - USG fork of UNIX/TS 1.0 from 6th Edition? (Started 1973, first release
+  >   1975)
+  > - MERT forking UNIX/RT from 4th Edition? (1973)
+  > - New Jersey Bell forking SCCS from 1st/2nd Edition? (1971/1972)
+  >
+  > - Close to a 4 way tie for the honors of FIRST
+
+  References: [The Bell System Technical Journal](https://archive.org/details/bstj-archives?query=unix),
+  1978–1983
