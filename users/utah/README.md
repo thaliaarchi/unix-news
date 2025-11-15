@@ -2,3 +2,4 @@
 
 - [Martin Newell](newell.md)
 - [Jim Blinn](blinn.md)
+- [Mike Hibler](hibler.md)
