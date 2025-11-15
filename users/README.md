@@ -22,15 +22,6 @@ members, and USENIX conference registrants.
 | October 1978     | [38 AUUGN mailing](../auugn/1978-10/4.txt)  | AUUGN October 1978       |
 | January 28, 1980 | 447 Boulder USENIX [TODO]                   | ;login: February 1980    |
 
-UNIX licensees ordered by Ken's license number.
-
-List sources:
-1. Ken's list from Dennis_Tapes, June 27, 1975
-2. UNIX News July 30, 1975
-3. UNIX News March 19, 1976
-4. UNIX News September 1976
-5. AUUGN October 1978, trimmed to only new institutions
-
 [^nijmegen]: "SOFTWARE AGREEMENT between WESTERN ELECTRIC COMPANY, INCORPORATED
   and KATHOLIEKE UNIVERSITEIT Effective as of December 1, 1974"
 [^holmgren]: "The Network UNIX System" \
@@ -50,11 +41,74 @@ List sources:
   Keith Smillie \
   Department of Computing Science Technical Report TR-91-01, February 1991 \
   University of Alberta
+[^releases]: "TUHS Distribution Release Dates",
+  modified 3 March 1998
 [^mckusick]: *Open Sources: Voices from the Open Source Revolution* \
   Twenty Years of Berkeley Unix: From AT&T-Owned to Freely Redistributable \
   Marshall Kirk McKusick, January 1999
+[^venam]: "Licenses on Unix" \
+  Patrick Louis, 4 June 2017
 
-| Ken #     | Installation              | Institution                                           | City                         | Department                       | Contact                        | Lists   |
+UNIX licensees by institution and version. Ken's license number is only listed
+for an institution's first version acquired. I assume that Ken's license number
+was ordered by date and that any dates conflicting with that order are
+imprecise.
+
+TODO: What versions are Network UNIX and MUNIX derived from?
+
+| #   | Date                        | Version           | Institution                             | Notes                                                                  | Sources                |
+| --- | --------------------------- | ----------------- | --------------------------------------- | ---------------------------------------------------------------------- | ---------------------- |
+|     | Summer 1971                 | ?                 | Patent office                           | Successfully preparing patent applications on UNIX                     | [^pirzada]             |
+| \-  | November 3, 1971            | **V1**            | -                                       | -                                                                      | [^releases]            |
+| \-  | June 12, 1972               | **V2**            | -                                       | -                                                                      | [^releases]            |
+| \-  | February 1973               | **V3**            | -                                       | -                                                                      | [^releases]            |
+| 1   | October 1973                | ?                 | Columbia University                     | License granted, first educational license                             | [^pirzada]             |
+| 2   | October 1973                | V4                | University of Alberta                   | V4 shipped                                                             | [^smillie]             |
+| 3   | October 1973                | ?                 | The Children's Museum                   | First non-educational licensee                                         | [^pirzada]             |
+| \-  | November 1973               | **V4**            | -                                       | -                                                                      | [^releases]            |
+| 9   | at latest Winter 1973/1974  | ?                 | Harvard University                      | Start of joint work with the Children's Museum                         | [^news7507]            |
+| 14  | February 1974               | ?                 | Hebrew University of Jerusalem          | License granted, first licensee outside the US                         | [^pirzada]             |
+| 23  | January 1974                | V4                | University of California, Berkeley      | V4 delivered (attended SOSP'73)                                        | [^mckusick]            |
+| 24  | May 1974                    | ?                 | Queen Mary University of London         | License granted                                                        | [^pirzada]             |
+| \-  | June 1974                   | **V5**            | -                                       | -                                                                      | [^releases]            |
+|     | Spring 1974[1]              | V5[1] [2]         | University of California, Berkeley      | Purchased a PDP-11/40 running V5[1], no license sold[2]                | 1[^mckusick] 2[^venam] |
+| 26  | July 1974                   | ?                 | The Rand Corporation                    | License granted, first commercial licensee                             | [^pirzada]             |
+| 27  | before Feb 1975[1], 1975[2] | V5[2]             | University of Illinois Urbana-Champaign | Network UNIX running full time[1], first source license for V5 sold[2] | 1[^holmgren] 2[^venam] |
+| 34  | Fall 1974                   | ?                 | Naval Postgraduate School               | Purchased (to be used for MUNIX)                                       | [^munix]               |
+| 49  | December 1, 1974            | ?                 | Katholieke Universiteit, Toernooiveld   | License effective date                                                 | [^nijmegen]            |
+| \-  | May 1975                    | **V6**            | -                                       | -                                                                      | [^releases]            |
+|     | Fall 1975                   | V6                | University of California, Berkeley      | Thompson brought up V6 over one-year sabbatical                        | [^mckusick]            |
+| \-  | around May 1977             | **Mini-UNIX**     | -                                       | -                                                                      | [^releases]            |
+| \-  | June 1977 (in use)          | **PWB/UNIX**      | -                                       | -                                                                      | [^releases]            |
+| \-  | March 9, 1978               | **1BSD**          | -                                       | -                                                                      | [^releases]            |
+| \-  | mid 1978                    | **2BSD**          | -                                       | -                                                                      | [^releases]            |
+| \-  | January 1979                | **V7**            | -                                       | -                                                                      | [^releases]            |
+| \-  | early 1979                  | **32V**           | -                                       | -                                                                      | [^releases]            |
+|     | after early 1978            | 32V               | University of California, Berkeley      | Obtained a copy of 32V after arrival of VAX-11/780                     | [^mckusick]            |
+| \-  | late 1979                   | **3BSD**          | -                                       | -                                                                      | [^releases]            |
+| \-  | July 1981                   | **2.8BSD**        | -                                       | -                                                                      | [^releases]            |
+| \-  | January 1982                | **2.8.1BSD**      | -                                       | -                                                                      | [^releases]            |
+| \-  | July 1983                   | **2.9BSD**        | -                                       | -                                                                      | [^releases]            |
+| \-  | November 1983               | **2.9.1BSD**      | -                                       | -                                                                      | [^releases]            |
+| \-  | February 1985               | **V8**            | -                                       | -                                                                      | [^releases]            |
+| \-  | August 1985                 | **2.9BSD-Seismo** | -                                       | -                                                                      | [^releases]            |
+| \-  | September 1986              | **V9**            | -                                       | -                                                                      | [^releases]            |
+| \-  | April 1987                  | **2.10BSD**       | -                                       | -                                                                      | [^releases]            |
+| \-  | January 1989                | **2.10.1BSD**     | -                                       | -                                                                      | [^releases]            |
+| \-  | October 1989                | **V10**           | -                                       | -                                                                      | [^releases]            |
+| \-  | February 1992               | **2.11BSD**       | -                                       | -                                                                      | [^releases]            |
+| \-  | February 1997               | **2.11BSD #366**  | -                                       | -                                                                      | [^releases]            |
+
+UNIX licensees ordered by Ken's license number or by first appearance.
+
+List sources:
+1. Ken's list from Dennis_Tapes, June 27, 1975
+2. UNIX News July 30, 1975
+3. UNIX News March 19, 1976
+4. UNIX News September 1976
+5. AUUGN October 1978, trimmed to only new institutions
+
+| Ken #     | First installation        | Institution                                           | City                         | Department                       | Contact                        | Lists   |
 | --------- | ------------------------- | ----------------------------------------------------- | ---------------------------- | -------------------------------- | ------------------------------ | ------- |
 | 0.1       |                           | Bell Telephone Laboratories                           | Murray Hill, NJ              |                                  | Mr. Ken Thompson               |   2   4 |
 |           |                           | Bell Telephone Laboratories                           | Murray Hill, NJ              |                                  | Mr. Dennis M. Ritchie          |     3 4 |
@@ -648,86 +702,6 @@ List sources:
 
   Are these DECtapes under the floorboards the Dennis_Tapes?
 
-- [*Open Sources: Voices from the Open Source Revolution*](https://www.oreilly.com/openbook/opensources/book/kirkmck.html) \ \
-  Twenty Years of Berkeley Unix: From AT&T-Owned to Freely Redistributable \
-  Marshall Kirk McKusick, January 1999
-
-  - January 1974: Computer Science, Mathematics, and Statistics Departments
-    jointly acquired V4 after Fabry attended SOSP'73.
-  - Spring 1974: Profs. Eugene Wong and Michael Stonebraker purchased a
-    PDP-11/40 running V5.
-  - Fall 1975: Ken Thompson, Jeff Schriebman, and Bob Kridle brought up V6 on a
-    newly arrived PDP-11/70.
-  - Early 1978: Prof. Richard Fateman acquired a VAX-11/780 and UNIX/32V.
-
-  > Ken Thompson and Dennis Ritchie presented the first Unix paper at the
-  > Symposium on Operating Systems Principles at Purdue University in November
-  > 1973. Professor Bob Fabry, of the University of California at Berkeley, was
-  > in attendance and immediately became interested in obtaining a copy of the
-  > system to experiment with at Berkeley.
-  >
-  > At the time, Berkeley had only large mainframe computer systems doing batch
-  > processing, so the first order of business was to get a PDP-11/45 suitable
-  > for running with the then-current Version 4 of Unix. The Computer Science
-  > Department at Berkeley, together with the Mathematics Department and the
-  > Statistics Department, were able to jointly purchase a PDP-11/45. In January
-  > 1974, a Version 4 tape was delivered and Unix was installed by graduate
-  > student Keith Standiford.
-  >
-  > Although Ken Thompson at Purdue was not involved in the installation at
-  > Berkeley as he had been for most systems up to that time, his expertise was
-  > soon needed to determine the cause of several strange system crashes. […]
-  >
-  > Though Unix was soon reliably up and running, the coalition of Computer
-  > Science, Mathematics, and Statistics began to run into problems; Math and
-  > Statistics wanted to run DEC's RSTS system. After much debate, a compromise
-  > was reached in which each department would get an eight-hour shift; Unix
-  > would run for eight hours followed by sixteen hours of RSTS. To promote
-  > fairness, the time slices were rotated each day. Thus, Unix ran 8 a.m. to 4
-  > p.m. one day, 4 p.m. to midnight the next day, and midnight to 8 a.m. the
-  > third day. Despite the bizarre schedule, students taking the Operating
-  > Systems course preferred to do their projects on Unix rather than on the
-  > batch machine.
-  >
-  > Professors Eugene Wong and Michael Stonebraker were both stymied by the
-  > confinements of the batch environment, so their INGRES database project was
-  > among the first groups to move from the batch machines to the interactive
-  > environment provided by Unix. They quickly found the shortage of machine
-  > time and the odd hours on the 11/45 intolerable, so in the spring of 1974,
-  > they purchased an 11/40 running the newly available Version 5. With their
-  > first distribution of INGRES in the fall of 1974, the INGRES project became
-  > the first group in the Computer Science department to distribute their
-  > software. Several hundred INGRES tapes were shipped over the next six years,
-  > helping to establish Berkeley's reputation for designing and building real
-  > systems.
-  >
-  > Even with the departure of the INGRES project from the 11/45, there was
-  > still insufficient time available for the remaining students. To alleviate
-  > the shortage, Professors Michael Stonebraker and Bob Fabry set out in June
-  > 1974, to get two instructional 11/45's for the Computer Science department's
-  > own use. Early in 1975, the money was obtained. At nearly the same time, DEC
-  > announced the 11/70, a machine that appeared to be much superior to the
-  > 11/45. Money for the two 11/45s was pooled to buy a single 11/70 that
-  > arrived in the fall of 1975. Coincident with the arrival of the 11/70, Ken
-  > Thompson decided to take a one-year sabbatical as a visiting professor at
-  > the University of California at Berkeley, his alma mater. Thompson, together
-  > with Jeff Schriebman and Bob Kridle, brought up the latest Unix, Version 6,
-  > on the newly installed 11/70.
-  >
-  > […]
-  >
-  > Early in 1978, Professor Richard Fateman began looking for a machine with a
-  > larger address space on which he could continue his work on Macsyma
-  > (originally started on a PDP-10). The newly announced VAX-11/780 fulfilled
-  > the requirements and was available within budget. Fateman and thirteen other
-  > faculty members put together an NSF proposal that they combined with some
-  > departmental funds to purchase a VAX.
-  >
-  > Initially the VAX ran DEC's operating system VMS, but the department had
-  > gotten used to the Unix environment and wanted to continue using it. So,
-  > shortly after the arrival of the VAX, Fateman obtained a copy of the 32/V
-  > port of Unix to the VAX by John Reiser and Tom London of Bell Labs.
-
 - [*The Department of Computing Science: The First Twenty-Five Years*](https://archive.org/details/P009056) \
   Keith Smillie \
   Department of Computing Science Technical Report TR-91-01, February 1991 \
@@ -911,6 +885,136 @@ List sources:
   >
   > [pages 74-75]
 
+- ["TUHS Distribution Release Dates"](https://www.tuhs.org/Archive/Distributions/RELEASE_DATES),
+  modified 3 March 1998
+
+  TODO: Review sources
+
+  | Version           | Date               | Cite  |
+  | ----------------- | ------------------ | ----- |
+  | **Research UNIX** |                    |       |
+  | 1st Edition       | November 3, 1971   | [QCU] |
+  | 2nd Edition       | June 12, 1972      | [QCU] |
+  | 3rd Edition       | February, 1973     | [QCU] |
+  | 4th Edition       | November, 1973     | [QCU] |
+  | 5th Edition       | June, 1974         | [QCU] |
+  | 6th Edition       | May, 1975          | [QCU] |
+  | 7th Edition       | January, 1979      | [QCU] |
+  | 8th Edition       | February, 1985     | [QCU] |
+  | 9th Edition       | September, 1986    | [QCU] |
+  | 10th Edition      | October, 1989      | [QCU] |
+  | **USDL UNIX**     |                    |       |
+  | PWB/UNIX          | June 1977 (in use) | [QCU] |
+  | Mini-UNIX         | around may 1977    | [QCU] |
+  | 32V               | early 1979         | [LWU] |
+  | **BSD Releases**  |                    |       |
+  |      1BSD         | March 9, 1978      | [QCU] |
+  |      2BSD         | mid 1978           | [QCU] |
+  |      3BSD         | late 1979          | [QCU] |
+  |    2.8BSD         | July, 1981         | [KSJ] |
+  |  2.8.1BSD         | January, 1982      | [QCU] |
+  |    2.9BSD         | July, 1983         | [KSJ] |
+  |  2.9.1BSD         | November, 1983     |       |
+  |    2.9BSD-Seismo  | August, 1985       | [SMS] |
+  |   2.10BSD         | April, 1987        | [KKK] |
+  | 2.10.1BSD         | January, 1989      | [SMS] |
+  |   2.11BSD         | February, 1992     | [SMS] |
+  |   2.11BSD #366    | February, 1997     | [SMS] |
+
+  Sources:
+  - QCU= A Quarter Century of UNIX \
+    Peter Salus \
+    Addison-Wesley \
+    ISBN 0-201-54777-5
+  - LWU= Life With UNIX \
+    Don Libes, Sandy Ressler \
+    Prentice-Hall \
+    ISBN 0-13-536657-7
+  - SMS= Steven Schultz \
+    sms@moe.2bsd.com
+  - KKK=
+  - KSJ=
+
+- [*Open Sources: Voices from the Open Source Revolution*](https://www.oreilly.com/openbook/opensources/book/kirkmck.html) \ \
+  Twenty Years of Berkeley Unix: From AT&T-Owned to Freely Redistributable \
+  Marshall Kirk McKusick, January 1999
+
+  - January 1974: Computer Science, Mathematics, and Statistics Departments
+    jointly acquired V4 after Fabry attended SOSP'73.
+  - Spring 1974: Profs. Eugene Wong and Michael Stonebraker purchased a
+    PDP-11/40 running V5.
+  - Fall 1975: Ken Thompson, Jeff Schriebman, and Bob Kridle brought up V6 on a
+    newly arrived PDP-11/70.
+  - Early 1978: Prof. Richard Fateman acquired a VAX-11/780 and UNIX/32V.
+
+  > Ken Thompson and Dennis Ritchie presented the first Unix paper at the
+  > Symposium on Operating Systems Principles at Purdue University in
+  > November 1973. Professor Bob Fabry, of the University of California at
+  > Berkeley, was in attendance and immediately became interested in obtaining a
+  > copy of the system to experiment with at Berkeley.
+  >
+  > At the time, Berkeley had only large mainframe computer systems doing batch
+  > processing, so the first order of business was to get a PDP-11/45 suitable
+  > for running with the then-current Version 4 of Unix. The Computer Science
+  > Department at Berkeley, together with the Mathematics Department and the
+  > Statistics Department, were able to jointly purchase a PDP-11/45. In January
+  > 1974, a Version 4 tape was delivered and Unix was installed by graduate
+  > student Keith Standiford.
+  >
+  > Although Ken Thompson at Purdue was not involved in the installation at
+  > Berkeley as he had been for most systems up to that time, his expertise was
+  > soon needed to determine the cause of several strange system crashes. […]
+  >
+  > Though Unix was soon reliably up and running, the coalition of Computer
+  > Science, Mathematics, and Statistics began to run into problems; Math and
+  > Statistics wanted to run DEC's RSTS system. After much debate, a compromise
+  > was reached in which each department would get an eight-hour shift; Unix
+  > would run for eight hours followed by sixteen hours of RSTS. To promote
+  > fairness, the time slices were rotated each day. Thus, Unix ran 8 a.m. to 4
+  > p.m. one day, 4 p.m. to midnight the next day, and midnight to 8 a.m. the
+  > third day. Despite the bizarre schedule, students taking the Operating
+  > Systems course preferred to do their projects on Unix rather than on the
+  > batch machine.
+  >
+  > Professors Eugene Wong and Michael Stonebraker were both stymied by the
+  > confinements of the batch environment, so their INGRES database project was
+  > among the first groups to move from the batch machines to the interactive
+  > environment provided by Unix. They quickly found the shortage of machine
+  > time and the odd hours on the 11/45 intolerable, so in the spring of 1974,
+  > they purchased an 11/40 running the newly available Version 5. With their
+  > first distribution of INGRES in the fall of 1974, the INGRES project became
+  > the first group in the Computer Science department to distribute their
+  > software. Several hundred INGRES tapes were shipped over the next six years,
+  > helping to establish Berkeley's reputation for designing and building real
+  > systems.
+  >
+  > Even with the departure of the INGRES project from the 11/45, there was
+  > still insufficient time available for the remaining students. To alleviate
+  > the shortage, Professors Michael Stonebraker and Bob Fabry set out in June
+  > 1974, to get two instructional 11/45's for the Computer Science department's
+  > own use. Early in 1975, the money was obtained. At nearly the same time, DEC
+  > announced the 11/70, a machine that appeared to be much superior to the
+  > 11/45. Money for the two 11/45s was pooled to buy a single 11/70 that
+  > arrived in the fall of 1975. Coincident with the arrival of the 11/70, Ken
+  > Thompson decided to take a one-year sabbatical as a visiting professor at
+  > the University of California at Berkeley, his alma mater. Thompson, together
+  > with Jeff Schriebman and Bob Kridle, brought up the latest Unix, Version 6,
+  > on the newly installed 11/70.
+  >
+  > […]
+  >
+  > Early in 1978, Professor Richard Fateman began looking for a machine with a
+  > larger address space on which he could continue his work on Macsyma
+  > (originally started on a PDP-10). The newly announced VAX-11/780 fulfilled
+  > the requirements and was available within budget. Fateman and thirteen other
+  > faculty members put together an NSF proposal that they combined with some
+  > departmental funds to purchase a VAX.
+  >
+  > Initially the VAX ran DEC's operating system VMS, but the department had
+  > gotten used to the Unix environment and wanted to continue using it. So,
+  > shortly after the arrival of the VAX, Fateman obtained a copy of the 32/V
+  > port of Unix to the VAX by John Reiser and Tom London of Bell Labs.
+
 - ["Some Reflections on Computing and Computing Science at the University of Alberta"](https://www.ualberta.ca/en/computing-science/media-library/about/depthistsep23.pdf) \
   Keith Smillie, July 2014
 
@@ -942,6 +1046,39 @@ List sources:
   to the 1973 entry:
 
   > **1973** - First two PhD degrees; Data General Nova 2/4; UNIX installed
+
+- ["Licenses on Unix"](https://venam.net/blog/unix/2017/06/04/licenses.html) \
+  Patrick Louis, 4 June 2017
+
+  The first source license was sold in 1975, to UIUC for UNIX V5. Berkeley
+  obtained UNIX V5 in 1974.
+
+  TODO: Find primary sources
+
+  > Unix wise, before 1975, all the Research Unix that Bell Labs produced were
+  > for internal use only. It was only in 1975 that the first source license for
+  > UNIX V5 was sold to the University of Illinois Department of Computer
+  > Science, UIUC. This was a great move for the university of Illinois because
+  > they started working on implementing ARPANET on those Unix machines,
+  > creating the RFC 681, for NETWORK UNIX, with FTP and telnet clients. The
+  > first Unix later to included them was BSD.
+  >
+  > At the time, Bell Labs wanted to sell licenses but for non-university users
+  > it wanted to sell them at $20K which was very expensive. The V6 version of
+  > UNIX did turn that around and was the first commercially successful UNIX. It
+  > remained the most widely used version into the 80s. V7 superseded it later
+  > in 1978, but V6 still remained the most used. As we’ve said, at those time
+  > the source code was available to anyone who got the software, and so it was
+  > a great tool to teach in universities. The license they provided with the
+  > software didn’t explicitly say anything special about sharing the source,
+  > licenses for softwares didn’t mean much yet.
+  >
+  > One of the university who got hold of UNIX V5 in 1974 was the university of
+  > Berkely. Now you might wonder, “that’s before 1975”, yes it is, because no
+  > license was sold to Berkeley, at least not yet. It all happened because a
+  > teacher named Bob Fabry was teaching a course about OS principles and took
+  > UNIX as an example. It was more like an informal notice written by the
+  > developers themselves.
 
 - ["Hidden Early History of Unix"](https://papers.freebsd.org/2020/fosdem/losh-hidden_early_history_of_unix/) \
   Warner Losh \
