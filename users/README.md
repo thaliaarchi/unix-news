@@ -33,6 +33,10 @@ List sources:
 
 [^nijmegen]: "SOFTWARE AGREEMENT between WESTERN ELECTRIC COMPANY, INCORPORATED
   and KATHOLIEKE UNIVERSITEIT Effective as of December 1, 1974"
+[^holmgren]: "The Network UNIX System" \
+  Steve Holmgren \
+  Center for Advanced Computation, University of Illinois Urbana-Champaign \
+  18 March 1975
 [^news7507]: UNIX News July 30, 1975
 [^pirzada]: *A Statistical Examination of The Evolution of the UNIX System* \
   Shamim Sharifuddin Pirzada \
@@ -117,9 +121,9 @@ List sources:
 | 26        |                           | The Rand Corporation                                  | Santa Monica, CA             | Information Sciences             | Mr. John Lowry                 |   2 3   |
 | 26a       |                           | The Rand Corporation                                  | Santa Monica, CA             | Information Sciences             | Ms. Lois H. Heiser             | 1       |
 |           |                           | The Rand Corporation                                  | Santa Monica, CA             |                                  | Lauren Weinstein               |       4 |
-| 27        |                           | University of Illinois                                | Urbana, IL                   | Computer Science                 | Prof. D. B. Gillies            | 1       |
-| 27a       |                           | University of Illinois                                | Urbana, IL                   | Computer Science                 | Greg Chesson                   | 1       |
-|           |                           | University of Illinois                                | Urbana, IL                   |                                  | Steve Holmgren                 |     3 4 |
+| 27        | <Feb 1975 [^holmgren]     | University of Illinois Urbana-Champaign               | Urbana, IL                   | Computer Science                 | Prof. D. B. Gillies            | 1       |
+| 27a       |                           | University of Illinois Urbana-Champaign               | Urbana, IL                   | Computer Science                 | Greg Chesson                   | 1       |
+|           |                           | University of Illinois Urbana-Champaign               | Urbana, IL                   |                                  | Steve Holmgren                 |     3 4 |
 | 28        |                           | University of Texas at Dallas                         | Richardson, Texas            | Physical Sciences                | Mr John Vanderford             | 1       |
 | 28        |                           | University of Texas at Dallas                         | Richardson, Texas            | Advanced Studies                 | D. W. Canham, Jr.              |   2 3 4 |
 | 29        |                           | Université catholique de Louvain                      | Louvain-La-Neuve, Belgium    | Informatique                     | Prof. E. Milgrom               | 1 2 3 4 |
@@ -302,6 +306,30 @@ List sources:
   > concepts had already been published, for example in the C. ACM paper.
   >
   > This license was royalty-free, but there was a $150 administrative fee.
+
+- ["The Network UNIX System"](https://archive.org/details/networkunixsyste155holm) \
+  Steve Holmgren \
+  Center for Advanced Computation, University of Illinois Urbana-Champaign \
+  18 March 1975
+
+  Network UNIX had been running full time since around 18 February 1975:
+
+  > Reliability
+  >
+  > As of this writing network UNIX has been running on a full time basis for
+  > about four weeks.  During that period, there were between three and four
+  > crashes a day. This is not a valid indicator because many of the failures
+  > were due to hardware problems.  More recently the hardware has been
+  > re-configured to improve reliability and the crash rate has been reduced to
+  > one a day with a down time of 2-3 minutes. This is expected to continue, but
+  > the sampling period hasnt been long enough for any dependable analysis.
+  >
+  > Availability
+  >
+  > Bell Laboratories must be contacted for a license to the base system itself.
+  > Bell's policy in the past has been to license the system to universities for
+  > a nominal fee, $150.00, and unfortunately for a cost of $20,000.00 to
+  > "non-university" institutions. [page 5]
 
 - Ken's list from Dennis_Tapes, June 27, 1975:
   51 UNIX licensees listed and 55 installations listed
