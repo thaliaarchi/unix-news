@@ -1,0 +1,61 @@
+         Dec  3  11:41  1975  UNIX 6th edition 'binary' Page 2
+
+
+
+
+/tmp                                    /usr/games/chess
+/unix                                   /usr/games/cubic
+/usr                                    /usr/games/moo
+/usr/adm                                /usr/games/ttt
+/usr/bin                                /usr/games/ttt.k
+/usr/bin/ac                             /usr/games/wump
+/usr/bin/banner                         /usr/ken
+/usr/bin/bc                             /usr/lib
+/usr/bin/bcd                            /usr/lib/aign
+/usr/bin/cal                            /usr/lib/atab
+/usr/bin/chk                            /usr/lib/book
+/usr/bin/col                            /usr/lib/cign
+/usr/bin/comm                           /usr/lib/ctab
+/usr/bin/cpall                          /usr/lib/eign
+/usr/bin/cret                           /usr/lib/etab
+/usr/bin/crpost                         /usr/lib/lib.b
+/usr/bin/crypt                          /usr/lib/quiz
+/usr/bin/diff                           /usr/lib/quiz/africa
+/usr/bin/fed                            /usr/lib/quiz/america
+/usr/bin/find                           /usr/lib/quiz/bard
+/usr/bin/form                           /usr/lib/quiz/collectives
+/usr/bin/grep                           /usr/lib/quiz/europe
+/usr/bin/gsi                            /usr/lib/quiz/inca
+/usr/bin/index                          /usr/lib/quiz/index
+/usr/bin/m6                             /usr/lib/quiz/midearth
+/usr/bin/mesg                           /usr/lib/quiz/misspell
+/usr/bin/neqn                           /usr/lib/quiz/murders
+/usr/bin/nice                           /usr/lib/quiz/poetry
+/usr/bin/nohup                          /usr/lib/quiz/posneg
+/usr/bin/nroff                          /usr/lib/quiz/pres
+/usr/bin/pic                            /usr/lib/quiz/seq-easy
+/usr/bin/prof                           /usr/lib/quiz/seq-hard
+/usr/bin/ptx                            /usr/lib/quiz/sov
+/usr/bin/pwd                            /usr/lib/quiz/state
+/usr/bin/quiz                           /usr/lib/ratfor
+/usr/bin/rc                             /usr/lib/salt
+/usr/bin/roff                           /usr/lib/suftab
+/usr/bin/sa                             /usr/lib/tmac.r
+/usr/bin/sleep                          /usr/lib/tmac.s
+/usr/bin/sno                            /usr/lib/tmg
+/usr/bin/split                          /usr/lib/tmga
+/usr/bin/tbl                            /usr/lib/tmgb
+/usr/bin/tec                            /usr/lib/tmgc
+/usr/bin/tmg                            /usr/lib/units
+/usr/bin/tr                             /usr/lib/w2006
+/usr/bin/typo                           /usr/lpd
+/usr/bin/units                          /usr/mdec
+/usr/bin/upost                          /usr/mdec/dldr
+/usr/bin/usort                          /usr/mdec/dtf
+/usr/bin/wc                             /usr/mdec/hboot
+/usr/bin/yacc                           /usr/mdec/hpuboot
+/usr/fort                               /usr/mdec/hthp
+/usr/fort/errors                        /usr/mdec/htrk
+/usr/fort/fc1                           /usr/mdec/htrp
+/usr/games                              /usr/mdec/mboot
+/usr/games/bj                           /usr/mdec/mcopy

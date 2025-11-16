@@ -1,0 +1,63 @@
+Dec  3  11:41  1975  UNIX 6th edition 'binary' Page 1
+
+
+
+
+
+
+/bin                                    /bin/sum
+/bin/ar                                 /bin/sync
+/bin/as                                 /bin/time
+/bin/bas                                /bin/tp
+/bin/cat                                /bin/tty
+/bin/cc                                 /bin/uniq
+/bin/cdb                                /bin/who
+/bin/chgrpp                             /bin/write
+/bin/chmod                              /dev
+/bin/chown                              /dev/kmem
+/bin/clri                               /dev/mem
+/bin/cmp                                /dev/null
+/bin/cp                                 /dev/tty8
+/bin/date                               /etc
+/bin/db                                 /etc/cron
+/bin/dc                                 /etc/dtab
+/bin/dcheck                             /etc/getty
+/bin/dd                                 /etc/glob
+/bin/df                                 /etc/group
+/bin/dsw                                /etc/init
+/bin/du                                 /etc/lpd
+/bin/dump                               /etc/mkfs
+/bin/echo                               /etc/mknod
+/bin/ed                                 /etc/mount
+/bin/exit                               /etc/mtab
+/bin/fc                                 /etc/passwd
+/bin/file                               /etc/rc
+/bin/goto                               /etc/ttys
+/bin/icheck                             /etc/umount
+/bin/if                                 /etc/update
+/bin/kill                               /etc/utmp
+/bin/ld                                 /etc/wall
+/bin/ln                                 /hpunix
+/bin/login                              /lib
+/bin/ls                                 /lib/as2
+/bin/mail                               /lib/c0
+/bin/mkdir                              /lib/c1
+/bin/mv                                 /lib/c2
+/bin/ncheck                             /lib/crt0.o
+/bin/newgrp                             /lib/fc0
+/bin/nm                                 /lib/fc1
+/bin/od                                 /lib/fcrt0.o
+/bin/opr                                /lib/filib.a
+/bin/passwd                             /lib/fr0.o
+/bin/pr                                 /lib/liba.a
+/bin/ps                                 /lib/libc.a
+/bin/restor                             /lib/libf.a
+/bin/rew                                /lib/libp.a
+/bin/rm                                 /lib/libs.a
+/bin/rmdir                              /lib/liby.a
+/bin/sh                                 /lib/lpr
+/bin/size                               /lib/mcrt0.o
+/bin/sort                               /lib/tmgb
+/bin/strip                              /mnt
+/bin/stty                               /rkunix
+/bin/su                                 /rpunix

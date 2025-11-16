@@ -1,0 +1,61 @@
+(SC)
+Software-Univ.—020173-020176—1, Alt.
+
+
+
+
+                        SOFTWARE AGREEMENT
+
+
+  Effective as of September 1, 1977
+WESTERN ELECTRIC COMPANY, INCORPORATED, a New York
+corporation ("WESTERN"), having an office at 222 Broadway, New York,
+New York 10038, and  KATHOLIEKE UNIVERSITEIT LEUVEN
+
+("LICENSEE"), having an office at  Celestijnenlaan 200B, B-3030
+Heverlee, Belgium,
+
+agree as follows:
+
+
+                            ARTICLE I
+
+                           DEFINITIONS
+
+  1.01  Terms in this agreement (other than names of parties and Article
+headings) which are in capital letters shall have the meanings specified in the
+Definitions Appendix.
+
+                            ARTICLE II
+
+            GRANTS OF RIGHTS TO USE LICENSED SOFTWARE
+
+  2.01  WESTERN grants royalty-free to LICENSEE, a personal,
+nontransferable and nonexclusive right to use the LICENSED SOFTWARE,
+solely for academic and educational purposes and solely on DESIGNATED
+CPUs.
+
+  No right is granted for the use of the LICENSED SOFTWARE on or in
+connection with the operation of any CPU other than a DESIGNATED CPU;
+provided however, that the right to use the LICENSED SOFTWARE granted
+hereunder shall extend to the temporary use of the LICENSED SOFTWARE
+on a single back-up or substitute CPU during any time when a DESIGNATED
+CPU is inoperative due to malfunction or the performance of hardware repair,
+maintenance or other hardware modifications.
+
+  LICENSEE may at any time notify WESTERN in writing of its designation
+by location, type and serial number of different or additional CPUs upon which
+the LICENSED SOFTWARE is to be used and such notice shall be effective as
+an amendment to this agreement redesignating or adding such one or more
+DESIGNATED CPUs, as the case may be, upon agreement thereto in writing by
+WESTERN.
+
+  2.02  LICENSEE shall pay to WESTERN, upon execution of this agreement
+by LICENSEE, a nonrefundable service charge in the amount of
+One Hundred Ninety ------------------- United States dollars
+($190.00 -------) for the cost of furnishing the LICENSED SOFTWARE.
+Delivery of the LICENSED SOFTWARE to LICENSEE shall be within a
+reasonable time after payment of such service charge.
+
+
+                         1
