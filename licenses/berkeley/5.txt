@@ -1,4 +1,3 @@
-Software-Univ.—020173-122073—5
 
 
 
@@ -24,34 +23,34 @@ thereof, and the associated documentation therefor, listed below:
     UNIX time sharing operating system computer program and sup-
 porting programs and documentation consisting of the following:
 
-      (a)  a first reel of 9 track 800 bpi magnetic tape
-           supplied by LICENSEE in required length on which the
-           following will be recorded:
+      (a) a first reel of 9 track 800 bpi magnetic tape supplied
+          by LICENSEE in required length on which the following
+          will be recorded:
 
-           (1)  Binary object code of the UNIX core resident
-                operating system;
+          (1) Binary object code of the UNIX core resident
+              operating system;
 
-           (2)  Source program code;
+          (2) Source program code;
 
-           (3)  User's manual.
+          (3) User's manual.
 
-      (b)  a second reel of 9 track 800 bpi magnetic tape
-           supplied by LICENSEE in required length on which
-           the binary object code of the supporting programs
-           will be recorded.
+      (b) a second reel of 9 track 800 bpi magnetic tape
+          supplied by LICENSEE in required length on which
+          the binary object code of the supporting programs
+          will be recorded.
 
-      (c)  printed documentation:
+      (c) printed documentation:
 
-           (1)  UNIX programmer's manual;
+          (1)  UNIX programmer's manual;
 
-           (2)  Bell Telephone Laboratories, Inc. technical
-                memorandum entitled NROFF User's Manual;
+          (2)  Bell Telephone Laboratories, Inc. technical memorandum
+               entitled NROFF User's Manual;
 
-           (3)  C reference manual;
+          (3)  C reference manual;
 
-           (4)  UNIX assembler reference manual.
-
-
+          (4)  UNIX assembler reference manual.
 
 
-                                  6
+
+
+                                  5                       (151)

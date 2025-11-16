@@ -134,7 +134,8 @@
   "oldest Unix machine(s)"
   [[Google Groups](https://groups.google.com/g/net.unix-wizards/c/4zZR9FyzM8k/m/0Xu77eACHEAJ),
   [Usenet Archives](https://www.usenetarchives.com/view.php?id=net.unix-wizards&mid=PDU1ODRAdXR6b28uVVVDUD4)] \
-  Henry Spencer, net.unix-wizards, 10 May 1985
+  Henry Spencer \
+  net.unix-wizards, 10 May 1985
 
   Henry Spencer at 10 May 1985 13:38:56 UTC:
 
