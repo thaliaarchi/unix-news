@@ -60,26 +60,32 @@ TODO: What versions are Network UNIX and MUNIX derived from?
 
 | #   | Date                        | Version           | Institution                             | Notes                                                                  | Sources                |
 | --- | --------------------------- | ----------------- | --------------------------------------- | ---------------------------------------------------------------------- | ---------------------- |
-|     | Summer 1971                 | ?                 | Patent office                           | Successfully preparing patent applications on UNIX                     | [^pirzada]             |
+|     | summer 1971                 | ?                 | Patent office                           | Successfully preparing patent applications on UNIX                     | [^pirzada]             |
 | \-  | November 3, 1971            | **V1**            | -                                       | -                                                                      | [^releases]            |
 | \-  | June 12, 1972               | **V2**            | -                                       | -                                                                      | [^releases]            |
+|     | late 1972 or early 1973     | Cosnix (V3)       | Bell System 8th-Street site in LA       | Installed                                                              | [^spencer]             |
+|     | after 8th-Street            | Cosnix (V3)       | Bell Labs Whippany                      | A newer installation than the 8th-Street Cosnix installation           | [^spencer]             |
 | \-  | February 1973               | **V3**            | -                                       | -                                                                      | [^releases]            |
 | 1   | October 1973                | ?                 | Columbia University                     | License granted, first educational license                             | [^pirzada]             |
-| 2   | October 1973                | V4                | University of Alberta                   | V4 shipped                                                             | [^smillie]             |
+| 2   | October 1973[1]             | V4[1] [2]         | University of Alberta                   | V4 shipped[1], PDP-11/45 #315[2]                                       | 1[^smillie] 2[^spencer]|
 | 3   | October 1973                | ?                 | The Children's Museum                   | First non-educational licensee                                         | [^pirzada]             |
+| 8   | late 1973                   | V4                | Johns Hopkins University                | PDP-11/45 #493 later given to Chemistry Department                     | [^spencer]             |
 | \-  | November 1973               | **V4**            | -                                       | -                                                                      | [^releases]            |
-| 9   | at latest Winter 1973/1974  | ?                 | Harvard University                      | Start of joint work with the Children's Museum                         | [^news7507]            |
+| 9   | at latest winter 1973/1974  | ?                 | Harvard University                      | Start of joint work with the Children's Museum                         | [^news7507]            |
 | 14  | February 1974               | ?                 | Hebrew University of Jerusalem          | License granted, first licensee outside the US                         | [^pirzada]             |
 | 23  | January 1974                | V4                | University of California, Berkeley      | V4 delivered (attended SOSP'73)                                        | [^mckusick]            |
 | 24  | May 1974                    | ?                 | Queen Mary University of London         | License granted                                                        | [^pirzada]             |
 | \-  | June 1974                   | **V5**            | -                                       | -                                                                      | [^releases]            |
-|     | Spring 1974[1]              | V5[1] [2]         | University of California, Berkeley      | Purchased a PDP-11/40 running V5[1], no license sold[2]                | 1[^mckusick] 2[^venam] |
+|     | spring 1974[1]              | V5[1] [2]         | University of California, Berkeley      | Purchased a PDP-11/40 running V5[1], no license sold[2]                | 1[^mckusick] 2[^venam] |
 | 26  | July 1974                   | ?                 | The Rand Corporation                    | License granted, first commercial licensee                             | [^pirzada]             |
 | 27  | before Feb 1975[1], 1975[2] | V5[2]             | University of Illinois Urbana-Champaign | Network UNIX running full time[1], first source license for V5 sold[2] | 1[^holmgren] 2[^venam] |
-| 34  | Fall 1974                   | ?                 | Naval Postgraduate School               | Purchased (to be used for MUNIX)                                       | [^munix]               |
+| 34  | fall 1974                   | ?                 | Naval Postgraduate School               | Purchased (to be used for MUNIX)                                       | [^munix]               |
+| 37  | late 1974                   | ?                 | University of Toronto                   | PDP-11/45                                                              | [^spencer]             |
+| 46  | late 1973                   | V4                | The Cooper Union                        | PDP-11/45 which later ran V6                                           | [^spencer]             |
 | 49  | December 1, 1974            | ?                 | Katholieke Universiteit Nijmegen        | License effective                                                      | [^nijmegen]            |
+|     | late winter or spring 1975  | early V6          | University of Vermont                   | PDP-11/40                                                              | [^spencer]             |
 | \-  | May 1975                    | **V6**            | -                                       | -                                                                      | [^releases]            |
-|     | Fall 1975                   | V6                | University of California, Berkeley      | Thompson brought up V6 over one-year sabbatical                        | [^mckusick]            |
+|     | fall 1975                   | V6                | University of California, Berkeley      | Thompson brought up V6 over one-year sabbatical                        | [^mckusick]            |
 | \-  | around May 1977             | **Mini-UNIX**     | -                                       | -                                                                      | [^releases]            |
 | \-  | June 1977 (in use)          | **PWB/UNIX**      | -                                       | -                                                                      | [^releases]            |
 |     | September 1, 1977           | V6                | Katholieke Universiteit Leuven          | License effective                                                      | [^leuven]              |
@@ -132,8 +138,8 @@ List sources:
 | 5         |                           | University of Wisconsin                               | Madison, WI                  | Computer Science                 | Prof. E. J. Desautels          | 1 2 3 4 |
 | 6         |                           | California Institute of Technology                    | Pasadena, CA                 |                                  | Mr. A. J. Lindstrom            | 1       |
 | 7         |                           | Case Western Reserve University                       | Cleveland, OH                | Biometry                         | Mr. Gary M. Goins              | 1 2 3 4 |
-| 8         |                           | Johns Hopkins University                              | Baltimore, MD                | Electrical Engineering           | Prof. W. H. Huggins            | 1 2 3 4 |
-| 9         | ≤Winter 1973/1974 [^news7507] | Harvard University                                | Cambridge, MA                | Computation                      | Mr. Brent Byer                 | 1       |
+| 8         | late 1973 [^spencer]      | Johns Hopkins University                              | Baltimore, MD                | Electrical Engineering           | Prof. W. H. Huggins            | 1 2 3 4 |
+| 9         | ≤winter 1973/1974 [^news7507] | Harvard University                                | Cambridge, MA                | Computation                      | Mr. Brent Byer                 | 1       |
 | 9         |                           | Harvard University                                    | Cambridge, MA                | Science Center                   | Mr. Lewis A. Law               |   2 3 4 |
 |           |                           | Harvard University                                    | Boston, MA                   | Public Health                    | Shao-Sun Chien                 |       4 |
 | 10        |                           | Georgia Institute of Technology                       | Atlanta, GA                  | Information and Computer Science | Dr. Vladimir Slamecka          | 1       |
@@ -193,11 +199,11 @@ List sources:
 | 32        |                           | Knox College                                          | Galesburg, IL                | Computer Center                  | Mr. William C. Ripperger       | 1 2 3 4 |
 | 33        |                           | University of Edinburgh Medical School                | Edinburgh, Scotland          | Medical Computing                | Mr. Jeffrey Tansley            | 1 2     |
 |           |                           | University of Edinburgh                               | Edinburgh, Scotland          | Computer Science                 | Mr. Jeffrey Tansley            |     3 4 |
-| 34        | Fall 1974 [^munix]        | Naval Postgraduate School                             | Monterey, CA                 | Computer Science                 | Prof. Belton E. Allen          | 1 2 3   |
+| 34        | fall 1974 [^munix]        | Naval Postgraduate School                             | Monterey, CA                 | Computer Science                 | Prof. Belton E. Allen          | 1 2 3   |
 |           |                           | Naval Postgraduate School                             | Monterey, CA                 | Computer Science                 | Prof. Gerald L. Barksdale, Jr. |       4 |
 | 35        |                           | University of North Carolina at Chapel Hill           | Chapel Hill, NC              | Computer Science                 | Prof. James D. Foley           | 1 2 3 4 |
 | 36        |                           | The Spence School                                     | New York, NY                 |                                  | Mr. Dustin H. Heuston          | 1 2 3 4 |
-| 37        |                           | University of Toronto                                 | Toronto, ON, Canada          | Computer Research                | Mr. T. C. Stevens              | 1       |
+| 37        | late 1974 [^spencer]      | University of Toronto                                 | Toronto, ON, Canada          | Computer Research                | Mr. T. C. Stevens              | 1       |
 | 37        |                           | University of Toronto                                 | Toronto, ON, Canada          | Computer Research                | Mr. Dennis Smith               |   2     |
 |           |                           | University of Toronto                                 | Toronto, ON, Canada          | Computer Systems Research        | Mr. Tom Horsley                |     3   |
 |           |                           | University of Toronto                                 | Toronto, ON, Canada          | Computer Research                | Mr. K. C. Patnaik              |       4 |
@@ -211,7 +217,7 @@ List sources:
 | 43        |                           | Carleton College                                      | Northfield, MN               | Computer Center                  | Carl Henry                     | 1 2 3 4 |
 | 44        |                           | Foundation Mathematisch Centrum                       | Amsterdam, Netherlands       | Computer Science                 | D. W. de Bakker                | 1   3 4 |
 | 45        |                           | East Brunswick High School                            | East Brunswick, NJ           |                                  | Mr. Seymour Grodstein          | 1 2 3 4 |
-| 46        |                           | The Cooper Union                                      | New York, NY                 | Engineering                      | C. W. Tan                      | 1       |
+| 46        | late 1973 [^spencer]      | The Cooper Union                                      | New York, NY                 | Engineering                      | C. W. Tan                      | 1       |
 |           |                           | The Cooper Union                                      | New York, NY                 | Computer Center                  | Robert P. Hopkins              |     3 4 |
 | 47        |                           | University of South Carolina                          | Columbia, SC                 |                                  | H. S. Eisenstein               | 1   3   |
 |           |                           | University of South Carolina                          | Columbia, SC                 |                                  | H. K. Eisenstein               |       4 |
@@ -282,7 +288,7 @@ List sources:
 |           |                           | University of Texas at El Paso                        | El Paso, TX                  | E. E.                            | Glenn Gibson                   |       4 |
 |           |                           | Science Applications, Inc.                            | Arlington, VA                |                                  |                                |       4 |
 |           |                           | ARPA                                                  | Arlington, VA                |                                  | Steve Walker                   |       4 |
-|           |                           | University of Vermont                                 | Burlington, VT               | Lung Center                      | Mr. Richard Becker             |       4 |
+|           | late winter or spring 1975 (early V6) [^spencer] | University of Vermont          | Burlington, VT               | Vermont Lung Center              | Mr. Richard Becker             |       4 |
 |           |                           |                                                       | Toronto, ON, Canada          |                                  | Mr. Rick Macfarlane            |       4 |
 |           |                           | University of Calgary                                 | Calgary, AB, Canada          | Environmental Design             | Prof. Lawrence O. Sinkey       |       4 |
 |           |                           | University of British Columbia                        | Vancouver, BC, Canada        | Animal Resource Ecology          | Stephen W. Borden              |       4 |

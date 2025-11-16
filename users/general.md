@@ -1,5 +1,205 @@
 # General sources for early UNIX licensees
 
+- "oldest surviving Unix machine?"
+  [[Google Groups](https://groups.google.com/g/net.unix-wizards/c/XX9wwC2PMFk/m/ngH-OcxV1SoJ),
+  [Usenet Archives](https://www.usenetarchives.com/view.php?id=net.unix-wizards&mid=PDUyOTlAdXR6b28uVVVDUD4)] \
+  Henry Spencer \
+  net.unix-wizards, 19 March 1985
+
+  Early UNIX installations still running as of 1985:
+  - Installed late 1972 or early 1973: Bell System 8th-Street site in LA
+    (PDP-11/20? running Cosnix, a hacked derivative of V3)
+  - After that: Bell Labs Whippany (PDP-11/45 #570 running Cosnix)
+  - Columbia received Unix license number one
+  - Late 1973: V4 licenses for University of Alberta (PDP-11/45 #315), Johns
+    Hopkins University (PDP-11/45 #493, given to the Chemistry Department), and
+    the Cooper Union (PDP-11/45, now running V6)
+  - Late 1974: University of Toronto's original PDP-11/45
+  - Late winter or spring 1975: University of Vermont, Vermont Lung Center
+    (PDP-11/40 running an early V6)
+
+  Henry Spencer at 19 March 1985 13:09:05 UTC:
+
+  ```
+  Out of curiosity, I'm interested in locating the oldest Unix machine
+  that is still running Unix. U of T's original 11/45 is idle right now
+  but will be running Unix again shortly; this sets a "latest bound" on
+  the oldest machine, since our 45 appears to have been running Unix late
+  in 1974. This was one of the first 20 or so licensed Unixes outside Bell.
+  An older machine would have to be either inside Bell, or one of those
+  early few.
+
+  If the oldest machine turns out to be within Bell, I'm also interested
+  in the oldest non-Bell Unix machine.
+
+  Whatever machine is the oldest, it's not at the Murray Hill research
+  lab. I've already asked Dennis about this; nothing in his vicinity
+  is particularly old.
+
+  Since PDP-7 Unix can safely be assumed to be dead, the oldest Unix
+  machine will have to be an 11. Specifically, it will have to be a
+  45, a 40, or just possibly a 20, since our 45 pre-dates the official
+  announcement of the 70.
+
+  Please reply to me by mail; I will post the results.
+  --
+  Henry Spencer @ U of Toronto Zoology
+  {allegra,ihnp4,linus,decvax}!utzoo!henry
+  ```
+
+  Ed Gould at 25 March 1985 18:54:17 UTC:
+
+  ```
+  > Since PDP-7 Unix can safely be assumed to be dead, the oldest Unix
+  > machine will have to be an 11.
+  > --
+  > Henry Spencer @ U of Toronto Zoology
+
+  Well, maybe not! DEC dragged a PDP-7 to its booth at UniForum in
+  Dallas, and although they didn't get it running Unix for that
+  show they were hot on the trail of a Unix tape for it. Maybe
+  in Portland or Anaheim? (Are you interested in a machine that was
+  running Unix in ancient times or an ancient machine running Unix?
+  Clearly this is the latter.)
+
+  --
+  Ed Gould mt Xinu, 739 Allston Way, Berkeley, CA 94710 USA
+  {ucbvax,decvax}!mtxinu!ed +1 415 644 0146
+  ```
+
+  Henry Spencer at 30 March 1985 19:41:30 UTC:
+
+  ```
+  There are indeed people within Dec who are making a serious effort to
+  get Unix V1 running on a PDP-7. But my specific interest is in things
+  that have been running Unix all along, not Unix newly brought up on a
+  machine that happens to be an antique. (Anyone for a 7094 Unix port?)
+
+  To give people a quick progress report on what I've found, the oldest
+  Unix machine is unquestionably within Bell. There are still some old
+  11s running derivatives of the assembler version of Unix, i.e. V3 or
+  earlier. Obviously they are running canned applications, not serving
+  as development environments. The oldest non-Bell Unix is less clear,
+  and I'm still getting information on this. Our old 11/45 has quite
+  definitely lost, by the way, since there were a handful of Unixes in
+  the field rather earlier (probably before official licensing started,
+  unless I've got the dates wrong).
+
+
+  --
+  Henry Spencer @ U of Toronto Zoology
+  {allegra,ihnp4,linus,decvax}!utzoo!henry
+  ```
+
+  Al Baldwin at 3 April 1985 16:19:42 UTC:
+
+  ```
+  While I was in research at the University of Vermont, a group involved
+  with the Vermont Lung Center program project grant bought an 11/40.
+  After much frustration attempting to use RSX-11M Ver. 2.0 (for those
+  who know, multi-user on "M" in those days was a dream), the person
+  responsible for the system was convienced to try the "new" OS from
+  Bell Labs. As I recall, this was around late winter or spring of 1975.
+  The UN*X was version 6 (but real early). The system consisted of:
+
+  PDP-11/40 CPU with EIA and FIS (useless for UN*X!!).
+  32K core memory (DEC)
+  16K core memory (Plessey)
+  Dual RK03 2.4 meg. disk drives
+  6 DL11-E single line interfaces
+  Children's Museum's RK05 and DL11-E drivers
+
+  That's right, a 48K machine. This machine ran like this until
+  1979 when it was upgraded to an 11/45 (64K) + RK06's. I inherited
+  the system in 1978 (and promptly worked an upgrade). The 11/45 ran
+  until the project folded in 1984. Throughout the entire time, the
+  original V6 code was used (no upgrade to V7 due to the applications).
+
+  What I found impressive was the fact that not one line of kernel
+  code was modified during that time (only I/O driver code, RK06s,
+  tty driver, etc.). Most all of the system failures were due to
+  power fails (V6 didn't cope with that condition well), or hardware
+  problems. In fact, it was not uncommon towards the end for the 11/45
+  system to run 3 or 4 months between reboots (and then only for PM).
+
+
+  Al Baldwin
+  AT&T-Bell Labs
+  ...!ihnp4!hou2d!afb3
+
+
+  [These opinions are my own....Who else would want them!!!]
+  ```
+
+  "oldest Unix machine(s)"
+  [[Google Groups](https://groups.google.com/g/net.unix-wizards/c/4zZR9FyzM8k/m/0Xu77eACHEAJ),
+  [Usenet Archives](https://www.usenetarchives.com/view.php?id=net.unix-wizards&mid=PDU1ODRAdXR6b28uVVVDUD4)] \
+  Henry Spencer \
+  net.unix-wizards, 10 May 1985
+
+  Henry Spencer at 10 May 1985 13:38:56 UTC:
+
+  ```
+  Well, the mail about still-operational ancient Unix machines has petered
+  out, so here's the summary of results that I promised. For the purposes
+  of terminology in this article, I will pretend that Bell-System divestiture
+  didn't happen, since virtually all the events in question happened before
+  the breakup.
+
+  The oldest still-running Unix machine is unquestionably within the Bell
+  System. The Murray Hill research lab long since put its old machines
+  out to pasture, but there are some very old applications machines still
+  operational.
+
+  In particular, there are machines still running Cosnix, which was a hacked
+  derivative of the assembly-language Unix (V3). Obviously these are not
+  now used much as development machines, but as turnkey applications systems.
+  Incidentally, some, possibly all, of the applications are written in the
+  old "fc" semi-interpretive Fortran! 11/45 number 570 (numbers started at
+  100, Research's 45 was 110) is still running Cosnix at Bell Labs Whippany.
+  There is a still-older Cosnix machine in the Bell System 8th-Street site
+  in LA; it was installed in late 72 or early 73. Considering the timing,
+  this might be an 11/20 rather than a 45. This would appear to be the
+  Grand Prize winner for oldest Unix still operating.
+
+  Outside the Bell System, the picture is less clear. Unix license number
+  one went to Columbia, but this may not be too significant; I don't have
+  dates for the licenses, and in any case license dates don't necessarily
+  correlate with operational dates. Of the people I actually got responses
+  from, it would appear to be a three-way tie, all for V4 in late 1973,
+  between U of Alberta (11/45 #315, still running), Johns Hopkins U (11/45
+  #493, given to Chemistry Dept. but believed still running), and the Cooper
+  Union for the Advancement of Science and Art (a small NYC engineering
+  school) (11/45, #???, still running, possibly still V4!).
+
+  Corrections and addenda would be appreciated.
+
+  Thanks to all the people who replied with information, notably Dennis
+  Ritchie and John Mashey for the info on the Cosnix systems.
+  --
+  Henry Spencer @ U of Toronto Zoology
+  {allegra,ihnp4,linus,decvax}!utzoo!henry
+  ```
+
+  Roy Smith at 12 May 1985 10:24:38 UTC:
+
+  ```
+  > and the Cooper Union for the Advancement of Science and Art (a small NYC
+  > engineering school) (11/45, #???, still running, possibly still V4!).
+
+  Yes, Cooper still has their '45 going strong, but with V6. I
+  learned on that machine during my undergrad years there (1977-81). They
+  added a 160 Mb fuji since I left, but still boot off the 2 RK-05's they had
+  when I got there (yup, 5 Mb total disk space).
+
+  Isn't it amazing how 32 people can do real work on a machine with
+  256K of core (I think they finally upgraded to MOS ram) and a kernal that
+  only takes up about 20K?
+  --
+  allegra!phri!roy (Roy Smith)
+  System Administrator, Public Health Research Institute
+  ```
+
 - [*A Statistical Examination of The Evolution of the UNIX System*](http://jsg.id.au/misc/Shamim_Sharfuddin_Pirzada-1988-PhD-Thesis.pdf) \
   Shamim Sharifuddin Pirzada \
   Imperial College of Science, Technology and Medicine, University of London \
