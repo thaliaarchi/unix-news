@@ -1,0 +1,158 @@
+# Australian UNIX Users Group Newsletter
+
+Transcriptions of AUUGN, the newsletter of the Australian UNIX Users Group
+(AUUG).
+
+These issues are sourced from [scans](https://archive.org/details/auugnewsletter?sort=title)
+uploaded the Internet Archive by Warren Toomey.
+
+- Volume 1:
+  - 1\. AUUGN [October 1978](https://archive.org/details/auugnv01.1)
+  - 2\. AUUGN [December 1978–January 1979](https://archive.org/details/AUUGN_V01_2)
+  - 3\. AUUGN [February–March 1979](https://archive.org/details/AUUGN_V01_3)
+  - 4\. AUUGN [April–May 1979](https://archive.org/details/AUUGN_V01_4)
+  - 5\. AUUGN [June–July 1979](https://archive.org/details/AUUGN_V01_5)
+  - 6\. AUUGN [August–September 1979](https://archive.org/details/AUUGN_V01_6)
+- Volume 2:
+  - 1\. AUUGN [October–November 1979](https://archive.org/details/AUUGN_V02_1)
+  - 2\. AUUGN [December 1979–January 1980](https://archive.org/details/AUUGN_V02_2)
+  - 3\. AUUGN [February–March 1980](https://archive.org/details/AUUGN_V02_3)
+  - 4\. AUUGN [April–May 1980](https://archive.org/details/AUUGN_V02_4)
+  - 5\. AUUGN [June–July 1980](https://archive.org/details/AUUGN_V02_5)
+  - 6\. AUUGN [August–September 1980](https://archive.org/details/AUUGN_V02_6)
+- Volume 3:
+  - 1\. AUUGN [October–November 1980](https://archive.org/details/AUUGN_V03_1)
+  - 2\. AUUGN [December 1980–January 1981](https://archive.org/details/AUUGN_V03_2)
+  - 3\. AUUGN [February–March 1981](https://archive.org/details/AUUGN_V03_3)
+  - 4\. AUUGN [April–May 1981](https://archive.org/details/AUUGN_V03_4)
+  - 5\. AUUGN [June–July 1981](https://archive.org/details/AUUGN_V03_5)
+  - 6\. AUUGN [August–September 1981](https://archive.org/details/AUUGN_V03_6)
+- Volume 4:
+  - 1\. AUUGN [January 1982](https://archive.org/details/AUUGN_V04_1)
+  - 2\. AUUGN [March 1982](https://archive.org/details/AUUGN_V04_2)
+  - 3\. AUUGN [May 1982](https://archive.org/details/AUUGN_V04_3)
+  - 4\. AUUGN [July 1982](https://archive.org/details/AUUGN_V04_4)
+  - 5\. AUUGN [September 1982](https://archive.org/details/AUUGN_V04_5)
+  - 6\. AUUGN [November 1982](https://archive.org/details/AUUGN_V04_6)
+- Volume 5:
+  - 1\. AUUGN [January 1984](https://archive.org/details/AUUGN_V05_1)
+  - 2\. AUUGN [March 1984](https://archive.org/details/AUUGN_V05_2)
+  - 3\. AUUGN [June 1984](https://archive.org/details/AUUGN_V05_3)
+  - 4\. AUUGN [July 1984](https://archive.org/details/AUUGN_V05_4)
+  - 5\. AUUGN [October 1984](https://archive.org/details/AUUGN_V05_5)
+  - 6\. AUUGN [January 1985](https://archive.org/details/AUUGN_V05_6)
+- Volume 6:
+  - 1\. AUUGN [May 1985](https://archive.org/details/AUUGN_V06_1)
+  - 2\. AUUGN [July 1985](https://archive.org/details/AUUGN_V06_2)
+  - 3\. AUUGN [October 1985](https://archive.org/details/AUUGN_V06_3)
+  - 4\. AUUGN [January 1986](https://archive.org/details/AUUGN_V06_4)
+  - 5\. AUUGN [April 1986](https://archive.org/details/AUUGN_V06_5)
+  - 6\. AUUGN [August 1986](https://archive.org/details/AUUGN_V06_6)
+- Volume 7:
+  - 1\. AUUGN [October 1986](https://archive.org/details/AUUGN_V07_1)
+  - 2-3. AUUGN [December 1986](https://archive.org/details/AUUGN_V07_23)
+  - 4-5. AUUGN [February 1987](https://archive.org/details/AUUGN_V07_45)
+  - 6\. AUUGN [April 1987](https://archive.org/details/AUUGN_V07_6)
+- Volume 8:
+  - 1-2. AUUGN [June 1987](https://archive.org/details/AUUGN_V08_12)
+  - 3-4. AUUGN [August 1987](https://archive.org/details/AUUGN_V08_34)
+  - 5\. AUUGN [October 1987](https://archive.org/details/AUUGN_V08_5)
+  - 6\. AUUGN [December 1987](https://archive.org/details/AUUGN_V08_6)
+- Volume 9:
+  - 1\. AUUGN [February 1988](https://archive.org/details/AUUGN_V09_1)
+  - 2\. AUUGN [April 1988](https://archive.org/details/AUUGN_V09_2)
+  - 3\. AUUGN [June 1988](https://archive.org/details/AUUGN_V09_3)
+  - 4\. AUUGN [September 1988](https://archive.org/details/AUUGN_V09_4)
+  - 5\. AUUGN [October 1988](https://archive.org/details/AUUGN_V09_5)
+  - 6\. AUUGN [December 1988](https://archive.org/details/AUUGN_V09_6)
+- Volume 10:
+  - 1\. AUUGN [February 1989](https://archive.org/details/AUUGN_V10_1)
+  - 2\. AUUGN [April 1989](https://archive.org/details/AUUGN_V10_2)
+  - 3\. AUUGN [June 1989](https://archive.org/details/AUUGN_V10_3)
+  - 4\. AUUGN [August 1989](https://archive.org/details/AUUGN_V10_4)
+  - 5\. AUUGN [October 1989](https://archive.org/details/AUUGN_V10_5)
+  - 6\. AUUGN [December 1989](https://archive.org/details/AUUGN_V10_6)
+- Volume 11:
+  - 1\. AUUGN [February 1990](https://archive.org/details/AUUGN_V11_1)
+  - 2\. AUUGN [April 1990](https://archive.org/details/AUUGN_V11_2)
+  - 3\. AUUGN [June 1990](https://archive.org/details/AUUGN_V11_3)
+  - 4\. AUUGN [December 1990](https://archive.org/details/AUUGN_V11_4)
+- Volume 12:
+  - 1\. AUUGN [April 1991](https://archive.org/details/AUUGN_V12_1)
+  - 2/3. AUUGN [August 1991](https://archive.org/details/AUUGN_V12_23)
+  - 4/5. AUUGN [October 1991](https://archive.org/details/AUUGN_V12_45)
+  - 6\. AUUGN [Decenber 1991](https://archive.org/details/AUUGN_V12_6)
+- Volume 13:
+  - 1\. AUUGN [February 1992](https://archive.org/details/AUUGN_V13_1)
+  - 2\. AUUGN [April 1992](https://archive.org/details/AUUGN_V13_2)
+  - 3\. AUUGN [June 1992](https://archive.org/details/AUUGN_V13_3)
+  - 4\. AUUGN [August 1992](https://archive.org/details/AUUGN_V13_4)
+  - 5\. AUUGN [October 1992](https://archive.org/details/AUUGN_V13_5)
+  - 6\. AUUGN [December 1992](https://archive.org/details/AUUGN_V13_6)
+- Volume 14:
+  - 1\. AUUGN [February 1993](https://archive.org/details/AUUGN_V14_1)
+  - 2\. AUUGN [April 1993](https://archive.org/details/AUUGN_V14_2)
+  - 3\. AUUGN [June 1993](https://archive.org/details/AUUGN_V14_3)
+  - 4\. AUUGN [August 1993](https://archive.org/details/AUUGN_V14_4)
+  - 5\. AUUGN [October 1993](https://archive.org/details/AUUGN_V14_5)
+  - 6\. AUUGN [December 1993](https://archive.org/details/AUUGN_V14_6)
+- Volume 15:
+  - 1\. AUUGN [February 1994](https://archive.org/details/AUUGN_V15_1)
+  - 2\. AUUGN [April 1994](https://archive.org/details/AUUGN_V15_2)
+  - 3\. AUUGN [June 1994](https://archive.org/details/AUUGN_V15_3)
+  - 4\. AUUGN [August 1994](https://archive.org/details/AUUGN_V15_4)
+  - 5\. AUUGN [October 1994](https://archive.org/details/AUUGN_V15_5)
+  - 6\. AUUGN [December 1994](https://archive.org/details/AUUGN_V15_6)
+- Volume 16:
+  - 1\. AUUGN [February 1995](https://archive.org/details/AUUGN_V16_1)
+  - 2\. AUUGN [April 1995](https://archive.org/details/AUUGN_V16_2)
+  - 3\. AUUGN [June 1995](https://archive.org/details/AUUGN_V16_3)
+  - 4\. AUUGN [August 1995](https://archive.org/details/AUUGN_V16_4)
+  - 5\. AUUGN [October 1995](https://archive.org/details/AUUGN_V16_5)
+  - 6\. AUUGN [December 1995](https://archive.org/details/AUUGN_V16_6)
+- Volume 17:
+  - 1\. AUUGN [February 1996](https://archive.org/details/AUUGN_V17_1)
+  - 2\. AUUGN [April 1996](https://archive.org/details/AUUGN_V17_2)
+  - 3\. AUUGN [June 1996](https://archive.org/details/AUUGN_V17_3)
+  - 4\. AUUGN [August 1996](https://archive.org/details/AUUGN_V17_4)
+  - 5/6. AUUGN [October/December 1996](https://archive.org/details/AUUGN_V17_56)
+- Volume 18:
+  - 1\. AUUGN [February 1997](https://archive.org/details/AUUGN_V18_1)
+  - 2\. AUUGN [May 1997](https://archive.org/details/AUUGN_V18_2)
+  - 3\. AUUGN [August 1997](https://archive.org/details/AUUGN_V18_3)
+  - 4\. AUUGN [December 1997](https://archive.org/details/AUUGN_V18_4)
+- Volume 19:
+  - 1\. AUUGN [February 1998](https://archive.org/details/AUUGN_V19_1)
+  - 2\. AUUGN [May 1998](https://archive.org/details/AUUGN_V19_2)
+  - 3\. AUUGN [August 1998](https://archive.org/details/AUUGN_V19_3)
+  - 4\. AUUGN [November 1998](https://archive.org/details/AUUGN_V19_4)
+- Volume 20:
+  - 1\. AUUGN [February 1999](https://archive.org/details/AUUGN_V20_1)
+  - 2\. AUUGN [June 1999](https://archive.org/details/AUUGN_V20_2)
+  - 3\. AUUGN [August 1999](https://archive.org/details/AUUGN_V20_3)
+  - 4\. AUUGN [November 1999](https://archive.org/details/AUUGN_V20_4)
+- Volume 21:
+  - 1\. AUUGN [March 2000](https://archive.org/details/AUUGN_V21_1)
+  - 2\. AUUGN [June 2000](https://archive.org/details/AUUGN_V21_2)
+  - 3\. AUUGN [September 2000](https://archive.org/details/AUUGN_V21_3)
+  - 4\. AUUGN [December 2000](https://archive.org/details/AUUGN_V21_4)
+- Volume 22:
+  - 1\. AUUGN [March 2001](https://archive.org/details/AUUGN_V22_1)
+  - 2\. AUUGN [July 2001](https://archive.org/details/AUUGN_V22_2)
+  - 3\. AUUGN [November 2001](https://archive.org/details/AUUGN_V22_3)
+  - 4\. AUUGN [December 2001](https://archive.org/details/AUUGN_V22_4)
+- Volume 23:
+  - 1\. AUUGN [March 2002](https://archive.org/details/AUUGN_V23_1)
+  - 2\. AUUGN [July 2002](https://archive.org/details/AUUGN_V23_2)
+  - 3\. AUUGN [October 2002](https://archive.org/details/AUUGN_V23_3)
+  - 4\. AUUGN [December 2002](https://archive.org/details/AUUGN_V23_4)
+- Volume 24:
+  - 1\. AUUGN [March 2003](https://archive.org/details/AUUGN_V24_1)
+  - 2\. AUUGN [June 2003](https://archive.org/details/AUUGN_V24_2)
+  - 3\. AUUGN [September 2003](https://archive.org/details/AUUGN_V24_3)
+  - 4\. AUUGN [December 2003](https://archive.org/details/AUUGN_V24_4)
+- Volume 25:
+  - 1\. AUUGN [March 2004](https://archive.org/details/AUUGN_V25_1)
+  - 2\. AUUGN [June 2004](https://archive.org/details/AUUGN_V25_2)
+  - 3\. AUUGN [September 2004](https://archive.org/details/AUUGN_V25_3)
+  - 4\. AUUGN [December 2004](https://archive.org/details/AUUGN_V25_4)

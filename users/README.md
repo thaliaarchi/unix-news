@@ -12,14 +12,14 @@ members, and USENIX conference registrants.
 | June 1974        | >50 installs                                | Fifth Edition manual     |
 | June 27, 1975    | [51 licensees, 55 installs](1975-06-27.txt) | Ken's Dennis_Tapes list  |
 | July 16, 1975    | ≥49 licensees                               | UNIX News July 16, 1975  |
-| July 30, 1975    | [37 mailing, ≥51 licensees](1975-07-30.txt) | UNIX News July 30, 1975  |
-| March 19, 1976   | [80 mailing](1976-03-19.txt)                | UNIX News March 19, 1976 |
-| July 1976        | >125 mailing                                | UNIX News July 1976      |
-| September 1976   | [138 mailing](1976-09.txt)                  | UNIX News September 1976 |
-| July 1977        | 168 mailing [TODO]                          | ;login: July 1977        |
-| October 1977     | >250 mailing                                | ;login: October 1977     |
+| July 30, 1975    | [37 USENIX, ≥51 licensees](1975-07-30.txt)  | UNIX News July 30, 1975  |
+| March 19, 1976   | [80 USENIX](1976-03-19.txt)                 | UNIX News March 19, 1976 |
+| July 1976        | >125 USENIX                                 | UNIX News July 1976      |
+| September 1976   | [138 USENIX](1976-09.txt)                   | UNIX News September 1976 |
+| July 1977        | 168 USENIX [TODO]                           | ;login: July 1977        |
+| October 1977     | >250 USENIX                                 | ;login: October 1977     |
 | January 6, 1978  | 300 Bell installs, ≫300 non-Bell installs   | BSTJ 57.6 page 1947      |
-| October 1978     | [38 AUUGN mailing](../auugn/1978-10/4.txt)  | AUUGN October 1978       |
+| October 1978     | [38 AUUGN](../auugn/1978-10/4.txt)          | AUUGN October 1978       |
 | January 28, 1980 | 447 Boulder USENIX [TODO]                   | ;login: February 1980    |
 
 [^nijmegen]: "SOFTWARE AGREEMENT between WESTERN ELECTRIC COMPANY, INCORPORATED

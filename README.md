@@ -5,7 +5,7 @@ focusing on the first users before V7, from 1969 to around 1976.
 
 - [UNIX News and ;login:](login/README.md) (1975–2020):
   the USENIX newsletter/magazine, the first newsletter for UNIX
-- [Australian UNIX Users Group Newsletter](auugn/README.md):
+- [Australian UNIX Users Group Newsletter](auugn/README.md) (1978–2004):
   the first Australian newsletter for UNIX
 - Many documents relating to [early UNIX users](users/README.md)
 - [UNIX manuals](manuals/README.md):
