@@ -7,6 +7,9 @@
 
   Described on [Dennis Ritchie's site](https://www.nokia.com/bell-labs/about/dennis-m-ritchie/licenses.html):
 
+  Effective on 1 December 1974, signed by AT&T on 26 February 1975 and by
+  Nijmegen on 6 February 1975.
+
   > Prof. Karl Kleine at Fachhochschule Jena in Germany found and scanned some
   > documents relating to the distribution of early versions of Unix, and kindly
   > made them available.
@@ -56,3 +59,30 @@
   >    4. UNIX assembler reference manual.
   >
   > [page 6]
+
+- "SOFTWARE AGREEMENT between WESTERN ELECTRIC COMPANY, INCORPORATED and
+  KATHOLIEKE UNIVERSITEIT LEUVEN Effective as of September 1, 1977"
+
+  Available at: ["Computer museum: ATT Unix licence"](https://museum.cs.kuleuven.be/pdp/licentie-E.html) \
+  Katholieke Universiteit Leuven, Departement Computerwetenschappen \
+  Revised 23 May 2015
+
+  Effective from 1 September 1977, signed by AT&T on 1 September 1977 and by
+  Leuven on 15 September 1977.
+
+  > This is the Unix licence signed by K.U.Leuven in September 1977. It allows
+  > the K.U.Leuven to run Unix V6 (version 6) on the PDP 11/45 of the Unité
+  > d'Informatique of the Université Catholique de Louvain. (At that time we did
+  > not have a PDP to run Unix.
+  >
+  > This licence was later extended for Unix V7 and Unix System V and to run
+  > Unix on our own machines.
+  >
+  > The first pages of the licence are mostly legaleze and only the first two
+  > pages and the signatures can be found here.
+  >
+  > The appendix did contain every file/program covered by the licence. The
+  > first two pages contain a list of the contents of /bin, /etc, /usr/bin and
+  > /usr/games.
+
+  Only some pages are available.

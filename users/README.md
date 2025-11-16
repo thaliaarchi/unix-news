@@ -33,6 +33,8 @@ members, and USENIX conference registrants.
   Naval Postgraduate School \
   Master's thesis, June 1975
 [^news7507]: UNIX News July 30, 1975
+[^leuven]: "SOFTWARE AGREEMENT between WESTERN ELECTRIC COMPANY, INCORPORATED
+  and KATHOLIEKE UNIVERSITEIT LEUVEN Effective as of September 1, 1977"
 [^pirzada]: *A Statistical Examination of The Evolution of the UNIX System* \
   Shamim Sharifuddin Pirzada \
   Imperial College of Science, Technology and Medicine, University of London \
@@ -75,11 +77,12 @@ TODO: What versions are Network UNIX and MUNIX derived from?
 | 26  | July 1974                   | ?                 | The Rand Corporation                    | License granted, first commercial licensee                             | [^pirzada]             |
 | 27  | before Feb 1975[1], 1975[2] | V5[2]             | University of Illinois Urbana-Champaign | Network UNIX running full time[1], first source license for V5 sold[2] | 1[^holmgren] 2[^venam] |
 | 34  | Fall 1974                   | ?                 | Naval Postgraduate School               | Purchased (to be used for MUNIX)                                       | [^munix]               |
-| 49  | December 1, 1974            | ?                 | Katholieke Universiteit Nijmegen        | License effective date                                                 | [^nijmegen]            |
+| 49  | December 1, 1974            | ?                 | Katholieke Universiteit Nijmegen        | License effective                                                      | [^nijmegen]            |
 | \-  | May 1975                    | **V6**            | -                                       | -                                                                      | [^releases]            |
 |     | Fall 1975                   | V6                | University of California, Berkeley      | Thompson brought up V6 over one-year sabbatical                        | [^mckusick]            |
 | \-  | around May 1977             | **Mini-UNIX**     | -                                       | -                                                                      | [^releases]            |
 | \-  | June 1977 (in use)          | **PWB/UNIX**      | -                                       | -                                                                      | [^releases]            |
+|     | September 1, 1977           | V6                | Katholieke Universiteit Leuven          | License effective                                                      | [^leuven]              |
 | \-  | March 9, 1978               | **1BSD**          | -                                       | -                                                                      | [^releases]            |
 | \-  | mid 1978                    | **2BSD**          | -                                       | -                                                                      | [^releases]            |
 | \-  | January 1979                | **V7**            | -                                       | -                                                                      | [^releases]            |
@@ -294,6 +297,7 @@ List sources:
 |           |                           | University of London, Westfield College               | London, England              |                                  | Colin Taylor                   |       4 |
 |           |                           | Technion - Israel Institute of Technology             | Haifa, Israel                |                                  |                                |       4 |
 |           |                           | Vrije Universiteit                                    | Amsterdam, Netherlands       | Mathematics                      | Dr. Andrew Tanenbaum           |       4 |
+|           | Sep 1 1977 (V6) [^leuven] | Katholieke Universiteit Leuven                        | Leuven, Belgium              | Computer Science                 |                                |         |
 |           |                           | Royal Military College                                | Campbell, ACT, Australia     |                                  |                                |       5 |
 |           |                           | University of Melbourne                               | Melbourne, VIC, Australia    |                                  |                                |       5 |
 |           |                           | University of Queensland                              | Brisbane, QLD, Australia     |                                  |                                |       5 |
