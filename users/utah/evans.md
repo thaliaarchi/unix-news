@@ -16,6 +16,11 @@ Sections:
 - VIII: Professional Papers
 - IX: Miscellaneous
 
+Here are some items I think are possible to find in the first group: license
+agreement or Bell Labs correspondence in Bell Northern or Purchase Orders
+folders; what our computers were used for in the PDP-9, -10, and -11 folders;
+and insight into the formation of the CS dept in the 1967 folder.
+
 Items prioritized:
 - 1
   - V, Box 98, Folder 2-3: Bell Northern, Correspondence and affiliation analysis (1974-1978)
