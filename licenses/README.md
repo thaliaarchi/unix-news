@@ -1,9 +1,16 @@
 # UNIX license agreements
 
-- December 1, 1973: Western Electric and University of California, Berkeley
-- December 1, 1974: Western Electric and Katholieke Universiteit Nijmegen
-- September 1, 1977: Western Electric and Katholieke Universiteit Leuven
-- 1982: AT&T and blank (specimen copy)
+| License revision             | Licensor         | Licensee                                                         | Effective  | Signed     |
+| ---------------------------- | ---------------- | ---------------------------------------------------------------- | ---------- | ---------- |
+| Software-Univ.—020173        | Western Electric | [University of California, Berkeley](univ-020173-berkeley/)      | 1973-12-01 | 1974-02-11 |
+| Software-Univ.—020173-122073 | Western Electric | [*Partial copy (pages 2–6)*](univ-020173-060574-nijmegen/)       |            |            |
+| Software-Univ.—020173-060574 | Western Electric | [Katholieke Universiteit Nijmegen](univ-020173-060574-nijmegen/) | 1974-12-01 | 1975-02-26 |
+| Software-Univ.—020173-020176 | Western Electric | [Katholieke Universiteit Leuven](univ-020173-020176-leuven/)     | 1977-09-01 | 1977-09-15 |
+| Software-Corp.-020173-020182 | AT&T             | [*Specimen copy*](corp-020173-020182-specimen/)                  |            |            |
+
+The second date component in the license revision is the date it was last
+revised, the effective date is written on the title page, and the signed date is
+the date of the last signature.
 
 TODO:
 - [Various 1979–1999: University of California, Berkeley](https://web.archive.org/web/20240701112852/http://www.groklaw.net/article.php?story=20110410231937980)
