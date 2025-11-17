@@ -1,10 +1,17 @@
 # Sources for the University of Utah and UNIX
 
+## People
+
 - [David Evans](evans.md)
 - [Martin Newell](newell.md)
 - [Jim Blinn](blinn.md)
 - [Mike Hibler](hibler.md)
 - [Jay Lepreau](lepreau.md)
+
+## Areas
+
+- [Graphics](graphics.md)
+- [ARPANET](arpanet.md)
 
 ## Research questions
 

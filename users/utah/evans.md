@@ -2,6 +2,8 @@
 
 ## Archives
 
+Searched for "unix" (exact) on Archives West.
+
 Collection MS 0625: [David C. Evans papers (1958-1987)](https://archiveswest.orbiscascade.org/ark:80444/xv18380) \
 University of Utah Libraries, Special Collections, J. Willard Marriott Library
 
