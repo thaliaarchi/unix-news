@@ -1,0 +1,52 @@
+Software-Corp.-020173-010182-6
+
+
+
+
+  5.07  The obligations of LICENSEE, its SUBSIDIARIES and their respective
+employees under Section 5.06 shall survive and continue after any termination of
+rights under this agreement or cessation of a SUBSIDIARY’S status as a
+SUBSIDIARY; however, such obligations shall not extend to any information
+relating to the LICENSED SOFTWARE which is now available to the general
+public or which later becomes available to the general public by acts not
+attributable to LICENSEE, its SUBSIDIARIES or their respective employees.
+
+  5.08  LICENSEE agrees that it and its SUBSIDIARIES will not use the
+LICENSED SOFTWARE except as authorized herein, that it and its
+SUBSIDIARIES will not make or have made, or permit to be made, any copies of
+the LICENSED SOFTWARE, except those copies which are necessary to the use,
+by LICENSEE and its SUBSIDIARIES, for which rights are granted hereunder,
+that each such necessary copy shall contain the same proprietary notices or legends
+which appear on the LICENSED SOFTWARE, and that no rights are granted
+under this agreement expressly or impliedly with respect to any copyrights except
+as provided for in this Section 5.08.
+
+  5.09  Neither this agreement nor any rights hereunder, in whole or in part, shall
+be assignable or otherwise transferable.
+
+  5.10  Nothing in this agreement grants to LICENSEE or to its SUBSIDIARIES
+the right to sell, lease or otherwise transfer or dispose of the LICENSED
+SOFTWARE in whole or in part.
+
+  5.11  Any payment, statement, notice, request or other communication
+hereunder shall be deemed to be sufficiently given to the addressee and any
+delivery hereunder deemed made when sent by certified mail addressed to
+LICENSEE at its office above specified or addressed to AT&T at P.O. Box 25000,
+Greensboro, North Carolina 27420 (to the attention of its Technology Licensing
+Organization), or at such changed address as the addressee shall have specified by
+written notice.
+
+  5.12  This agreement sets forth the entire agreement and understanding
+between the parties as to the subject matter hereof and merges all prior discussions
+between them, and neither of the parties shall be bound by any conditions,
+definitions, warranties, understandings or representations with respect to such
+subject matter other than as expressly provided herein, or in any prior existing
+written agreement between the parties, or as duly set forth on or subsequent to the
+effective date hereof in writing and signed by a proper and duly authorized
+representative of the party to be bound thereby.
+
+  5.13  If LICENSEE is not a corporation, all references to LICENSEE’S
+SUBSIDIARIES shall be deemed deleted.
+
+  5.14  The construction and performance of this agreement shall be governed by
+the law of the State of New York.

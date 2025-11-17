@@ -1,0 +1,36 @@
+Software-Corp.-020173-020182-8
+
+
+
+
+                      DEFINITIONS APPENDIX
+
+  ASSOCIATED COMPANIES of AT&T means SUBSIDIARIES of AT&T,
+Cincinnati Bell Inc., an Ohio corporation, and The Southern New England
+Telephone Company, a Connecticut corporation, and their SUBSIDIARIES.
+
+  CPU means central processing unit.
+
+  COMPUTER PROGRAM means any instruction or plurality of instructions for
+controlling the operation of a CPU.
+
+  DESIGNATED CPU means any CPU that becomes such pursuant to Section
+2.01(c) or Section 3.01
+
+  LICENSED SOFTWARE means all or any portion of the COMPUTER
+PROGRAMS, other information and documentation specifically listed in the
+attached Schedule for
+
+
+
+
+
+
+
+
+
+
+  SUBSIDIARY means a company the majority of whose stock entitled to vote for
+election of directors is now or hereafter controlled by the parent company either
+directly or indirectly, but any such company shall be deemed to be a
+SUBSIDIARY only so long as such control exists.

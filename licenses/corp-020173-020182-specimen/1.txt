@@ -1,0 +1,49 @@
+Software-Corp.-020173-020182-1
+
+
+
+
+                        SOFTWARE AGREEMENT
+
+
+  Effective as of
+AMERICAN TELEPHONE AND TELEGRAPH COMPANY, a New York
+corporation (“AT&T”), having an office at 195 Broadway, New York, New York
+10007, and
+
+
+
+(“LICENSEE”), having an office at
+
+
+
+agree as follows:
+
+
+                            ARTICLE I
+
+                           DEFINITIONS
+
+  1.01  Terms in this agreement (other than names of parties and Article headings)
+which are in capital letters shall have the meanings specified in the Definitions
+Appendix.
+
+                            ARTICLE II
+
+            GRANTS OF RIGHTS TO USE LICENSED SOFTWARE
+
+  2.01  (a) AT&T, at the request of LICENSEE, grants to LICENSEE, for itself
+and its SUBSIDIARIES, a personal, nontransferable and nonexclusive right to use
+the LICENSED SOFTWARE, solely for its own or its SUBSIDIARIES’ internal
+business purposes and solely on DESIGNATED CPUs.
+
+  (b)  A single back-up CPU may be used as a substitute for a DESIGNATED
+CPU without notice to AT&T during any time when such CPU is inoperative
+because it is malfunctioning or undergoing repair, maintenance or other
+modifications.
+
+  (c)  LICENSEE may at any time notify AT&T in writing of its designation by
+location, type and serial number of any replacing or additional CPU that is to
+become a DESIGNATED CPU and any CPU to be replaced. Any such designation
+shall become effective on agreement thereto in writing by AT&T and receipt by
+AT&T of the appropriate fee, if any, specified in Section 3.02.

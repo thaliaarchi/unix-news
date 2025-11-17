@@ -1,0 +1,39 @@
+Software-Corp.-020173-020182-2
+
+
+
+
+  (d)  No right is granted for the use of the LICENSED SOFTWARE directly for
+any third person, or for any use by any third person of the LICENSED
+SOFTWARE.
+
+  2.02  Subject to receipt by AT&T of the payment specified in Section 3.01,
+within a reasonable time after such receipt, AT&T or one of its ASSOCIATED
+COMPANIES shall furnish to LICENSEE the LICENSED SOFTWARE in the
+form identified in the Schedule attached hereto and made a part hereof.
+
+  2.03  LICENSEE agrees that neither it nor its SUBSIDIARIES will, without the
+prior written consent of AT&T, transmit, directly or indirectly, the LICENSED
+SOFTWARE to any country outside of
+
+  2.04  LICENSEE hereby assures AT&T that it and its SUBSIDIARIES do not
+intend to and will not knowingly, without the prior written consent, if required, of
+the Office of Export Administration of the U.S. Department of Commerce,
+Washington, D.C. 20230, transmit directly or indirectly:
+
+    (i) the LICENSED SOFTWARE; or
+
+   (ii) any immediate product (including processes and services) produced
+        directly by the use of the LICENSED SOFTWARE; or
+
+  (iii) any commodity produced by such immediate product if the immediate
+        product of the LICENSED SOFTWARE is a plant capable of producing a
+        commodity or is a major component of such plant;
+
+to Afghanistan or to any Group P, Q, S, W, Y or Z country specified in Supplement
+No. 1 to Section 370 of the Export Administration Regulations issued by the U.S.
+Department of Commerce.
+
+2.05 LICENSEE agrees that its and its SUBSIDIARIES’ obligations under
+Sections 2.03 and 2.04 shall survive and continue after any termination of rights
+under this agreement.

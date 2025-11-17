@@ -1,0 +1,19 @@
+Software-Corp.-020173-010182-4
+
+
+
+
+                            ARTICLE IV
+
+                            TERMINATION
+
+  4.01  If LICENSEE or any of its SUBSIDIARIES shall fail to fulfill one or more
+of its obligations under this agreement, AT&T may, upon its election and in
+addition to any other remedies that it may have, at any time terminate all the rights
+granted by it hereunder by not less than two (2) months’ written notice to
+LICENSEE specifying any such breach, unless within the period of such notice all
+breaches specified therein shall have been remedied; upon such termination AT&T
+shall not have any obligation to refund any monies paid it pursuant to Sections 3.01
+and 3.02 and LICENSEE shall within thirty (30) days deliver to AT&T all
+documentation containing the LICENSED SOFTWARE, and shall render
+unusable all LICENSED SOFTWARE placed in any storage apparatus.

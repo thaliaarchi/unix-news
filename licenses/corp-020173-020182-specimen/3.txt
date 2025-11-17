@@ -1,0 +1,56 @@
+Software-Corp.-020173-020182-3
+
+
+
+
+
+                            ARTICLE III
+
+                         FEES AND REPORTS
+
+  3.01  LICENSEE shall, within sixty (60) days after execution hereof by both
+parties, pay to AT&T a fee of
+
+                                                  U.S. dollars ($           )
+for the rights granted hereunder with respect to the CPU identified by location,
+type and serial number as follows:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+On receipt of such payment by AT&T, such CPU shall become a DESIGNATED
+CPU.
+
+  3.02  For each DESIGNATED CPU to be added pursuant to Section 2.01 (c)
+LICENSEE shall pay to AT&T a fee of
+U.S. dollars ($            ).
+
+  3.03  Payments to AT&T shall be made in United States dollars to AT&T at the
+address specified in Section 5.11.
+
+  3.04  On AT&T’S request, but not more frequently than annually, LICENSEE
+shall furnish to AT&T a statement, certified by an authorized representative of
+LICENSEE, that the use of the LICENSED SOFTWARE by LICENSEE and its
+SUBSIDIARIES has been reviewed and that the LICENSED SOFTWARE is
+being used solely on DESIGNATED CPUs (or temporarily on a back-up CPU in
+place of any inoperative DESIGNATED CPU) pursuant to the provisions of this
+agreement.
+
+  3.05  LICENSEE shall bear all taxes (and any related interest and penalties),
+however designated, imposed as a result of the existence or operation of this
+agreement, including, but not limited to, any tax upon, with respect to or measured
+by, any payment or receipt of payment hereunder and any tax imposed with respect
+to the granting or transfer of rights or consideration hereunder: Fees specified in
+this agreement are exclusive of any taxes which AT&T may be required to collect
+from LICENSEE and LICENSEE shall make payment of such taxes to AT&T on
+demand.
