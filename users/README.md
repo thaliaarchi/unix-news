@@ -20,6 +20,7 @@ members, and USENIX conference registrants.
 | October 1977     | >250 USENIX                                 | ;login: October 1977     |
 | January 6, 1978  | 300 Bell installs, ≫300 non-Bell installs   | BSTJ 57.6 page 1947      |
 | October 1978     | [38 AUUGN](../auugn/1978-10/4.txt)          | AUUGN October 1978       |
+| end of 1978      | >600 installs                               | Life with UNIX page 12   |
 | January 28, 1980 | 447 Boulder USENIX [TODO]                   | ;login: February 1980    |
 
 [^nijmegen]: "SOFTWARE AGREEMENT between WESTERN ELECTRIC COMPANY, INCORPORATED
@@ -39,6 +40,8 @@ members, and USENIX conference registrants.
   Shamim Sharifuddin Pirzada \
   Imperial College of Science, Technology and Medicine, University of London \
   Doctor of Philosophy thesis, September 1988
+[^libes]: *Life with UNIX: A Guide for Everyone* \
+  Don Libes and Sandy Ressler, 1989
 [^smillie]: *The Department of Computing Science: The First Twenty-Five Years* \
   Keith Smillie \
   Department of Computing Science Technical Report TR-91-01, February 1991 \
@@ -71,7 +74,7 @@ TODO: What versions are Network UNIX and MUNIX derived from?
 |     | late 1972 or early 1973     | Cosnix (V3)       | Bell System 8th-Street site in LA       | Installed                                                              | [^spencer]             |
 |     | after 8th-Street            | Cosnix (V3)       | Bell Labs Whippany                      | A newer installation than the 8th-Street Cosnix installation           | [^spencer]             |
 | \-  | February 1973               | **V3**            | -                                       | -                                                                      | [^releases]            |
-| 1   | October 1973                | ?                 | Columbia University                     | License granted, first educational license                             | [^pirzada]             |
+| 1   | October 1973[1]             | ?                 | Columbia University                     | License granted[1], first educational license[1] [2]                   | 1[^pirzada] 2[^libes]  |
 | 2   | October 1973[1]             | V4[1] [2]         | University of Alberta                   | V4 shipped[1], PDP-11/45 #315[2]                                       | 1[^smillie] 2[^spencer]|
 | 3   | October 1973                | ?                 | The Children's Museum                   | First non-educational licensee                                         | [^pirzada]             |
 | 8   | late 1973                   | V4                | Johns Hopkins University                | PDP-11/45 #493 later given to Chemistry Department                     | [^spencer]             |

@@ -340,6 +340,79 @@
 
   Are these DECtapes under the floorboards the Dennis_Tapes?
 
+- [*Life with UNIX: A Guide for Everyone*](https://www.tuhs.org/Archive/Documentation/Books/Life_with_Unix.pdf) \
+  Don Libes and Sandy Ressler, 1989
+
+  A good early history: MULTICS, PDP-10 request, Space Travel, PDP-7, patent
+  office, pipes, NB kernel rewrite attempt, C structs and globals, kernel and
+  shell rewritten in C, UNIX Systems Group for internal support, V4 distributed
+  to several universities, CACM '74 paper, V5 for educational, V6 widely used,
+  commercial licenses bug reports to `research` over uucp, PWB, V6, Mike Lesk's
+  Portable C Library (later rewritten by Dennis as stdio), first UNIX users
+  meeting in NYC with 40 attendees, UNIX News, Lions' Commentary, various ports
+  (Interdata 8/32, Interdata 7/32, VM/370), 1BSD, V7 with K&R C and Bourne
+  shell, 32V, Whitesmiths C. [pages 3–12].
+
+  > In 1973, C was enhanced to support structures and global variables. At this
+  > point, Ken and Dennis successfully rewrote the UNIX kernel in C. The shell
+  > was also rewritten (from assembler) into C. This improved the robustness of
+  > the system and made programming and debugging much easier.
+  >
+  > At this point, there were approximately 25 UNIX systems. A UNIX Systems
+  > Group was created at the Labs for internal support. Several universities
+  > contacted Bell Labs and received copies of the Fourth Edition. Agreements
+  > were signed not to disclose the source code, but no licenses were in use at
+  > this point. Ken made the tapes himself and didn’t charge anything. The first
+  > tapes went to Columbia University in New York.
+  >
+  > In 1974, Ken and Dennis published a paper in Communications of the ACM,
+  > describing the UNIX system. At that time, Communications was the premier
+  > journal for computer science research, and the article raised interest in
+  > UNIX considerably throughout academia. The Fifth Edition was officially made
+  > "The number of UNIX installations has grown to 10, with more expected." –
+  > The UNIX Programmer’s Manual, Second Edition, available to universities "for
+  > educational purposes." The price was nominal – enough to cover the cost of
+  > reproducing a set of tapes and manuals. The Fifth Edition was used as a
+  > teaching aid at many universities. [page 7]
+  >
+  > In 1975, the Sixth Edition UNIX system was released. This was the first UNIX
+  > that became widely used outside the Labs. AT&T (through Western Electric
+  > Co.) began offering licenses to commercial and government users. [page 8]
+
+  > By the end of 1978, there were over 600 UNIX installations. Most were
+  > universities and government facilities. [page 12]
+
+  > According to Tannenbaum:†
+  >
+  > > BTL didn’t really have a distribution policy in the early days, you got a
+  > > disk with a note:
+  > >
+  > > > Here’s your rk05, Love, Dennis.
+  > >
+  > > If UNIX crapped on your rk05, you’d write to Dennis for another.
+  >
+  > Eventually, Bell succumbed to the pressure for distributing UNIX. It
+  > developed a simple licensing policy: No support, no trial period, no
+  > warranties, no advertising, no bug fixes, and payment in advance.
+  >
+  > † Andy Tannenbaum, "Politics of UNIX," Washington, DC USENIX
+  > Conference, 1984. [page 13]
+
+  TODO: Read Tannenbaum source.
+
+  > However, a tremendous number of people were using UNIX at Bell internally.
+  > In order to support all these projects, a UNIX support group called USG
+  > (UNIX Support Group) was created. Unfortunately, USG was allowed only to
+  > provide support, not to do any development. The result was that, both inside
+  > and outside Bell, users did their own development. This was further
+  > encouraged by the complete access to the source code that came with UNIX.
+  > USG created several releases of UNIX, most of them only available inside the
+  > Labs. [page 13]
+
+  Which internal releases?
+
+  TODO: Continue reading from page 15
+
 - ["TUHS Distribution Release Dates"](https://www.tuhs.org/Archive/Distributions/RELEASE_DATES),
   modified 3 March 1998
 
