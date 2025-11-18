@@ -50,6 +50,9 @@ members, and USENIX conference registrants.
 [^mckusick]: *Open Sources: Voices from the Open Source Revolution* \
   Twenty Years of Berkeley Unix: From AT&T-Owned to Freely Redistributable \
   Marshall Kirk McKusick, January 1999
+[^thomassen]: "from UNIX to Linux: a time lapse of 45 years" \
+  Hendrik-Jan Thomassen \
+  T-Dose 2016
 [^venam]: "Licenses on Unix" \
   Patrick Louis, 4 June 2017
 
@@ -81,6 +84,7 @@ TODO: What versions are Network UNIX and MUNIX derived from?
 |     | spring 1974[1]              | V5[1] [2]         | University of California, Berkeley      | Purchased a PDP-11/40 running V5[1], no license sold[2]                | 1[^mckusick] 2[^venam] |
 | 26  | July 1974                   | ?                 | The Rand Corporation                    | License granted, first commercial licensee                             | [^pirzada]             |
 | 27  | before Feb 1975[1], 1975[2] | V5[2]             | University of Illinois Urbana-Champaign | Network UNIX running full time[1], first source license for V5 sold[2] | 1[^holmgren] 2[^venam] |
+| 29  | before Nijmegen (in use)    | ?                 | Université catholique de Louvain        | They had UNIX up before Nijmegen                                       | [^thomassen]           |
 | 34  | fall 1974                   | ?                 | Naval Postgraduate School               | Purchased (to be used for MUNIX)                                       | [^munix]               |
 | 37  | late 1974                   | ?                 | University of Toronto                   | PDP-11/45                                                              | [^spencer]             |
 | 46  | late 1973                   | V4                | The Cooper Union                        | PDP-11/45 which later ran V6                                           | [^spencer]             |
@@ -195,7 +199,7 @@ List sources:
 |           |                           | University of Illinois Urbana-Champaign               | Urbana, IL                   |                                  | Steve Holmgren                 |     3 4 |
 | 28        |                           | University of Texas at Dallas                         | Richardson, Texas            | Physical Sciences                | Mr John Vanderford             | 1       |
 | 28        |                           | University of Texas at Dallas                         | Richardson, Texas            | Advanced Studies                 | D. W. Canham, Jr.              |   2 3 4 |
-| 29        |                           | Université catholique de Louvain                      | Louvain-La-Neuve, Belgium    | Informatique                     | Prof. E. Milgrom               | 1 2 3 4 |
+| 29        | before Nijmegen (in use) [^thomassen] | Université catholique de Louvain          | Louvain-La-Neuve, Belgium    | Informatique                     | Prof. E. Milgrom               | 1 2 3 4 |
 | 30        |                           | Stanford University School of Medicine                | Stanford, CA                 | Radiology                        | Prof. C. J. Karzmark           | 1 2 3 4 |
 | 31        |                           | University of Alabama in Birmingham                   | Birmingham, AL               |                                  | Mr. Travis Wood                | 1   3 4 |
 | 32        |                           | Knox College                                          | Galesburg, IL                | Computer Center                  | Mr. William C. Ripperger       | 1 2 3 4 |

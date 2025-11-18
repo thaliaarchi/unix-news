@@ -5,7 +5,8 @@ University of Illinois Urbana-Champaign; Naval Postgraduate School; and
 University of California, Berkeley.
 
 Licensees with more than one source are in separate files:
-[University of Alberta](alberta.md) and [University of Utah](utah/README.md).
+[Katholieke Universiteit Nijmegen](nijmegen.md), [University of Alberta](alberta.md),
+ and [University of Utah](utah/README.md).
 
 License agreements are in licenses/.
 
