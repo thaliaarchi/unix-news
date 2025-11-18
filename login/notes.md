@@ -44,7 +44,7 @@
     - 12a: LSX, Mini-UNIX, MERT
     - 12b: Unix for INTERDATA 8/32
     - 15b: Graphics meeting
-      - 16a: Lists the graphics hardware at NYIST!
+      - 16a: Lists the graphics hardware at NYIT!
     - 19b: the UNIX Users Group will be incorporating as a nonprofit
     - 20b: ETHERNET
 - 1977-09:
