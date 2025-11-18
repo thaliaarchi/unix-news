@@ -16,6 +16,14 @@ The second date component in the license revision is the date it was last
 revised, the effective date is written on the title page, and the signed date is
 the date of the last signature.
 
+Price lists:
+
+- 1983-09-01 Educational: System V, System III, 32V, V7, PWB 1.0
+- 1984-02-24 Commercial and Educational: System V Release 2.0, BASIC, MC68000
+  software generation system, Documenter's Workbench, Writer's Workbench, "S"
+  statistical software, Instructional Workbench, Teletype 5620, C, Fortran,
+  Phototypesetter Programmer's Workbench, Phototypesetter V7, Independent TROFF
+
 TODO: Replace ASCII quotes with typographic quotes, where appropriate.
 
 TODO:
@@ -161,3 +169,12 @@ PDF and text"](https://web.archive.org/web/20240804110857/http://www.groklaw.net
 Groklaw, 7 November 2004
 
 TODO: Finish transcribing
+
+## Price lists 1983, 1984
+
+- "AT&T International UNIX System V and Add On Applications Prices",
+  February 24, 1984
+- "Software List for UNIX System V", September 1, 1983
+
+Source: ["Old licenses and prices"](https://www.nokia.com/bell-labs/about/dennis-m-ritchie/licenses.html) \
+Dennis Ritchie, 2003

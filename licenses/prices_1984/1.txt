@@ -1,0 +1,61 @@
+                                                                   2/24/84
+
+                             AT&T INTERNATIONAL
+
+               UNIX* SYSTEM V AND ADD ON APPLICATIONS PRICES_____________________________________________
+
+       Item____                         Commercial__________            Educational___________
+
+UNIX System V, Release 2.0,         $43,000.00              $800.00
+Source Code (1)
+
+Each Additional CPU                 $16,000.00              $400.00
+
+Customer Provisions
+Supplemental Agreement              $25,000.00                 -
+
+Multiple Source
+Licenses                         1-32 Users $1000              -
+                                 1-64 Users $3500
+                                 64+  Users $7000
+
+UNIX System V, Release 2.0                -              $16,000.00
+Administrative-Educational
+
+Upgrade Fees from UNIX               $2,500.00              $800.00
+System V, Release 1.0 (1) (2)        All CPU's              All CPU's
+
+Add on packages_______________
+(source code only.)
+BASIC Interpreter.                   $5,000.00            $2,500.00
+First CPU.
+
+BASIC Interpreter                    $2,500.00            $1,250.00
+Additional CPU's
+
+Customer Provisions Fee             $10,000.00                 -
+
+
+MC68000 Software                     $7,500.00            $3,000.00
+Generation System.
+First CPU
+
+MC68000 System                       $3,750.00             1,500.00
+Generation System.
+Additional CPUs
+
+Customer Provisions Fee             $10,000.00                 -
+
+
+
+
+*UNIX is a trademark of AT&T Bell Laboratories
+
+(1) Includes 3 months of free Level I Support
+
+(2) Includes UNIX System V & Documenter's Workbench.  Available at no
+cost to only those customers who upgrade to UNIX System V, Release 2.0.
+
+
+
+                                   - 1 -

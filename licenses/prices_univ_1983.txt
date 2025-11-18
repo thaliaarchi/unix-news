@@ -1,0 +1,54 @@
+                             Software List
+
+                                  for
+
+                             UNIX* System V
+
+                            September 1, 1983
+
+
+
+
+                                                           Distribution
+                    Version                                     Fee
+
+UNIX System V, 11/780 Version                                   $400
+   (Also runs on 11/750)
+
+UNIX System V, 11/70 Version                                    $400
+
+UNIX System III, 11/780 Version                                 $400
+
+UNIX System III, 11/70 Version                                  $400
+   (Also runs on 11/45)
+
+UNIX System III, 11/44 Version                                  $400
+
+UNIX System III, 11/34 Version                                  $400
+
+UNIX System III, 11/23 Version                                  $400
+   (Distributed on 2 RL02 Disks)
+
+UNIX 32V Time-Sharing System, Version 1.0                       $400
+   (Runs on 11/780)
+
+UNIX Time-Sharing System, Seventh Edition                       $400
+   (Runs on 11/45, 11/70)
+
+UNIX Time-Sharing System, Sixth Edition                         NA #
+   (Runs on 11/34, 11/40, 11/45, 11/70)
+
+UNIX Programmer’s Workbench System, Edition 1.0                 $400
+   (Runs on 11/45, 11/70)
+
+UNIX Mini Time-Sharing System, Version 6                        NA #
+   (Runs on 11/10, 11/20, 11/34, 11/40)
+
+
+
+
+
+
+   *  UNIX is a trademark of Bell Laboratories.
+
+   #  No longer from Western Electric or its affiliates.
