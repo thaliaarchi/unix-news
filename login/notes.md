@@ -6,6 +6,8 @@
 - 1975-07-30:
   - 9: OMSI
   - 10: Martin Newell
+- 1976-02-10:
+  - 7b: `foo` example by Ken
 - 1976-03-19:
   - 1: Mini-UNIX and LSI-UNIX
   - 2: a UNIXed version of MACRO (PDP-11 assembler) from JHU Electrical
