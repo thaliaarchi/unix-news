@@ -5,6 +5,7 @@
 | Software-Univ.—020173               | Western  | [University of California, Berkeley](univ-020173-berkeley/)      | 1973-12-01 | 1974-02-11 |
 | Software-Univ.—020173-122073        | Western  | [*partial copy (pages 2–6)*](univ-020173-060574-nijmegen/)       | -          | -          |
 | Software-Univ.—020173-060574        | Western  | [Katholieke Universiteit Nijmegen](univ-020173-060574-nijmegen/) | 1974-12-01 | 1975-02-26 |
+| Software-Univ.—020173-121374        | Western  | [University of Manitoba](univ-020173-121374-manitoba/)           | 1972-02-01 | -          |
 | Software-Univ.—020173-020176        | Western  | [Katholieke Universiteit Leuven](univ-020173-020176-leuven/)     | 1977-09-01 | 1977-09-15 |
 | Software-Customer CPU—020176-010180 | Western  | [*partial copy (pages 1,3,5,6)*](cpu-052776-090180-specimen/)    | -          | -          |
 | Software-Customer CPU—020176-090180 | Western  | [*partial copy (page 4)*](cpu-052776-090180-specimen/)           | -          | -          |
@@ -27,6 +28,7 @@ Price lists:
 TODO: Replace ASCII quotes with typographic quotes, where appropriate.
 
 TODO:
+- [Groklaw contracts list](https://web.archive.org/web/20230418021949/http://www.groklaw.net/staticpages/index.php?page=20050109113517336)
 - [Various 1979–1999: University of California, Berkeley](https://web.archive.org/web/20240701112852/http://www.groklaw.net/article.php?story=20110410231937980)
 - [1983: License specimens](https://archive.org/details/att_unix_licenses_1982)
 - AUUGN March 1984 license costs
@@ -123,6 +125,13 @@ Described by Dennis Ritchie:
 > concepts had already been published, for example in the C. ACM paper.
 >
 > This license was royalty-free, but there was a $150 administrative fee.
+
+## Manitoba 1975
+
+"SOFTWARE AGREEMENT between WESTERN ELECTRIC COMPANY, INCORPORATED and
+THE UNIVERSITY OF MANITOBA Effective as of February 1, 1975"
+
+Source: University of Waterloo Archives
 
 ## Leuven 1977
 

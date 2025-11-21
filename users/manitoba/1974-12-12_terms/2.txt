@@ -1,0 +1,32 @@
+Mr. R. J. Collins           .2.         December 12, 1974
+
+
+
+A service charge of $150 will be due upon your execution
+of the agreement.  That charge is made to cover the costs
+of handling your request, supplying the system on 9 track
+800 bpi magtape (provided by the licensee), reproducing
+the printed material and postage.
+
+I am enclosing for your review a UNIX Summary, which
+includes the following:
+
+      a.  The minimum hardware configuration required.
+      b.  The major components of the Basic UNIX
+            Package.
+
+Also enclosed are copies of a reprint of recently published
+articles entitled, "The UNIX Time-Sharing System", which
+may be of interest to you.
+
+                              Very truly yours,
+
+
+
+                              {signature: R G Shahpazian}
+
+                              R. G. SHAHPAZIAN
+                              Assistant Manager
+                              Patent Licensing
+
+Encs.

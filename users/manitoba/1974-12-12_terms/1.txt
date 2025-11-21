@@ -1,0 +1,51 @@
+                                             Western Electric
+
+Administration                               222 Broadway
+                                             New York, N.Y. 10038
+                                             212 571-2345 [handwritten: -3912]
+                                                          [handwritten:  6108]
+                                                          [handwritten:  6109]
+                            December 12, 1974
+
+Mr. R. J. Collins
+Department of Computer Science
+UNIVERSITY OF MANITOBA
+Winnepeg, Manitoba, Canada   R3T 2N2
+
+Dear Mr. Collins:
+
+Thank you for your telephone request of December 11, 1974
+regarding the UNIX Time-Sharing System.
+
+It is our current practice, in appropriate circumstances,
+to honor requests by nonprofit educational institutions
+for royalty-free licenses for selected Bell System soft-
+ware.  However, the sole authorized use of such software
+pursuant to such royalty-free license is limited to
+"academic and educational purposes".  Accordingly, all
+other uses of such software, such as administrative
+or commercial uses (including, without limitation, all
+uses for research funded or otherwise supported in whole
+or in part by a third party in consideration for access
+or rights to the fruits of such research), by or on behalf
+of your institution are unlicensed whether or not used by
+your students or faculty to provide financial support for,
+or otherwise in furtherance of, your educational and
+academic functions.
+
+If you find these terms to be satisfactory, please provide
+me with the specific address of the data center at which
+you plan to use this software, and I will have the appro-
+proate agreement prepared for your review.
+
+Upon execution of the agreement, we will instruct the Bell
+Telephone Laboratories to furnish you with the UNIX operating
+system.  The current version of UNIX requires at least the
+following equipment:
+
+      PDP-11/40 (with EIS) or PDP-11/45 CPU
+      KT segmentation option
+      32K words of core
+      RK or RP disk
+      KW (line or programmable) clock
+      Standard DEC console (LA, VT, or LT)

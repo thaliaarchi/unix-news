@@ -1,0 +1,45 @@
+                                      Computer Systems Group
+                                     UNIVERSITY OF WATERLOO
+
+
+
+
+
+                              July 16, 1976
+
+
+
+
+Mrs. I. Biren
+Computing Information Services
+Room 2F128
+Bell Laboratories
+Murray-Hill, N.J.   07974
+U.S.A.
+
+Dear Mrs. Biren:
+
+          As discussed in our telephone conversation of
+July 13, 1976, my department wishes to acquire a copy of
+the UNIX Time-Sharing System.  We wish to have our own
+copy of UNIX, independent of any other departments of
+this university which also run UNIX.  We are prepared to
+pay the required service charge for a separate agreement.
+
+          The computer on which our UNIX system would be
+run is a Digital Equipment PDP 11/455, with C.P.U. serial
+number 866.  This computer is located at the following
+address:
+
+
+               158 University Avenue West
+               Waterloo, Ontario, Canada
+
+          There are no room numbers in this building.
+The person with signing authority in our department who
+will be responsible for the system is Professor
+J.W. Graham, Director of the Computer Systems Group.
+
+
+
+                                                  .../2

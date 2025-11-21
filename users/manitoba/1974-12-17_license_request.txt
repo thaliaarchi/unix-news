@@ -1,0 +1,42 @@
+                                                    17 December 1974
+
+
+
+
+
+
+
+
+Mr. R. G. Shahpazian
+Assistant Manager
+Patent Licensing
+Western Electric
+222 Broadway
+New York, New York  10038
+U.S.A.
+
+Dear Mr. Shahpazian:
+
+The conditions laid out in your December 12 letter concerning
+license arrangements for UNIX are quite acceptable to us.
+Further, our hardware configuration is more than adequate.
+
+Please send me the appropriate forms as soon as possible.  The
+address of the data centre will be:
+
+                      Computer Science Department
+                      Room 139 N.E.M.P. Building
+                      University of Manitoba
+                      Winnipeg, Manitoba, Canada.
+
+We have heard good reports on UNIX and are very excited about
+using it.
+                                                 Sincerely,
+
+
+
+
+                                                 R. Collens
+                                                 Associate Professor
+
+RC:emr
