@@ -1,0 +1,35 @@
+                   PS2 GRAPHICS SOFTWARE_____________________
+
+Graphics Software Packages are available for PICTURE SYSTEM 2
+which support the following PDP-11 operating systems:
+
+     DOS/BATCH
+     RT-11
+     RSX-11M
+
+Each of these packages are delivered with a manual which describes
+the contents of the package and directions on how to install and
+use the software with the particular operating system.  The E&S
+part numbers for the particular media available for distribution
+are:
+    Part Number___________        Operating System________________       Medium______
+    901133-101            DOS/BATCH           600' 800 bpi Magtape
+    901133-102            DOS/BATCH           DECtape
+    901133-103            DOS/BATCH           RK05 Disk Pack
+    901134-101              RT-11             600' 800 bpi Magtape
+    901134-102              RT-11             DECtape
+    901134-103              RT-11             RK05 Disk Pack
+    901134-104              RT-11             Floppy Disk*
+    901135-101             RSX-11M            600' 800 bpi Magtape
+    901135-102             RSX-11M            DECtape
+    901135-103             RSX-11M            RK05 Disk Pack
+    901135-104             RSK-11M            Floppy Disk*
+
+
+
+
+
+
+
+
+* To be used only if no other medium is available.

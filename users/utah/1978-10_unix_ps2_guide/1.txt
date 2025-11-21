@@ -1,0 +1,54 @@
+
+
+                UNIX Picture System II User Guide
+                            Jim Clark
+                          October, 1978
+
+
+Introduction____________
+
+     A new Picture System II device driver is complete and a use-
+ful set of user routines is available. The new system has several
+advantages over the previous routines.
+
+1.   All coordinates to the routines are floating point;  scaling
+     is  done internally by the routines to the integer system of
+     the picture system.  All coordinates must be less in  magni-
+     tude  than  32767. The smallest resolvable fraction that the
+     coordinates may assume is 1/32767.
+
+2.   All display programs and  objects  are  stored  in  half(32k
+     words)  of  the  Picture  System  memory.   There  is enough
+     storage space for about 6000 lines.
+
+3.   The system is about five times faster than the previous sys-
+     tem.  Some of this gain is the result of letting the PS exe-
+     cute its programs out of PS memory rather than supplying in-
+     structions  to it one at a time with the PDP-11, thereby al-
+     lowing overlap of computations between the  two  processors.
+     The  rest  results from fewer UNIX system calls.  The number
+     of system calls is reduced by storing all  matrices  in  one
+     contiguous  area of picture system memory. The matrix opera-
+     tion is then treated as a  subroutine  call  to  the  matrix
+     subroutine in this contiguous area. The PDP-11 program modi-
+     fies an in-core copy of the contiguous area, which is  writ-
+     ten to PS memory once each frame with one system call.
+
+4.   The user has three pre-defined cursors from which to  chose,
+     an  inverted V, a square box the size of the hit-window used
+     in hit testing, and the NULL cursor. He may also add  up  to
+     five more of his own cursor definitions.
+
+5.   The contents of the refresh buffer portion of PS memory  may
+     be easily retrieved and stored.
+
+
+     There are three types of routines: display  program  genera-
+tion,  maintenance,  and  alteration. The generation routines are
+used only when the user program is making a display subroutine or
+the  main  display program, that is, specifying a sequence of ma-
+trix or drawing oeprations that define geometric shape(s)  to  be
+drawn.   These routines are described in Section II.  The mainte-
+nance routines, described in Section III.A, are to poll  the  ta-
+blet,  do hit-testing, change the active cursor, and start the PS
+processor transforming a new display list.  The matrix alteration

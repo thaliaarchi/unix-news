@@ -1,0 +1,14 @@
+PS2/'ANY COMPUTER' INTERFACE
+
+
+Any computer can be interfaced with the PICTURE SYSTEM 2.
+The design of the signals in the cable has been generalized
+so that interfacing to any computer can be done easily.
+This interface could have all of the futures of the PDP-11
+interface including the 500 feet separation.
+
+
+PS2 DEVICE SLOTS REQUIRED ---------------2
+PS2 DEVICE TYPES ------------------------2,3
+PS2 CHANNEL ASSIGNMENTS -----------------0 (Direct I/O)
+PS2
