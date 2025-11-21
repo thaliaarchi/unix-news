@@ -1,0 +1,65 @@
+UNIVERSITY OF WATERLOO                                      PURCHASE ORDER
+PURCHASING DEPARTMENT  WATERLOO, ONTARIO CANADA N2L 3G1     IMPORTANT : PURCHASE ORDER NUMBER SHOWN BELOW
+TELEPHONE (519) 885 1211                                    MUST BE SHOWN ON ALL INVOICES, CORRESPONDENCE AND
+                                                            SHIPPING LABELS. PACKING SLIP MUST BE ATTACHED TO
+                                                            OUTSIDE OF PACKAGING
+
+DATE            APRIL 14, 1977.  2                              UNIVERSITY OF WATERLOO
+VENDOR CODE             PHONE NO.                                                 {stamp: APR 10 1977}
+NAME            BROOKLYN COLLEGE OF CUNY
+  &             UNIX USERS' GROUP,
+ADDRESS         C/O PROF. MELVIN FERENTZ, PHYSICS DEPT.,    PURCHASE ORDER        {stamp: 79542}
+                BROOKLYN, N. Y.  11210, U. S. A.                                A
+
+THIS IS AN OFFER TO PURCHASE SUBJECT TO ALL OF THE TERMS AND CONDITIONS SET FORTH ON
+THE FACE AND REVERSE SIDE HEREOF.
+____________________________________________________________________________________________
+| SHIP TO ARRIVE BY | TERMS    | SHIP VIA                                     | F.O.B.     |
+|        N/A        |    CASH  |   YOUR DELIVERY             PARCEL POST      | BROOKLYN   |
+|___________________|__________|______________________________________________|____________|
+| ITEM   QUANTITY     REF. NO.    DESCRIPTION               UNIT PRICE   DISC.  TOTAL COST |
+|------------------------------------------------------------------------------------------|
+|      |            |                                     |            |      |            |
+| A    | 1          | MEMBERSHIP FEE TO UNIX USERS' GROUP |            |      |   $10.00   |
+|                                                                                   NPV    |
+|                                          REMITTANCE WITH ORDER               U. S. FUNDS |
+|                                                                                          |
+|                                                                                          |
+|                                                                                          |
+|                                                                                          |
+|                                                                                          |
+|                                                                                          |
+|                                                                                          |
+|                              CONFIRMATION                                                |
+|                                                                                          |
+|                                                                                          |
+|                                                                                          |
+|                                                                                          |
+|  SHIPPING ADDRESS:                                                                       |
+|        COMPUTER SYSTEMS GROUP,                                                           |
+|        COMPUTER SCIENCE DEPT.,                                                           |
+|        M& C BLDG., RM. 5114,                                                             |
+|        UNIVERSITY OF WATERLOO,                                                           |
+|        WATERLOO, ONTARIO, CANADA,                                                        |
+|        N2L 3G1        {stamp: CODE 2 ORDER}                                              |
+|__________________________________________________________________________________________|
+| [] Financial Services    | REQUISITIONER NOTE: The material or devices covered by this order will not                    |
+|                          |   be received through Central Receiving. Therefore, it is your responsibility to establish    |
+| - Copy of invoice to be  |   whether the agreement has been fulfilled. The invoice will serve as notification of receipt |
+|   sent to Requisitioner. |   and payment will be processed within 10 days.                                               |
+|__________________________|_______________________________________________________________________________________________|
+|                                                                                                                          |
+| END USE:                                                                                                                 |
+|__________________________________________________________________________________________________________________________|
+|     DATE      | PAR NO. | PRO BILL NO. | DEL. CHGS | CARRIER | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O |
+|---------------|---------|--------------|-----------|---------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|               |    A    |              |           |         |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|---------------|---------|--------------|-----------|---------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|               |    B    |              |           |         |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|---------------|---------|--------------|-----------|---------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|               |    C    |              |           |         |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|---------------|---------|--------------|-----------|---------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|               |    D    |              |           |         |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|---------------|---------|--------------|-----------|---------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|               |    E    |              |           |         |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+TODO
