@@ -28,3 +28,17 @@ it from tracking down other universities' license agreements with Western
 Electric, but I want to find ours. I know Martin Newell obtained it, but he
 doesn't remember it; this may indicate not much was thought of this first
 version, so locating these materials could prove difficult.
+
+## Timeline
+
+A more concrete UNIX-in-graphics timeline is forming:
+
+- We get V4 in 1974 and it's unsuitable and quickly forgotten.
+- In 1977, UNIX and C were as new as Carbon is now. That's enough time for early
+  adopters to build off of it.
+- The first uses of UNIX in the Computer Graphics conference were in 1976 in
+  Bell Labs and 1977 outside. It was becoming popular in graphics.
+- A UNIX driver was created for the Evans & Sutherland Picture System 2 between
+  May 1977 and October 1978.
+- Ed Catmull started the graphics group at NYIT in November 1974, so their
+  parallel use of UNIX may have developed from the Zeitgeist, not Utah.
