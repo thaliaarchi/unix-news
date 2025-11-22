@@ -5,47 +5,26 @@
 Collection MS 0625: [David C. Evans papers (1958-1987)](https://archiveswest.orbiscascade.org/ark:80444/xv18380) \
 University of Utah Libraries, Special Collections, J. Willard Marriott Library
 
-Items prioritized:
-- 2
-  - V, Box 105, Folder 9: New York Institute of Technology, Correspondence and Purchase Agreement (1974-1986)
-  - V, Box 105, Folder 10: New York Institute of Technology, Request for proposal (1977)
-  - V, Box 108, Folder 22: University of Utah (1969-1985)
-  - V, Box 108, Folder 23-25: University of Utah, Proposal, agreement, and purchase inquiry (1970-1977)
-- 3
-  - III, Box 45, Folder 2-23: Evans & Sutherland Travel (1968-1987)
-  - III, Box 45, Folder 1: University of Utah Travel (1967-1974)
-  - V, Box 99, Folder 11: Case Western Reserve University, Sales and Purchase Orders (1970-1975)
-- 4
-  - IX, Box 140, Folder 1: University of Utah, Department of Computer Science, Correspondence (1975-1978)
-  - IX, Box 140, Folder 2: University of Utah Computer Center, Security Manual (1968)
-  - IX, Box 140, Folder 4: University of Utah, Department of Computer Science, Graphical man-made communications project (1967-1977)
-  - IX, Box 140, Folder 5: University of Utah, Department of Computer Science, Technical Memorandum (1972)
-  - IX, Box 140, Folder 6-7: University of Utah, Department of Computer Science, Department Handbooks (1977-78 and 1978-79)
-  - IX, Box 140, Folder 8: University of Utah, Department of Computer Science, Departmental Directories (1976)
-  - IX, Box 140, Folder 9: University of Utah, Department of Computer Science, Colloquium and presentation announcements (1976-1984)
-  - IX, Box 140, Folder 15: University of Utah, Department of Electrical Engineering, Miscellaneous
-  - IX, Box 140, Folder 21: University of Utah Research Proposals (1974, 1975)
-  - IX, Box 140, Folder 24: University of Utah, Miscellaneous (1966-1985)
-- 5
-  - V, Box 101, Folder 1: Digital Equipment Corp. (1969-1986)
-  - V, Box 101, Folder 2: Digital Equipment Corp., Technology meeting notes (1985)
-  - V, Box 101, Folder 3: Digital Equipment Corp., Service agreement (1980)
-  - V, Box 101, Folder 4: Digital Equipment Corp., Test Specifications (1964)
-  - V, Box 101, Folder 5: Digital Equipment Corp., Technical Diagrams
-  - V, Box 101, Folder 6: Digital Equipment Corp., GT48 Field Service Configuration & DPU Specifications (1974)
-  - V, Box 101, Folder 7: Digital Equipment Corp., VS60 Brochure & Announcement (1975)
-  - V, Box 101, Folder 8-10: Digital Equipment Corp., Brochures
-  - V, Box 101, Folder 11: Digital Equipment Corp., Annual Report (1974)
-  - V, Box 101, Folder 12: Digital Equipment Corp., Miscellaneous
-- 6
-  - V, Box 90, Folder 3-5: Department of Defense, Dept. of the Navy, Naval Training Equipment Center, Purchase Contract (1974)
-  - V, Box 71, Folder 26-27: Redifon/Rediffusion Flight Simulation, Purchase Agreements (1975)
-  - V, Box 75, Folder 13: Redifon/Rediffusion Electronics, Inc., Purchase Agreement (1975)
-  - V, Box 75, Folder 14: Redifon/Rediffusion Electronics, Inc., Purchase Documents (1975)
-- 7
-  - I, Box 4, Folder 26-27: Mayo Clinic, Computer Acquisition Memorandum (1980)
+Boxes to examine by priority:
+- Box 108: Affiliated Companies and Customers (incl. University of Utah)
+- Box 105: Affiliated Companies and Customers (incl. New York Institute of Technology)
+- Box 140: University of Utah/Brigham Young University
+- Box 45: Travel
+- Box 101: Affiliated Companies and Customers (incl. Digital Equipment Corp.)
+- Box 60: Picture System
+- Box 54 Line Drawing System, Version 1
+- Box 55–56: Line Drawing System, Version 2
+- Box 57–59: Line Drawing System
+- Box 99: Affiliated Companies and Customers (incl. Case Western Reserve University)
+- Box 90: United States Government
+- Box 71: Redifon/Rediffusion Flight Simulation
+- Box 75: Redifon/Rediffusion Electronics, Inc.
+- Box 4: Mayo Clinic
 
-### By box
+Boxes:
+
+- TODO Box 4: Mayo Clinic
+  - Fd 26-27: Mayo Clinic, Computer Acquisition Memorandum (1980)
 
 - Box 41: Facilities (searched Fd 1–3, 9, 13–15, 18, 22–25)
   - Fd 14: Research Park, Correspondence, brochures and miscellaneous
@@ -61,6 +40,10 @@ Items prioritized:
       setup
   - TODO Somewhere in here is a letter requesting that E&S verify they're a
     non-segregated facility
+
+- TODO Box 45: Travel
+  - Fd 1: University of Utah Travel (1967-1974)
+  - Fd 2-23: Evans & Sutherland Travel (1968-1987)
 
 - Box 54: Line Drawing System, Version 1 (searched Fd 1–5, 24–26)
   - Fd 4: Correspondence (1969-1973)
@@ -78,6 +61,8 @@ Items prioritized:
     - PDP-11 item want list
     - Picture System development status
     - Picture System price list
+
+- TODO Box 54 Line Drawing System, Version 1
 
 - TODO Box 55–56: Line Drawing System, Version 2
   - Bx 56 Fd 3–10: System Reference Manual (1971)
@@ -118,6 +103,16 @@ Items prioritized:
       the PS300" \
       Scott Nelson, Memorandum, 20 December 1982
 
+- TODO Box 71: Redifon/Rediffusion Flight Simulation
+  - Fd 26-27: Purchase Agreements (1975)
+
+- TODO Box 75: Redifon/Rediffusion Electronics, Inc.
+  - Fd 13: Purchase Agreement (1975)
+  - Fd 14: Purchase Documents (1975)
+
+- TODO Box 90: United States Government
+  - Fd 3-5: Department of Defense, Dept. of the Navy, Naval Training Equipment Center, Purchase Contract (1974)
+
 - Box 98: Affiliated Companies and Customers (searched Fd 2—3, 7, 19, 23–24, 34)
   - Fd 2–3: Bell Northern, Correspondence and affiliation analysis (1974-1978)
     - Fd 2: July 25, 1978 memo on visit to Bell Northern by E&S, summarizing
@@ -130,6 +125,32 @@ Items prioritized:
       jump-started their Animation department.
     - Fd 24: E&S will repair BYU systems, if BYU allows E&S to use their system
       40hrs per 2 month period.
+
+- TODO Box 99: Affiliated Companies and Customers
+  - Fd 11: Case Western Reserve University, Sales and Purchase Orders
+    (1970-1975)
+
+- TODO Box 101: Affiliated Companies and Customers
+  - Fd 1: Digital Equipment Corp. (1969-1986)
+  - Fd 2: Digital Equipment Corp., Technology meeting notes (1985)
+  - Fd 3: Digital Equipment Corp., Service agreement (1980)
+  - Fd 4: Digital Equipment Corp., Test Specifications (1964)
+  - Fd 5: Digital Equipment Corp., Technical Diagrams
+  - Fd 6: Digital Equipment Corp., GT48 Field Service Configuration & DPU Specifications (1974)
+  - Fd 7: Digital Equipment Corp., VS60 Brochure & Announcement (1975)
+  - Fd 8-10: Digital Equipment Corp., Brochures
+  - Fd 11: Digital Equipment Corp., Annual Report (1974)
+  - Fd 12: Digital Equipment Corp., Miscellaneous
+
+- TODO Box 105: Affiliated Companies and Customers
+  - Fd 9: New York Institute of Technology, Correspondence and Purchase
+    Agreement (1974-1986)
+  - Fd 10: New York Institute of Technology, Request for proposal (1977)
+
+- TODO Box 108: Affiliated Companies and Customers
+  - Fd 22: University of Utah (1969-1985)
+  - Fd 23-25: University of Utah, Proposal, agreement, and purchase inquiry
+    (1970-1977)
 
 - Box 135: Papers, Evans & Sutherland Employees
   (searched Fd 1, 3, 8, 11–12, 15, 18, 30)
@@ -149,6 +170,25 @@ Items prioritized:
       Ivan E. Sutherland
       [*Scientific American*, June 1970](https://wkbpic.com/wkbx/SA/1970/1970-06-01.pdf),
       pages 57–81
+
+- TODO Box 140: University of Utah/Brigham Young University
+  - Fd 1: University of Utah, Department of Computer Science, Correspondence
+    (1975-1978)
+  - Fd 2: University of Utah Computer Center, Security Manual (1968)
+  - Fd 4: University of Utah, Department of Computer Science, Graphical man-made
+    communications project (1967-1977)
+  - Fd 5: University of Utah, Department of Computer Science, Technical
+    Memorandum (1972)
+  - Fd 6-7: University of Utah, Department of Computer Science, Department
+    Handbooks (1977-78 and 1978-79)
+  - Fd 8: University of Utah, Department of Computer Science, Departmental
+    Directories (1976)
+  - Fd 9: University of Utah, Department of Computer Science, Colloquium and
+    presentation announcements (1976-1984)
+  - Fd 15: University of Utah, Department of Electrical Engineering,
+    Miscellaneous
+  - Fd 21: University of Utah Research Proposals (1974, 1975)
+  - Fd 24: University of Utah, Miscellaneous (1966-1985)
 
 ## Will Bagley papers
 
