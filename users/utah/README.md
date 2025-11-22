@@ -5,8 +5,39 @@
 - [David Evans](evans.md)
 - [Martin Newell](newell.md)
 - [Jim Blinn](blinn.md)
+- Ed Catmull
+- Gary Lindstrom
 - [Mike Hibler](hibler.md)
 - [Jay Lepreau](lepreau.md)
+
+### Faculty files
+
+Collection Acc0526: [University of Utah Historical Faculty Files, 1920-2012](https://archiveswest.orbiscascade.org/ark:80444/xv51861)
+- University of Utah Historical Faculty Files, 1920-1987 \
+  Donald A. Nellermoe to Richard Norman, 1920-1987 \
+  Container: Box 44 \
+  Box 3652 L-152 \
+  Folder 39: Martin E. Newell
+- University of Utah Historical Faculty Files, 1988-1989 \
+  Karen M. Sanders to Nan Zhou, 1988-1989 \
+  Container: Box 72 \
+  Box 21676 H-904 \
+  Folder 55: Spencer W. Thomas
+- University of Utah Historical Faculty Files, 2005 \
+  Thomas R. Cate Jr. to Lorayne T. Frank, 2005 \
+  Container: Box 138 \
+  Box 27072 L-1128 \
+  Folder 91: David C. Evans (Elec. Eng.)
+- University of Utah Historical Faculty Files, 2007 \
+  Michelle L. Hicks to Nomi G. Loeb, 2007 \
+  Container: Box 151 \
+  Box 27140 L-1131 \
+  Folder 95: Gary E. Lindstrom
+- University of Utah Historical Faculty Files, 2008 \
+  Wade K. Jensen to Mark C. Pendleton, 2008 \
+  Container: Box 157 \
+  Box 20091 H-838 \
+  Folder 36: Jay Lepreau
 
 ## Areas
 

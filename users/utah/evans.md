@@ -1,8 +1,6 @@
 # David Evans sources
 
-## Archives
-
-Searched for "unix" (exact) on Archives West.
+## David C. Evans papers
 
 Collection MS 0625: [David C. Evans papers (1958-1987)](https://archiveswest.orbiscascade.org/ark:80444/xv18380) \
 University of Utah Libraries, Special Collections, J. Willard Marriott Library
@@ -46,13 +44,6 @@ Items prioritized:
   - V, Box 75, Folder 14: Redifon/Rediffusion Electronics, Inc., Purchase Documents (1975)
 - 7
   - I, Box 4, Folder 26-27: Mayo Clinic, Computer Acquisition Memorandum (1980)
-
-Collection ACCN 1937: [Will Bagley papers (1836-2008)](https://archiveswest.orbiscascade.org/ark:80444/xv22454) \
-University of Utah Libraries, Special Collections, J. Willard Marriott Library
-
-- Evans and Sutherland
-  - Box 56, Folder 6: Evans and Sutherland, Notebook, UNIX
-  - Box 62, Folder 5: Evans and Sutherland, UNIX Operating Systems (1984)
 
 ### By box
 
@@ -159,31 +150,11 @@ University of Utah Libraries, Special Collections, J. Willard Marriott Library
       [*Scientific American*, June 1970](https://wkbpic.com/wkbx/SA/1970/1970-06-01.pdf),
       pages 57–81
 
-### University of Utah Historical Faculty Files
+## Will Bagley papers
 
-Collection Acc0526: [University of Utah Historical Faculty Files, 1920-2012](https://archiveswest.orbiscascade.org/ark:80444/xv51861)
-- University of Utah Historical Faculty Files, 1920-1987 \
-  Donald A. Nellermoe to Richard Norman, 1920-1987 \
-  Container: Box 44 \
-  Box 3652 L-152 \
-  Folder 39: Martin E. Newell
-- University of Utah Historical Faculty Files, 1988-1989 \
-  Karen M. Sanders to Nan Zhou, 1988-1989 \
-  Container: Box 72 \
-  Box 21676 H-904 \
-  Folder 55: Spencer W. Thomas
-- University of Utah Historical Faculty Files, 2005 \
-  Thomas R. Cate Jr. to Lorayne T. Frank, 2005 \
-  Container: Box 138 \
-  Box 27072 L-1128 \
-  Folder 91: David C. Evans (Elec. Eng.)
-- University of Utah Historical Faculty Files, 2007 \
-  Michelle L. Hicks to Nomi G. Loeb, 2007 \
-  Container: Box 151 \
-  Box 27140 L-1131 \
-  Folder 95: Gary E. Lindstrom
-- University of Utah Historical Faculty Files, 2008 \
-  Wade K. Jensen to Mark C. Pendleton, 2008 \
-  Container: Box 157 \
-  Box 20091 H-838 \
-  Folder 36: Jay Lepreau
+- Collection ACCN 1937: [Will Bagley papers (1836-2008)](https://archiveswest.orbiscascade.org/ark:80444/xv22454) \
+  University of Utah Libraries, Special Collections, J. Willard Marriott Library
+
+  - Evans and Sutherland
+    - Box 56, Folder 6: Evans and Sutherland, Notebook, UNIX
+    - Box 62, Folder 5: Evans and Sutherland, UNIX Operating Systems (1984)
