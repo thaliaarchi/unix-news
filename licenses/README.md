@@ -28,6 +28,8 @@ Price lists:
 TODO: Replace ASCII quotes with typographic quotes, where appropriate.
 
 TODO:
+- [1976: Berkeley license amendment](https://www.cgl.ucsf.edu/home/tef/pubs/UnixV6License.pdf)
+  [[Ferrin](https://www.cgl.ucsf.edu/home/tef/)]
 - [Groklaw contracts list](https://web.archive.org/web/20230418021949/http://www.groklaw.net/staticpages/index.php?page=20050109113517336)
 - [Various 1979–1999: University of California, Berkeley](https://web.archive.org/web/20240701112852/http://www.groklaw.net/article.php?story=20110410231937980)
 - [1983: License specimens](https://archive.org/details/att_unix_licenses_1982)

@@ -131,7 +131,177 @@
 
   - See [University of California, Berkeley](berkeley.md)
 
-- *Proceedings of SIGGRAPH '78*: TODO
+- [*Proceedings of SIGGRAPH '78*](https://dl.acm.org/doi/proceedings/10.1145/800248),
+  23–25 August 1978
+
+  - ["A High Performance Graphics System for the CRAY-1"](https://dl.acm.org/doi/10.1145/800248.807374) \
+    Robert H. Ewald and Lynn D. Maas \
+    Los Alamos Scientific Laboratory \
+    SIGGRAPH '78, pages 76–81
+
+    Interactive vector graphics system connected to a CRAY-I supercomputer,
+    using an Evans & Sutherland Picture System 2 and PDP-11/70 and /34 running
+    UNIX. At the time, PS-2 did not support UNIX, so they acquired a UNIX driver
+    in C from UCSF. Their cited PS-2 manual is dated May 1977, so UNIX support
+    was not added to PS-2 before then. For efficiency, they use the CULC FORTRAN
+    IV PLUS compiler, instead of the UNIX Fortran compiler.
+
+    The acknowledgements section enumerates many people at LANL who assisted.
+
+    Has a good photo of the PS-2 in use.
+
+    TODO: Read Rottman 1975 and
+    [Ferrin](https://www.cgl.ucsf.edu/home/tef/) 1977.
+
+    > This paper describes the design and implementation of a state-of-the-art
+    > interactive vector graphics system connected to the CRAY-I supercomputer.
+    > The primary design goal for this graphics system is that it support large
+    > hydrodynamic computer programs used in weapons design calculations. The
+    > interactive use of these programs requires displays consisting of up to
+    > 20,000 vectors, extensive interaction tools, and high-bandwidth
+    > communication rates. The major system components selected for this project
+    > were an Evans and Sutherland Picture System 2 and a Digital Equipment
+    > Corporation (DEC) PDP-11/70 and PDP-11/34 running the UNIX operating
+    > system.
+
+    > The selection of the major HPGS components was influenced by many factors.
+    > The final selection consisted of an Evans and Sutherland Picture System 2
+    > graphics processor and associated peripherals, a Digital Equipment
+    > Corporation (DEC) PDP-11/70 computer, a DEC PDP-11/34 computer, and the
+    > UNIX [Ritchie and Thompson, 1974] operating system running on both
+    > computers. Figure 1 shows the HPGS configuration and system components.
+    >
+    > The Picture System 2 was selected because of its ability to perform
+    > manipulative graphics operations quickly, its high-speed vector generator,
+    > and the hardware architecture.
+    >
+    > The DEC PDP-11/70 was chosen as the general purpose computer for several
+    > reasons. Included in these reasons are the calculational speed of the
+    > computer, the ease (and cost) of interfacing it to the Picture System 2,
+    > and the ease (and cost) of interfacing it to the ICN. When the system was
+    > designed, it appeared that a 32-bit computer architecture would be better
+    > suited to the applications that are to be run on the HPGS, but monetary
+    > and time constraints prevented the acquisition of that class of computer.
+    >
+    > The DEC PDP-11/34 computer was required for economic, security, and
+    > expansion reasons. It will be located in the users' work area and will
+    > serve as a graphics concentrator.
+    >
+    > The UNIX operating system was chosen because of ease of use, the
+    > time-sharing nature of the system, and the benefits derived from having
+    > software available from other UNIX systems in the ICN. These reasons were
+    > sufficient to override the fact that support software for the Picture
+    > System 2 would have to be written since Evans and Sutherland does not
+    > currently support UNIX.
+
+    > Since it was decided to run UNIX on the PDP-11/70, it was necessary to
+    > develop software to drive the Picture System 2 under UNIX. Since most of
+    > the potential users of the system were very familiar with FORTRAN, a
+    > FORTRAN implementation was selected. A Picture System 2 UNIX I/O driver,
+    > written in the "C" language, was obtained from the University of
+    > California, San Francisco, [Ferrin, 1977].
+    >
+    > It was determined that the standard UNIX FORTRAN would not provide the
+    > necessary support, so a FORTRAN compiler from Princeton University was
+    > obtained. Interface routines between the FORTRAN system and the I/O driver
+    > were developed in assembly language. After considerable deliberation, it
+    > was decided to provide a set of FORTRAN-callable routines with the same
+    > names and calling sequences as those normally provided by Evans and
+    > Sutherland [Evans and Sutherland, 1977]. These routines provide windowing,
+    > viewporting, transformation, matrix generation, vector generation, device
+    > control, and interaction facilities. This software package provides the
+    > same facilities and user interface as other Picture System 2
+    > installations. A FORTRAN IV PLUS compiler [CULC, 1977] was obtained and
+    > all software was converted. When using the FORTRAN IV PLUS compiler,
+    > execution times were decreased about two times compared to the Princeton
+    > compiler.
+
+    > Since the HPGS is intended to service several different graphical
+    > operations, drivers and software were also implemented to support
+    > Tektronix 4000-series terminals, FR-80 microfilm recorders, and a Versatec
+    > printer/plotter. The support of all of the different graphics devices will
+    > probably be unified under the LASL Common Graphics System [Kellner, 1978;
+    > Reed, 1978].
+    >
+    > Because LASL does classified computing, security requirements (distinct
+    > from privacy requirements) had to be considered in every phase of HPGS
+    > development. These requirements necessitated changes in UNIX, the I/0
+    > drivers, the graphics software, and system utilities.
+    >
+    > The HPGS project has followed a phased development scheme, and the
+    > software, hardware, and communication links have been constantly upgraded.
+    > Table 1 gives a rough outline of the improvements in the HPGS system as
+    > certain hardware and software was installed or updated.
+    >
+    > TABLE I
+    >
+    > RELATIVE EFFECTS OF IMPLEMENTATION STAGES
+    >
+    > | Description                                                                       | Performance* |
+    > | --------------------------------------------------------------------------------- | ------------ |
+    > | 1. Initial system - no graphics software                                          | 0            |
+    > | 2. Mesh Application under Princeton FORTRAN                                       | 1            |
+    > | 3. Software segmentation added (objects)                                          | 1.2 - 1.5    |
+    > | 4. Graphics software converted to FORTRAN IV PLUS compiler                        | 2            |
+    > | 5. Communication software converted to FORTRAN IV PLUS and RP06 disk installation | 5            |
+    >
+    > \*Note: The numbers in the performance column indicate improvements in
+    > performance relative to item 2 (the first usable system).
+    >
+    > The integration and development of the HPGS project has involved a large
+    > software development effort. Certain software was adopted from other
+    > development activities, and the effort involved in implementing this
+    > software cannot be accurately reported. However, the effort required to
+    > design, implement, and document certain parts of the HPGS is given in
+    > Table 2. This table is presented only in the interest of giving future
+    > system designers and implementors some idea of the time required for
+    > certain tasks.
+    >
+    > TABLE 2
+    >
+    > EFFORT FOR CERTAIN TASKS
+    >
+    > | Task                                             | Effort (Person-month) |
+    > | ------------------------------------------------ | --------------------- |
+    > | 1. UNIX familiarization                          | 1-2                   |
+    > | 2. Picture System 2 Software                     | 8                     |
+    > | 3. FORTRAN-callable CRAY-I communication package | 3                     |
+    > | 4. Security within UNIX                          | 6                     |
+    > | 5. HPGS Monitor Program                          | 1                     |
+    > | 6. HPGS Mesh Display Program                     | 4                     |
+    > | 7. System Documentation                          | 2                     |
+    > | 8. Consulting                                    | 2                     |
+
+    > REFERENCES
+    >
+    > - Baskett, F., Howard, J. H., and J. T. Montague, "TASK Communication in
+    >   DEMOS," LA-UR-77-826, Los Alamos Scientific Laboratory report, February
+    >   1977.
+    > - CULC, "Description of CULC FORTRAN IV PLUS," Commercial Union Leasing
+    >   Corportion, New York, 1977.
+    > - Ferrin, T., "Picture System 2 Driver," Computer Graphics Laboratory,
+    >   University of California, San Franciso, CA, December 1977.
+    > - Kellner, R., Reed, T., and A. Solem, "An Implementation of the ACM
+    >   SIGGRAPH Proposed Graphics Standard in a Multisystem Environment,"
+    >   LA-UR-78-1427, Los Alamos Scientific Laboratory report, 1978.
+    > - Maas, L. D. and F. Gama-Lobo, "The Application of Interactive Graphics
+    >   to Large TimeDependent Hydrodynamics Problems," LA-UR-75-763, Los Alamos
+    >   Scientific Laboratory report, 1975.
+    > - "PDP-11 FORTRAN Language Reference Manual," Digital Equipment
+    >   Corporation, No. DEC-If, LFLRAC-D, Maynard, MA, 1975.
+    > - "Picture System 2/PDP-11 Reference Manual," Evans and Sutherland
+    >   Computer Corporation, Salt Lake City, Utah, November 1976.
+    > - "Picture System 2 Users' Manual," Evans and Sutherland Computer
+    >   Corporation, Salt Lake City, May 1977.
+    > - Reed, To N., "The Common Graphics System - An Implementation of the
+    >   ACM/SIGGRAPH Proposed Graphics Standard," LA-UR-78-1105, Los Alamos
+    >   Scientific Laboratory report, 1978.
+    > - Ritchie, D. M., and K. Thompson, "The UNIX Time-Sharing System," Bell
+    >   Laboratories, Murray Hill, NJ, 1974.
+    > - Rottman, J. N., "A Guide to the UNIX FORTRAN System," Princeton
+    >   University, September 1975.
+
+  - TODO: Remaining papers after this
 
 - *Proceedings of SIGGRAPH '79*: TODO
 

@@ -70,6 +70,43 @@ A more concrete UNIX-in-graphics timeline is forming:
 - The first uses of UNIX in the Computer Graphics conference were in 1976 in
   Bell Labs and 1977 outside. It was becoming popular in graphics.
 - A UNIX driver was created for the Evans & Sutherland Picture System 2 between
-  May 1977 and October 1978.
+  May 1977[^ps2_brief] [^losalamos] and October 1978[^ps2_unix]. \
+  (The August 1978 paper is likely out of date by several months, due to
+  publishing lag and it referring to the decisions made at the start of the
+  project. The October 1978 manual refers to an earlier version of the UNIX
+  support.)
 - Ed Catmull started the graphics group at NYIT in November 1974, so their
   parallel use of UNIX may have developed from the Zeitgeist, not Utah.
+
+[^ps2_brief]: "Picture System 2 Product Brief" \
+    Evans & Sutherland, May 1977 \
+    Collection MS 0625 David C. Evans papers, Box 61, Folders 1–2 \
+    University of Utah Libraries,
+    Special Collections, J. Willard Marriott Library
+
+    The supported operating systems mentioned were DOS/BATCH, RT-11, and
+    RSX-11M.
+
+[^losalamos]: "A High Performance Graphics System for the CRAY-1" \
+    Robert H. Ewald and Lynn D. Maas \
+    Los Alamos Scientific Laboratory \
+    SIGGRAPH '78, August 1978, pages 76–81
+
+    > support software for the Picture System 2 would have to be written since
+    > Evans and Sutherland does not currently support UNIX. […] A Picture System
+    > 2 UNIX I/O driver, written in the "C" language, was obtained from the
+    > University of California, San Francisco, [Ferrin, 1977].
+
+    The cited PS-2 User's Manual is dated May 1977, same as the Product Brief.
+
+[^ps2_unix]: "UNIX Picture System II User Guide" \
+    Jim Clark \
+    Evans & Sutherland, October 1978 \
+    Collection MS 0625 David C. Evans papers, Box 61, Folders 1–2 \
+    University of Utah Libraries,
+    Special Collections, J. Willard Marriott Library
+
+    > A new Picture System II device driver is complete […]. The new system has
+    > several advantages over the previous routines. […] The system is about
+    > five times faster than the previous system. Some of this gain […] results
+    > from fewer UNIX system calls.

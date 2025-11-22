@@ -50,6 +50,10 @@ members, and USENIX conference registrants.
   SIGGRAPH '77, 20 July 1977, pages 107–111, July 1977
 [^leuven]: "SOFTWARE AGREEMENT between WESTERN ELECTRIC COMPANY, INCORPORATED
   and KATHOLIEKE UNIVERSITEIT LEUVEN Effective as of September 1, 1977"
+[^losalamos]: "A High Performance Graphics System for the CRAY-1" \
+  Robert H. Ewald and Lynn D. Maas \
+  Los Alamos Scientific Laboratory \
+  SIGGRAPH '78, pages 76–81, August 1978
 [^minnesota]: "Parallel Processing Image Synthesis and Anti-Aliasing" \
   Richard Weinberg \
   Computer Science Department, University of Minnesota \
@@ -123,6 +127,8 @@ TODO: What versions are Network UNIX and MUNIX derived from?
 |     | late winter or spring 1975  | early V6          | University of Vermont                   | PDP-11/40                                                              | [^spencer]             |
 | \-  | May 1975                    | **V6**            | -                                       | -                                                                      | [^releases]            |
 |     | fall 1975                   | V6                | University of California, Berkeley      | Thompson brought up V6 over one-year sabbatical                        | [^mckusick]            |
+|     | mentioned August 1981       | ?                 | University of Minnesota                 | Graphics paper mentioned UNIX on PDP-11/45 with Discomed film recorder | [^minnesota]           |
+|     | mentioned August 1978       | ?                 | Los Alamos Scientific Laboratory        | Graphics paper mentioned UNIX on PDP-11/70 and /34 with PS-2 and CRAY-I | [^losalamos]          |
 | \-  | around May 1977             | **Mini-UNIX**     | -                                       | -                                                                      | [^releases]            |
 | \-  | June 1977 (in use)          | **PWB/UNIX**      | -                                       | -                                                                      | [^releases]            |
 |     | mentioned July 1977         | ?                 | Brown University                        | Graphics papers [1] [2] mentioned UNIX on VAX-11/780 with Ramtek 9400 and frame buffer [2] | 1[^brown77] 2[^brown81] |
@@ -133,7 +139,6 @@ TODO: What versions are Network UNIX and MUNIX derived from?
 | \-  | January 1979                | **V7**            | -                                       | -                                                                      | [^releases]            |
 | \-  | early 1979                  | **32V**           | -                                       | -                                                                      | [^releases]            |
 |     | after early 1978            | 32V               | University of California, Berkeley      | Obtained a copy of 32V after arrival of VAX-11/780                     | [^mckusick]            |
-|     | mentioned August 1981       | ?                 | University of Minnesota                 | Graphics paper mentioned UNIX on PDP-11/45 with Discomed film recorder | [^minnesota]           |
 | \-  | late 1979                   | **3BSD**          | -                                       | -                                                                      | [^releases]            |
 | \-  | July 1981                   | **2.8BSD**        | -                                       | -                                                                      | [^releases]            |
 | \-  | January 1982                | **2.8.1BSD**      | -                                       | -                                                                      | [^releases]            |
@@ -317,7 +322,7 @@ List sources:
 |           |                           | Washington University                                 | St. Louis, MI                | Biomedical Computer Laboratory   | Kenneth L. Ripley              |       4 |
 |           |                           | Stevens Institute of Technology                       | Hoboken, NJ                  | Electrical Engineering           | Prof. Emil C. Neu              |       4 |
 |           |                           | Sandia Laboratories                                   | Albuquerque, NM              |                                  | C. J. Fisk                     |       4 |
-|           |                           | Los Alamos Scientific Laboratory                      | Los Alamos, NM               |                                  | R.P. Kruger                    |       4 |
+|           | mentioned August 1978 [^losalamos] | Los Alamos Scientific Laboratory             | Los Alamos, NM               |                                  | R.P. Kruger                    |       4 |
 |           |                           | Yourdon, Inc.                                         | New York, NY                 |                                  | P.J. Plauger                   |       4 |
 |           |                           | Brookhaven National Laboratory                        | Upton, NY                    | Physical Review                  | Stuart Kern                    |       4 |
 |           |                           | University of Toledo                                  | Toledo, OH                   |                                  | Computer Services              |       4 |

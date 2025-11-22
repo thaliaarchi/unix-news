@@ -66,6 +66,15 @@ License agreements are in licenses/.
 
   TODO: Read from page 8
 
+- "Picture System 2 Driver" \
+  Thomas E. Ferrin \
+  Computer Graphics Laboratory, University of California, San Francisco \
+  December 1977
+
+  TODO: Find source
+
+  Referenced by Ewald and Maas SIGGRPAH '78.
+
 - [*Open Sources: Voices from the Open Source Revolution*](https://www.oreilly.com/openbook/opensources/book/kirkmck.html) \ \
   Twenty Years of Berkeley Unix: From AT&T-Owned to Freely Redistributable \
   Marshall Kirk McKusick, January 1999
