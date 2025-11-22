@@ -301,11 +301,121 @@
     > - Rottman, J. N., "A Guide to the UNIX FORTRAN System," Princeton
     >   University, September 1975.
 
-  - TODO: Remaining papers after this
+  - ["Computer Graphics in Support of Space Shuttle Simulation"](https://dl.acm.org/doi/10.1145/800248.807375) \
+    Richard Weinberg \
+    Lockheed Electronics Company, Inc., Houston, Texas \
+    SIGGRAPH '78, pages 82–86
+
+    Describes the NASA Visual System, built by Evans & Sutherland and delivered
+    in 1976.
+
+    Shows great space shuttle and Earth renderings and a block diagram of the
+    simulator components.
+
+    > The SES, in NASA's Hybrid Computation and Simulation Laboratory, is
+    > currently used as a tool for evaluating and establishing techniques and
+    > procedures for use in the orbital phase of a Space Shuttle mission.  The
+    > SES is currently configured with an aft cockpit mockup where rendezvous,
+    > station keeping and Remote Manipulator System operations are being
+    > studied.  Fig. 2 depicts the SES.
+
+    > The SES uses one of the most advanced computer graphics systems in
+    > existence to generate these scenes.  The NASA Visual System, built by
+    > Evans and Sutherland Computer Company, Salt Lake City, provides two
+    > independent, realtime, full-color, smooth-shaded channels of video output
+    > for viewing in the cockpit mockup.  The high quality of these computer
+    > generated images, and the effect of the smooth shading can be seen in
+    > Fig. 3.  Delivered in 1976, the NASA Visual System can display up to 900
+    > polygons with an average of four edges each, in any of 256 software
+    > selectable colors, at a rate of 25 frames per second, with 625 lines per
+    > frame.  [3.]
+
+    > These digital and analog computers interface into a Sigma-5 computer, the
+    > central controller of the simulation. The Sigma-5 synchronizes the system
+    > to the 40 millisecond simulation frame rate, and indicates to the NASA
+    > Visual System the current position and Euler angles of the Orbiter and
+    > payloads, the angles of each of the six movable joints of the RMS, and
+    > camera selection, pan, tilt and zoom data for the closed circuit
+    > television views. The NASA Visual System consists of three interconnected
+    > PDP-11 computers, and special purpose electronic hardware for scene
+    > generation and collision detection. A PDP-11/40, designated the Host
+    > computer, serves as the interface between the NASA Visual System and the
+    > rest of the SES. The Host is interfaced to a PDP-11/35, designated the
+    > Visual Computer, and to a PDP-11/45, the Collision Avoidance System.
+    >
+    > The Host computer receives the data describing the current scenes from the
+    > Sigma-5 and transmits it to the Visual computer and to the Collision
+    > Avoidance System. The Visual computer relays the current information to
+    > the visual pipeline, a special high speed processor, whose responsibility
+    > it is to generate a new pair of images every 40 milliseconds. To perform
+    > this task, the pipeline must take into account the viewpoint of the
+    > observer, determine the proper perspective, decide which portions of the
+    > objects already stored in its memory are visible in the current frame,
+    > smooth shade and color the visible objects, and generate the video signals
+    > for the displays in the cockpit. During that same 40 milliseconds, the
+    > Collision Avoidance System examines the current configuration of the
+    > models in the simulated world to determine if any have collided, an event
+    > which it would report back to the Sigma-5 through the Host computer.
+
+  - ["System Design and Implementation of BGRAF2"](https://dl.acm.org/doi/10.1145/800248.807376) \
+    Arie A. Kaufman \
+    Ben-Gurion University of the Negev - Beer Sheva and
+    the Hebrew University - Jerusalem, Israel \
+    SIGGRAPH '78, pages 87–92
+
+    BGRAF2 runs on a PDP-11, although the OS is not stated. (The Hebrew
+    University was licensee #14.)
+
+    > The BGRAF2 system was designed and implemented on a 24K DEC PDP 11/40
+    > mini-computer at the Ben-Gurion University. Peripheral equipment includes:
+    > two RKO5 1.2 Mword disk cartridge drives; an LA30 DECwriter keyboard; a
+    > 50Hz KWII-L Line time clock; DLII asynchronous line connected to a CDC
+    > Cyber 73. The graphics unit includes a VTII Display Processor Unit having
+    > vector, point, character, jump, halt, setting properties and interrupt
+    > instructions, and driving a GT44 Refresh Display CRT and a 375 Light-Pen.
+
+  - ["Object Models for Computer Aided Design: An Overview"](https://dl.acm.org/doi/10.1145/800248.807397) \
+    Russell J. Athay \
+    Colorado State University \
+    SIGGRAPH '78, pages 239–244
+
+    Describes a system implemented first on a PDP-11/47 with LDS-2, then second on
+    a PDP-11/70 and a PS-2, both mostly in PDP-11 assembly. Unlikely to use UNIX. Collaboration with
+    the University of Utah.
+
+    > There have, however, been two systems which have been implemented and used
+    > for major applications based on these concepts. The first system was
+    > implemented to support a mine engineering system at the Kidd Creek Mine of
+    > Texasgulf, Inc. This system which became operational early in 1974 was
+    > implemented on a PDP-11/45 with 120K 16-bit words and an Evans and
+    > Sutherland LDS-2.
+
+    > The second system is described in detail in [I]. It was implemented on a
+    > PDP-11/70 with 64K words and an Evans and Sutherland Picture System 2. […]
+    > Both systems are implemented mostly in PDP-11 assembly language and appear
+    > to the user as a set of Fortran callable subroutines.
+    >
+    > The second system is providing support for a protein modeling application
+    > which the author is currently developing with Allen Edmundson and his
+    > colleagues at the Biochemistry Department of the University of Utah.
+
+    > The work reported in this paper has spanned several years, several roles,
+    > and several hundred thousand miles in airplanes. Particular acknowledgment
+    > is due to Roger Harris of Texasgulf, Profs. Elliott Organick and Richard
+    > Riesenfeld of the University of Utah, Computer Science Department, and
+    > Drs. Allen Edmundson and Enrique Abola of the Biochemistry Department of
+    > the University of Utah.
 
 - *Proceedings of SIGGRAPH '79*: TODO
 
 - *Proceedings of SIGGRAPH '80*: TODO
+
+  - ["Interactive Computer Graphics with the UNIX Time-Sharing System"](https://www.cgl.ucsf.edu/home/tef/pubs/p320-ferrin.pdf) \
+    Thomas E. Ferrin and Robert Langridge \
+    revised 23 October 1978 \
+    SIGGRAPH '80, February 1980, pages 320–331
+
+    TODO
 
 - [*Proceedings of SIGGRAPH '81*](https://archive.org/details/siggraph81confer15sigg),
   3–7 August 1981
