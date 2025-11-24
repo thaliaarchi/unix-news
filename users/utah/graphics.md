@@ -47,6 +47,36 @@
   > On a PDP 11/34, the u-v map takes approximately 4 minutes to compute for the
   > sample surface. [page 256]
 
+- ["PICTUREBALM: A Lisp-Based Graphics Language System with Flexible Syntax and Hierarchical Data Structure"](https://dl.acm.org/doi/10.1145/800250.807475) \
+  Gary B. Goates, Martin L. Griss, and Gary J. Herron \
+  University of Utah \
+  SIGGRAPH '80, 1 July 1980, pages 93–99
+
+  A Lisp for graphics, implemented by adding graphics operators to the P-code
+  abstract stack machine. UNIX not mentioned.
+
+  > PICTUREBALM is a portable, interactive, LISP-based language system for
+  > graphics applications programing. PICTUREBALM's design and initial
+  > experimental implementation is described from the point of view of both the
+  > user and the language system implementor. The approach of extending a
+  > LISP-based language by adding graphical operations was chosen because many
+  > of the recognized requirements for graphics programing languages are
+  > standard features of LISP-like systems. Future work is proposed.
+
+  > BALM [6] is a portable, easily extensible, interactive, LISP-based language
+  > system. BALM's data structures, dynamic storage management, and resident
+  > incremental compiler are essentially those of LISP [7], but BALM is
+  > ALGOL-like in its syntax. The close match between these features and the
+  > requirements for good graphics programing environments motivated extending
+  > BALM into a graphics language. The Utah version of BALM is implemented in
+  > terms of a pseudo-code, or "P-code", abstract stack machine, called MTLISP
+  > [5]. MTLISP is written in the highly portable BIL language [4] which is
+  > translated into FORTRAN or target machine assembly language. PICTUREBALM was
+  > developed by adding about a dozen low-level graphics functions as new MTLISP
+  > P-code operations, and then making them easily accessible by means of the
+  > extension mechanisms built into the BALM system. In particular,
+  > PICTUREBALM's parsing was extended by adding new operators for graphics.
+
 ## Archives
 
 - Collection A1088: [University of Utah School of Computing audio-visual collection (1970-1979)](https://archiveswest.orbiscascade.org/ark:80444/xv503861) \

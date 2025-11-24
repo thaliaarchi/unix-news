@@ -560,14 +560,54 @@
 
   - [See New York Institute of Technology](nyit.md)
 
-- *Proceedings of SIGGRAPH '80*: TODO
+- ["Interactive Computer Graphics with the UNIX Time-Sharing System"](https://dl.acm.org/doi/10.1145/988500.988508) \
+  [[alt](https://www.cgl.ucsf.edu/home/tef/pubs/p320-ferrin.pdf)]
+  Thomas E. Ferrin and Robert Langridge \
+  revised 23 October 1978 \
+  SIGGRAPH, Volume 13, Issue 4, 1 February 1980, pages 320–331
 
-  - ["Interactive Computer Graphics with the UNIX Time-Sharing System"](https://www.cgl.ucsf.edu/home/tef/pubs/p320-ferrin.pdf) \
-    Thomas E. Ferrin and Robert Langridge \
-    revised 23 October 1978 \
-    SIGGRAPH '80, February 1980, pages 320–331
+  TODO
 
-    TODO
+- [*Proceedings of SIGGRAPH '80*](https://dl.acm.org/doi/proceedings/10.1145/800250),
+  14–28 July 1980
+
+  - ["A Prototype Spatial Data Management System"](https://dl.acm.org/doi/10.1145/800250.807470) \
+    Christopher F. Herot, Richard Carling, Mark Friedell, and David Kramlich \
+    Computer Corporation of America \
+    SIGGRAPH '80, 1 July 1980, pages 63–70
+
+    A GUI for managing a repository of diagrams, text, and photos, implemented
+    on UNIX. Has photos of the system, including icons of battleships.
+
+    > Spatial Data Management is a technique for organizing and retrieving
+    > information by positioning it in a spatial framework. Data is accessed in
+    > a Spatial Data Management System (SDMS) via pictorial representations
+    > which are arranged in space and viewed through a computer graphics system.
+    > These pictures can be created by an interactive graphical editor, allowing
+    > an SDMS to serve as a personal repository of diagrams, text, and
+    > photographs. Pictograms can also be generated from data in a symbolic
+    > database management system, allowing SDMS to be used as an interface to
+    > large, shared databases.
+
+    > The SDMS prototype runs on a dedicated PDP-11/70 running a modified
+    > version of the UNIX operating system [13]. The machine has 1.25 megabytes
+    > of memory which is used primarily for manipulating the graphical data
+    > surfaces and staging them to the display. The operating system has been
+    > modified to allow user programs to map selected portions of their 16 bit
+    > address space into portions of physical memory which contain graphical
+    > data. The images are displayed on a Lexidata raster scan display system
+    > which refreshes three independent color displays out of its own 480x640
+    > frame buffers. The SDMS system runs in several parallel processes which
+    > communicate through shared memory and pipes (a low-speed interprocess
+    > channel which appears to a user program as an i/o device). The prototype
+    > configuration supports a single user. Although general purpose time
+    > sharing can be run simultaneously with SDMS, memory address space
+    > limitations preclude supporting more than one SDMS user simultaneously.
+
+    > 13\. Ritchie, D., Thompson, K., "The UNIX Time Sharing System",
+    > Communications of the ACM, 17:7, July 1974.
+
+  - See [University of Utah](utah/graphics.md)
 
 - [*Proceedings of SIGGRAPH '81*](https://archive.org/details/siggraph81confer15sigg),
   3–7 August 1981
