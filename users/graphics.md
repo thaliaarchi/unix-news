@@ -406,7 +406,159 @@
     > Drs. Allen Edmundson and Enrique Abola of the Biochemistry Department of
     > the University of Utah.
 
-- *Proceedings of SIGGRAPH '79*: TODO
+- [*Proceedings of SIGGRAPH '79*](https://dl.acm.org/doi/proceedings/10.1145/800249),
+  8–10 August 1979
+
+  - ["Digital Video Display Systems and Dynamic Graphics"](https://dl.acm.org/doi/10.1145/800249.807424) \
+    Ronald Baecker \
+    University of Toronto and Human Computing Resources Corporation \
+    SIGGRAPH '79, pages 48–56
+
+    Survey of existing digital video display systems, including Evans &
+    Sutherland, and discussion of dynamic graphics. UNIX not mentioned.
+
+    > Commercial random access frame buffers, all with independent semiconductor
+    > refresh memory, are currently made by the following manufacturers: Aydin
+    > Controls, Calcomp, Child, Chromatics, Comtal, DeAnza Systems, Evans and
+    > Sutherland, Genisco, Grinnell Systems, Hewlett Packard, Intermedia
+    > Systems, Interpretation Systems, Lexidata, Matrox, Norpak, Ramtek, and
+    > Videographics. Most systems are similar to the GX-100, albeit with
+    > enhanced performance due to the use of random access memory. Their
+    > products differ in the number of possible independent displays supported
+    > by the same memory and processing logic, the available resolutions, the
+    > number of possible bits per pixel, the memory organization, and in the
+    > vector and character expansion capabilities of their P1 processors. There
+    > is also great variety in their P2 processors. They may include
+    > programmable colour maps, programmable cursors, zoom and pan capabilities,
+    > and image overlay capabilities. The Calcomp IGT 100 and the Hewlett
+    > Packard 2648A [HP 781 are single work-station black-and-white displays;
+    > most of the other products have colour capabilities, and several can
+    > handle multiple terminals. One unique feature of the Calcomp is a
+    > three-way split-screen capability which allows simultaneous display of
+    > graphics, a blown-up portion of the graphics, and text.
+    >
+    > The most sophisticated system of the mid 70s was the Evans and Sutherland
+    > Video Frame Buffer [Kajiya 75]. The 512 X 512 X 8-bit multi-ported MOS
+    > memory is 8-way interleaved and comes with its own mapping hardware so
+    > that the entire memory can be addressed by the host CPU. Various kinds of
+    > flexibility have been provided. "Format control" allows one to vary the
+    > number of horizontal and vertical raster elements, the kind of interlace
+    > desired, and the duration of both horizontal and vertical flyback times.
+    > "Memory control" allows one to refresh different frames from different
+    > sections of memory. "Intensification control" provides a programmable
+    > colour map with 12 bits of red, 12 of blue, and 12 of green. The system
+    > can be used to present one high resolution TV frame, to play back low
+    > resolution motion sequences, to scroll through a large picture, and to
+    > display sections of a high resolution frame to a precision film recorder.
+
+    > Finally, there exist very expensive high-performance systems which produce
+    > in real time moving digital raster images from three-dimensional vector
+    > graphic representations. These are generally pipelined processors which
+    > transform an edge and surface description of a collection of
+    > three-dimensional objects into the viewer's coordinate system, remove
+    > hidden surfaces, and smooth shade the result. Examples include the General
+    > Electric NASA system for space simulation [Rougelot 69], several systems
+    > built by Evans and Sutherland which have never been described in the open
+    > literature, and two designs described in [Eastman 75] and [Tripp 75].
+
+  - ["A Network Graphical Conferencing System"](https://apps.dtic.mil/sti/tr/pdf/ADA074610.pdf) \
+    Michael T. O'Brien \
+    The Rand Corporation \
+    SIGGRAPH '79, August 1979
+
+    Describes a real-time conference system over the ARPANET on UNIX, where each
+    user controls one-sixth of the display and can write text and draw (no
+    faces). It uses Rand's Virtual Terminal UNIX operating system (but does not
+    explain their software modifications), as well as Rand-developed ACCAT
+    Graphic Order Codes (described in Appendix A) for color and vector drawing
+    commands.
+
+    > The system uses other Rand-developed utilities for the design and display
+    > of arbitrary characters, as well as Rand's Virtual Terminal UNIX (TM)*
+    > operating system.
+
+    > Very early in the history of the PLATO Project it was decided that some
+    > form of interterminal communication was required that went beyond the
+    > facilities provided by the operating system (which has a feature somewhat
+    > analogous to the TENEX LINK or UNIX "write" facilities). Therefore, a
+    > program was written[1] which allowed users to communicate with each other
+    > in groups of six; the conference thus created occupied the entire user
+    > display, with each user controlling one-sixth of the display area minus a
+    > line for identifying information. While this program did not originate
+    > with the systems support staff, it eventually achieved a somewhat
+    > ambivalent status at which point the system would have been significantly
+    > poorer without it. This program, together with the link facility and the
+    > system mail utility, allowed users thousands of miles apart who had never
+    > seen one another to collaborate effectively on non-trivial programming
+    > projects.
+
+    > Because ACCAT uses graphical entities such as military situation displays,
+    > any conferencing system which attempts to meet the needs of ACCAT users
+    > must support the manipulation of graphical entities. In addition, ACCAT
+    > users are distributed across several host machines linked via the
+    > ARPANET*. Hence, a network-oriented, color graphic conferencing system was
+    > designed. The system is not designed around any advanced theories of the
+    > psychology of conferencing, but rather is loosely based on another such
+    > system which has worked very well in the past. The color graphics
+    > capabilities are viewed as a natural extension of the text-oriented
+    > conference, in much the same way that the use of a blackboard is a natural
+    > extension of a face-to-face conversation.
+    >
+    > In fact, one explicit design goal is to have no preconceived notions of
+    > what the system is supposed to accomplish or exactly how users will
+    > accommodate themselves to it. A sufficiently powerful and general set of
+    > primitives should allow each user (or user community) to develop its own
+    > set of conventions for using the system. In our view, a good conferencing
+    > system does not represent a utility, but an environment which the users
+    > should "inhabit" in whatever fashion best suits their needs. The parent
+    > operating system, UNIX, exemplifies this concept, and it has proven quite
+    > successful.
+    >
+    > Within these rather broad parameters, the conferencing system is designed
+    > to support the following features:
+    > - Simple window-oriented text conferencing.
+    > - Ease in entering and leaving conferences.
+    > - A sketch-pad graphics facility, capable of being used either via a
+    >   keyboard, via more advanced graphic input devices, or both.
+    > - Ease of switching between textual and graphic contexts.
+    > - Simple editing features for both text and graphics.
+    > - Use of user-defined special characters in graphics windows (such
+    >   characters are designed using a utility separate from the conferencing
+    >   system).
+    > - No centralized "umpire" node in the network.
+
+    > The prototype design consists of the network protocol and the UNIX
+    > prototype implementation of the user interface. It is a primary design
+    > goal that the network protocol be a "lowest common denominator" of the
+    > capabilities expected of an implementation, and that it not be tied to any
+    > one type of graphics hardware or host operating system. The actual
+    > interface presented to the user in terms of display handling, editing
+    > capabilities, etc., is implementation-dependent.
+
+    > The mechanics of actually drawing a picture are a key subject of research.
+    > Those sites with joysticks, light pens, etc., may use them in a local
+    > implementation to draw the picture, modulated by keyboard commands or
+    > whatever other control technology the site may possess. As in the case of
+    > text editing, the actual network commands are a lowest common denominator
+    > graphics protocol, based on the Rand-developed ACCAT Graphic Order Codes.
+    > One interesting avenue being pursued is that of drawing pictures entirely
+    > with the keyboard. This requires that the keyboard be redefined as a
+    > graphics control keyboard, with line drawing, color selection, and other
+    > functions. This feature will permit sites that are poor in graphics input
+    > technology to generate pictures, albeit more laboriously than they would
+    > with graphical input devices.
+    >
+    > A user may request the graphics screen at any time, and he will be given a
+    > cursor on that screen. He may use this to point at some object being
+    > discussed or to alter the display. Hence several users may cooperate in
+    > altering a picture. Also, this permits the commands for pointing at an
+    > object to be identical to those for moving around while altering a
+    > picture, thereby eliminating the need for two separate modes of cursor
+    > motion.
+
+  - [See University of Utah](utah/graphics.md)
+
+  - [See New York Institute of Technology](nyit.md)
 
 - *Proceedings of SIGGRAPH '80*: TODO
 

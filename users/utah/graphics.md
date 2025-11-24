@@ -39,6 +39,14 @@
 
   Computer-generated face renderings and wire frames.
 
+- ["On the Rendering of Surfaces"](https://dl.acm.org/doi/10.1145/800249.807453) \
+  A.R. Forrest \
+  University of Utah \
+  SIGGRAPH '79, 1 August 1979, pages 253–159
+
+  > On a PDP 11/34, the u-v map takes approximately 4 minutes to compute for the
+  > sample surface. [page 256]
+
 ## Archives
 
 - Collection A1088: [University of Utah School of Computing audio-visual collection (1970-1979)](https://archiveswest.orbiscascade.org/ark:80444/xv503861) \
