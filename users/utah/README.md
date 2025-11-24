@@ -28,11 +28,6 @@ Collection Acc0526: [University of Utah Historical Faculty Files, 1920-2012](htt
   Container: Box 151 \
   Box 27140 L-1131 \
   Folder 95: Gary E. Lindstrom
-- University of Utah Historical Faculty Files, 2008 \
-  Wade K. Jensen to Mark C. Pendleton, 2008 \
-  Container: Box 157 \
-  Box 20091 H-838 \
-  Folder 36: Jay Lepreau
 
 ## Areas
 

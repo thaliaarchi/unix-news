@@ -53,7 +53,181 @@
      [JL15]    Jay Lepreau         UTAH      Lepreau@UTAH-CS.ARPA
   ```
 
-## Students
+## Archives
 
-- Anton Burtsev
-- Rob Ricci
+Collection Acc0526: [University of Utah Historical Faculty Files, 1920-2012](https://archiveswest.orbiscascade.org/ark:80444/xv51861) \
+University of Utah Historical Faculty Files, 2008 \
+Wade K. Jensen to Mark C. Pendleton, 2008 \
+Container: Box 157 \
+Box 20091 H-838 \
+Folder 36: Jay Lepreau
+
+- Appointment as Research Professor in the School of Computing \
+  University of Utah, School of Computing, 2004
+
+  A. Lorris Betz, Interim President, University of Utah, 14 June 2004:
+
+  > I am pleased to advise you that the University's Board of Trustees has
+  > approved your appointment to the auxiliary faculty of the University of Utah
+  > as Research Professor in the School of Computing, effective July 1, 2004 and
+  > ending June 30, 2005.  This supersedes your appointment as Research
+  > Associate Professor in the School of Computing.
+
+  - "Curriculum Vitae" \
+    Jay Lepreau, 16 March 2004
+
+    > **Advisor to Masters Students**
+    >
+    > Siddarth Aggarwal, M.S. "Research in Progress," commenced January 2004.
+    >
+    > Mac Newbold, M.S. "Reliability and State Machines in an Advanced Network
+    > Testbed," commenced August 2001, graduation expected May 2004 (now
+    > successful founder of local software company).
+    >
+    > Shashi Guruprasad, M.S. "Issues in Hybrid Network Experimentation using
+    > Simulation and Emulation," commenced May 2001, graduation expected May
+    > 2004.
+    >
+    > Abhijeet Joglekar, M.S. "High Capacity Network Link Emulation using
+    > Network Processors," commenced May 2001, defended December 2003,
+    > graduation to be May 2004 (now at Intel).
+    >
+    > Parveen Patel, M.S. "Hybrid Resource Control for Fast-path Active
+    > Extensions," commenced May 2001, thesis defended August 2003; graduated
+    > (now at Microsoft).
+    >
+    > Kevin Van Maren, M.S. "The Fluke Device Driver Framework, thesis defended
+    > May 1999; graduated.
+    >
+    > Patrick Tullmann, M.S. "The Alta Operating System," thesis defended March
+    > 1999; graduated (now at VMWare).
+    >
+    > **Unofficial Advisor to Students**
+    >
+    > Sidney G. Bytheway, "TrISH-Transparent Integrated Storage Hierarchy," M.S.
+    > thesis defended August 1995; graduated.
+    >
+    > Paul Roberts, "Implementation and Evaluation of Data Breakpoints Schemes
+    > in an Interactive Debugger," M.S. thesis defended April 1995; graduated.
+    >
+    > **Advisor to Undergraduate Students**
+    >
+    > Cory Steffen, Engineering Scholar, commenced January 2004.
+    >
+    > Jonathon Duerig, commenced October 2003.
+    >
+    > David S. Anderson, commenced August 2003.
+    >
+    > Russell Christensen, Computer Engineering senior thesis advisor, commenced
+    > January 2002.
+    >
+    > Jason Morgan, Honor's thesis advisor, January-September 2001 (changed
+    > interest and topic).
+    >
+    > Chad Barb, commenced September 2000; also senior thesis advisor; B.S.
+    > received May 2003 (now at Sensory Sys).
+    >
+    > Robert Ricci, commenced November 2000; also Honor's thesis advisor; B.S.
+    > received August 2001 (now Flux research staff and author of several
+    > papers).
+    >
+    > Mac Newbold, commenced January 2000; B.S. received May 2001.
+    >
+    > Timothy Stack, June 1998 - August 1998, B.S. received August 1998 (now
+    > Flux research staff and paper author).
+    >
+    > Eric Pabst, February 1997 - March 1998.
+    >
+    > Christopher Alfeld, commenced August 1996, B.S. Computer Science received
+    > May 2000, B.S. Mathematics received May 2001 (now Wisconsin Math Ph.D.
+    > student).
+    >
+    > Bartholomew Robinson, August 1995 - August 1998, B.S. received August 1998
+    > (now at Inktomi/lahoo).
+    >
+    > David G. Andersen, December 1997 - June 1998, B.S. received June 1998.
+    > (now MIT CS Ph.D. student and top 2004 systems faculty candidate).
+    >
+    > Bryan A. Ford, September 1992 - November 1997, B.S. received June 1998
+    > (now MIT CS Ph.D. student).
+    >
+    > James Simister, August 1997 - June 1998, B.S. received June 1998 (now at
+    > em Ware).
+    >
+    > Kevin Frei, February 1996 - June 1997, B.S. received June 1997 (now at
+    > Microsoft).
+    >
+    > Nathan Dykman, January 1995 - June 1996, B.S. received June 1996 (now Utah
+    > Ph.D. student).
+    >
+    > **Unofficial Co-advisor to Students**
+    >
+    > Linus Kamb, "Extending Fluke IPC for Transparent Remote Communication,"
+    > M.S. received December 1998 (advised with J. Carter).
+    >
+    > Ajay Chitturi, "Implementing Mandatory Network Security in a
+    > Policy-flexible System," M.S. received June 1998 (advised with G.
+    > Lindstrom) (now at Microsoft).
+    >
+    > Peter J. Hoogenboom, "System Performance Advisor: an Expert System for
+    > UNIX System Performance
+    >
+    > Management," M.S. received January 1992 (advised with R. Kessler).
+    >
+    > Douglas B. Orr, 1992 - 1995 (advised with J. Carter) (now VP Engineering
+    > at Arbor Networks).
+    >
+    > Stephen Clawson, undergraduate, B.S. received July 1995 (advised with J.
+    > Carter) (now at Alcatel).
+    >
+    > **Member of Graduate Committee**
+    >
+    > Roland Kempter, Ph.D. ECE Department, "High-capacity Wireless Access
+    > Protocols." Jason Baker, M.S., "Maya: Multiple Syntax Extension in Java,"
+    > proposal defended October 1999. thesis defended June 2002, graduated.
+    >
+    > Yury Izrailevsky, M.S., "Supporting Persistent Java Objects in a
+    > Distributed Storage System," proposal defended October 1999.
+    >
+    > Godmar Back, Ph.D. "Isolation and Sharing in a Multi-Process Java Virtual
+    > Machine," dissertation defended June 2001; graduated.
+    >
+    > Anand Ranganathan, M.S., "Design and Implementation of KOLA," proposal
+    > defended November 1998.
+    >
+    > Sai R. Susarla, Ph.D., "Flexible Wide Area Consistency Management,"
+    > proposal defended September 2001.
+    >
+    > Dilip R. Khandekar, "Quarks: Distributed Shared Memory as a Basic Building
+    > Block for Complex Parallel and Distributed Systems," M.S. thesis defended
+    > January 1996; graduated.
+    >
+    > **Post-doctoral Fellows**
+    >
+    > John Regehr, April 2001 - June 2003.
+
+- Appointment as Research Associate Professor of Computer Science \
+  University of Utah, Department of Computer Science, 2000
+
+  J. Bernard Machen, President, University of Utah, 13 June 2000:
+
+  > I am pleased to advise you that the University's Board of Trustees has
+  > approved your appointment to the auxiliary faculty of the University of Utah
+  > as Research Associate Professor of Computer Science, effective July 1, 2000
+  > and ending June 30, 2001.
+
+- Appointment as Research Assistant Professor of Computer Science \
+  University of Utah, Department of Computer Science, 1997
+
+  Jerilyn S. McIntyre, Interim President, University of Utah, 10 November 1997:
+
+  > I am pleased to advise you that the University's Board of Trustees has
+  > approved your appointment to the auxiliary faculty of the University of Utah
+  > as Research Assistant Professor of Computer Science, effective October 1,
+  > 1977 and ending June 30, 1998.
+
+## Students I know
+
+- Anton Burtsev (Ph.D.)
+- Jonathon Duerig (B.S.)
+- Rob Ricci (B.S.)
