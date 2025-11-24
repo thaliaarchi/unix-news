@@ -1,0 +1,67 @@
+VITA - Martin E. Newell
+Page Three
+
+
+
+Publications____________
+
+Schmidt, F.W. and M.E. Newell, "Heat Transfer in Fully Developed Laminar Flow
+   through Rectangular and Isosceles Triangular Ducts", International Journal
+   of Heat and Mass Transfer.  Vol. 10 pp. 1121-1123.  1967
+
+Schmidt, F.W. and M.E. Newell, "Evaluation of Refraction Errors in Interferometric
+   Heat Transfer Studies", The Review of Scientific Instruments.  Vol. 39 No. 4.
+   April 1968
+
+
+
+Schmidt, F.W. and M.E. Newell, "Heat Transfer in Fully Developed Laminar Flow
+   through Rectangular and Isosceles Triangular Ducts",  International Journal
+   of Heat and Mass Transfer.  Vol. 10 pp. 1121–1123.  1967
+
+Schmidt, F.W. and M.E. Newell, "Evaluation of Refraction Errors in Interferometric
+   Heat Transfer Studies", The Review of Scientific Instruments.  Vol. 39 No. 3.
+   April 1968.
+
+Newell, M.E. and F.W. Schmidt, "Heat Transfer by Laminar Natural Convection within
+   Rectangular Enclosures", Journal of Heat Transfer, Feb. 1970.
+
+Newell, M.E., R.G. Newell and T.L. Sancha, "The Economic Application of a Shaded
+   Picture Algorithm".  I.E.E. Conference on Computer Aided Design, Southampton,
+   England.  April 1972.
+
+Newell, M.E., R.G. Newell and T.L. Sancha, "A Solution to the Shaded Picture
+   Problem".  Proc. ACM 72, Boston, Mass.  August 1972.
+
+Newell M.E., R.G. Newell and T.L. Sancha, "Towards a Display for Computer Generated
+   Half-Tone Images".  The Computer Bulletin, Vol. 16. No. 9.  Sept. 1972.
+
+Newell, M.E.  "Application of Computer Generated Half-Tone Images".  Proc. of 1973
+   Summer Simulation Conference, Montreal, Canada.  July 1973.
+
+Newell, M.E.  "Man Machine Communication in Three Dimensions".  Proc. of 1st
+   International Conference on Computer Aided Geometric Design,  University of
+   Utah.  March 1974.
+
+References:___________
+
+   Dr Ivan E. Sutherland                        Dr William Newman
+   RAND Corporation                             XEROX
+   Santa Monica, CA.                            Palo Alto, CA.  94304
+
+   Professor Steven A. Coons                    Professor Andries Van Dam
+   University of Syracuse                       Brown University
+   New York                                     Rhode Island
+
+   Professor Charles A. Lang                    Professor Robin Forrest
+   University Computer Laboratory               University of East Anglia
+   University of Cambridge                      Norwich, U.K.
+   Cambridge, U.K.
+
+   Professor Frank W. Schmidt                   John S.W. Chilvers
+   Department of Mechanical Engineering         Manager
+   Pennsylvania State University                Computer Aided Design Centre
+   State College, PA.  16802                    Cambridge, CB3 OHB      U.K.
+
+
+April 1975

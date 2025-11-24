@@ -13,11 +13,6 @@
 ### Faculty files
 
 Collection Acc0526: [University of Utah Historical Faculty Files, 1920-2012](https://archiveswest.orbiscascade.org/ark:80444/xv51861)
-- University of Utah Historical Faculty Files, 1920-1987 \
-  Donald A. Nellermoe to Richard Norman, 1920-1987 \
-  Container: Box 44 \
-  Box 3652 L-152 \
-  Folder 39: Martin E. Newell
 - University of Utah Historical Faculty Files, 1988-1989 \
   Karen M. Sanders to Nan Zhou, 1988-1989 \
   Container: Box 72 \

@@ -1,41 +1,160 @@
 # Martin Newell sources
 
+## Archives
+
+Collection Acc0526: [University of Utah Historical Faculty Files, 1920-2012](https://archiveswest.orbiscascade.org/ark:80444/xv51861) \
+University of Utah Historical Faculty Files, 1920-1987 \
+Donald A. Nellermoe to Richard Norman, 1920-1987 \
+Container: Box 44 \
+Box 3652 L-152 \
+Folder 39: Martin E. Newell
+
+- "University of Utah Official Faculty Record" \
+  Martin Edward Newell
+
+  Martin apparently attended the ACM parent conference of SOSP '73!
+
+  > APPOINTMENT TO THE UNIVERSITY OF UTAH EFFECTIVE: \
+  > Date: July 1, 1975 \
+  > Rank: Assistant Professor \
+  > Department: Computer Science
+  >
+  > **POSITIONS HELD AT THE UNIVERSITY OF UTAH**
+  >
+  > (This record will be kept up to date in the office of the Academic Vice
+  > President)
+  >
+  > | Year          | Position                                |
+  > | ------------- | --------------------------------------- |
+  > | 1973-75       | Research Associate                      |
+  > | 1976-77       | Assistant Professor of Computer Science |
+  > | June 30, 1977 | Resigned                                |
+  >
+  > **PROFESSIONAL RECORD**
+  >
+  > EDUCATION:
+  >
+  > | Year | Degree | Institution                                                 |
+  > | ---- | ------ | ----------------------------------------------------------- |
+  > | 1966 | B.Sc.  | Imperial College of Science & Technology, London University |
+  > | 1968 | M.S.   | Pennsylvania State University                               |
+  > | 1975 | Ph.D.  | University of Utah                                          |
+  >
+  > Title of Dissertation: The Utilization of Procedure Models in Digital Image
+  > Synthesis.
+  >
+  > ACADEMIC SERVICE:
+  >
+  > | Year | Position | Institution |
+  > | ---- | -------- | ----------- |
+  > |      |          |             |
+  >
+  > ACADEMIC RECOGNITIONS: (Clubs, Societies, Scholarships, etc.)
+  >
+  > ```
+  > Awarded Bramwell Medal      )
+  >      "  Unwin Premium       ) London University - 1966
+  >
+  > Member of ACM SIGGRAPH
+  > ```
+  >
+  > OTHER PROFESSIONAL SERVICE (Business, government, etc.):
+  >
+  > | Year    | Position                       | Institution                                                     |
+  > | ------- | ------------------------------ | --------------------------------------------------------------- |
+  > | 1968-72 | Computer Graphics Group Leader | Computer Aided Design Centre<br>Cambridge, U.K.                 |
+  > | 1975-76 | Consultant on Retainer         | Evans & Sutherland Computer Corporation<br>Salt Lake City, Utah |
+  >
+  > FIELDS OF SPECIAL INTEREST: Computer Science, Computer Graphics.
+  >
+  > TRAVEL:
+  >
+  > | Year | Where             | For What Purpose                                    |
+  > | ---- | ----------------- | --------------------------------------------------- |
+  > | 1975 | Los Angeles       | To Co-chair session in Computer Graphics conference |
+  > | 1974 | Boulder, Colorado | To attend Computer Graphics conference.             |
+  > | 1973 | Montreal, Canada  | To present paper at Simulation conference.          |
+  > | 1973 | New York          | To attend National Computer Conference.             |
+
+  > **RECORD OF SPECIAL UNIVERSITY ACTIVITIES**
+  >
+  > (Faculty Committees, etc.)
+  >
+  > | Year    | Position                                      |
+  > | ------- | --------------------------------------------- |
+  > | 1975    | Member of Computer Center Advisory Committee. |
+  > | 1975-76 | Comp. Center Adv. Comm                        |
+
+- "VITA - Martin E. Newell" \
+  Martin E. Newell \
+  C.V. for appointment as Assistant Professor of Computer Science \
+  University of Utah, April 1975
+
+  TODO: Who were the three staff members?
+
+  Transcribed in 1975-04_newell_vita/.
+
+- Resignation letter to A.C. Hearn \
+  Martin E. Newell \
+  University of Utah, 29 March 1977
+
+  Partially transcribed in 1977-03-29_newell_resignation/ (but not responses).
+
 ## Publications
+
+- "Heat Transfer in Fully Developed Laminar Flow through Rectangular and
+  Isosceles Triangular Ducts" \
+  F.W. Schmidt and Martin E. Newell \
+  International Journal of Heat and Mass Transfer, Volume 10, pages 1121–1123,
+  1967
+
+- "Evaluation of Refraction Errors in Interferometric Heat Transfer Studies" \
+  F.W. Schmidt and Martin E. Newell \
+  The Review of Scientific Instruments, Volume 39, Number 3, April 1968
+
+- "Heat Transfer by Laminar Natural Convection within Rectangular Enclosures" \
+  Martin E. Newell and F.W. Schmidt \
+  Journal of Heat Transfer, February 1970
+
+- "The Economic Application of a Shaded Picture Algorithm" \
+  Martin E. Newell, R.G. Newell, and T.L. Sancha \
+  I.E.E. Conference on Computer Aided Design, Southampton, England, April 1972
+
+- "A Solution to the Shaded Picture Problem" \
+  Martin E. Newell, R.G. Newell, and T.L. Sancha \
+  Proceedings of the ACM '72, Boston, MA, August 1972
+
+- "Towards a Display for Computer Generated Half-Tone Images" \
+  Martin E. Newell, R.G. Newell, and T.L. Sancha \
+  The Computer Bulletin, Volume 16, Number 9, September 1972
+
+- "Application of Computer Generated Half-Tone Images" \
+  Martin E. Newell \
+  Proceedings of 1973 Summer Simulation Conference, Montreal, Canada, July 1973
 
 - ["Man Machine Communication in Three Dimensions"](https://utah-primoprod.hosted.exlibrisgroup.com/permalink/f/1g0gstr/TN_cdi_proquest_ebookcentralchapters_1901512_116_314) \
   Martin E. Newell (University of Utah) \
   [Computer Aided Geometric Design, March 1974](https://www.sciencedirect.com/book/9780120790500/computer-aided-geometric-design),
   p.303-315
 
-    ```
-         Another rather more conventional system is also
-    under development  at Utah.  This is based on a PDP-
-    11/45  system.   As  proposed, the PDP-11 will have
-    attached to it a real-time line drawing system and a
-    frame  buffer.  The line drawing system will be used
-    not  only  to  produce  line  drawings,  but will be
-    capable of carrying out a number of the more common-
-    ly needed functions found in processing three dimen-
-    sional  information.   These  include  matrix multi-
-    plication  and  the ability to clip polygons with an
-    arbitrary number of edges.  The frame buffer will be
-    configured so as to be accessible from the PDP-11 as
-    128K  of  high speed store.  Thus, when not used for
-    refreshing  a TV monitor, the frame buffer will give
-    a  large  memory expansion to the PDP-11 for storing
-    data  structures or whatever else seems appropriate.
-    The  whole system will be connected to the ARPA Net-
-    work  as  a  host.  For interaction, the system will
-    initially  have  a  teletype  and tablet.  Hard copy
-    listings  and  drawings  will  be  obtained by using
-    existing  facilities.  It is proposed to connect the
-    head mounted display to this system, using a deriva-
-    tive of the Twinklebox for determining head position
-    and  for  3-D  input.  When operational, this system
-    will  provide  facilities  for working interactively
-    with  line  drawings,  and for producing direct-view
-    shaded pictures.
-    ```
+  > Another rather more conventional system is also under development at Utah.
+  > This is based on a PDP-11/45 system.  As proposed, the PDP-11 will have
+  > attached to it a real-time line drawing system and a frame buffer.  The line
+  > drawing system will be used not only to produce line drawings, but will be
+  > capable of carrying out a number of the more commonly needed functions found
+  > in processing three dimensional information.  These include matrix
+  > multiplication and the ability to clip polygons with an arbitrary number of
+  > edges.  The frame buffer will be configured so as to be accessible from the
+  > PDP-11 as 128K of high speed store.  Thus, when not used for refreshing a TV
+  > monitor, the frame buffer will give a large memory expansion to the PDP-11
+  > for storing data structures or whatever else seems appropriate. The whole
+  > system will be connected to the ARPA Network as a host.  For interaction,
+  > the system will initially have a teletype and tablet.  Hard copy listings
+  > and drawings will be obtained by using existing facilities.  It is proposed
+  > to connect the head mounted display to this system, using a derivative of
+  > the Twinklebox for determining head position and for 3-D input.  When
+  > operational, this system will provide facilities for working interactively
+  > with line drawings, and for producing direct-view shaded pictures.
 
 - [*The Utilization of Procedure Models in Digital Image Synthesis*](https://collections.lib.utah.edu/ark:/87278/s651906h) \
   Martin Edward Newell (University of Utah) \
@@ -47,6 +166,10 @@
 
   Acknowledgements: David Evans, Ivan Sutherland, Steven Coons, Rich
   Riesenfeld, Tom Stockham, Mike Milochik, Sandy Newell
+
+- ["Modeling by Computer"](https://archive.org/details/cadsystemsprocee0000ifip/page/290/mode/2up) \
+  Martin E. Newell and David C. Evans \
+  IFIP W.G. 5.2 Conference on CAD Systems, Austin, Texas, February 1976
 
 - ["The Utilization of Procedure Models in Digital Image Synthesis"](https://collections.lib.utah.edu/ark:/87278/s6hh73p6) \
   Martin Edward Newell (University of Utah) \

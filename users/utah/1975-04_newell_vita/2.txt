@@ -1,0 +1,49 @@
+VITA - Martin E. Newell
+Page Two
+
+
+
+University of Utah
+Computer Science Department
+Salt Lake City, Utah            1973-present
+
+   Position:                                    Research Associate
+
+   Responsibilities:                            Managing and extending the computer
+                                                graphics facilities under contract with
+                                                ARPA, and carrying out research in
+                                                computer graphics in conjunction with
+                                                the faculty and students.
+
+                                                This work has involved a considerable
+                                                amount of technical administration
+                                                concerned with the acquisition of a new
+                                                stand alone facility of advanced
+                                                capability.  Close association with
+                                                the faculty and students has given
+                                                valuable experience in the supervision
+                                                of a research effort in a university
+                                                environment.
+
+   Staff:                                       2 programmers, 1 maintenance engineer.
+
+   Teaching experience:                         CS685 and CS687 - Computer Graphics
+                                                Seminars, Fall 1974 and Winter 1975.
+
+Current Activities and Interests________________________________
+
+   In conjunction with my Ph.D. research I have been investigating the application
+of procedural modeling techniques to the computer generation of continuous tone images
+of three dimensional scenes.  These techniques have shown to permit the
+processing of scenes of up to one hundred times the complexity previously practicable.
+The application of these techniques to other areas related to computer aided design is
+being investigated.
+
+   Over the past two years I have been responsible for specifying and acquiring a new
+facility specifically intended for further research into three dimensional modeling
+techniques.  This facility, based on a PDP-11/45 computer, includes a dynamic line
+drawing system and a solid state picture memory interfaced to a color TV monitor.
+These devices, together with a variety of input devices, provide an advanced capability
+for interaction with the modeling process.  The facility will be used for the
+application of modeling techniques to selected areas of computer aided design and
+image understanding research.

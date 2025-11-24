@@ -1,0 +1,57 @@
+                                     V I T A
+
+
+                                 Martin E. Newell
+
+
+
+Personal________
+
+   Date of Birth:     REDACTED
+   Place of Birth:    Leicester, England
+   Marital Status:    Married
+   Residence:         REDACTED, Salt Lake City, Utah
+   S.S. No.:          REDACTED
+   Citizen of the United Kingdom.
+
+Education
+
+Imperial College of Science & Technology
+London University              1963-66          B.Sc - 1st Class Honours in Mechanical
+                                                Engineering.  Awarded Bramwell Medal for
+                                                gaining highest grades over three years.
+
+Pennsylvania State University  1966-68          M.S. in Mechanical Engineering.
+                                                Thesis topic: Numerical Analysis applied
+                                                to Convective Heat Transfer.
+
+University of Utah             1973-present     Ph.D. Candidate in Computer Science
+                                                Department.
+                                                Thesis topic: Modeling techniques applied
+                                                to continuous tone computer graphics.
+
+Employment__________
+
+Computer Aided Design Centre,
+Cambridge, England.            1968-72
+
+   Position:                                    Computer Graphics Group Leader
+
+   Responsibilities:                            Specification, development and
+                                                maintenance of the graphics facilities
+                                                at the Centre used by a wide range of
+                                                industrial clients form all areas of
+                                                engineering.
+
+                                                This work involved developing software for
+                                                a variety of computers including time
+                                                sharing, stand alone, and combinations
+                                                running concurrently.  The experience
+                                                gained in working at all levels, from
+                                                the basic machine hardware through
+                                                dealing with clients' engineering
+                                                problems has been invaluable in gaining
+                                                an appreciation for all aspects of
+                                                computer aided design.
+
+   Staff:                                       3 programmers.
