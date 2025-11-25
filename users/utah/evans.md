@@ -6,7 +6,6 @@ Collection MS 0625: [David C. Evans papers (1958-1987)](https://archiveswest.orb
 University of Utah Libraries, Special Collections, J. Willard Marriott Library
 
 Boxes to examine by priority:
-- Box 105: Affiliated Companies and Customers (incl. New York Institute of Technology)
 - Box 140: University of Utah/Brigham Young University
 - Box 45: Travel
 - Box 101: Affiliated Companies and Customers (incl. Digital Equipment Corp.)
@@ -141,10 +140,60 @@ Boxes:
   - Fd 11: Digital Equipment Corp., Annual Report (1974)
   - Fd 12: Digital Equipment Corp., Miscellaneous
 
-- TODO Box 105: Affiliated Companies and Customers
+- Box 105: Affiliated Companies and Customers
+  (searched Fd 1, 9–10)
   - Fd 9: New York Institute of Technology, Correspondence and Purchase
     Agreement (1974-1986)
+    - Memo from Dave Evans, "Camera Status for NYIT", 6 November 1974
+
+      A display and camera to be delivered to NYIT on 3 March 1975.
+
+      Scan requested.
+    - Letter from David C. Evans to Alexander Schure, NYIT, 2 October 1975
+
+      Quote for Frame Buffer for PDP-11.
+
+      Scan requested.
+    - Letter from David C. Evans to Alexander Schure, NYIT, 18 November 1975
+
+      Recalls Ed Catmull's visit a week prior to E&S on the NYIT experience using the
+      Video Frame Buffer to make pictures.
+
+      Scan requested.
+    - "Purchase Agreement" between New York Institute of Technology and Evans & Sutherland, 6 November 1974
+
+      E&S selling PDP-11/45, peripherals, Picture System, Frame Buffer, Film Recording Unit, and training
+
+      Scan requested.
   - Fd 10: New York Institute of Technology, Request for proposal (1977)
+    - "Request for Proposal", Edwin Catmull, Director of Computer Graphics Lab,
+      NYIT to Dave Evans \
+      Version 2, 19 September 1977
+
+      > 4.1 Time sharing
+      >
+      > Timesharing doesn't work for our needs.
+      >
+      > a. The response time is very unreliable ranging from instant service to
+      > waits of up to a minute for simple tasks. \
+      > b. Since the data base is all on one disk, processors that access the
+      > data base face stiff competition from other such processes. \
+      > c. Several processes are computation bound. \
+      > d. Programmers develop programs that aren't interactive.
+      >
+      > The result is that artists who are entering and checking figures spend a
+      > considerable amount of time (at least half) waiting for the computer to
+      > become ready.
+      >
+      > 4.2 The PDP11
+      >
+      > The PDP11 address space is too small for many tasks. We get around this
+      > for most applications by overlaying processes. However the hidden
+      > surface algorithm barely fits with pictures of Measure For Measure (MFM)
+      > complexity. We will run out of room for more complex 2D pictures and
+      > reasonably complex 3D polygons and patches.
+
+      Scan requested.
 
 - Box 108: Affiliated Companies and Customers
   (searched Fd 2, 9–11, 15, 17, 22, 23–25, 28, 31)

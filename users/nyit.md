@@ -23,3 +23,17 @@
   > ceding trouble. Tne tint fill program was speeded up substantially by
   > checking for the case where it must fill large full-value areas and doing
   > the highly optimized simple fill in that event.
+
+- ["Edwin Catmull"](https://en.wikipedia.org/wiki/Edwin_Catmull), Wikipedia
+
+  The Computer Graphics lab started after November 1974.
+
+  > In 1974, Catmull earned his doctorate in computer science,[1] and was hired
+  > by a company called Applicon. By November of that year, he had been
+  > contacted by Alexander Schure, the founder of the New York Institute of
+  > Technology, who offered him the position as the director of the institute's
+  > new Computer Graphics Lab.[19] [20] In that position, in 1977, he invented
+  > Tween, software for 2D animation that automatically produced frames of
+  > motion in between two frames.[21]
+
+  TODO: Follow sources.
