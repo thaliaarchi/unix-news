@@ -66,6 +66,24 @@ License agreements are in licenses/.
 
   TODO: Read from page 8
 
+- "A Commentary on the UNIX Operating System" \
+  John Lions \
+  Department of Computer Science, University of New South Wales \
+  Second Version, 1977
+
+  The commentary was first produced for internal use at UNSW ("first version").
+  It was first announced outside of UNSW in UNIX News [March 1977](https://archive.org/details/unix_news_march-1977/page/n3/mode/1up)
+  and started shipping around May 1977 ("second version"). Distribution was then
+  taken over by Western Electric, announced in ;login: [March 1978](https://archive.org/details/login_march-1978/page/n1/mode/1up).
+
+  UNSW received V6 in December 1975:
+
+  > The actual UNIX operating system source code is recorded in a separate
+  > companion volume entitled "UNIX Operating System Source Code", which was
+  > first printed in July, 1976. This is a specially edited selection of code
+  > from the Level Six version of UNIX, as received by us in December, 1975.
+  > [page i-2]
+
 - "Picture System 2 Driver" \
   Thomas E. Ferrin \
   Computer Graphics Laboratory, University of California, San Francisco \

@@ -49,6 +49,10 @@ members, and USENIX conference registrants.
   School of Urban and Public Affairs and Department of Architecture,
   Carnegie-Mellon University \
   SIGGRAPH '76, pages 24–33, July 1976
+[^lions]: "A Commentary on the UNIX Operating System" \
+  John Lions \
+  Department of Computer Science, University of New South Wales \
+  Second Version, 1977
 [^brown77]: "GPGS: A Device-independent General Purpose Graphic System for Stand-alone
   and Satellite Graphics" \
   L.C. Caruthers, Jan van den Bos (University of Nijmegen), and
@@ -371,3 +375,4 @@ List sources:
 |           |                           | University of Wollongong                              | Wollongong, NSW, Australia   |                                  |                                |       5 |
 |           |                           | NSW Institute of Technology                           | Sydney, NSW, Australia       |                                  |                                |       5 |
 |           |                           | University of Adelaide                                | Adelaide, SA, Australia      |                                  |                                |       5 |
+|           | December 1977 (V6) [^lions] | University of New South Wales                       | Kensington, NSW, Australia   |                                  |                                |         |
