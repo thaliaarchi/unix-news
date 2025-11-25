@@ -12,7 +12,9 @@ Folder 39: Martin E. Newell
 - "University of Utah Official Faculty Record" \
   Martin Edward Newell
 
-  Martin apparently attended the ACM parent conference of SOSP '73!
+  Note that the 1973 [National Computer Conference](https://en.wikipedia.org/wiki/Joint_Computer_Conference#National_Computer_Conference)
+  was 4–8 June 1973 in New York, while SOSP '73 was 15–17 October 1973 in New
+  York.
 
   > APPOINTMENT TO THE UNIVERSITY OF UTAH EFFECTIVE: \
   > Date: July 1, 1975 \
