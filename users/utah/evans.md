@@ -6,7 +6,7 @@ Collection MS 0625: [David C. Evans papers (1958-1987)](https://archiveswest.orb
 University of Utah Libraries, Special Collections, J. Willard Marriott Library
 
 Boxes to examine by priority:
-- Box 140: University of Utah/Brigham Young University
+- Finish Box 140: University of Utah/Brigham Young University
 - Box 45: Travel
 - Box 101: Affiliated Companies and Customers (incl. Digital Equipment Corp.)
 - Box 60: Picture System
@@ -353,16 +353,172 @@ Boxes:
       [*Scientific American*, June 1970](https://wkbpic.com/wkbx/SA/1970/1970-06-01.pdf),
       pages 57–81
 
-- TODO Box 140: University of Utah/Brigham Young University
+- Box 140: University of Utah/Brigham Young University
+  (searched Fd 1–7)
   - Fd 1: University of Utah, Department of Computer Science, Correspondence
     (1975-1978)
+
+    TODO: Finish review and request scans.
+
+    - Memorandum from Rich Riesenfeld to Tony Hearn, "Animation Seminar in
+      spring 1975", 1975
+
+      Martin (Newell?) offered a seminar before spring 2025.
+
+      > Attached hereto is a proposal written by Garland Stern and Lance
+      > Williams to teach an animation seminar this spring.  In view of Steve's
+      > departure and the completion of Martin's seminar, I offer to act as
+      > faculty advisor to this project so that there can be an additional
+      > course offering in computer graphics this spring. Garland and Lance are
+      > both working on theses that involve computer animation, so I feel
+      > comfortable that they could do an excellent job.  Moreover this activity
+      > would be in line with their research interests.
+
+      > The new graphics picture system, based on the PDP 11/45, will permit
+      > films to be made with reduced load on the PDP 1 single-user.  Animation
+      > files will be generated on the PDP 10 timesharing system and will be
+      > read and prepared for the Watkin's hidden surface hardware by the
+      > single-user.  The output, however, will be on magnetic tape, to be
+      > transferred to and filmed on the PDP 11.  This will effect a substantial
+      > savings in computer time on the single-user, which will no longer be
+      > bound by the display time of the betascope/film chain.  Time on the
+      > betascope will also be reduced due to the new configuration of the
+      > display system.
+      >
+      > Necessary support for the seminar will thus include: 1) An account on
+      > the time-sharing PDP-10, 2) limited use of the single-user PDP-1, and 3)
+      > a budget to be used for film processing. For the latter,  a budget of
+      > $200 proved adequate last year.
+    - "Topics List and Suggested Readings", 30 May 1974 and 9 Oct 1974 (no
+      revisions)
+
+      > (These topics are herewith declared in effect for the Spring 1975
+      > Computer Science Comprehensive Exam to be administered during the week
+      > of March 17-22, 1975).
+      >
+      > <u>Table of Contents</u>
+      >
+      > - A. Mathematics
+      >    1. Discrete Structures
+      >    2. Logic
+      >    3. Probability and Information Theory
+      > - B. Algorithms and Programming
+      >    1. Algorithms
+      >    2. Programming
+      > - C. Programming Languages
+      >    1. Specific Languages
+      >    2. Syntax Definition and Processing
+      >    3. Semantic Models, Constructs and Implementation
+      > - D. Systems
+      >    1. Computer Architecture and Organization
+      >    2. Operating Systems
+      >    3. Data Management Systems
+      > - E. Logic Design and Primitive Processors
+      >    1. Boolean Algebra
+      >    2. Finite state machines
+      >    3. Turing machines
+      >    4. Memory systems
+      >    5. Arithmetic of computers
+    - TODO
   - Fd 2: University of Utah Computer Center, Security Manual (1968)
+    - "Standard Practice Procedure for Security", University of Utah Computer
+      Center, September 1968
+
+      Defines procedures for dealing with classified materials in the Computer
+      Center, including espionage laws.
+
+      > The proper procedures for processing a classified job are detailed
+      > below:
+      >
+      > 1. The machine room must be emptied of uncleared personnel.  Doors
+      >    leading outside of the room will be secured by dropping a brace in
+      >    the raised floor well.  The restricted area signs will be posted at
+      >    doors leading to the computer room that cannot be positively secured
+      >    from inside.
+      > 2. Draperies will be used to cover all windows.
+      > 3. A cleared person must stand in the I/O room to prevent access through
+      >    that room or the doors must be locked and blocked.
+      > 4. All scratch tapes used become classified at the level of the input
+      >    documents.  These must be stamped, labeled and stored in the security
+      >    contained or removed by the courier.
+      > 5. FASTRAND SCRATCH AREAS <u>CANNOT</u> BE USED FOR <u>PROCESSING</u> OF
+      >    <u>CLASSIFIED</u> <u>DATA</>.
+      > 6. <u>ALL</u> <u>REMOTE</u> <u>ACTIVITY</u> must be <u>STOPPED</u>
+      >    before classified material enters the system.
+      > 7. FH 432 drums may be used for scratch as the erase procedures will
+      >    adequately guard against compromise.
+      > 8. <u>AFTER</u> a classified run and <u>PRIOR</u> to permitting remotes
+      >    to enter again or any other job submitted to the system, all
+      >    classified tapes removed from the tape drives core memory must be
+      >    cleared and the manual erase executed from the FH 432.  Contact panel
+      >    must be executed (See Par. 19 h 3 of manual).
+
+      Scan requested.
   - Fd 4: University of Utah, Department of Computer Science, Graphical man-made
     communications project (1967-1977)
+    - "USAF - Graphical Man-Machine Communications", David C. Evans
+
+      Monthly expenses? Not descriptive, just dollar amounts.
   - Fd 5: University of Utah, Department of Computer Science, Technical
     Memorandum (1972)
-  - Fd 6-7: University of Utah, Department of Computer Science, Department
-    Handbooks (1977-78 and 1978-79)
+    - "DESIGN", Michael Archueleta, Computer Science Technical Memorandum, TM
+      #7204, 14 April 1972
+
+      A rendering system for many objects, running on TENEX. Describes its 26
+      commands and has listings of example programs.
+
+      Capitalization mine (originally all-caps):
+
+      > INTRODUCTION
+      >
+      > DESIGN is a system which enables a user to assemble a collection of
+      > objects and produce a picture with hidden surfaces removed.  Commands
+      > are entered at a teletype console permitting continuous interaction with
+      > the system.  Many hidden surface pictures can be computed in less than
+      > 10 seconds of CPU time.  The scope of DESIGN is to allow a user to work
+      > with a vast amount of objects.  A picture of a city with cubes
+      > representing buildings or a picture of a frame structure of a building
+      > can all be easily produced with DESIGN.  To adapt to a user's individual
+      > needs, additional commands can be appended to the system with little
+      > difficulty.  DESIGN is not an answer to the world's graphics problems,
+      > but it can be adapted to many useful applications.
+
+      Apparently operates on a PDP-10/50 running TENEX:
+
+      > The 10/50 system… [page 1]
+
+      > TENEX COMMAND VARIATION
+      >
+      > Instead of specifying a FORTRAN unit number and the file name, the user
+      > will specify the typical file format:
+      > `<DISKAREA>FILENAME.EXTENSION;VERSION`. [page 17]
+  - Fd 6: University of Utah, Department of Computer Science, Department
+    Handbook (1977-78)
+    - "Department of Computer Science Handbook", 1977–1978
+
+      Lists faculty, classes, and PhD graduates and their employment.
+
+      > A UNIVAC 1108, a DEC PDP-10, a Burroughs B1726, a large DEC PDP-11/45,
+      > and several smaller computers are used in the various research projects.
+      > A DECSYSTEM 20 is also being acquired. The Department of Computer
+      > Science also maintains special research facilities for graphics, sensory
+      > information processing, photographic processing, and small scale digital
+      > system assembly and study. [page 1]
+
+      Scan requested.
+  - Fd 7: University of Utah, Department of Computer Science, Department
+    Handbook (1978-79)
+    - "Department of Computer Science Handbook", 1978–1979
+
+      Likewise.
+
+      > Departmental computing facilities used in the various research projects
+      > include a DECsystem 2040, a Burroughs B1426, a DEC PDP-10 which is run
+      > in single user mode, a DEC PDP-11/45, a graphics system consisting of a
+      > DEC PDP-11/34, an E & S Picture System and a Grinnell color frame buffer
+      > and several smaller computers. [page 1]
+
+      Scan requested.
   - Fd 8: University of Utah, Department of Computer Science, Departmental
     Directories (1976)
   - Fd 9: University of Utah, Department of Computer Science, Colloquium and
