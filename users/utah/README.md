@@ -6,6 +6,7 @@
 - [Martin Newell](newell.md)
 - [Jim Blinn](blinn.md)
 - Ed Catmull
+- Paul C. Abegglen (Dennis_Tapes lett8)
 - Gary Lindstrom
 - [Mike Hibler](hibler.md)
 - [Jay Lepreau](lepreau.md)
