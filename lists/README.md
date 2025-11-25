@@ -18,7 +18,7 @@ members, and USENIX conference registrants.
 | March 19, 1976   | [80 USENIX](1976-03-19_news.txt)                | UNIX News March 19, 1976 |
 | July 1976        | >125 USENIX                                     | UNIX News July 1976      |
 | September 1976   | [138 USENIX](1976-09_news.txt)                  | UNIX News September 1976 |
-| July 1977        | 168 USENIX [TODO]                               | ;login: July 1977        |
+| July 1977        | [168 USENIX](1977-07_login.txt)                 | ;login: July 1977        |
 | October 1977     | >250 USENIX                                     | ;login: October 1977     |
 | January 6, 1978  | 300 Bell installs, ≫300 non-Bell installs       | BSTJ 57.6 page 1947      |
 | April 3, 1978    | >600 installs, 125 users                        | BSTJ 56.6 page 1905 [^bstj1905] |

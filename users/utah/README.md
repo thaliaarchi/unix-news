@@ -10,6 +10,32 @@
 - [Mike Hibler](hibler.md)
 - [Jay Lepreau](lepreau.md)
 
+First listed in June 1975:
+
+```
+801-581-8224
+Mr. Martin E. Newell
+Computer Science Dept.
+Univ. of Utah
+Salt Lake City, Utah 84112
+```
+
+First listed in July 1977:
+
+```
+801-531-7711
+Walter B. Dilts
+Berkeley Scientific Laboratories
+Clinical Laboratory Division
+330 West 5th South
+Salt Lake City, Utah 84101
+```
+
+First listed in February 1980:
+
+- Randy Frank, University of Utah
+- Spencer W. Thomas, University of Utah
+
 ### Faculty files
 
 Collection Acc0526: [University of Utah Historical Faculty Files, 1920-2012](https://archiveswest.orbiscascade.org/ark:80444/xv51861)

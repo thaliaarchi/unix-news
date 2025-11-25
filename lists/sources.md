@@ -239,8 +239,9 @@
   >
   > The mailing list for this issue is reproduced, with telephone numbers, in
   > this issue.  It also appears in the file "3/mlist.jul77" on the distribution
-  > tape.  On the tape it is formatted in the same way as it was in distribution
-  > 2.  The details are in directory "bklyn" of distribution 2. [page 1]
+  > tape.  On the tape it is formatted in the same way as it was in
+  > distribution 2.  The details are in directory "bklyn" of distribution 2.
+  > [page 1]
 
 - ;login: [October 1977](https://archive.org/details/login_october-1977):
   over 250 members counted
