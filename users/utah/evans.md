@@ -528,6 +528,63 @@ Boxes:
   - Fd 21: University of Utah Research Proposals (1974, 1975)
   - Fd 24: University of Utah, Miscellaneous (1966-1985)
 
+## Faculty file
+
+Collection Acc0526: [University of Utah Historical Faculty Files, 1920-2012](https://archiveswest.orbiscascade.org/ark:80444/xv51861) \
+University of Utah Historical Faculty Files, 2005 \
+Thomas R. Cate Jr. to Lorayne T. Frank, 2005 \
+Container: Box 138 \
+Box 27072 L-1128 \
+Folder 91: David C. Evans (Elec. Eng.)
+
+Events:
+- Resignation as Chairman of the Division of Computer Science, effective 31
+  December 1972.
+- Reappointments to Adjunct Professor of Computer Science, College of
+  Engineering for the academic years ending 30 June 1979, 30 June 1980, 30 June
+  1981, 30 June 1982, 30 June 1983, 30 June 1984, 30 June 1985, 30 June 1986, 30
+  June 1987, 30 June 1988, 30 June 1989, 30 June 1990, 30 June 1991, 30 June
+  1992, and 30 June 1993.
+- Deceased between 1998–1999 and 1999–2000 academic year faculty lists.
+
+Misc documents:
+- Newspaper clipping, "Firm's Prospered Consistently" by Robert H. Woody,
+  Tribune Business Editor with handwritten "T 6-22-80": About E&S and
+  Particularly Evans.
+- Paper clipping, "David C. Evans", probably from the September 1966 Scientific
+  American.
+- Appreciation for writing article in the September 1966 Scientific American.
+- Newspaper clipping, "'Nobody knows we're here'" by Arnold Irvine, Deseret News
+  business editor with handwritten DN "4-1".
+- TODO: Resume search here.
+
+The year 196[56] is handwritten with 5 and 6 superimposed.
+
+> **POSITIONS HELD AT THE UNIVERSITY OF UTAH**
+>
+> (This record will be kept up to date in the office of the Academic Vice
+> President)
+>
+> | Year                     | Position                                                                               |
+> | ------------------------ | -------------------------------------------------------------------------------------- |
+> | 196[56] through 12-31-72 | Professor of Electrical Engineering and Director of Computer Science and Computer Opr. |
+> | 196[56]                  | Tenure                                                                                 |
+> | 1972                     | Professor of Computer Science                                                          |
+> | 1973-74                  | Leave of absence without pay                                                           |
+> | 1974-75                  | Prof. of Comp. Sc. & Adj. Prof. of Elec. Engg.                                         |
+> | 1975-76                  | Professor of Computer Science and Adjunct Professor of Electrical Engineering          |
+> | 1976-77                  | Professor of Computer Science & Adjunct Professor of Electrical Engineering            |
+> | 1977-78                  | "                                                                                      |
+> | 1978-79                  | " Elect Engg " Computer Science                                                        |
+> | 1979-80                  | Adjunct Professor of Computer Science and Adjunct Professor of Electrical Engineering  |
+> | 1980-81                  | "                                                                                      |
+> | 1981-82                  | "                                                                                      |
+> | 1982-83                  | "                                                                                      |
+> | 1983-84                  | "                                                                                      |
+> | 1984-85                  | "                                                                                      |
+> | 1985-86                  | "                                                                                      |
+> | 1986-87                  | "                                                                                      |
+
 ## Will Bagley papers
 
 - Collection ACCN 1937: [Will Bagley papers (1836-2008)](https://archiveswest.orbiscascade.org/ark:80444/xv22454) \
