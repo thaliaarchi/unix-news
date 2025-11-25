@@ -6,7 +6,6 @@ Collection MS 0625: [David C. Evans papers (1958-1987)](https://archiveswest.orb
 University of Utah Libraries, Special Collections, J. Willard Marriott Library
 
 Boxes to examine by priority:
-- Box 108: Affiliated Companies and Customers (incl. University of Utah)
 - Box 105: Affiliated Companies and Customers (incl. New York Institute of Technology)
 - Box 140: University of Utah/Brigham Young University
 - Box 45: Travel
@@ -147,10 +146,144 @@ Boxes:
     Agreement (1974-1986)
   - Fd 10: New York Institute of Technology, Request for proposal (1977)
 
-- TODO Box 108: Affiliated Companies and Customers
+- Box 108: Affiliated Companies and Customers
+  (searched Fd 2, 9–11, 15, 17, 22, 23–25, 28, 31)
+  - Fd 2: Tokyo Electron Laboratories, Sales agreement (1973)
+    - Perhaps the first E&S sales agreement (18 December 1973):
+      > Enclosed is one copy of the first draft of the proposed Agreement with
+      > TEL.  Upon your review, perhaps we can discuss the Agreement. Hopefully,
+      > this draft will be the basis for an Agreement that can be used with
+      > other agents of Evans and Sutherland.
   - Fd 22: University of Utah (1969-1985)
-  - Fd 23-25: University of Utah, Proposal, agreement, and purchase inquiry
-    (1970-1977)
+    - Letter from Ivan E. Sutherland to University of Utah Purchasing
+      Department, 25 September 1969
+
+      Quote on Display Processor for $45,000 (standard price), to be delivered 1
+      December 1969. University intends to use it with PDP-10.
+    - Letter from Richard F. Leahy to Robert M. Lee, Computer Science Division,
+      University of Utah, 27 January 1971
+
+      Proposal that E&S be employed by the University of Utah to design and
+      fabricate computer logic assemblies (PCBs) for the University
+
+      Scan requested.
+    - Letter from Roy B. Peterson, Purchasing Department, University to David C.
+      Evans, 12 July 1971
+
+      Unsolicited quotation for E&S Matrix Multiplier at $40,000. The University
+      already has a LDS-1 Channel Control installed in the MEB and the Matrix
+      Multiplier is compatible with it.
+    - Letter from Dave Evans to Rawlin Evans, "University of Utah Channel
+      Control", 10 August 1971
+
+      The University's Channel Control is now out of service and must be
+      inspected before the Matrix Multiple is to be installed on 27 August 1971
+      to bring it to the same state of quality as the Case and BB&N systems.
+    - Letter from Dave Evans to Wally, "University of Utah Matrix Multiplier",
+      25 August 1971
+
+      > You are to discontinue work on the Matrix Multiplier for the University
+      > of Utah.  You are to save the parts until further notice.
+    - Letter from Mho to Dave and Ed, "U of U Beta Scope", 12 July 1973
+
+      After fixing the scope, Mho helped Martin N. get a decent picture on the
+      screen, then brought the scope to E&S to inspect it.
+
+      Scan requested.
+    - Letter from Craig Rasmussen to Dick Leahy, "Line Generators at the U. of
+      U.", 6 December 1973
+
+      Swapping Line Generators at the U.
+    - Letter from Dave Evans to Rod Rougelot, Ed Cheadle, and Don Garner,
+      "Cursor for the University of Utah Frame Buffer", 15 April 1975
+
+      Martin says he was promised a cursor by Rod for the University of Utah's
+      Frame Buffer as a friendly offer, but concedes cursor design issues.
+
+      Scan requested.
+    - Letter from David C. Evans to C. W. Martin, Director, Patent and Product
+      Development, University of Utah, 13 May 1975
+
+      No equipment was delivered in 1974 based on the patents in the contract
+      between E&S and the University, but they expect to deliver some equipment
+      during 1975 for which the University will be due royalties.
+    - Meeting between David Evans and Martin Newell, "Completion of Frame Buffer
+      / Picture System Contract", 30 October 1975
+
+      Contract for hardware from E&S and development work from the U.
+
+      Transcribed as 1975-10-30_fb_ps_contract.txt.
+    - Letter from David C. Evans to Richard F. Reisenfeld, Computer Science
+      Department, University of Utah, 16 June 1980
+
+      Gift of Multi Picture System at no charge nor restriction.
+    - Letter from David Pierpont Gardner, President, to David C. Evans, 10 March
+      1982
+
+      Thanks for gift of PS 300 to Department of Computer Science.
+    - Letter from Richard F. Riesenfeld, Professor and Chairman, to David C.
+      Evans, "Re: Educational Gift Program", 19 January 1983
+
+      Request for gift of PS 300 to Engineering College for a new laboratory for
+      CAD/CAM instruction. Also proposed to DEC for a VAX to host that display.
+    - Letter from Erik K. Antonsson, Assistant Professor, to David Evans, 28
+      September 1983
+
+      Thanks for gift of PS 300 and the Department Mechanical Engineering
+      received it today.
+    - Letter from J. D. Andrade, Dean, to David Evans, 6 October 1983
+
+      Thanks for PS300. The room to house it has been remodeled and a set of
+      terminals has been installed, but the host VAX has not yet been delivered.
+    - (non-exhaustive list)
+  - Fd 23: University of Utah, Proposal (1973)
+    - Proposal from David C. Evans to Thomas G. Stockham, Computer Science
+      Department, University of Utah, "Proposal to the University of Utah: To
+      build and operate a real time shaded picture operating system", Proposal
+      No. 73-08-01, 9 August 1973
+
+      Unsolicited proposal by E&S for E&S and the University to build a
+      real-time shaded picture operating system. The University would obtain a
+      state-of-the art graphics facility and E&S would be provided access.
+      Acknowledges the University's ARPA sponsored research and the location of
+      E&S on campus.
+
+      The groups are joined by computer graphics pioneers: "Martin Newell of
+      Cambridge, England, who has been an important developer of the shaded
+      picture art and who has made some of the finest pictures has joined the
+      University; Rodney Rougelot, Robert Shumacker and Ed Wild who built the
+      first dynamic shaded picture system while employed by the General Electric
+      Company have joined Evans & Sutherland. As a result of this gathering
+      together in Salt Lake City there is no group of people of comparable
+      achievement in the field at any other location."
+
+      The facility operates under a PDP-11/45, which is interfaced by the
+      University to the PDP-10 and the ARPANET.
+
+      Scan requested.
+  - Fd 24: University of Utah, Agreement (1970)
+    - "Agreement" between University of Utah and Evans & Sutherland, 30 October
+      1970
+
+      Terms for royalties and patents.
+  - Fd 25: University of Utah, Purchase inquiry (1977)
+    - Inquiry from the Purchasing Department, University of Utah, to Evans &
+      Sutherland, Inquiry No. 60904, 19 July 1977
+
+      Items and specifications: “Furnish and install interactive graphics
+      display system per attached specifications.”
+
+      > This specification defines the hardware, software, and support
+      > requirements for a stand-alone high quality dynamic interactive graphics
+      > display, necessary for the success of our project.  We have been
+      > developing software for two years. This software should be able to be
+      > run without undue modification.  A demonstration of this capability must
+      > be conducted before the award of the contract.
+      >
+      > This equipment must not interfere with the usual operation of the
+      > Chemistry PDP 11/45 to which it will be attached.
+
+      Scan requested.
 
 - Box 135: Papers, Evans & Sutherland Employees
   (searched Fd 1, 3, 8, 11–12, 15, 18, 30)

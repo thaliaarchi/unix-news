@@ -1,0 +1,31 @@
+                                                Dave E.
+                                                 cc. Craig R.
+Meeting     David Evans         Oct 30. 1975         Dick R.
+            Martin Newell
+
+Subject:    Completion of Frame Buffer / Picture System Contract
+
+E&S agrees to supply:
+            Partitioned Picture System Control
+            MAP Speed-up ECO
+            Extra 8K x 36 Refresh Buffer
+            18 bit DMA address register ECO
+            NOP ~ Truck Mode ECO
+
+U of U agrees to fulfil its commitment to supply
+E&S intl system software. This will consist
+of basic user software for the Frame Buffer,
+and demonstration programmers for the Frame Buffer
+and Picture System. Some basic systems
+for Picture System will be included.
+U of U will assemble package and such software
+for presentation to E&S.
+
+We agree that, notwithstanding, any other prior
+understandings or agreements, on completion of
+the above actions both sides will be considered
+to have satisfied their the contract.
+
+
+Accepted David C Evans 30 Oct 1975
+Accepted Martin E Newell. 30 Oct 1975.
