@@ -10,6 +10,7 @@ members, and USENIX conference registrants.
 | February 1973    | 16 installs                                     | Third Edition manual     |
 | November 1973    | >20 installs                                    | Fourth Edition manual    |
 | June 1974        | >50 installs                                    | Fifth Edition manual     |
+| July 1974        | ~40 installs, 72 user                           | CACM July 1974 [^cacm74] |
 | June 27, 1975    | [51 licensees, 55 installs](1975-06-27_ken.txt) | Ken's Dennis_Tapes list  |
 | July 16, 1975    | ≥49 licensees                                   | UNIX News July 16, 1975  |
 | July 30, 1975    | [37 USENIX, ≥51 licensees](1975-07-30_news.txt) | UNIX News July 30, 1975  |
@@ -20,10 +21,15 @@ members, and USENIX conference registrants.
 | July 1977        | 168 USENIX [TODO]                               | ;login: July 1977        |
 | October 1977     | >250 USENIX                                     | ;login: October 1977     |
 | January 6, 1978  | 300 Bell installs, ≫300 non-Bell installs       | BSTJ 57.6 page 1947      |
+| April 3, 1978    | >600 installs, 125 users                        | BSTJ 56.6 page 1905 [^bstj1905] |
 | October 1978     | [38 AUUGN](1978-10_auugn.txt)                   | AUUGN October 1978       |
 | end of 1978      | >600 installs                                   | Life with UNIX page 12   |
 | January 28, 1980 | 447 Boulder USENIX [TODO]                       | ;login: February 1980    |
 
+[^cacm74]: "The UNIX Time-Sharing System" \
+  Dennis M. Ritchie and Ken Thompson \
+  Bell Laboratories \
+  Communications of the ACM, Volume 17, Number 7, July 1974
 [^nijmegen]: "SOFTWARE AGREEMENT between WESTERN ELECTRIC COMPANY, INCORPORATED
   and KATHOLIEKE UNIVERSITEIT Effective as of December 1, 1974"
 [^holmgren]: "The Network UNIX System" \
@@ -50,6 +56,11 @@ members, and USENIX conference registrants.
   SIGGRAPH '77, 20 July 1977, pages 107–111, July 1977
 [^leuven]: "SOFTWARE AGREEMENT between WESTERN ELECTRIC COMPANY, INCORPORATED
   and KATHOLIEKE UNIVERSITEIT LEUVEN Effective as of September 1, 1977"
+[^bstj1905]: "The UNIX Time-Sharing System" \
+  Dennis M. Ritchie and Ken Thompson \
+  Bell Laboratories \
+  The Bell System Technical Journal, Volume 57, Number 6, pages 1905–1929,
+  July–August 1978
 [^losalamos]: "A High Performance Graphics System for the CRAY-1" \
   Robert H. Ewald and Lynn D. Maas \
   Los Alamos Scientific Laboratory \

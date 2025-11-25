@@ -1,5 +1,100 @@
 # Sources for lists of early UNIX users
 
+- ["The UNIX Time-Sharing System"](https://dl.acm.org/doi/10.1145/800009.808045) \
+  Dennis M. Ritchie and Ken Thompson \
+  Bell Laboratories \
+  Fourth ACM Symposium on Operating Systems Principles,
+  IBM Thomas J. Watson Research Center, Yorktown Heights, New York,
+  15–17 October 1973.
+
+  TODO: Locate copy. Only the abstract is available.
+
+- ["The UNIX Time-Sharing System"](https://dl.acm.org/doi/10.1145/361011.361061) \
+  Dennis M. Ritchie and Ken Thompson \
+  Bell Laboratories \
+  Communications of the ACM, Volume 17, Number 7, July 1974 \
+  [[digitized](https://dsf.berkeley.edu/cs262/unix.pdf)]
+
+  > UNIX is a general-purpose, multi-user, interactive operating system for the
+  > Digital Equipment Corporation PDP-11/40 and 11/45 computers.
+
+  > This is a revised version of a paper presented at the Fourth ACM Symposium
+  > on Operating Systems Principles, IBM Thomas J. Watson Research Center,
+  > Yorktown Heights, New York, October 15-17, 1973.
+
+  > There have been three versions of UNIX. The earliest version (circa 1969-70)
+  > ran on the Digital Equipment Corporation PDP-7 and -9 computers. The second
+  > version ran on the unprotected PDP-11/20 computer. This paper describes only
+  > the PDP-11/40 and /45 [1] system since it is more modern and many of the
+  > differences between it and older UNIX systems result from redesign of
+  > features found to be deficient or lacking.
+  >
+  > Since PDP-11 UNIX became operational in February 1971, about 40
+  > installations have been put into service; they are generally smaller than
+  > the system described here. Most of them are engaged in applications such as
+  > the preparation and formatting of patent applications and other textual
+  > material, the collection and processing of trouble data from various
+  > switching machines within the Bell System, and recording and checking
+  > telephone service orders. Our own installation is used mainly for research
+  > in operating systems, languages, computer networks, and other topics in
+  > computer science, and also for document preparation.
+
+  > 72 user population \
+  > 14 maximum simultaneous users \
+  > 300 directories \
+  > 4400 files \
+  > 34000 512-byte secondary storage blocks used
+
+- ["The UNIX Time-Sharing System"](https://archive.org/details/bstj57-6-1905) \
+  Dennis M. Ritchie and Ken Thompson \
+  Bell Laboratories \
+  The Bell System Technical Journal, Volume 57, Number 6, pages 1905–1929,
+  July–August 1978 \
+  [[digitized](https://www.scs.stanford.edu/nyu/04fa/sched/readings/unix.pdf)]
+
+  > (Manuscript received April 3, 1978)
+
+  > UNIX* is a general-purpose, multi-user, interactive operating system for the
+  > larger Digital Equipment Corporation PDP-11 and the Interdata 8/32
+  > computers.
+
+  > † Copyright 1974, Association for Computing Machinery, Inc., reprinted by
+  > permission. This is a revised version of an article that appeared in
+  > Communications of the ACM, 17, No. 7 (July 1974), pp. 365-375. That article
+  > was a revised version of a paper presented at the Fourth ACM Symposium on
+  > Operating Systems Principles, IBM Thomas J. Watson Research Center, Yorktown
+  > Heights, New York, October 15-17, 1973.
+
+  > There have been four versions of the UNIX time-sharing system. The earliest
+  > (circa 1969-70) ran on the Digital Equipment Corporation PDP-7 and -9
+  > computers. The second version ran on the unprotected PDP- 11/20 computer.
+  > The third incorporated multiprogramming and ran on the PDP-11/34, /40, /45,
+  > /60, and /70 computers; it is the one described in the previously published
+  > version of this paper, and is also the most widely used today. This paper
+  > describes only the fourth, current system that runs on the PDP-11/70 and the
+  > Interdata 8/32 computers. In fact, the differences among the various systems
+  > is rather small; most of the revisions made to the originally published
+  > version of this paper, aside from those concerned with style, had to do with
+  > details of the implementation of the file system.
+  >
+  > Since PDP-11 UNIX became operational in February, 1971, over 600
+  > installations have been put into service. Most of them are engaged in
+  > applications such as computer science education, the preparation and
+  > formatting of documents and other textual material, the collection and
+  > processing of trouble data from various switching machines within the Bell
+  > System, and recording and checking telephone service orders. Our own
+  > installation is used mainly for research in operating systems, languages,
+  > computer networks, and other topics in computer science, and also for
+  > document preparation.
+
+  > Overall, we have today:
+  >
+  > 125 user population \
+  > 33 maximum simultaneous users \
+  > 1,630 directories \
+  > 28,300 files \
+  > 301,700 512-byte secondary storage blocks used
+
 - ["Unix Programmer's Manual: Second Edition"](http://squoze.net/UNIX/v2man/man0) \
   Ken Thompson and Dennis Ritchie, June 12, 1972
 
@@ -130,6 +225,13 @@
   > The list, in machine readable form, is on its way to Chicago Circle for
   > inclusion in the next software disribution. [page 1]
 
+- "UNIX Time-Sharing System: A Retrospective" \
+  Dennis Ritchie \
+  Tenth Hawaii International Conference on the System Sciences, Honolulu,
+  January 1977
+
+  TODO: Locate copy
+
 - ;login: [July 1977](https://archive.org/details/login_july-1977),
   pages 8–12: 168 members listed
 
@@ -150,6 +252,23 @@
 - Australian UNIX Users Group Newsletter [October 1978](https://archive.org/details/auugnv01.1):
   38 AUUGN members [listed](../auugn/1978-10/4.txt)
 
+- ["UNIX Time-Sharing System: A Retrospective"](https://archive.org/details/bstj57-6-1947) \
+  Dennis Ritchie \
+  The Bell System Technical Journal, Volume 57, No. 6, pages 1947–1969, \
+  July–August 1978
+
+  > Manuscript received January 6, 1978 [page 1]
+
+  > A version of this paper was presented at the Tenth Hawaii International
+  > Conference on the System Sciences, Honolulu, January, 1977. [page 1947]
+
+  > Since its development in 1971, it has become quite widely used, although
+  > publicity efforts on its behalf have been minimal, and the license under
+  > which it is made available outside the Bell System explicitly excludes
+  > maintenance. Currently, there are more than 300 Bell System installations,
+  > and an even larger number in universities, secondary schools, and commercial
+  > and government institutions. [page 1948]
+
 - ;login: [February 1980](https://archive.org/details/login_february-1980),
   pages 19a–22b: 447 Boulder Usenix conference registrants listed
 
@@ -164,19 +283,3 @@
   > In general, there is rapid growth in the size of both these users groups;
   > there were 450 attendees at the USENIX meeting, which is the largest
   > attendance yet. [page 3a]
-
-- ["UNIX Time-Sharing System: A Retrospective"](https://archive.org/details/bstj57-6-1947) \
-  Dennis Ritchie \
-  The Bell System Technical Journal, Volume 57, No. 6, July–August 1978
-
-  > Manuscript received January 6, 1978 [page 1]
-
-  > A version of this paper was presented at the Tenth Hawaii International
-  > Conference on the System Sciences, Honolulu, January, 1977. [page 1947]
-
-  > Since its development in 1971, it has become quite widely used, although
-  > publicity efforts on its behalf have been minimal, and the license under
-  > which it is made available outside the Bell System explicitly excludes
-  > maintenance. Currently, there are more than 300 Bell System installations,
-  > and an even larger number in universities, secondary schools, and commercial
-  > and government institutions. [page 1948]
