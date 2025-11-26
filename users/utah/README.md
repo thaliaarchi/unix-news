@@ -45,11 +45,6 @@ Collection Acc0526: [University of Utah Historical Faculty Files, 1920-2012](htt
   Container: Box 72 \
   Box 21676 H-904 \
   Folder 55: Spencer W. Thomas
-- University of Utah Historical Faculty Files, 2007 \
-  Michelle L. Hicks to Nomi G. Loeb, 2007 \
-  Container: Box 151 \
-  Box 27140 L-1131 \
-  Folder 95: Gary E. Lindstrom
 
 ## Areas
 
