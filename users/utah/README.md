@@ -37,15 +37,6 @@ First listed in February 1980:
 - Randy Frank, University of Utah
 - Spencer W. Thomas, University of Utah
 
-### Faculty files
-
-Collection Acc0526: [University of Utah Historical Faculty Files, 1920-2012](https://archiveswest.orbiscascade.org/ark:80444/xv51861)
-- University of Utah Historical Faculty Files, 1988-1989 \
-  Karen M. Sanders to Nan Zhou, 1988-1989 \
-  Container: Box 72 \
-  Box 21676 H-904 \
-  Folder 55: Spencer W. Thomas
-
 ## Areas
 
 - [Graphics](graphics.md)
