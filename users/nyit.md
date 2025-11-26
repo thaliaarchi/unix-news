@@ -24,6 +24,22 @@
   > checking for the case where it must fill large full-value areas and doing
   > the highly optimized simple fill in that event.
 
+- [*Tutorial: Computer Graphics*](https://archive.org/details/tutorialcomputer0000kell) \
+  Kellogg S. Booth, 1979
+
+  > A large array of equipment has been assembled to support the NYIT effort. A
+  > DEC PDP-11/70 and PDP-11/45 run UNIX operating systems for time-sharing use
+  > and output to several Tektronix 4014 storage-tube graphic terminals. A
+  > PDP-11/35 is used with an Evans and Sutherland picture system on a stand-alone
+  > basis, and several Evans & Sutherland frame buffer systems are in use for
+  > temporary picture storage and image playback. A two-inch videotape editing
+  > machine has been modified to snap frames from the frame-buffer memories for
+  > full-color playback of animated sequences via videotape production. Finally, a
+  > high-resolution CRT coupled with a 35mm animation camera is available for
+  > recording images directly on film. [page 386]
+
+  TODO: Review source more fully.
+
 - ["Edwin Catmull"](https://en.wikipedia.org/wiki/Edwin_Catmull), Wikipedia
 
   The Computer Graphics lab started after November 1974.

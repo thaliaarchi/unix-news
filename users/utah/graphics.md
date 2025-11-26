@@ -47,6 +47,13 @@
   > On a PDP 11/34, the u-v map takes approximately 4 minutes to compute for the
   > sample surface. [page 256]
 
+- [*Principles of Interactive Computer Graphics*](https://archive.org/details/principlesofinter00newm) \
+  William M. Newman and Robert F. Sproull, 1979
+
+  Contains several renderings from the University of Utah, including the teapot.
+
+  TODO: Review source more fully.
+
 - ["PICTUREBALM: A Lisp-Based Graphics Language System with Flexible Syntax and Hierarchical Data Structure"](https://dl.acm.org/doi/10.1145/800250.807475) \
   Gary B. Goates, Martin L. Griss, and Gary J. Herron \
   University of Utah \
