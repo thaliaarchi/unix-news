@@ -50,7 +50,8 @@
   Bell Laboratories \
   The Bell System Technical Journal, Volume 57, Number 6, pages 1905–1929,
   July–August 1978 \
-  [[digitized](https://www.scs.stanford.edu/nyu/04fa/sched/readings/unix.pdf)]
+  [[HTML by Dennis Ritchie](https://www.nokia.com/bell-labs/about/dennis-m-ritchie/cacm.html)]
+  [[digitized PDF](https://www.scs.stanford.edu/nyu/04fa/sched/readings/unix.pdf)]
 
   > (Manuscript received April 3, 1978)
 

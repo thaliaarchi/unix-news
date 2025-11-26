@@ -463,6 +463,14 @@
   - KKK=
   - KSJ=
 
+- [[TUHS] ed.c on Unix v5](https://www.tuhs.org/pipermail/tuhs/2015-December/007908.html) \
+  Marc Rochkind, TUHS, 19 December 2015
+
+  > Right. Obviously Doug can supply the details, but I recall that around 1972
+  > or so Dick Haight used to go over from Piscataway to Murray Hill to get a
+  > new system, and there would be some sort of indication about whether it was
+  > a good day or a bad day to make a tape.
+
 - ["Licenses on Unix"](https://venam.net/blog/unix/2017/06/04/licenses.html) \
   Patrick Louis, 4 June 2017
 

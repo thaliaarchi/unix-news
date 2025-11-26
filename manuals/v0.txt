@@ -806,7 +806,7 @@ illegal action is caught, the system writes the user's core image
 on file "core" in the current working directory. Because of the
 way the hardware and the system operate, the contents of all the
 program-accessible registers are stored within this core image
-files Thus, the debugger db discussed below can be used to determine
+file. Thus, the debugger db discussed below can be used to determine
 the state of the program at the time of the fault.
 
 The user may also force the program to stop and a core image file
@@ -1127,7 +1127,7 @@ symbols in a given assembly. The command
 
       un [ name ]
 
-searches the (name list) file name and prints all the stbols undefined
+searches the (name list) file name and prints all the symbols undefined
 therein. If name is omitted, "n.out" is used.
 
 APPENDIX 1
@@ -1141,7 +1141,7 @@ one of whose bits records a carry occurring during an arithmetic
 operation. To indicate an error the system sets this carry bit;
 it is cleared for successful calls. There is a conditional branch
 instruction to test the state of the bit. All registers not used
-to communicate explidit arguments are unchanged by calls to the
+to communicate explicit arguments are unchanged by calls to the
 system.
 
 The instruction used to call the system is known to the assembler
