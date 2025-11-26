@@ -354,12 +354,9 @@ Boxes:
       pages 57–81
 
 - Box 140: University of Utah/Brigham Young University
-  (searched Fd 1–7)
+  (searched Fd 1–25)
   - Fd 1: University of Utah, Department of Computer Science, Correspondence
     (1975-1978)
-
-    TODO: Finish review and request scans.
-
     - Memorandum from Rich Riesenfeld to Tony Hearn, "Animation Seminar in
       spring 1975", 1975
 
@@ -419,7 +416,24 @@ Boxes:
       >    3. Turing machines
       >    4. Memory systems
       >    5. Arithmetic of computers
-    - TODO
+    - "Purchase Order #7830905", Lawrence Livermore Laboratory and University of
+      Utah, 18 September 1975
+
+      > We wish to express our appreciation for the subject purchase order which
+      > provides funds in the amount of $15,000,00 for the project "Computer
+      > Generated Movie Depicting Light Propagation in High Power Lasers" under
+      > the direction of Dr. David. C Evans assisted by Martin E. Newell and
+      > Stewart Ogden, Computer Science.
+    - Letter to Richard H. Timpson, University of Utah, from Elmer G. Havens,
+      Grants Officer, National Science Foundation, 16 June 1978
+
+      Grant of $42,000 for acquisition of PDP-11/34, frame buffer, disk, and
+      floppy disk drive, under the direction of Richard F. Riesenfeld.
+
+      The Graphics Laboratory currently consists of a PDP-11/05 and E&S Picture
+      System, both DARPA property. The 11/05 is very slow.
+
+    Scans requested.
   - Fd 2: University of Utah Computer Center, Security Manual (1968)
     - "Standard Practice Procedure for Security", University of Utah Computer
       Center, September 1968
@@ -454,6 +468,11 @@ Boxes:
       >    must be executed (See Par. 19 h 3 of manual).
 
       Scan requested.
+  - Fd 3: Text retrieval demonstration (1984)
+    - "University of Utah Text Retrieve System Demonstration for Evans &
+      Sutherland", 21 June 1984
+
+      Steps to perform demo.
   - Fd 4: University of Utah, Department of Computer Science, Graphical man-made
     communications project (1967-1977)
     - "USAF - Graphical Man-Machine Communications", David C. Evans
@@ -521,12 +540,275 @@ Boxes:
       Scan requested.
   - Fd 8: University of Utah, Department of Computer Science, Departmental
     Directories (1976)
+    - "Computer Science Directory", Winter 1976: Lists name, room, phone number,
+      title, and address for everyone employed by the department.
+    - "Computer Science Directory", Autumn 1976: Likewise.
+
+    Scans requested.
   - Fd 9: University of Utah, Department of Computer Science, Colloquium and
     presentation announcements (1976-1984)
+    - "Computer Display of Curved Surfaces", James F. Blinn, Defense of a
+      Doctoral Dissertation, University of Utah Computer Science Department, 10
+      June 1977
+    - "Implementing Data-Flow Programs on Physical Resources", Susan Conry,
+      Department of Computer and Electrical Engineering, Clarkson College,
+      University of Utah Computer Science Colloquium, 9 November 1978
+    - Philip Y. T. Chang, Defense of a Doctoral Dissertation, University of Utah
+      Computer Science Department, 22 December 1978
+
+      On database query optimization.
+    - "A Demonstration of a Digital Musical Instrument", Alan C. Ashton and
+      Robert F. Bennion, Department of Computer Science Science, Brigham Young
+      University, University of Utah Computer Science Colloquium, 8 May 1979
+    - "High Technology and High Finance", David C. Evans, Evans & Sutherland,
+      University of Utah Computer Science Colloquium, 20 November 1979
+
+    Scans requested.
+  - Fd 10: Electrical Engineering Dept., Correspondence (January 1979-March
+    1980)
+    - Memorandum, "Goals Committee Report -- Cooperative Education", Ad Hoc
+      Goals Committee, 12 September 1979
+
+      Scan requested.
+    - Memorandum, "1980-1981 Offers of Financial Aid to New Students", D. A.
+      Christensen, Chairman of Graduate Committee, 13 March 1980
+
+      Salary of no more than $7,500 and offer letter template for new graduate
+      student research assistants.
+
+      Scan requested.
+  - Fd 11: Electrical Engineering Dept., Correspondence (July 1980-September
+    1981)
+    - Memorandum, "Goals, 1980-1981", Goals Committee, 2 September 1980
+
+      Proposed goals: increase the number of grad students, upgrade the
+      laboratory equipment, career guidance (industrial interaction), faculty
+      recruitment, digital program, reduce teaching load, and national
+      visibility.
+
+      Scan requested.
+  - Fd 12: Electrical Engineering Dept., Correspondence (October 1981-1982)
+    - "Report on the Faculty Retreat", Goals Committee, 5 October 1981
+
+      > On the first topic, some of the following comments were made: basically
+      > compatible and friendly faculty; relatively quiet; preponderance of
+      > faculty members with Utah background and culture; lack of acceptance of
+      > new tools, e.g., computer-aided instruction, ICs, new equipments; lack
+      > of attendance at seminars; lack of demand for sabbaticals, etc.  Some
+      > possible causes for these attitudes may be heavier-than-normal teaching
+      > load, too many students, and large unmanageable classes.  The comments
+      > made by the Graduate Reviewers on lack of travel and contact with the
+      > peers at large are not borne out by the statistics on these categories
+      > and were therefore refuted.
+
+      Scan requested.
+    - Memorandum, "Faculty Meeting", Electrical Engineering Faculty, 8 October
+      1981
+
+      > Representatives of the electronics industry have estimated that 80% to
+      > 90% of their engineers will be working with IC modules and thus only 10%
+      > to 20% will be involved with the development and building of the IC
+      > modules.  If we accept these estimates as being approximately correct,
+      > then an interesting question arises concerning the content of courses in
+      > electronic circuits and the preparation of students to enter industry.
+      > In Professor Mitra's words, "It is now possible to design fairly complex
+      > systems using these modules without knowing too much about their
+      > internal construction and device physics."  How much needs to be taught
+      > about biasing a transistor or balancing an op amp?  Indeed, how much
+      > should be taught concerning semiconductor physics, device technology,
+      > and the properties of materials?  These are questions we must answer.
+
+      Scan requested.
+  - Fd 13: Electrical Engineering Dept., Correspondence (1983-1986)
+    - Memorandum, "1986-87 Graduate School Bulletin", Chris Perry, 6 December
+      1985
+
+      Lists Electrical Engineering faculty, but no one in Computer Science.
+  - Fd 14: Electrical Engineering Dept., Faculty meeting summaries (1980-1983)
+    - Faculty Meeting Summary, Electrical Engineering Department, 13 March 1980
+
+      The percent of current students who meet a minimum GPA of 2.25 (75%), 2.35
+      (72%), 2.50 (64%).
+
+      A suggested stipend of $7,000/year for graduate stipends, $1,000 more than
+      the previous year.
+
+      Scan requested.
+    - Faculty Meeting Summary, Electrical Engineering Department, 12 January
+      1982
+
+      > Computer Science has decided that they do not want to be part owners
+      > with our department of the HP 3000.  We are taking over the system as
+      > whole owners, with some qualifications:  They will keep terminals worth
+      > approximately $15,000 and we get the remainder -- something like
+      > $200,000 total.  We might get Hewlett-Packard to upgrade our system to
+      > the 64 series, a good system that would satisfy all our needs.  One
+      > concern we have is how we will pay the operating costs and the $1000
+      > monthly maintenance contract.
+
+      Scan requested.
+    - Faculty Meeting Summary, Electrical Engineering Department, 19 January
+      1982
+
+      > Dr. Durney announced that Dean Lattman has given us $9,000 to help with
+      > running and maintenance of the HP-3000 computer for the rest of the
+      > fiscal year.
+
+      > A motion was made to raise the 2.25 admission GPA to 2.5, to take effect
+      > during spring quarter so as to aid in limiting enrollment next autumn.
+      > An amendment was offered to try to get permission to make that 2.75, and
+      > to settle for 2.5 if that were not possible, since a range up to 2.5 had
+      > already been approved by the Senate.  Both the amendment and the motion
+      > were passed.
+
+      Scan requested.
+    - Faculty Meeting Summary, Electrical Engineering Department, 16 February
+      1982
+
+      > When we discussed the policy for next year several weeks ago, there was
+      > a feeling that we should raise the GPA to 2.75.  In order to make a
+      > change such as this, the notice must be given to the students well in
+      > advance.  Because the department has not met this requirement it will
+      > not be advisable to change the GPA at the present time.  Dr. Grow is
+      > sensitive to even raising it to 2.50 right now.  The students know 2.25,
+      > and if we raise it under these circumstances there will be many
+      > complaints and perhaps more serious complications could develop.  Dr.
+      > Davern is mindful of our problems and agree  that we need to change our
+      > admissions policy in order to protect ourselves in the future.  The
+      > decision was to leave the GPA at 2.25.  The new policy (establishing a
+      > quote) will take effect for 1983-84.  We should go to the Administration
+      > with the request for the amount of money we will need to handle the
+      > expected enrollment increase next year.
+
+      Scan requested.
+    - Faculty Meeting Summary, Electrical Engineering Department, 4 January 1983
+
+      Student laboratory procedures, including parts purchases.
+
+      Scan requested.
   - Fd 15: University of Utah, Department of Electrical Engineering,
     Miscellaneous
+    - "Equipment Purchases -- 1980-1981", Electrical Engineering Department, 28
+      May 1981
+
+      No PDP computers. Several Tektronics products.
+
+      Scan requested.
+    - "Procedure to be Followed to Implement Admission Criteria for Electrical
+      Engineering Majors", Electrical Engineering Department, 13 March 1980
+
+      Scan requested.
+  - Fd 16: Technical liaison program (1981)
+    - "Technical Liaison Program", College of Engineering, University of Utah
+
+      > The College of Engineering at the University of Utah invites
+      > participation in its Technical Liaison Program, which has been organized
+      > to develop closer relations between engineering and scientific companies
+      > and he seven departments of the College: Bioengineering, Chemical
+      > Engineering, Civil Engineering, Computer Science, Electrical
+      > Engineering, Materials Science and Engineering, and Mechanical and
+      > Industrial Engineering.
+      >
+      > During fall quarter, 1980, the College enrollment was 2500 students, of
+      > which approximately 300 were graduate students.
+      >
+      > The 112 faculty members are distributed in the following ranks:
+      > - 42 Professors
+      > - 29 Associate Professors
+      > - 13 Assistant Professors
+      > - 4 Research Professors
+      > - 11 Associate Research Professors
+      > - 13 Assistant Research Professors
+      >
+      > All departments offer the BS, MS, and PhD degrees except Bioengineering,
+      > which is a graduate department offering only the MS and PhD degrees.
+      >
+      > Sponsored research in the College during the 1979-80 academic year
+      > totaled $4,641,164.
+  - Fd 17: Graduate School of Business, Correspondence (1979-1986)
+    - Letter from Roger H. Nelson, Graduate School of Business, 10 July 1979
+
+      > President Carter, through the Small Business Administration, has called
+      > a White House Conference on Small Business for January of 1980.
+
+      Scan requested.
+  - Fd 18–19: Board of Regents
+    - "Master Planning for Utah Higher Education: A Review and Prospectus", Don
+      A. Carpenter, Associate Commissioner for Planning, Utah State Board of
+      Regents, April 1985
+
+      - Fd 19: Appendix, Table 2, "National Changes in Intended Areas of Study
+        in College, 1975-1984", Source: College Bound-Seniors, 1984, College
+        Entrance Examination Board
+
+        Computer sciences/systems analysis increased as an intended area of
+        study in college by 555.5% between 1975 and 1984.
+
+        TODO: Transcribe
+
+        Scan requested.
   - Fd 21: University of Utah Research Proposals (1974, 1975)
-  - Fd 24: University of Utah, Miscellaneous (1966-1985)
+    - "Graphics Research Proposal", 4 November 1974
+
+      Proposal for graphics research led by David C. Evans, Martin E. Newell,
+      and Thomas G. Stockham, Jr. No computer details.
+    - "Modeling by Computer", Martin E. Newell, 31 January 1975
+
+    Scans requested.
+  - Fd 22: Brochures
+    - "A Thriving Partnership: The University and High Tech Industries",
+      University of Utah
+
+      Photos and description of E&S.
+    - "Focus on Current Research", Department of Computer Science, University of
+      Utah
+
+      Photos and description of CS Department.
+
+    Scans requested.
+  - Fd 23: U of U, Miscellaneous correspondence (1978-1985)
+    - Draft of "evans-sutherland/high tech", Suzanne Dean, 1 April 1983
+
+      Final draft of publication illustrating the high-tech industry related to
+      the University.
+
+      Scan requested.
+  - Fd 25: BYU, Correspondence (1981-1986)
+    - "Tentative Program: National Conference on University Programs in
+      Computer Aided Engineering, Design, and Manufacturing", Brigham Young
+      University, 5 August 1982
+
+      Computer conference hosted at BYU.
+
+      Scan requested.
+    - "1983 UPCAEDM - BYU: List of Participants", University of Utah, 7 May 1983
+
+      List of participants at that conference at BYU.
+
+      Scan requested.
+    - Letter from Hank Christiansen, Department of Civil Engineering, Brigham
+      Young University to J. Robert Driggs, Evans & Sutherland, 12 September
+      1985
+
+      Announcement of 29 October 1985 dedication of new Technology Building at
+      BYU. Which?
+
+      Scan requested.
+    - Letter from Patrick M. Gallegos, Personnel Director, Evans & Sutherland to
+      Robert P. Burton, Computer Science Department, Brigham Young University,
+      12 June 1986
+
+      E&S interest in CS PhD at BYU.
+
+      Scan requested.
+    - Letter from Robert P. Burton to David C. Evans, 6 May 1986
+
+      Enthusiasm for establishment of PhD program in Computer Science at BYU.
+      The University of Utah was the only university in UT, NV, ID, WY, and MT
+      with a PhD in Computer Science.
+
+      Scan requested.
+  - Fd 26–30: TODO
 
 ## Faculty file
 
