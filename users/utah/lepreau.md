@@ -53,7 +53,7 @@
      [JL15]    Jay Lepreau         UTAH      Lepreau@UTAH-CS.ARPA
   ```
 
-## Archives
+## Faculty file
 
 Collection Acc0526: [University of Utah Historical Faculty Files, 1920-2012](https://archiveswest.orbiscascade.org/ark:80444/xv51861) \
 University of Utah Historical Faculty Files, 2008 \

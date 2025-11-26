@@ -537,53 +537,117 @@ Container: Box 138 \
 Box 27072 L-1128 \
 Folder 91: David C. Evans (Elec. Eng.)
 
+- "University of Utah Official Faculty Record" \
+  David C. Evans
+
+  The year 196[56] is handwritten with 5 and 6 superimposed.
+
+  > APPOINTMENT TO THE UNIVERSITY OF UTAH EFFECTIVE: \
+  > Date: January 20, 1966 \
+  > Rank: Professor of Electrical Engineering \
+  > Department:
+  >
+  > **POSITIONS HELD AT THE UNIVERSITY OF UTAH**
+  >
+  > (This record will be kept up to date in the office of the Academic Vice
+  > President)
+  >
+  > | Year                     | Position                                                                               |
+  > | ------------------------ | -------------------------------------------------------------------------------------- |
+  > | 196[56] through 12-31-72 | Professor of Electrical Engineering and Director of Computer Science and Computer Opr. |
+  > | 196[56]                  | Tenure                                                                                 |
+  > | 1972                     | Professor of Computer Science                                                          |
+  > | 1973-74                  | Leave of absence without pay                                                           |
+  > | 1974-75                  | Prof. of Comp. Sc. & Adj. Prof. of Elec. Engg.                                         |
+  > | 1975-76                  | Professor of Computer Science and Adjunct Professor of Electrical Engineering          |
+  > | 1976-77                  | Professor of Computer Science & Adjunct Professor of Electrical Engineering            |
+  > | 1977-78                  | "                                                                                      |
+  > | 1978-79                  | " Elect Engg " Computer Science                                                        |
+  > | 1979-80                  | Adjunct Professor of Computer Science and Adjunct Professor of Electrical Engineering  |
+  > | 1980-81                  | "                                                                                      |
+  > | 1981-82                  | "                                                                                      |
+  > | 1982-83                  | "                                                                                      |
+  > | 1983-84                  | "                                                                                      |
+  > | 1984-85                  | "                                                                                      |
+  > | 1985-86                  | "                                                                                      |
+  > | 1986-87                  | "                                                                                      |
+
 Events:
-- Resignation as Chairman of the Division of Computer Science, effective 31
+- Earned Ph.D. from the University of Utah in 1953.
+- Offered position of Professor of Electrical Engineering and Director of the
+  Computer Science Program, along with Dr. Schmittroth who was offered the
+  position of Director of the Computer Center (handwritten over to be Director
+  of Computer Operations). Meetings with both on 15 May 1965, recommended 18 May
+  1965, and approved by the Board of Regents 1 June 1965.
+- Tenure conferred at the University of Utah effective 20 January 1966,
+  following his fall semester teaching obligations at the University of
+  California. It was initially offered effective 1 July 1965.
+- Resigned as Chairman of the Division of Computer Science, effective 31
   December 1972.
-- Reappointments to Adjunct Professor of Computer Science, College of
-  Engineering for the academic years ending 30 June 1979, 30 June 1980, 30 June
-  1981, 30 June 1982, 30 June 1983, 30 June 1984, 30 June 1985, 30 June 1986, 30
-  June 1987, 30 June 1988, 30 June 1989, 30 June 1990, 30 June 1991, 30 June
-  1992, and 30 June 1993.
+- Granted leave of absence without pay for the 1973-74 academic year to
+  concentrate on work at Evans & Sutherland. For that year, both Evans and
+  Sutherland were away from the University and together they total 0.58 FTE.
+- Department of Computer Science created from the Division of Computer Science
+  that formerly existed in Electrical Engineering, with David C. Evans appointed
+  as an Adjunct Professor in the Electrical Engineering Department. He formerly
+  had the role of Professor in this Department since 1966. Recommended 26
+  November 1974.
+- Appointed as Adjunct Professor of Electrical Engineering in addition to his
+  existing appointment as Professor of Computer Science, effective 11 February
+  1975.
+- Reappointed as Adjunct Professor of Electrical Engineering, College of
+  Engineering for each successive academic year in 1975–76 to 1992–93.
+- Elected to the Faculty Council from Area 1, Department of Electrical
+  Engineering for a three-year term on 25 October 1966.
+- Elected to the Executive Committee of the Faculty Council, Department of
+  Electrical Engineering for the academic year 1968–69 on 25 February 1969.
+- Resigned as Professor of the Computer Science Department, effective 30 June
+  1977.
+- Appointed as Adjunct Professor of Computer Science, changed from Professor of
+  Computer Science, effective 20 September 1977, to keep ties. He had been
+  Professor of Computer Science on a part-time basis for a few years while being
+  full-time president of Evans & Sutherland.
+- Reappointed as Adjunct Professor of Computer Science, College of Engineering
+  for each successive academic year in 1979–80 to 1993–94.
 - Deceased between 1998–1999 and 1999–2000 academic year faculty lists.
 
 Misc documents:
-- Newspaper clipping, "Firm's Prospered Consistently" by Robert H. Woody,
-  Tribune Business Editor with handwritten "T 6-22-80": About E&S and
-  Particularly Evans.
+- "David C. Evans", prepared by faculty members of the Electrical Engineering
+  Department of the University of California, Berkeley, January 1965.
+- "David C. Evans", prepared by David C. Evans, May 1965.
+- Memorandum from L. Dale Harris to Professor A. C. Emery, Vice President, 8
+  April 1966, discussing the titles and responsibilities of Paul Tran, Louis
+  Schmittroth, and David Evans at the University of Utah.
 - Paper clipping, "David C. Evans", probably from the September 1966 Scientific
   American.
 - Appreciation for writing article in the September 1966 Scientific American.
+- Faculty summary clipping (undated, but probably circa 1966–1969): "He was
+  formerly Professor of Electrical Engineering at the University of California
+  at Berkeley and Director of Engineering of the Computer Division of the Bendix
+  Corporation.  During his career he has been group leader in the development in
+  the development of the G-15, G-20, and the SDS-940 computing systems."
+- Newspaper clipping, ["Firm's Prospered Consistently"](https://newspapers.lib.utah.edu/ark:/87278/s6jf04xq/27614553),
+  Robert H. Woody, Tribune Business Editor, Salt Lake Tribune, 22 June 1980:
+  About E&S and Particularly Evans.
 - Newspaper clipping, "'Nobody knows we're here'" by Arnold Irvine, Deseret News
   business editor with handwritten DN "4-1".
-- TODO: Resume search here.
 
-The year 196[56] is handwritten with 5 and 6 superimposed.
+## Evans' publications
 
-> **POSITIONS HELD AT THE UNIVERSITY OF UTAH**
->
-> (This record will be kept up to date in the office of the Academic Vice
-> President)
->
-> | Year                     | Position                                                                               |
-> | ------------------------ | -------------------------------------------------------------------------------------- |
-> | 196[56] through 12-31-72 | Professor of Electrical Engineering and Director of Computer Science and Computer Opr. |
-> | 196[56]                  | Tenure                                                                                 |
-> | 1972                     | Professor of Computer Science                                                          |
-> | 1973-74                  | Leave of absence without pay                                                           |
-> | 1974-75                  | Prof. of Comp. Sc. & Adj. Prof. of Elec. Engg.                                         |
-> | 1975-76                  | Professor of Computer Science and Adjunct Professor of Electrical Engineering          |
-> | 1976-77                  | Professor of Computer Science & Adjunct Professor of Electrical Engineering            |
-> | 1977-78                  | "                                                                                      |
-> | 1978-79                  | " Elect Engg " Computer Science                                                        |
-> | 1979-80                  | Adjunct Professor of Computer Science and Adjunct Professor of Electrical Engineering  |
-> | 1980-81                  | "                                                                                      |
-> | 1981-82                  | "                                                                                      |
-> | 1982-83                  | "                                                                                      |
-> | 1983-84                  | "                                                                                      |
-> | 1984-85                  | "                                                                                      |
-> | 1985-86                  | "                                                                                      |
-> | 1986-87                  | "                                                                                      |
+David Evans' publications as of July 1969
+
+TODO: Add authors
+
+- "Real-Time Display of Computer Generated Half-Tone Perspective Images".
+  co-authors, G.W. Romney, G. Watkins. IFIP Congress 68. North Holland
+  Publishing, Amsterdam. E 72–79
+
+- "Syntax-Directed On-Line Recognition of Cursive Writing". co-author, Y.T. Kim.
+  University of Utah
+
+- "Interactive Computer Graphics". Proceedings of the American Society for
+  Engineering Education Annual Meeting. Los Angeles, California. American
+  Society for Engineering Education, July, 1968
 
 ## Will Bagley papers
 
