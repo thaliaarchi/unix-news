@@ -41,7 +41,7 @@ correspondence file.
 a  suitable back-end for a UNIX system.  Complete details on the distribution will be con-
 tained in the next Unix News.  Those of you who have already sent tapes  to  Chicago  will
 receive  your  tapes  mailed from New York.  No further tapes should be mailed to Chicago.
-The CUNY COmputer Center sells tapes over-the-counter and while we will continue to  write
+The CUNY Computer Center sells tapes over-the-counter and while we will continue to  write
 onto  your tape if you send one, the preferred medium for us is to write your distribution
 on a virgin 2400 foot tape.  An order form will be included with the next newsletter.
 
