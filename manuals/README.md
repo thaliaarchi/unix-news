@@ -29,6 +29,7 @@
     a text version by Warren Toomey [^toomey2]
   - [v0.txt](v0.txt):
     a corrected text version with the original formatting by Thalia Archibald
+    [^archibald]
   - [UnixEditionZero-reset_troff.pdf](https://doc.cat-v.org/unix/v0/UnixEditionZero-reset_troff.pdf):
     a `troff` re-setting by David Lind [^cat-v]
   - [https://github.com/Random832/McIlroy_v0](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/Random832/McIlroy_v0):
@@ -40,21 +41,28 @@
   - roff had no macros back then, so a recreation using raw groff would likely
     be close to the original. Doug McIlroy also detailed a history of
     roff.[^mcilroy4] [^anthony]
-  - `create(2)` was spelled with an "e", but not `sys creat` in assembly
+  - `create(2)`and `sys creat` were spelled differently. [pages 8, A1-4]
     [^neukirchen]
-  - `fork` is documented as `fork(label)`, though the `sys fork` assembly
-    reference admits that the label argument is a white lie.[^horsfall] The
-    signature is `sys fork; (old process return); (new process return)`.
-  - Files had only one execute bit.[^cowan]
-  - The shell prompt was `@`.[^cowan]
-  - The paper tape driver was in a blocked format with checksums.[^cowan]
-  - ^\ caused an arbitrary non-shell process to core dump if several are running
-    and interrupt with DEL or ^C did not exist yet.[^cowan]
-  - CLI switches did not exist yet and files passed to the B interpreter must be
-    preceded with a hyphen.[^cowan]
   - In the `creat` documentation, "NO!" is handwritten next to “Mode is a number
     encoding the protection bits as specified under the "chmod" command
-    below”.[^cowan]
+    below”. [page 8] [^cowan]
+  - "i-number" is documented as standing for "identification number", not "index
+    number" as later claimed. [page 11] [^readme]
+  - The shell prompt was `@`. [page 14] [^cowan]
+  - Standard error did not exist. [page 14] [^archibald]
+  - `fork` is documented as `fork(label)`, though the `sys fork` assembly
+    reference admits that the label argument is a white lie. The signature is
+    `sys fork; (old process return); (new process return)`. [pages 18, A1-2]
+    [^horsfall]
+  - `execute(2)` and `sys exec` were spelled differently. [pages 19, A1-5]
+    [^archibald]
+  - The paper tape driver was in a blocked format with checksums. [page 23]
+    [^cowan]
+  - ^\ caused an arbitrary non-shell process to core dump if several are running
+    and interrupt with DEL or ^C did not exist yet. [page 26] [^cowan]
+  - CLI switches did not exist yet and files passed to the B interpreter must be
+    preceded with a hyphen. [page 28] [^cowan]
+  - Files had only one execute bit. [page 29] [^cowan]
   - Page A7 of the scan is missing.[^horsfall] [^toomey2]
 
   [^readme]: https://www.tuhs.org/Archive/Distributions/Research/McIlroy_v0/Readme
@@ -73,6 +81,7 @@
   [^cat-v]: cat-v.org. ["UNIX Edition Zero"](https://doc.cat-v.org/unix/v0/)
   [^losh]: Warner Losh. ["Hidden Early History of Unix"](https://papers.freebsd.org/2020/fosdem/losh-hidden_early_history_of_unix/).
     FOSDEM '20
+  [^archibald]: Thalia Archibald from this project
 
   The Model 37 Teletype was in use for UNIX at this point:
 
@@ -81,3 +90,11 @@
   > by typing the ASCII "FS" character (control "\" on model 37 Teletypes). Thus
   > programs which are looping or about which the user has second thoughts may
   > be halted.
+
+  This manual appears to have been printed by a Model 37. The multiplication
+  dots in “8<sup>.</sup>64<sup>.</sup>128” and the subscripts in
+  “command arg<sub>1</sub> arg<sub>2</sub> ... arg<sub>n</sub>” appear to use
+  Model 37 half line feeds. The lines are also double-spaced, except for in code
+  blocks.
+
+  TODO: Reformat file as double-spaced.
