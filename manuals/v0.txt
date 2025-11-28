@@ -985,9 +985,7 @@ Suppose file "tryout" contains the lines
 
 
      as source
-
      mv a.out testprog
-
      testprog
 
 
@@ -1727,15 +1725,10 @@ meanings:
 
 
      1  write, non-owner
-
      2  read, non-owner
-
      4  write, owner
-
     10  read, owner
-
     20  execute
-
     40  set user ID on execution
 
 
@@ -2190,9 +2183,7 @@ This is the primitive used to generate new processes.
 
 
      sys  fork
-
      (old process return)
-
      (new process return)
 
 
@@ -2222,9 +2213,7 @@ into R0 and
 
 
      sys  read
-
      buffer
-
      nchars
 
 
@@ -2259,9 +2248,7 @@ R0 and
 
 
      sys  write
-
      buffer
-
      nchars
 
 
@@ -2280,13 +2267,9 @@ To open an already existing file,
 
 
      sys  open
-
      name
-
      mode
-
      ...
-
 name:<pathname\0>
 
 
@@ -2315,9 +2298,7 @@ To create or recreate a file,
 
 
      sys  creat
-
      name
-
      mode
 
 
@@ -2386,9 +2367,7 @@ To create a link in an arbitrary directory,
 
 
      sys  link
-
      name918
-
      name928
 
 
@@ -2407,7 +2386,6 @@ To remove the name of a file from a directory,
 
 
      sys  unlink
-
      name
 
 
@@ -2429,23 +2407,14 @@ To cause execution of a file as a program,
 
 
      sys  exec
-
      name
-
      argp
-
      ...
-
 argp:arg918
-
      arg928
-
       .
-
       .
-
       .
-
      0
 
 
@@ -2476,15 +2445,10 @@ points to a list of its own arguments as follows:
 
 
      count
-
      arg___918
-
      arg___928
-
       .
-
       .
-
       .
 
 
@@ -2506,7 +2470,6 @@ To change the current directory,
 
 
      sys  chdir
-
      dirname
 
 
@@ -2538,7 +2501,6 @@ The call
 
 
      sys  mkdir
-
      name
 
 
@@ -2555,9 +2517,7 @@ The mode of a file is changed by
 
 
      sys  chmod
-
      name
-
      newmode
 
 
@@ -2576,9 +2536,7 @@ To change the owner of a file,
 
 
      sys  chown
-
      name
-
      newowner
 
 
@@ -2605,7 +2563,6 @@ by using this call:
 
 
      sys  break
-
      newbreak
 
 
@@ -2624,9 +2581,7 @@ The user may obtain a copy of the i-node for a named file:
 
 
      sys  stat
-
      name
-
      buffer
 
 
@@ -2653,9 +2608,7 @@ with file descriptor filep_____, load filep_____ into R0 and
 
 
      sys  seek
-
      base
-
      offset
 
 
@@ -2674,9 +2627,7 @@ and
 
 
      sys  tell
-
      base
-
      offset
 
 
@@ -2729,11 +2680,8 @@ Character changes are:
 
 
      for    use
-
       @      *
-
       #      $
-
       ;      /
 
 
@@ -2745,17 +2693,11 @@ expression operators have been provided:
 
 
      \>     right shift (logical)
-
      \<     left shift
-
      *      multiplication
-
      \/     division
-
      \     remainder
-
      !      one's complement (unary)
-
      []     parentheses for grouping
 
 
@@ -2763,9 +2705,7 @@ There is a conditional assembly operation code:
 
 
      .if expression
-
      ...
-
      .endif
 
 
@@ -2809,25 +2749,15 @@ The symbols
 
 
      r0 ... r5
-
      sp
-
      pc
-
      ac
-
      mq
-
      div
-
      mul
-
      lsh
-
      ash
-
      nor
-
      csw
 
 
@@ -2864,13 +2794,9 @@ respectively.  respectively:
 
 
      use___  for___
-
      \n   newline (012)
-
      \0   NULL (000)
-
      \>   >
-
      \t   TAB (011)
 
 
@@ -2885,35 +2811,20 @@ possible errors are:
 
 
      )     parentheses error
-
      ]     parentheses error
-
      *     Indirection ("*_") used illegally
-
      .     ._ (the location counter) has become undefined
-
      A     error in A_ddress
-
      B     B_ranch instruction has too remote an address
-
      E     error in E_xpression
-
      F     error in local ("F_" or "b") type symbol
-
      G     g_arbage (unknown) character
-
      M     M_ultiply defined symbol as label
-
      0     O_dd-- word quantity assembled at odd address
-
      P     P_hase error-- "." different in  pass  2  from  pass  1
-
 value
-
      R     R_elocation error
-
      U     U_ndefined symbol
-
      X     syntaX_ error
 
 
