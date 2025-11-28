@@ -1,16 +1,15 @@
-.ls 2
+.ds
 .ce 3
 DRAFT
 .sp
 The UNIX Time-Sharing System
 D. M. Ritchie
-
-
+.bl
 .ul
 1.  Introduction
 
-UNIX is a general-purpose, multi-user time sharing system
-implemented on several Digital Equipment Corporation PDP series
+UNIX is a general-purpose, multi-user time sharing system im-
+plemented on several Digital Equipment Corporation PDP series
 machines.
 
 UNIX was written by K. L. Thompson, who also wrote many of the
@@ -19,11 +18,11 @@ several of the major commands, including the assembler and the
 debugger. The file system was originally designed by Thompson,
 the author, and R. H. Canaday.
 
-There are two versions of UNIX. The first, which has been in
-existence about a year, runs on the PDP-7 and -9 computers; a more
+There are two versions of UNIX. The first, which has been in ex-
+istence about a year, runs on the PDP-7 and -9 computers; a more
 modern version, a few months old, uses the PDP-11. This document
-describes UNIX-11, since it is more modern and many of the
-differences between it and UNIX-7 result from redesign of features
+describes UNIX-11, since it is more modern and many of the dif-
+ferences between it and UNIX-7 result from redesign of features
 found to be deficient or lacking in the earlier system.
 
 Although the PDP-7 and PDP-11 are both small computers, the
