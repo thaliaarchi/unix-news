@@ -1,3 +1,8 @@
+
+
+
+
+
                               DRAFT
 
 
@@ -53,8 +58,7 @@ offered even by larger systems, including
    1. A  versatile, convenient file system with complete integra-
 
       tion between disk files and I/O devices;
-
-
+
 
                               - 2 -
 
@@ -114,8 +118,7 @@ magnetic tape facility in which individual records may be addres-
 sed and rewritten at will. Also available are a high-speed  paper
 
 tape  reader  and punch. Besides the standard Teletype, there are
-
-
+
 
                               - 3 -
 
@@ -174,8 +177,7 @@ structure on the file system as a whole. Each user has  a  direc-
 tory  of his own files; he may also create subdirectories to con-
 
 tain groups of files conveniently treated together.
-
-
+
 
                               - 4 -
 
@@ -236,8 +238,7 @@ The same non-directory file may appear in several directories un-
 der possibly different names. This feature is called "linking"; a
 
 directory  entry for a file is sometimes called a link. UNIX dif-
-
-
+
 
                               - 5 -
 
@@ -298,8 +299,7 @@ its parent. The reason for this is to simplify the writing of
 programs  which  visit  subtrees  of the directory structure, and
 
 more important, to  avoid  the  separation  of  portions  of  the
-
-
+
 
                               - 6 -
 
@@ -360,8 +360,7 @@ a  program.  This  feature provides for privileged programs which
 may use files which should neither be read nor changed  by  other
 
 users.  If  the  set-user-identification bit is on for a program,
-
-
+
 
                               - 7 -
 
@@ -422,8 +421,7 @@ opened by the following call:
 Name____ indicates the name of the file. An arbitrary path  name  may
 
 be  given.  The flag____ argument indicates whether the file is to be
-
-
+
 
                               - 8 -
 
@@ -483,8 +481,7 @@ Except as indicated below, reading and  writing  are  sequential.
 This  means  that  if  a particular byte in the file was the last
 
 byte written (or read), the next I/O call  implicitly  refers  to
-
-
+
 
                               - 9 -
 
@@ -544,8 +541,7 @@ prepared for the possibility that nread_____ is less  than  count_____
 the  read  pointer  is  so  near the end of the file that reading
 
 count_____ characters would cause reading beyond the  end,  only  suf-
-
-
+
 
                              - 10 -
 
@@ -605,8 +601,7 @@ filep_____  is  moved  to  a position offset______ words from the beg
 from the current position of the pointer, or from the end of  the
 
 file,  depending  on  whether  base____  is 0, 1, or 2. Offset______ may be
-
-
+
 
                              - 11 -
 
@@ -666,8 +661,7 @@ the description of the file:
    4. its size;
 
    5. times of creation and last modification;
-
-
+
 
                              - 12 -
 
@@ -728,8 +722,7 @@ in the buffer and an entry is made in a  list  of  blocks  to  be
 written on the disk. The return from the write_____ call may then take
 
 place, although the actual I/O may not be completed until a later
-
-
+
 
                              - 13 -
 
@@ -790,8 +783,7 @@ reads lines typed by the user and interprets them as requests  to
 execute other programs. In simplest form, a command line consists
 
 of the command name followed by arguments  to  the  command,  all
-
-
+
 
                              - 14 -
 
@@ -851,8 +843,7 @@ the user's typewriter. Thus programs which wish to write informa-
 tive or diagnostic information ordinarily use file descriptor  1.
 
 Conversely,  file  0  starts  off  open for reading, and programs
-
-
+
 
                              - 15 -
 
@@ -912,8 +903,7 @@ Although the file name following "<" or ">" appears to be an  ar-
 gument  to  the  command, in fact it is interpreted completely by
 
 the Shell and is not passed to the command at all. Thus  no  spe-
-
-
+
 
                              - 16 -
 
@@ -973,8 +963,7 @@ does  both the assembly and the listing in the background. In all
 the examples above using "&",  an  output  file  other  than  the
 
 typewriter  was  provided; if this had not been done, the outputs
-
-
+
 
                              - 17 -
 
@@ -1036,8 +1025,7 @@ his normal command stream. Although this ability  is  quite  con-
 venient  for  the  user  directly, it is even more useful to UNIX
 
 itself.
-
-
+
 
                              - 18 -
 
@@ -1098,8 +1086,7 @@ mine whether it is the parent or child process.
 
 
 5_.6_  Execution_________ of__ programs________
-
-
+
 
                              - 19 -
 
@@ -1159,8 +1146,7 @@ Most of the the time, the Shell is waiting for the user to type a
 command. When the new line character is typed, the  Shell's  read____
 
 call  returns.  The  Shell analyzes the command line, putting the
-
-
+
 
                              - 20 -
 
@@ -1220,8 +1206,7 @@ simply terminates when it is through, the association  between  a
 file specified after "<" or ">" and file descriptor 0 or 1 is en-
 
 ded automatically when the process dies. Therefore the Shell need
-
-
+
 
                              - 21 -
 
@@ -1281,8 +1266,7 @@ invoked there were no files open, in each process the  typewriter
 keyboard  will  receive  file  descriptor  0 and the printer file
 
 descriptor 1. Each process types out a  message  requesting  that
-
-
+
 
                              - 22 -
 
@@ -1342,8 +1326,7 @@ of these files under any name desired.
 
 
 6_.1_  ppt___
-
-
+
 
                              - 23 -
 
@@ -1402,8 +1385,7 @@ has been typed, and at most one line will be passed back  to  the
 program.  However,  characters may be read one at a time from the
 
 line.
-
-
+
 
                              - 24 -
 
@@ -1463,8 +1445,7 @@ propriate drive.
 
 
 6_.7_  disk____
-
-
+
 
                              - 25 -
 
@@ -1525,8 +1506,7 @@ illegal action is caught, the system writes the user's core image
 on  file  "core" in the current working directory. Because of the
 
 way the hardware and the system operate, the contents of all  the
-
-
+
 
                              - 26 -
 
@@ -1586,8 +1566,7 @@ Doubtless, therefore, the interrupt facility will be reworked  in
 the  future.  Unfortunately,  there  are  not only implementation
 
 problems but even conceptual ones-- e.g. how does one  specify  a
-
-
+
 
                              - 27 -
 
@@ -1648,8 +1627,7 @@ placed on "n.out." See Appendix 2 for more information.
 B [reference] is a new higher-level language with implementations
 
 on the PDP-7, PDP-11, and Honeywell 635.  To  compile  several  B
-
-
+
 
                              - 28 -
 
@@ -1709,8 +1687,7 @@ To change the current directory, use
 This command is the only one that does not  reside  in  directory
 
 "/bin";   instead  it  is  part  of  the  Shell.  The  reason  is
-
-
+
 
                              - 29 -
 
@@ -1777,8 +1754,7 @@ To change the owner of a sequence of files,
 
 
      chown owner name918 ... name9n8
-
-
+
 
                              - 30 -
 
@@ -1838,8 +1814,7 @@ Db__ is discussed in complete detail in Appendix 2.
 ED is the editor. It is essentially a subset of QED [references];
 
 see Appendix 2 for the differences.
-
-
+
 
                              - 31 -
 
@@ -1900,8 +1875,7 @@ To move or rename a file,
 
 
 This command does not copy the file. It operates  by  linking  to
-
-
+
 
                              - 32 -
 
@@ -1961,8 +1935,7 @@ page number.
 
 
 To unlink one or more files (remove them from directories),
-
-
+
 
                              - 33 -
 
@@ -2022,8 +1995,7 @@ features besides those mentioned in section 5.
      single (') or double (") quotes are taken literally, so that
 
      arbitrary character strings can be passed (including spaces,
-
-
+
 
                              - 34 -
 
@@ -2084,8 +2056,7 @@ DECTAPE. See Appendix 2 for details.
 
 
 To discover various information connected with time, the tm__  com-
-
-
+
 
                              - 35 -
 
@@ -2140,8 +2111,7 @@ symbols in a given assembly. The command
 searches the (name list) file name____ and prints all the symbols un-
 
 defined therein. If name____ is omitted, "n.out" is used.
-
-
+
 
                            APPENDIX________ 1_
 
@@ -2193,8 +2163,7 @@ such a string: it consists of a sequence of  bytes  ending  in  a
 null character.  The open____ call below, contains a complete example
 
 of how to write such a string.
-
-
+
 
                              A1 - 2
 
@@ -2260,8 +2229,7 @@ into R0 and
 
 
 Buffer______ is the address of the  place  into  which  information  is
-
-
+
 
                              A1 - 3
 
@@ -2329,8 +2297,7 @@ name.  The  name  is  terminated  by a null (all zero) character,
 which is indicated by "\0"; the characters "<" and ">" are string
 
 quotes.   Mode____  is  0 or 1 to indicate reading or writing respec-
-
-
+
 
                              A1 - 4
 
@@ -2392,8 +2359,7 @@ To wait for a child process to terminate,
 
 
      sys  wait
-
-
+
 
                              A1 - 5
 
@@ -2457,8 +2423,7 @@ A1__.11__  exec____
 
 
 To cause execution of a file as a program,
-
-
+
 
                              A1 - 6
 
@@ -2532,8 +2497,7 @@ fied to the exec____ call.
 
 
 A1__.12__  chdir_____
-
-
+
 
                              A1 - 7
 
@@ -2600,8 +2564,7 @@ The mode of a file is changed by
 See the "chmod" command (section 8.5) for the  interpretation  of
 
 the mode.  Only the owner of a file may change the mode.
-
-
+
 
                              A1 - 8
 
@@ -2670,8 +2633,7 @@ The user may obtain a copy of the i-node for a named file:
 Name____ is the name of a file, and  buffer______  is  the  address  of  34
 
 sequential  bytes  into  which information concerning the file is
-
-
+
 
                              A1 - 9
 
@@ -2738,8 +2700,7 @@ To control the handling of "break" signals sent by the user,
 If  R0  is  zero on entry, interrupts are disabled; if R0 is non-
 
 zero, they are enabled.
-
-
+
 
                            APPENDIX________ 2_
 
@@ -2806,8 +2767,7 @@ There is a conditional assembly operation code:
      ...
 
      .endif
-
-
+
 
                                A2
 
@@ -2879,8 +2839,7 @@ The  new opcode "sys" is used to specify system calls.  Names for
 system calls are predefined. See  Appendix  1  for  the  list  of
 
 calls.
-
-
+
 
                                A3
 
@@ -2961,8 +2920,7 @@ value
 The  binary output of the assembler is placed on the file "a.out"
 
 in the current directory.  The assembler also  generates  a  file
-
-
+
 
                                A4
 
@@ -3023,8 +2981,7 @@ Addresses are  expressions built up as follows:
 
 
    1. A name has the value assigned to it when the input file was
-
-
+
 
                                A5
 
@@ -3085,8 +3042,7 @@ Specified file.
    \  The addressed byte is printed in octal.
 
    "  The addressed word is printed as two ASCII characters.
-
-
+
 
                                A6
 
@@ -3146,15 +3102,13 @@ There are two commands to interpret the value of expressions.
 
 
    =  When preceded by an expression, the value of the expression
-
-
+
 
                                A7
 
 
                       [Page A7 is missing]
-
-
+
 
                                A8
 
@@ -3214,8 +3168,7 @@ The tap___ command is used as follows:
 
 
      tap [01][crxdt][s][v] name918 ... name9n8 -name'918 ... -name'9n8
-
-
+
 
                                A9
 
@@ -3276,8 +3229,7 @@ Argument  "v"  (for "v_erify") may be used in addition to the pre-
 ceding arguments. Before each file is dealt with as indicated  by
 
 one  of  the  preceding  arguments,  the "v" option causes tap___ to
-
-
+
 
                                A10
 
