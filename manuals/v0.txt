@@ -983,7 +983,6 @@ The Shell is itself a command, and  may  be  called  recursively.
 
 Suppose file "tryout" contains the lines
 
-
      as source
      mv a.out testprog
      testprog
@@ -1723,7 +1722,6 @@ number whose bits in the binary representation have the following
 
 meanings:
 
-
      1  write, non-owner
      2  read, non-owner
      4  write, owner
@@ -2106,6 +2104,9 @@ searches the (name list) file name____ and prints all the symbols un-
 defined therein. If name____ is omitted, "n.out" is used.
 
 
+
+
+
                            APPENDIX________ 1_
 
 
@@ -2181,7 +2182,6 @@ A1__.2_  fork____
 
 This is the primitive used to generate new processes.
 
-
      sys  fork
      (old process return)
      (new process return)
@@ -2211,7 +2211,6 @@ To  read  an open file whose file descriptor is filep_____, load filep
 
 into R0 and
 
-
      sys  read
      buffer
      nchars
@@ -2238,14 +2237,12 @@ an attempt was made to read into an area not part of  the  user's
 core image.
 
 
-
 A1__.4_  write_____
 
 
 To write an open file with file descriptor filep_____, load filep_____ into
 
 R0 and
-
 
      sys  write
      buffer
@@ -2265,11 +2262,12 @@ A1__.5_  open____
 
 To open an already existing file,
 
-
      sys  open
      name
      mode
+
      ...
+
 name:<pathname\0>
 
 
@@ -2295,7 +2293,6 @@ A1__.6_  creat_____
 
 
 To create or recreate a file,
-
 
      sys  creat
      name
@@ -2365,7 +2362,6 @@ A1__.9_  link____
 
 To create a link in an arbitrary directory,
 
-
      sys  link
      name918
      name928
@@ -2383,7 +2379,6 @@ A1__.10__  unlink______
 
 
 To remove the name of a file from a directory,
-
 
      sys  unlink
      name
@@ -2409,7 +2404,9 @@ To cause execution of a file as a program,
      sys  exec
      name
      argp
+
      ...
+
 argp:arg918
      arg928
       .
@@ -2443,7 +2440,6 @@ A file invoked by exec____ begins execution at its relative  location
 
 points to a list of its own arguments as follows:
 
-
      count
      arg___918
      arg___928
@@ -2467,7 +2463,6 @@ A1__.12__  chdir_____
 
 
 To change the current directory,
-
 
      sys  chdir
      dirname
@@ -2499,7 +2494,6 @@ A1__.14__  mkdir_____
 
 The call
 
-
      sys  mkdir
      name
 
@@ -2514,7 +2508,6 @@ A1__.15__  chmod_____
 
 
 The mode of a file is changed by
-
 
      sys  chmod
      name
@@ -2533,7 +2526,6 @@ A1__.16__  chown_____
 
 
 To change the owner of a file,
-
 
      sys  chown
      name
@@ -2561,7 +2553,6 @@ the program. The system's idea of how much to swap may be altered
 
 by using this call:
 
-
      sys  break
      newbreak
 
@@ -2578,7 +2569,6 @@ A1__.18__  stat____
 
 
 The user may obtain a copy of the i-node for a named file:
-
 
      sys  stat
      name
@@ -2606,7 +2596,6 @@ To  move  the read or write pointer associated with the open file
 
 with file descriptor filep_____, load filep_____ into R0 and
 
-
      sys  seek
      base
      offset
@@ -2624,7 +2613,6 @@ To discover the position of the read or write pointer  associated
 with the open file with file descriptor filep_____, move filep_____ into R0
 
 and
-
 
      sys  tell
      base
@@ -2653,6 +2641,9 @@ If  R0  is  zero on entry, interrupts are disabled; if R0 is non-
 zero, they are enabled.
 
 
+
+
+
                            APPENDIX________ 2_
 
 
@@ -2678,7 +2669,6 @@ will be recorded.
 
 Character changes are:
 
-
      for    use
       @      *
       #      $
@@ -2690,7 +2680,6 @@ In as__, the character ";" is a logical new  line;  several  opera-
 tions  may  appear  on one line if separated by ";".  Several new
 
 expression operators have been provided:
-
 
      \>     right shift (logical)
      \<     left shift
@@ -2705,7 +2694,9 @@ There is a conditional assembly operation code:
 
 
      .if expression
+
      ...
+
      .endif
 
 
@@ -2746,7 +2737,6 @@ ted.
 
 
 The symbols
-
 
      r0 ... r5
      sp
@@ -2792,7 +2782,6 @@ double character constants introduced by single and double quotes
 
 respectively.  respectively:
 
-
      use___  for___
      \n   newline (012)
      \0   NULL (000)
@@ -2808,7 +2797,6 @@ together with the line number and  the  file  name  in  which  it
 occurred.  Errors  in  pass  1 cause cancellation of pass 2.  The
 
 possible errors are:
-
 
      )     parentheses error
      ]     parentheses error
