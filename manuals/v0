@@ -30,10 +30,13 @@ design of UNIX is amenable to expansion for use on more powerful
 machines. Indeed, UNIX contains a number of features very seldom
 offered even by larger systems, including
 
-.in 3
+.in 6
+.ti -3
 1. A versatile, convenient file system with complete integration
-   between disk files and I/O devices;
+between disk files and I/O devices;
+.ti -3
 2. The ability to initiate asynchrously running processes.
+.in 0
 
 It must be said, however, that the most important features of
 UNIX are its simplicity, elegance, and ease of use.
