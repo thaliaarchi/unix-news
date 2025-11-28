@@ -96,5 +96,3 @@
   “command arg<sub>1</sub> arg<sub>2</sub> ... arg<sub>n</sub>” appear to use
   Model 37 half line feeds. The lines are also double-spaced, except for in code
   blocks.
-
-  TODO: Reformat file as double-spaced.
