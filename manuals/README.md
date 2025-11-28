@@ -18,6 +18,11 @@
   produced.[^mcilroy1] Warner Losh dates it to spring 1971 by placing UNIX-7 at
   late 1969 and UNIX-11 at February 1971.[^losh]
 
+  It was apparently printed with a Teletype Model 37, as it uses half line feeds
+  for subscripts and periods raised as multiplication dots, a relatively rare
+  feature. The manual mentions Teletype Models 33, 35, and 37 and implies that
+  most users would be familiar with the Model 37.[^archibald]
+
   A number of versions are available:
   - [UnixEditionZero.pdf](https://www.tuhs.org/Archive/Distributions/Research/McIlroy_v0/UnixEditionZero.pdf):
     the original scan from Doug McIlroy [^readme] [^toomey1]
@@ -28,7 +33,9 @@
   - [UnixEditionZero.txt](https://www.tuhs.org/Archive/Distributions/Research/McIlroy_v0/UnixEditionZero.txt)
     a text version by Warren Toomey [^toomey2]
   - [v0.txt](v0.txt):
-    a corrected text version with the original formatting by Thalia Archibald
+    a text version by Thalia Archibald, matching the original formatting using
+    Teletype Model 37 escape sequences which can be rendered with Yufeng Gao's
+    [Teletype 37 PDF](https://github.com/TheBrokenPipe/Teletype-37-PDF) tool
     [^archibald]
   - [UnixEditionZero-reset_troff.pdf](https://doc.cat-v.org/unix/v0/UnixEditionZero-reset_troff.pdf):
     a `troff` re-setting by David Lind [^cat-v]
@@ -82,17 +89,3 @@
   [^losh]: Warner Losh. ["Hidden Early History of Unix"](https://papers.freebsd.org/2020/fosdem/losh-hidden_early_history_of_unix/).
     FOSDEM '20
   [^archibald]: Thalia Archibald from this project
-
-  The Model 37 Teletype was in use for UNIX at this point:
-
-  > The user may also force the program to stop and a core image file to be
-  > written by sending an interrupt signal. Currently this signal is generated
-  > by typing the ASCII "FS" character (control "\" on model 37 Teletypes). Thus
-  > programs which are looping or about which the user has second thoughts may
-  > be halted.
-
-  This manual appears to have been printed by a Model 37. The multiplication
-  dots in “8<sup>.</sup>64<sup>.</sup>128” and the subscripts in
-  “command arg<sub>1</sub> arg<sub>2</sub> ... arg<sub>n</sub>” appear to use
-  Model 37 half line feeds. The lines are also double-spaced, except for in code
-  blocks.
