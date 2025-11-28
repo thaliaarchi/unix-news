@@ -294,7 +294,7 @@ rooted tree. Except for the special entries "."  and  "..",  each
 
 directory  must appear as an entry in exactly one other, which is
 
-its parent. The reason for this is to simplify the writing of
+its parent. The reason for this is to  simplify  the  writing  of
 
 programs  which  visit  subtrees  of the directory structure, and
 
@@ -339,7 +339,7 @@ The special files are discussed further in section 6 below.
 
 The protection scheme in UNIX is quite simple. Each user  of  the
 
-system  is assigned a unique user number. When a file-is created,
+system  is assigned a unique user number. When a file is created,
 
 it is marked with the number of its creator. Also given  for  new
 
@@ -371,7 +371,7 @@ tion but not otherwise.
 
 
 
-3_.5_ System______ I/O___ Calls_____
+3_.5_ System______ I_/O_ Calls_____
 
 
 The  system  calls  to  do I/O are designed to eliminate the dif-
@@ -501,13 +501,13 @@ Once a file is open for writing, the following call may be used.
      nwritten = write(filep, buffer, count)
 
 
-Buffer  is  the address of count sequentially stored bytes (words
+Buffer______  is  the address of count_____ sequentially stored bytes (words
 
-in UNIX-7) which will be written onto the file. nwritten  is  the
+in UNIX-7) which will be written onto the file. nwritten________  is  the
 
 number  of bytes actually written; except in rare cases it is the
 
-same as count. Occasionally, an error may be indicated; for exam-
+same as count_____. Occasionally, an error may be indicated; for exam-
 
 ple  if  paper tape is being written, an error occurs if the tape
 
@@ -516,7 +516,7 @@ runs out.
 
 For  disk  files  which  already existed (that is, were opened by
 
-open, not create) the bytes written affect only those implied  by
+open____, not create______) the bytes written affect only those implied  by
 
 the  position  of  the  write  pointer  and  the  number of bytes
 
@@ -819,7 +819,7 @@ If  file  command_______  cannot be found, the Shell prefixes the string
 
 
 
-5_.2_  Standard________ I/O___
+5_.2_  Standard________ I_/O_
 
 
 The  discussion of I/O given above seems to imply that every file
@@ -1632,7 +1632,7 @@ on the PDP-7, PDP-11, and Honeywell 635.  To  compile  several  B
 programs,
 
 
-     b -name918 ... -name9n8
+     b -name918 ...-name9n8
 
 
 Notice  that  each  name____ should be preceded by a "-" (not part of
@@ -1786,11 +1786,11 @@ The  first  argument  is the file to be examined. The second is a
 
 name list file produced as "n.out" when name____ was  assembled.  The
 
-brackets  indicate that both arguments are optional. if the first
+brackets  indicate that both arguments are optional. If the first
 
 argument is not given, "core" is assumed. If the  second  is  not
 
-given,  "n.out"  is assumed. (of course, the first argument alone
+given,  "n.out"  is assumed. (Of course, the first argument alone
 
 cannot be omitted.)
 
@@ -2034,7 +2034,7 @@ times of creation and last modification for each of name____918, ....
 
 
 
-8_.20__  tap___ -- manipulate__________ DECTAPE_______
+8_.20__   tap___ -- manipulate__________ DECTAPE_______
 
 
 Tap___  is  used  to  load  and  dump portions of the hierarchy onto
@@ -2150,7 +2150,7 @@ immediately following the "sys" instruction.
 
 A number of the calls, principally those dealing  with  the  file
 
-system, take strings as arguments. There is a standard format for
+system, take strings as agruments. There is a standard format for
 
 such a string: it consists of a sequence of  bytes  ending  in  a
 
@@ -2627,7 +2627,7 @@ A1__.21__  (unassigned__________)
 
 
 
-A1__.22__  intr____
+A1__.22__ intr____
 
 
 To control the handling of "break" signals sent by the user,
@@ -3019,7 +3019,7 @@ typewriter (EOT character).
 A2__.4_  ed__
 
 
-Ed__ is nearly a subset of QED [reference]. When called by
+Ed__ is nearly a subset of QED [reference].  When called by
 
 
      ed name
