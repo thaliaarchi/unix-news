@@ -1,7 +1,7 @@
-                        DRAFT
+                              DRAFT
 
-            The UNIX Time-Sharing System
-                    D. M. Ritchie
+                  The UNIX Time-Sharing System
+                          D. M. Ritchie
 
 
 1_.  Introduction____________
@@ -65,6 +65,10 @@ file system storage. It is equipped with DECTAPE,  a  variety  of
 magnetic tape facility in which individual records may be addres-
 sed and rewritten at will. Also available are a high-speed  paper
 tape  reader  and punch. Besides the standard Teletype, there are
+
+
+                              - 3 -
+
 several variable-speed communications interfaces.
 
 
@@ -709,222 +713,260 @@ ded automatically when the process dies. Therefore the Shell need
 not know the actual names of the files which are its own standard
 input and output, since it need never reopen them.
 
-In ordinary circumstances, the main loop of the Shell never
-terminates. (The main loop includes that branch of the return
-from fork belonging to the parent process; that is, the branch
-which does a wait, then reads another command line.) The one
-thing which causes the Shell to terminate is discovering an end-of-file
-condition on its input file. Thus, when the Shell is ex-
+In  ordinary  circumstances,  the  main  loop  of the Shell never
+terminates. (The main loop includes that  branch  of  the  return
+from  fork____  belonging  to the parent process; that is, the branch
+which does a wait____, then reads  another  command  line.)  The  one
+thing  which causes the Shell to terminate is discovering an end-
+of-file condition on its input file. Thus, when the Shell is  ex-
 ecuted as a command with a given input file, as in
 
      sh <comfile
 
-the commands in "comfile" will be executed until the end of
-"comfile" is reached; then the instance of the Shell invoked by
-sh will terminate. Since this Shell process is the child of
-another instance of the Shell, the wait executed in the latter
+the  commands  in  "comfile"  will  be  executed until the end of
+"comfile_______" is reached; then the instance of the Shell  invoked  by
+sh__  will  terminate.  Since  this  Shell  process is the child of
+another instance of the Shell, the wait____ executed  in  the  latter
 will return, and another command may be processed.
 
 The instances of the Shell to which each UNIX user types commands
-are themselves children of another process. The last step in the
-initialization of UNIX is the creation of a single process and
-the invocation (via execute) of a program called init. The code
-for init is kept in a file, like every other command. Its role is
-to create one process for each typewriter channel which may be
-dialed up by a user. The various subinstances of init open the
-appropriate typewriters for input and output. Since when init was
-invoked there were no files open, in each process the typewriter
-keyboard will receive file descriptor 0 and the printer file
-descriptor 1. Each process types out a message requesting that
-the user log in and waits, reading the typewriter, for a reply.
+are  themselves children of another process. The last step in the
+initialization of UNIX is the creation of a  single  process  and
+the  invocation  (via execute_______) of a program called init____. The code
+for init____ is kept in a file, like every other command. Its role is
+to  create  one  process for each typewriter channel which may be
+dialed up by a user. The various subinstances of  init____  open  the
+appropriate typewriters for input and output. Since when init____ was
+invoked there were no files open, in each process the  typewriter
+keyboard  will  receive  file  descriptor  0 and the printer file
+descriptor 1. Each process types out a  message  requesting  that
+
+
+                             - 22 -
+
+the  user  log in and waits, reading the typewriter, for a reply.
 At the outset, no one is logged in, so each process simply hangs.
-Finally someone types his name or other identification. The appropriate
-instance of init wakes up, receives the log-in line,
-and reads a password file. If the user is found, and if he is
-able to supply the correct password, init changes to the user's
-default current directory, sets the user number to that of the
-person logging in, and performs an execute of the Shell. At this
-point the Shell is ready to receive commands and the logging-in
+Finally  someone  types his name or other identification. The ap-
+propriate instance of init____ wakes up, receives  the  log-in  line,
+and  reads  a  password  file. If the user is found, and if he is
+able to supply the correct password, init____ changes to  the  user's
+default  current  directory,  sets the user number to that of the
+person logging in, and performs an execute_______ of the Shell. At  this
+point  the  Shell is ready to receive commands and the logging-in
 protocol is complete.
 
-Meanwhile, the mainstream path of init (the parent of all the
-subinstances of itself which will later become Shells) does a
-wait. If one of the child processes terminates, either because a
-Shell found an end of file or because a user typed an incorrect
-name or password, this path of init simply recreates the defunct
+Meanwhile,  the  mainstream  path  of init____ (the parent of all the
+subinstances of itself which will later  become  Shells)  does  a
+wait____.  If one of the child processes terminates, either because a
+Shell found an end of file or because a user typed  an  incorrect
+name  or password, this path of init____ simply recreates the defunct
 process, which reopens the appropriate input and output files and
-types another log-in message. Thus a user may log out simply by
-typing the end-of-file sequence in place of a command to the
+types  another  log-in message. Thus a user may log out simply by
+typing the end-of-file sequence in place  of  a  command  to  the
 Shell.
 
-6. Census of Special Files
 
-Here is a list of the special files currently implemented. Since
-an entry for each resides in the root directory, the file "xyz"
-may be referred to by "/xyz". Alternatively, one may link to any
+6_.  Census______ of__ Special_______ Files_____
+
+Here  is a list of the special files currently implemented. Since
+an entry for each resides in the root directory, the  file  "xyz"
+may  be referred to by "/xyz". Alternatively, one may link to any
 of these files under any name desired.
 
-6.1 ppt
 
-When read, "ppt" refers to the paper tape reader; when written,
-to the punch. Null characters are ignored for both reading and
-writing, so "ppt" is suitable only for ASCII (not binary)
+6_.1_  ppt___
+
+
+                             - 23 -
+
+When read, "ppt" refers to the paper tape reader;  when  written,
+to  the  punch.  Null characters are ignored for both reading and
+writing, so  "ppt"  is  suitable  only  for  ASCII  (not  binary)
 information; on the other hand, the program need not take account
-of the leader or trailer. End of file occurs during a read when
+of the leader or trailer. End of file occurs during a  read  when
 the end of the tape passes through the sensors.
 
-6.2 bppt
+
+6_.2_  bppt____
 
 "bppt" also refers to paper tape. The tape is in a blocked format
-with checksums. Completely arbitrary information may be written
+with checksums. Completely arbitrary information may  be  written
 and recovered unchanged in this mode.
 
-6.3 rppt
 
-This is raw input and output for paper tape. Every character is
-passed to the program, including nulls, so that the program must
-know when the leader ends and information begins during a read.
-On the other hand, this mode is suitable when tapes of unusual
+6_.3_  rppt____
+
+This  is  raw input and output for paper tape. Every character is
+passed to the program, including nulls, so that the program  must
+know  when  the leader ends and information begins during a read.
+On the other hand, this mode is suitable when  tapes  of  unusual
 format must be read.
 
-6.4 tty
 
-This is the console typewriter. Null characters are ignored for
-both reading and writing. For reading, the line is a unit of
+6_.4_ tty___
+
+This  is  the console typewriter. Null characters are ignored for
+both reading and writing. For reading, the  line  is  a  unit  of
 information; a program reading "tty" will wait until a whole line
-has been typed, and at most one line will be passed back to the
-program. However, characters may be read one at a time from the line.
+has been typed, and at most one line will be passed back  to  the
+program.  However,  characters may be read one at a time from the
+line.
+
+
+                             - 24 -
 
 On input, erase and kill processing are performed: "#" will erase
 the last character typed; "@" kills the entire line.
 
-The ASCII character "EOT" signals an end of file to the program.
+The  ASCII character "EOT" signals an end of file to the program.
 The ASCII "new line" character is the standard means of ending an
-input line. On the Teletype models 33 and 35 and some other terminals
-UNIX must simulate this function by echoing a "return"
+input  line. On the Teletype models 33 and 35 and some other ter-
+minals UNIX must simulate this function  by  echoing  a  "return"
 character when it receives a "line space" (whose code corresponds
 to the ASCII "new line.")
 
-The name "tty" refers to the user's own typewriter, no matter
-which physical channel he may be using. There are also special
-files for each typewriter. They have the names "ctty" (for the
-central site terminal), and "tty1", "tty2", ... "ttyn" (for
+The  name  "tty"  refers  to the user's own typewriter, no matter
+which physical channel he may be using. There  are  also  special
+files  for  each  typewriter. They have the names "ctty" (for the
+central site terminal),  and  "tty1",  "tty2",  ...  "ttyn_"  (for
 user's typewriters).
 
-6.5 rtty
 
-This is "raw" typewriter I/O. It is identical to "tty" for output,
-but on input the program waits only until at least one
+6_.5_  rtty____
+
+This  is  "raw" typewriter I/O. It is identical to "tty" for out-
+put, but on input the program  waits  only  until  at  least  one
 character has been typed before a return from the read occurs. No
 erase or kill processing is done.
 
-6.6 tap0; tap1
+
+6_.6_  tap0____; tap1____
 
 These files refer to DECTAPE logical units 0 and 1. When they are
-opened, the program waits until a tape is mounted on the appropriate drive.
+opened,  the  program  waits  until  a tape is mounted on the ap-
+propriate drive.
 
-6.7 disk
 
-This file refers to the entire disk in a way independent of the
-file system; it reads or writes the physical block corresponding
+6_.7_  disk____
+
+
+                             - 25 -
+
+This file refers to the entire disk in a way independent  of  the
+file  system; it reads or writes the physical block corresponding
 to the current file pointer.
 
 One use of this file demonstrates convincingly the versatility of
-the special file concept. There is a program called check which
-scrutinizes the entire file system to determine its consistency
-and the number of disk blocks used for various purposes. This
-program is in no sense part of the system; it is an ordinary command
-invokable by any user. Check operates by reading the file
-"disk." In this way it is able to examine the list of i-nodes
-(cf. section 4) which define files without depending on ad hoc
+the special file concept. There is a program called  check_____  which
+scrutinizes  the  entire file system to determine its consistency
+and the number of disk blocks used  for  various  purposes.  This
+program is in no sense part of the system; it is an ordinary com-
+mand invokable by any user. Check_____ operates by  reading  the  file
+"disk."  In  this  way  it is able to examine the list of i-nodes
+(cf__. section 4) which define files without depending  on  ad__  hoc___
 system calls to obtain its information.
 
-6.8 system
 
-This special file causes the area of core memory occupied by the
-system to be treated as a file. Thus the system can be examined
-and patched during operation by use of the ordinary debugger db
+6_.8_  system______
+
+This  special file causes the area of core memory occupied by the
+system to be treated as a file. Thus the system can  be  examined
+and  patched  during operation by use of the ordinary debugger db__
 discussed below.
 
-7. Traps
 
-The PDP-11 hardware detects a number of program faults, such as
-references to non-existent memory, unimplemented instructions,
-and odd addresses used where an even address is required. Such
-faults cause the processor to trap to a system routine. When an
+7_.  Traps_____
+
+The PDP-11 hardware detects a number of program faults,  such  as
+references  to  non-existent  memory, unimplemented instructions,
+and odd addresses used where an even address  is  required.  Such
+faults  cause  the processor to trap to a system routine. When an
 illegal action is caught, the system writes the user's core image
-on file "core" in the current working directory. Because of the
-way the hardware and the system operate, the contents of all the
-program-accessible registers are stored within this core image
-file. Thus, the debugger db discussed below can be used to determine
-the state of the program at the time of the fault.
+on  file  "core" in the current working directory. Because of the
+way the hardware and the system operate, the contents of all  the
+
+
+                             - 26 -
+
+program-accessible  registers  are  stored within this core image
+file. Thus, the debugger db__ discussed below can be used to deter-
+mine the state of the program at the time of the fault.
 
 The user may also force the program to stop and a core image file
-to be written by sending an interrupt signal. Currently this signal
-is generated by typing the ASCII "FS" character (control "\"
-on model 37 Teletypes). Thus programs which are looping or about
+to be written by sending an interrupt signal. Currently this sig-
+nal is generated by typing the ASCII "FS" character (control  "\"
+on  model 37 Teletypes). Thus programs which are looping or about
 which the user has second thoughts may be halted.
 
-If the user has several processes in execution simultaneously
+If  the  user  has  several processes in execution simultaneously
 (because he used the "&" facility of the Shell) only one of these
-processes is stopped, and there is no control over which one; it
-depends on which is currently in execution or executes next.
-Clearly this situation leaves much to be desired, for several reasons:
+processes  is stopped, and there is no control over which one; it
+depends on which is currently  in  execution  or  executes  next.
+Clearly  this  situation  leaves  much to be desired, for several
+reasons:
 
-      1. when the user has several processes he cannot interrupt
-         with any selectivity;
-      2. in all cases the rather large core image file is produced,
-         when the user may merely have wished, for example, to stop
-         a long printout;
-      3. it is often useful to send an asynchronous signal to a
-         process without stopping it (for example by causing a trap
-         to an agreed-upon location within the process's core
-         image.)
+   1. when  the  user  has  several processes he cannot interrupt
+      with any selectivity;
+   2. in  all cases the rather large core image file is produced,
+      when the user may merely have wished, for example, to  stop
+      a long printout;
+   3. it is often useful to send  an  asynchronous  signal  to  a
+      process  without stopping it (for example by causing a trap
+      to  an  agreed-upon  location  within  the  process's  core
+      image.)
 
-Doubtless, therefore, the interrupt facility will be reworked in
-the future. Unfortunately, there are not only implementation
-problems but even conceptual ones-- e.g. how does one specify a
+Doubtless, therefore, the interrupt facility will be reworked  in
+the  future.  Unfortunately,  there  are  not only implementation
+problems but even conceptual ones-- e.g. how does one  specify  a
+
+
+                             - 27 -
+
 process which may have started an arbitrary time ago?
 
 
-8.  Some Commands
+8_.  Some____ Commands________
 
-This section summarizes several of the commands available in
-UNIX. The list is not exhaustive, but it covers those most frequently
-used. The assembler as, the debugger db, the editor ed
-and DECTAPE manipulator tap are documented in more detail in
+This  section  summarizes  several  of  the commands available in
+UNIX. The list is not exhaustive, but it covers those  most  fre-
+quently  used.  The  assembler as__, the debugger db__, the editor ed__
+and DECTAPE manipulator tap___ are  documented  in  more  detail  in
 Appendix 2.
 
-Where an argument like name is given, a file name is meant. In
-every case, an arbitrary path name may be used to specify any
+Where an argument like name____ is given, a file name  is  meant.  In
+every  case,  an  arbitrary  path name may be used to specify any
 file in the system, subject to the constraints imposed by the the
 protection system.
 
 Arguments enclosed in square brackets are optional.
 
 
-8.1  as -- assemble
+8_.1_  as__ -- assemble________
 
-As is the assembler for the PDP-11. It is called as follows:
+As__ is the assembler for the PDP-11. It is called as follows:
 
-     as name1 name2 ... namen
+     as name918 name928 ... name9n8
 
-The concatenation of the files name1 ... namen is assembled. The
-resulting binary output is placed in file "a.out" in the current
-working directory; a copy of the name list from the assembly is
+The concatenation of the files name____918 ... name____9n8 is assembled.  The
+resulting  binary output is placed in file "a.out" in the current
+working directory; a copy of the name list from the  assembly  is
 placed on "n.out." See Appendix 2 for more information.
 
 
-8.2  b -- compile B program
+8_.2_  b_ -- compile_______ B_ program_______
 
 B [reference] is a new higher-level language with implementations
-on the PDP-7, PDP-11, and Honeywell 635. To compile several B
+on the PDP-7, PDP-11, and Honeywell 635.  To  compile  several  B
+
+
+                             - 28 -
+
 programs,
 
-     b -name1 ... -namen
+     b -name918 ... -name9n8
 
-Notice that each name should be preceded by a "-" (not part of
-the file name). Also, b supplies the conventional suffix ".b".
+Notice  that  each  name____ should be preceded by a "-" (not part of
+the file name). Also, b supplies the  conventional  suffix  ".b".
 For example, to concatenate and compile "abc.b" and "def.b", type
 
      b -abc -def
@@ -934,247 +976,273 @@ The binary output is left on "a.out" and the name list on "n.out"
 for more information.
 
 
-8.3  cat -- concatenate files
+8_.3_  cat___ -- concatenate___________ files_____
 
-The cat command concatenates several files and copies the result
+The  cat___ command concatenates several files and copies the result
 onto the standard output file.
 
-     cat name1 .,. namen
+     cat name918 ... name9n8
 
-Notice that ">" may be used: "cat a b >/ppt" punches the contatenation
-of "a" and "b". "cat x" simply lists x on the typewriter.
+Notice that ">" may be used: "cat a b  >/ppt"  punches  the  con-
+tatenation  of  "a"  and  "b".  "cat  x"  simply  lists  x on the
+typewriter.
 
 
-8.4  chdir  -- change directories
+8_.4_  chdir_____  -- change______ directories___________
 
 To change the current directory, use
 
      chdir dirname
 
-This command is the only one that does not reside in directory
-"/bin"; instead it is part of the Shell. The reason is
-interesting. Recall that each ordinary command is executed as a
-separate process created by the Shell. If the system's chdir
-primitive were executed in such a process, it would have essentially
-no effect, since the process would terminate instantly
-without affecting the current directory of the Shell process and
-its subsequent offSpring. The Shell itself recognizes the chdir
-command and calls the system to change directories without
+This command is the only one that does not  reside  in  directory
+"/bin";   instead  it  is  part  of  the  Shell.  The  reason  is
+
+
+                             - 29 -
+
+interesting. Recall that each ordinary command is executed  as  a
+separate  process  created  by  the  Shell. If the system's chdir_____
+primitive were executed in such a process, it would  have  essen-
+tially  no  effect,  since  the process would terminate instantly
+without affecting the current directory of the Shell process  and
+its  subsequent  offspring. The Shell itself recognizes the chdir_____
+command and calls  the  system   to  change  directories  without
 creating a new process.
 
 
-8.5  chmod -- change mode of file
+8_.5_  chmod_____ -- change______ mode____ of__ file____
 
 To change the protection bits for a set of files,
 
-     chmod mode name1 ... namen
+     chmod mode name918 ... name9n8
 
-The modes of name1, ..., namen are set to mode. Mode is an octal
+The  modes of name____918, ..., name____9n8 are set to mode____. Mode____ is an octal
 number whose bits in the binary representation have the following
 meanings:
 
-     1 write, non-owner
-     2 read, non-owner
-     4 write, owner
-    10 read, owner
-    20 execute
-    40 set user ID on execution
+     1  write, non-owner
+     2  read, non-owner
+     4  write, owner
+    10  read, owner
+    20  execute
+    40  set user ID on execution
 
-See also section 3.4 on the protection system. Most command
-programs create files with mode 17; the assembler's "a.out" file
+See also section 3.4  on  the  protection  system.  Most  command
+programs  create files with mode 17; the assembler's "a.out" file
 has mode 37.
 
 
-8.6  chown -- change owner of files
+8_.6_  chown_____ -- change______ owner_____ of__ files_____
+
 To change the owner of a sequence of files,
 
-     chown owner name1 ... namen
+     chown owner name918 ... name9n8
 
-Owner is a user number assigned by the system administrators.
-Only the owner of a file may donate the file to another user.
-Notice that chown does not change the directory in which the link
+
+                             - 30 -
+
+Owner_____ is a user number assigned  by  the  system  administrators.
+Only  the  owner  of  a file may donate the file to another user.
+Notice that chown_____ does not change the directory in which the link
 to the file exists.
 
 
-8.7  cp -- copy file
+8_.7_  cp__ -- copy____ file____
 
 To make a copy of a file,
 
-     cp name1 name2
+     cp name918 name928
 
-Either name1 or name2 may be special files.
+Either name____918 or name____928 may be special. special files.
 
 
-8.8  db -- debug
+8_.8_  db__ -- debug_____
 
 To examine or patch a (usually binary) file,
 
      db [ name [ namelist ] ]
 
-The first argument is the file to be examined. The second is a
-name list file produced as "n.out" when name was assembled. The
-brackets indicate that both arguments are optional. if the first
-argument is not given, "core" is assumed. If the second is not
-given, "n.out" is assumed. (of course, the first argument alone
+The  first  argument  is the file to be examined. The second is a
+name list file produced as "n.out" when name____ was  assembled.  The
+brackets  indicate that both arguments are optional. if the first
+argument is not given, "core" is assumed. If the  second  is  not
+given,  "n.out"  is assumed. (of course, the first argument alone
 cannot be omitted.)
 
-Db is discussed in complete detail in Appendix 2.
+Db__ is discussed in complete detail in Appendix 2.
 
 
-8.9  ed -- edit
+8_.9_  ed__ -- edit____
 
-ED is the editoro It is essentially a subset of QED [references];
+ED is the editor. It is essentially a subset of QED [references];
 see Appendix 2 for the differences.
 
 
-8.10  ln -- link
+                             - 31 -
+
+8_.10__  ln__ -- link____
 
 To create a link,
 
-     ln name1 [ name2 ]
+     ln name918 [ name928 ]
 
-A link to file name1 is created. If name2 is given, the link has
-name name2, otherwise it has the (last component of) name1. For
-example, "ln /a/b /c/d" creates a link named "d" in directory
-"/c" to file "/a/b". The user must have permission to write in
+A link to file name____918 is created. If name____928 is given, the link  has
+name  name____928,  otherwise it has the (last component of) name____918. For
+example, "ln /a/b /c/d" creates a link  named  "d"  in  directory
+"/c"  to  file  "/a/b". The user must have permission to write in
 directory "/c".
 
-8.11  ls -- list directory
+
+8_.11__  ls__ -- list____ directory_________
 
 To list the names of the files in a directory,
 
      ls [ name ]
 
-If name is not given, the contents of the current directory are
+If name____ is not given, the contents of the current  directory  are
 listed.
 
 
-8.12  mkdir -- make directory
+8_.12__  mkdir_____ -- make____ directory_________
 
 To create a directory,
 
      mkdir name
 
 
-8.13  mv -- move file
+8_.13__  mv__ -- move____ file____
 
 To move or rename a file,
 
-     mv name1 name2 ...
+     mv name918 name928 ...
 
-This command does not copy the file. It operates by linking to
-name1 by the name name2, then unlinking name1. Mv is often used
+This command does not copy the file. It operates  by  linking  to
+
+
+                             - 32 -
+
+name____918  by  the name name____928, then unlinking name____918. Mv__ is often used
 to rename a file.
 
-If name2 is a directory, name2 is moved into that directory under
-the name which is the last component of name1. For example,
+If name____928 is a directory, name____928 is moved into that directory under
+the name which is the last component of name____918. For example,
 
      mv x /dirname
 
-moves x to /dirname/x.
+moves x_ to /dirname/x__________.
 
 
-8.14  nm -- get namelist
+8_.14__  nm__ -- get___ namelist________
 
-To get a printed listing of the symbol table (name list) from an
+To get a printed listing of the symbol table (name list) from  an
 assembly,
 
      nm [ name ]
 
-where name is the "n.out" file from some assembly. If name is not
+where name____ is the "n.out" file from some assembly. If name____ is not
 given, "n.out" is listed.
 
 
-8.15  pr -- print
+8_.15__  pr__ -- print_____
 
 The command
 
-     pr name1 name2 ... namen
+     pr name918 name928 ... name9n8
 
-prints the contents of the named files. The output is separated
-into pages headed by the file name, the time and date, and the
+prints the contents of the named files. The output  is  separated
+into  pages  headed  by the file name, the time and date, and the
 page number.
 
 
-8.16  rm -- remove file
+8_.16__  rm__ -- remove______ file____
 
 To unlink one or more files (remove them from directories),
 
-     rm name1 ...
 
-Recall that removing the last link to a file causes it to go
+                             - 33 -
+
+     rm name918 ...
+
+Recall that removing the last link to a  file  causes  it  to  go
 away.
 
 
-8.17  roff -- run off (format)
+8_.17__  roff____ -- run___ off___ (format______)
 
-Roff is a program similar to the one under GE-TSS which formats
-text files under the control of commands embedded in the text.
+Roff____  is  a program similar to the one under GE-TSS which formats
+text files under the control of commands embedded  in  the  text.
 The command
 
-     roff name1 ... namen
+     roff name918 ... name9n8
 
-will run off the concatenation of name1, ... namen. UNIX roff
-supports all the features of TSS roff except "merge", tabs, and
+will  run  off  the  concatenation of name____918, ... name____9n8. UNIX roff____
+supports all the features of TSS roff____ except "merge",  tabs,  and
 footnotes. See [reference] for details.
 
-8.18  sh -- Shell
+
+8_.18__  sh__ -- Shell_____
 
 To invoke the Shell,
 
      sh [ name ]
 
-Name is interpreted as a file of commands. Name need not be
+Name____  is  interpreted  as  a  file  of commands. Name____ need not be
 given, in which case the Shell will read its standard input file.
-When called with an argument, the Shell refrains from typing its
-prompt character "@". See section 5 above. The Shell has several
+When  called with an argument, the Shell refrains from typing its
+prompt character "@". See section 5 above. The Shell has  several
 features besides those mentioned in section 5.
 
-      1. Arguments or parts of arguments to commands enclosed in
-         single (') or double (") quotes are taken literally, so that
-         arbitrary character strings can be passed (including spaces,
-         "<" or ">" etc.).
-
-      2. The character "\" serves to quote the next character. In
-         this way a single command may extend over several lines,
-         since a new line preceded by "\" is treated like a space.
-
-      3. When the Shell is invoked as a command, the character sequences
-         "$0", "$1", ... "$9" are treated as parameters. "$0"
-         is replaced by the name of the file being interpreted; "$1"
-         through "$9" are replaced by the first through ninth argument
-         following the file name. For example, when
-
-              sh runcom arg1 arg2 arg3
-
-         is typed, "$0" inside of "runcom" is replaced by "runcom",
-         "$1" is replaced by "arg1", etc.
+  1. Arguments or parts of  arguments  to  commands  enclosed  in
+     single (') or double (") quotes are taken literally, so that
+     arbitrary character strings can be passed (including spaces,
 
 
-8.19  stat -- get file status
+                             - 34 -
+
+     "<" or ">" etc.).
+  2. The character "\" serves to quote  the  next  character.  In
+     this  way  a  single  command may extend over several lines,
+     since a new line preceded by "\" is treated like a space.
+  3. When  the  Shell  is invoked as a command, the character se=
+     quences "$0", "$1", ... "$9" are treated as parameters. "$0"
+     is  replaced by the name of the file being interpreted; "$1"
+     through "$9" are replaced by the first through  ninth  argu-
+     ment following the file name. For example, when
+
+        sh runcom arg1 arg2 arg3
+
+     is  typed,  "$0" inside of "runcom" is replaced by "runcom,"
+     "$1" is replaced by "arg1,", etc.
+
+
+8_.19__  stat____ -- get___ file____ status______
 
 To discover interesting information about one or more files,
 
-     stat name1 ...
+     stat name918 ...
 
-Stat gives the i-number, the mode, the owner, the size, and the
-times of creation and last modification for each of name1, ....
+Stat____ gives the i-number, the mode, the owner, the size,  and  the
+times of creation and last modification for each of name____918, ....
 
 
-8.20  tap -- manipulate DECTAPE
+8_.20__  tap___ -- manipulate__________ DECTAPE_______
 
-Tap is used to load and dump portions of the hierarchy onto
+Tap___  is  used  to  load  and  dump portions of the hierarchy onto
 DECTAPE. See Appendix 2 for details.
 
 
-8.21  tm -- time
+8_.21__  tm__ -- time____
 
-To discover various information connected with time, the tm  com-
+To discover various information connected with time, the tm__  com-
+
+
+                             - 35 -
+
 mand can be used:
 
-     tm [ command arg1 ... argn ]
+     tm [ command arg918 ... arg9n8 ]
 
-If called without arguments, tm prints out the time of day and
+If  called  without  arguments, tm__ prints out the time of day and
 the total times accumulated in several categories:
 
    1. Processor time charged to the user.
@@ -1183,64 +1251,68 @@ the total times accumulated in several categories:
    4. Idle time.
    5. Time spent in the interrupt routines.
 
-Without an argument, tm gives these values both in absolute form
-(i.e., totals since creation of the system) and as changes since
-the last time tm was called. When called with one or more arguments,
-the arguments are assumed to constitute a command to be
-timed. Tm executes the given command and prints the times required
-for the command in each of the above categories.
+Without an argument, tm__ gives these values both in absolute  form
+(i_.e_.,  totals since creation of the system) and as changes since
+the last time tm__ was called. When called with  one  or  more  ar-
+guments,  the arguments are assumed to constitute a command to be
+timed. Tm__ executes the given command and  prints  the  times  re-
+quired for the command in each of the above categories.
 
 
-8.22  un -- undefined symbols
+8_.22__  un__ -- undefined_________ symbols_______
 
-It is sometimes useful, to know the names of all the undefined
+It  is  sometimes  useful  to know the names of all the undefined
 symbols in a given assembly. The command
 
      un [ name ]
 
-searches the (name list) file name and prints all the symbols un-
-defined therein. If name is omitted, "n.out" is used.
+searches the (name list) file name____ and prints all the symbols un-
+defined therein. If name____ is omitted, "n.out" is used.
 
 
-APPENDIX 1
+                           APPENDIX________ 1_
 
 
-This appendix summarizes all the system calls. To understand the
-calls to UNIX, it is fortunately necessary to know only very little
-of the structure of the PDP-11. The machine contains several
-general registers, of which only two are used for arguments to
-the calls, namely R0 and R1. There is also a condition register,
-one of whose bits records a carry occurring during an arithmetic
-operation. To indicate an error the system sets this carry bit;
+This appendix summarizes all the system calls.  To understand the
+calls to UNIX, it is fortunately necessary to know only very lit-
+tle of the structure of the PDP-11.  The machine contains several
+general registers, of which only two are used  for  arguments  to
+the calls, namely R0 and R1.  There is also a condition register,
+one of whose bits records a carry occurring during an  arithmetic
+operation.   To indicate an error the system sets this carry bit;
 it is cleared for successful calls. There is a conditional branch
-instruction to test the state of the bit. All registers not used
-to communicate explicit arguments are unchanged by calls to the
+instruction to test the state of the bit.  All registers not used
+to communicate explicit arguments are unchanged by calls  to  the
 system.
 
 The instruction used to call the system is known to the assembler
-as "sys"; when the processor executes this instruction it is
-trapped to a specific location inside UNIX. The address field of
+as  "sys";  when  the  processor  executes this instruction it is
+trapped to a specific location inside UNIX.  The address field of
 "sys" contains a number indicating which system call is desired.
 
-The arguments for a call are placed either in a register or
+The arguments for a call are  placed  either  in  a  register  or
 immediately following the "sys" instruction.
 
-A number of the calls, principally those dealing with the file
+A number of the calls, principally those dealing  with  the  file
 system, take strings as arguments. There is a standard format for
-such a string: it consists of a sequence of bytes ending in a
-null character. The open call below, contains a complete example
+such a string: it consists of a sequence of  bytes  ending  in  a
+null character.  The open____ call below, contains a complete example
 of how to write such a string.
 
-A1.1  exit
 
-Exit is used to terminate a process as follows:
+                             A1 - 2
+
+A1__.1_  exit____
+
+Exit____ is used to terminate a process as follows:
 
      sys  exit
 
-There are no arguments, nor is there ever any return from this call.
+There are no arguments, nor is there ever any  return  from  this
+call.
 
 
-A1.2  fork
+A1__.2_  fork____
 
 This is the primitive used to generate new processes.
 
@@ -1249,49 +1321,53 @@ This is the primitive used to generate new processes.
      (new process return)
 
 There are no input arguments. The error bit is set if no space is
-available to create a new process, and control returns only to
-the old process. R0 contains the process identification of the
+available to create a new process, and control  returns  only  to
+the  old  process.  R0 contains the process identification of the
 new process. See also section 5.
 
-The parent process returns immediately after the sys call; the
-new process skips one word; (The label argument mentioned in the
-discussion of fork in section 5.5 was a white lie.)
+The  parent process returns immediately after the "sys" call; the
+new process skips one word. (The label argument mentioned in  the
+discussion of fork____ in section 5.5 was a white lie.)
 
 
-A1.3  read
+A1__.3_  read____
 
-To read an open file whose file descriptor is filep, load filep
+To  read  an open file whose file descriptor is filep_____, load filep_____
 into R0 and
 
      sys  read
      buffer
      nchars
 
-Buffer is the address of the place into which information is
-read, and nchars is the maximum number of characters desired.
-(The actual number, not its address.) The number of characters
-actually read returns in R0. If R0 is zero, the end of the file
-has been reached. The error bit may be set if, for example, the
-file is a tape file and there was a permanent read error, or if
-an attempt was made to read into an area not part of the user's
+Buffer______ is the address of the  place  into  which  information  is
+
+
+                             A1 - 3
+
+read,  and  nchars______  is  the maximum number of characters desired.
+(The actual number, not its address.) The  number  of  characters
+actually  read returns in R0.  If R0 is zero, the end of the file
+has been reached.  The error bit may be set if, for example,  the
+file  is  a tape file and there was a permanent read error, or if
+an attempt was made to read into an area not part of  the  user's
 core image.
 
 
-A1.4  write
+A1__.4_  write_____
 
-To write an open file with file descriptor filep, load filep into
+To write an open file with file descriptor filep_____, load filep_____ into
 R0 and
 
      sys  write
      buffer
      nchars
 
-where buffer and nchars are the same as for read. The number of
-characters actually written returns in R0 (ordinarily it is the
-same as nchars) and errors are indicated by the error bit.
+where buffer______ and nchars______ are the same as for read____.  The number  of
+characters  actually  written returns in R0 (ordinarily it is the
+same as nchars______) and errors are indicated by the error bit.
 
 
-A1.5  open
+A1__.5_  open____
 
 To open an already existing file,
 
@@ -1299,17 +1375,21 @@ To open an already existing file,
      name
      mode
      ...
-     name:<pathname\0>
+name:<pathname\0>
 
-name is the address of a string of characters constituting a path
-name. The name is terminated by a null (all zero) character,
-which is indicated by "\O"; the characters "<" and ">" are string
-quotes. Mode is 0 or 1 to indicate reading or writing respectively.
-The file descriptor returns in R0. If the file cannot be
+name____ is the address of a string of characters constituting a path
+name.  The  name  is  terminated  by a null (all zero) character,
+which is indicated by "\0"; the characters "<" and ">" are string
+quotes.   Mode____  is  0 or 1 to indicate reading or writing respec-
+
+
+                             A1 - 4
+
+tively.  The file descriptor returns in R0. If the file cannot be
 found or if permission is not granted the error bit is set.
 
 
-A1.6  creat
+A1__.6_  creat_____
 
 To create or recreate a file,
 
@@ -1317,136 +1397,148 @@ To create or recreate a file,
      name
      mode
 
-name is the same as for open. Mode is a number encoding the protection
-bits as specified under the "chmod" command below (A2.9).
-Creation of a file implies opening for writing; the file descriptor
-is returned in R0.
+name____ is the same as for open____.  Mode____ is a number encoding the pro-
+tection bits as specified under the "chmod" command below (A2.9).
+Creat_____ion of a file implies opening for writing; the file descrip-
+tor is returned in R0.
 
 
-A1.7  close
+A1__.7_  close_____
 
 To close a file, move the file descriptor into R0 and
 
      sys  close
 
-A program may have only a limited number of files open at one
-time (currently, 10). Closing a file allows another file to be
-opened in its place. Closing is otherwise unnecessary, for an
-automatic close on all files is performed when the process terminates.
+A program may have only a limited number of  files  open  at  one
+time  (currently,  10).  Closing a file allows another file to be
+opened in its place. Closing is  otherwise  unnecessary,  for  an
+automatic  close  on all files is performed when the process ter-
+minates.
 
-A1.8  wait
+
+A1__.8_  wait____
 
 To wait for a child process to terminate,
 
      sys  wait
 
-The identification of the terminated process is returned in R0.
-At the present time no further information is returned; in the
-future a means of determining the fate of the process will be
+
+                             A1 - 5
+
+The identification of the terminated process is returned  in  R0.
+At  the  present  time no further information is returned; in the
+future a means of determining the fate of  the  process  will  be
 provided.
 
-If the process executing a wait has no living children, an error
+If the process executing a wait____ has no living children, an  error
 is returned.
 
 
-A1.9  link
+A1__.9_  link____
 
 To create a link in an arbitrary directory,
 
      sys  link
-     name1
-     name2
+     name918
+     name928
 
-Name1 and name2 are pointers to names as in open. File name1 is
-linked to, and the link has name name2. An error is indicated if
-name1 does not exist or if name2 does exist.
+Name____918  and name____928 are pointers to names as in open____.  File name____918 is
+linked to, and the link has name name____928.  An error is indicated if
+name____918 does not exist or if name____928 does exist.
 
 
-A1.10  unlink
+A1__.10__  unlink______
 
 To remove the name of a file from a directory,
 
      sys  unlink
      name
 
-Name is a pointer to a name. The specified entry is removed from
-its directory; if this was the last entry (link) pointing to the
+Name____ is a pointer to a name.  The specified entry is removed from
+its  directory; if this was the last entry (link) pointing to the
 file, the file is destroyed.
 
 
-A1.11  exec
+A1__.11__  exec____
 
 To cause execution of a file as a program,
+
+
+                             A1 - 6
 
      sys  exec
      name
      argp
      ...
-argp:arg1
-     arg2
+argp:arg918
+     arg928
       .
       .
       .
      0
 
-The first argument is the address of a file name. The second
+The  first  argument  is  the address of a file name.  The second
 argument is the address of a list of argument pointers terminated
-by a zero pointer. Each argument pointer is the address of a
-string to be passed to the command or other program. The first
-argument pointer arg1 is, by convention, the name of the file
-being invoked. When a program is executed by the Shell, it can
-determine the name by which it was called. Thus one may write a
-single program with several names which takes various actions
+by  a  zero  pointer.  Each  argument pointer is the address of a
+string to be passed to the command or other program.   The  first
+argument  pointer  arg___918  is,  by convention, the name of the file
+being invoked.  When a program is executed by the Shell,  it  can
+determine  the  name by which it was called. Thus one may write a
+single program with several names  which  takes  various  actions
 according to the name used.
 
-A file invoked by exec begins execution at its relative location
+A file invoked by exec____ begins execution at its relative  location
 0. At the start, its stack pointer (one of the general registers)
 points to a list of its own arguments as follows:
 
      count
-     arg1
-     arg2
+     arg___918
+     arg___928
       .
       .
       .
 
-where there are count arguments in the list. Each argi points to
-a standard format string. The argi are the same as those specified
-to the exec call.
+where  there are count_____ arguments in the list. Each arg______9i8 points to
+a standard format string.  The arg______9i8are the same as  those  speci-
+fied to the exec____ call.
 
 
-A1.12  chdir
+A1__.12__  chdir_____
+
+
+                             A1 - 7
 
 To change the current directory,
 
      sys  chdir
      dirname
 
-dirname points to the standard format string describing a directory.
+dirname_______  points  to  the  standard  format  string  describing  a
+directory.
 
 
-A1.13  time
+A1__.13__  time____
 
 The call
 
      sys  time
 
-returns in the AC and MQ registers the number of sixtieths of a
+returns  in  the AC and MQ registers the number of sixtieths of a
 second since the start of the current year.
 
 
-A1.14  mkdir
+A1__.14__  mkdir_____
 
 The call
 
      sys  mkdir
      name
 
-creates the file whose name is pointed to by name and marks it as
+creates the file whose name is pointed to by name____ and marks it as
 a directory.
 
 
-A1.15  chmod
+A1__.15__  chmod_____
 
 The mode of a file is changed by
 
@@ -1454,11 +1546,13 @@ The mode of a file is changed by
      name
      newmode
 
-See the "chmod" command (section 8.5) for the interpretation of
-the mode. Only the owner of a file may change the mode.
+See the "chmod" command (section 8.5) for the  interpretation  of
+the mode.  Only the owner of a file may change the mode.
 
 
-A1.16  chown
+                             A1 - 8
+
+A1__.16__  chown_____
 
 To change the owner of a file,
 
@@ -1469,25 +1563,25 @@ To change the owner of a file,
 Only the owner of a file may change its owner.
 
 
-A1.17  break
+A1__.17__  break_____
 
-To save time, UNIX does not swap all of the 4K user core area
+To  save  time,  UNIX  does not swap all of the 4K user core area
 when exchanging core images. The locations swapped are those from
 the beginning of the core image to the initial program break, and
-from the top of user core down to the stack pointer. The initial
-program break is determined by the size of the file containing
+from the top of user core down to the stack pointer. The  initial
+program  break  is  determined by the size of the file containing
 the program. The system's idea of how much to swap may be altered
 by using this call:
 
      sys  break
      newbreak
 
-Newbreak becomes the first location not swapped. If it points
-beyond the stack, or to the very first word in the core image,
+Newbreak________ becomes the first location not  swapped.  If  it  points
+beyond  the  stack, or to the very first word in  the core image,
 the entire core image is swapped.
 
 
-A1.18  stat
+A1__.18__  stat____
 
 The user may obtain a copy of the i-node for a named file:
 
@@ -1495,16 +1589,20 @@ The user may obtain a copy of the i-node for a named file:
      name
      buffer
 
-Name is the name of a file, and buffer is the address of 34
-sequential bytes into which information concerning the file is
-placed. See section 4 for what information is passed; consult a
+Name____ is the name of a file, and  buffer______  is  the  address  of  34
+sequential  bytes  into  which information concerning the file is
+
+
+                             A1 - 9
+
+placed. See section 4 for what information is passed;  consult  a
 UNIX programming councillor for its format.
 
 
-A.19  seek
+A_.19__  seek____
 
-To move the read or write pointer associated with the open file
-with file descriptor filep, load filep into R0 and
+To  move  the read or write pointer associated with the open file
+with file descriptor filep_____, load filep_____ into R0 and
 
      sys  seek
      base
@@ -1513,10 +1611,10 @@ with file descriptor filep, load filep into R0 and
 See also section 3.5.5.
 
 
-A.20  tell
+A_.20__  tell____
 
-To discover the position of the read or write pointer associated
-with the open file with file descriptor filep, move filep into R0
+To discover the position of the read or write pointer  associated
+with the open file with file descriptor filep_____, move filep_____ into R0
 and
 
      sys  tell
@@ -1526,32 +1624,32 @@ and
 The result returns in R0. See also section 3.5.6.
 
 
-A1.21  (unassigned)
+A1__.21__  (unassigned__________)
 
 
-A1.22  intr
+A1__.22__  intr____
 
 To control the handling of "break" signals sent by the user,
 
      sys  intr
 
-If R0 is zero on entry, interrupts are disabled; if R0 is non-zero,
-they are enabled.
+If  R0  is  zero on entry, interrupts are disabled; if R0 is non-
+zero, they are enabled.
 
 
-APPENDIX 2
+                           APPENDIX________ 2_
 
 
-This Appendix discusses in more detail the usage of the
+This  Appendix  discusses  in  more  detail  the  usage  of   the
 assembler, the editor, the debugger, and the DECTAPE manipulation
 command.
 
 
-A2.1  as
+A2__.1_  as__
 
 
-As is based on the DEC-provided assembler PAL-11 [references],
-although it was coded locally. Therefore, only the differences
+As__ is based on the DEC-provided  assembler  PAL-11  [references],
+although  it  was coded locally.  Therefore, only the differences
 will be recorded.
 
 Character changes are:
@@ -1561,8 +1659,8 @@ Character changes are:
       #      $
       ;      /
 
-In as, the character ";" is a logical new line; several operations
-may appear on one line if separated by ";". Several new
+In as__, the character ";" is a logical new  line;  several  opera-
+tions  may  appear  on one line if separated by ";".  Several new
 expression operators have been provided:
 
      \>     right shift (logical)
@@ -1579,22 +1677,27 @@ There is a conditional assembly operation code:
      ...
      .endif
 
-If the expression evaluates to non-zero, the section of code
-between the ".if" and the ".endif" is assembled; otherwise it is
+
+                               A2
+
+If the expression__________ evaluates to  non-zero,  the  section  of  code
+between  the ".if" and the ".endif" is assembled; otherwise it is
 ignored. ".if"s may be nested.
 
-Temporary labels like those introduced by Knuth [reference] may
-be employed. A temporary label is defined as follows:
+Temporary  labels  like those introduced by Knuth [reference] may
+be employed.  A temporary label is defined as follows:
 
      n:
 
-where n is a digit 0 ... 9. Symbols of the form "nf" refer to the
-first label "n:" following the use of the symbol; those of the
-form "nb" refer to the last "n:". The same "n" may be used many
-times. Labels of this form are less taxing both on the imagination
-of the programmer and on the symbol table space of the assembler.
+where n_ is a digit 0 ... 9. Symbols of the form "n_f" refer to the
+first  label  "n_:"  following the use of the symbol; those of the
+form "n_b" refer to the last "n_:".  The same "n_" may be used  many
+times.   Labels of this form are less taxing both on the imagina-
+tion of the programmer and on  the  symbol  table  space  of  the
+assembler.
 
-The PAL-11 opcodes ".eot" and ".end" are redundant and are omitted.
+The PAL-11 opcodes ".eot" and ".end" are redundant and are  omit-
+ted.
 
 The symbols
 
@@ -1612,238 +1715,247 @@ The symbols
 
 are predefined with appropriate values.
 
-The new cpcode "sys" is used to specify system calls. Names for
-system calls are predefined. See Appendix 1 for the list of
+The  new opcode "sys" is used to specify system calls.  Names for
+system calls are predefined. See  Appendix  1  for  the  list  of
 calls.
 
-Strings of characters may be assembled in a way more convenient
-than PAL-11's ".ascii" operation (which is, therefore, omitted).
+
+                               A3
+
+Strings of characters may be assembled in a way  more  convenient
+than  PAL-11's ".ascii" operation (which is, therefore, omitted).
 Strings are included between the string quotes "<" and ">":
 
      <here is a string>
 
-Escape sequences exist to enter non graphic and other difficult
-characters. These sequences are also effective in single and
+Escape sequences exist to enter non graphic and  other  difficult
+characters.  These  sequences  are  also  effective in single and
 double character constants introduced by single and double quotes
 respectively.  respectively:
 
-     use  for .
+     use___  for___
      \n   newline (012)
      \0   NULL (000)
      \>   >
      \t   TAB (011)
 
-When errors occur, a single-character diagnostic is typed out
-together with the line number and the file name in which it
-occurred. Errors in pass 1 cause cancellation of pass 2. The
+
+When  errors  occur,  a  single-character diagnostic is typed out
+together with the line number and  the  file  name  in  which  it
+occurred.  Errors  in  pass  1 cause cancellation of pass 2.  The
 possible errors are:
 
      )     parentheses error
      ]     parentheses error
-     *     Indirection ("*") used illegally
-     .     . (the location counter) has become undefined
-     A     error in Address
-     B     Branch instruction has too remote an address
-     E     error in Expression
-     F     error in local ("F" or "b") type symbol
-     G     garbage (unknown) character
-     M     Multiply defined symbol as label
-     0     Odd-- word quantity assembled at odd address
-     P     Phase error-- "." different in pass 2 from pass 1
+     *     Indirection ("*_") used illegally
+     .     ._ (the location counter) has become undefined
+     A     error in A_ddress
+     B     B_ranch instruction has too remote an address
+     E     error in E_xpression
+     F     error in local ("F_" or "b") type symbol
+     G     g_arbage (unknown) character
+     M     M_ultiply defined symbol as label
+     0     O_dd-- word quantity assembled at odd address
+     P     P_hase error-- "." different in  pass  2  from  pass  1
 value
-     R     Relocation error
-     U     Undefined symbol
-     X     syntaX error
+     R     R_elocation error
+     U     U_ndefined symbol
+     X     syntaX_ error
 
-The binary output of the assembler is placed on the file "a.out"
-in the current directory. The assembler also generates a file
-"n.out" which is a copy of the name list from the assembly, that
-is, a table of the names of symbols used and their values.
-"n.out" is used by the db, nm, and un commands.
+The  binary output of the assembler is placed on the file "a.out"
+in the current directory.  The assembler also  generates  a  file
 
-The assembler does not produce a listing of the source program.
-This is not a serious drawback; the debugger db discussed below
+
+                               A4
+
+"n.out"  which is a copy of the name list from the assembly, that
+is, a table of the  names  of  symbols  used  and  their  values.
+"n.out" is used by the db__, nm__, and un__ commands.
+
+The assembler does not produce a listing of the  source  program.
+This  is  not a serious drawback; the debugger db__ discussed below
 is sufficiently powerful to render a printed octal translation of
 the source unnecessary.
 
 
-A2.3  db
+A2__.3_  db__
 
-Unlike many debugging packages (including DEC's CDT, on which db
-is loosely based) db is not loaded as part of the core image
-which it is used to examine; instead it examines files. Typically,
-the file will be either a core image produced after a
-fault (see section 7) or the binary output of the assembler. dnb
+Unlike  many debugging packages (including DEC's CDT, on which db__
+is loosely based) db__ is not loaded as  part  of  the  core  image
+which  it  is  used to examine; instead it examines files.  Typi-
+cally, the file will be either a  core  image  produced  after  a
+fault  (see section 7) or the binary output of the assembler.  db__
 is called as follows:
 
      db [ name [ namelist ] ]
 
-Name is the file being debugged; if omitted "core" is assumed.
-namelist is the "n.out" file produced when name was assembled; if
+Name____ is the file being debugged; if omitted  "core"  is  assumed.
+namelist________ is the "n.out" file produced when name____ was assembled; if
 omitted, "n.out" is assumed. If no appropriate name list file can
-be found, db can still be used but some of its symbolic facilities
-become unavailable.
+be  found,  db__ can still be used but some of its symbolic facili-
+ties become unavailable.
 
-The format for most db requests is an address followed by a one
+The  format  for most db__ requests is an address followed by a one
 character command.
 
-Addresses are expressions built up as follows:
+Addresses are  expressions built up as follows:
 
-      1. A name has the value assigned to it when the input file was
-         assembled. It may be relocatable or not depending on the
-         use of the name during the assembly.
+   1. A name has the value assigned to it when the input file was
 
-      2. An octal number is an absolute quantity with the appropriate value.
 
-      3. An octal number immediately followed by "r" is a relocatable
-         quantity with the appropriate value.
+                               A5
 
-      4. The symbol "." indicates the current pointer of db. The
-         current pointer is set by many db requests.
+      assembled.   It  may be relocatable or not depending on the
+      use of the name during the assembly.
+   2. An  octal number is an absolute quantity with the appropri-
+      ate value.
+   3. An  octal  number  immediately followed by "r" is a reloca-
+      table quantity with the appropriate value.
+   4. The  symbol  "."  indicates  the current pointer of db__. The
+      current pointer is set by many db__ requests.
+   5. Expressions separated by "+" or " " (blank) are expressions
+      with value equal to the sum of the components. At most  one
+      of the components may be relocatable.
+   6. Expressions separated by "-" form an expression with  value
+      equal  to  the  difference to the components.  If the right
+      component  is  relocatable,  the  left  component  must  be
+      relocatable.
+   7. Expressions are evaluated left to right.
 
-      5. Expressions separated by "+" or " " (blank) are expressions
-         with value equal to the sum of the components. At most one
-         of the components may be relocatable.
+If  no  address is given for a command, the current address (also
+specified by ".") is assumed. In general, "." points to the  last
+word or byte printed by db__.
 
-      6. Expressions separated by "-" form an expression with value
-         equal to the difference to the components. If the right
-         component is relocatable, the left component must be
-         relocatable.
-
-      7. Expressions are evaluated left to right.
-
-If no address is given for a command, the current address (also
-specified by ".") is assumed. In general, "." points to the last
-word or byte printed by db.
-
-There are db commands for examining locations interpreted as
-octal numbers, machine instructions, ASCII characters, and
-addresses. For numbers and characters, either bytes or words may
-be examined. The following commands are used to examine the
+There are db__ commands  for  examining  locations  interpreted  as
+octal   numbers,  machine  instructions,  ASCII  characters,  and
+addresses.  For numbers and characters, either bytes or words may
+be  examined.   The  following  commands  are used to examine the
 Specified file.
 
-      / The addressed word is printed in octal.
+   /  The addressed word is printed in octal.
+   \  The addressed byte is printed in octal.
+   "  The addressed word is printed as two ASCII characters.
 
-      \ The addressed byte is printed in octal.
 
-      " The addressed word is printed as two ASCII characters.
+                               A6
 
-      ' The addressed byte is printed as an ASCII character.
+   '  The addressed byte is printed as an ASCII character.
+   ?  The  addressed word is interpreted as a machine instruction
+      and a symbolic form of the instruction, including  symbolic
+      addresses,  is  printed.   Usually,  the result will appear
+      exactly as it was written in the source program.
+   &  The addressed word is interpreted as a symbolic address and
+      is printed as the name of the symbol whose value is closest
+      to  the  addressed  word,  possibly  followed  by  a signed
+      offset.
+   <nl>  (i.  e., the character "new line") This command advances
+      the current location counter "." and prints  the  resulting
+      location  in  the  mode  last specified by one of the above
+      requests.
+   ^  This  character  decrements  "."  and  prints the resulting
+      location in  the  mode  last  selected  one  of  the  above
+      requests. It is a converse to <nl>.
 
-      ? The, addressed word is interpreted as a machine instruction
-        and a symbolic form of the instruction, including symbolic
-        addresses, is printed. Usually, the result will appear
-        exactly as it was written in the source program.
-
-      & The addressed word is interpreted as a symbolic address and
-        is printed as the name of the symbol whose value is closest
-        to the addressed word, possibly followed by a signed
-        offset.
-
-      <n1> (i.e., the character "new line") This command advances
-        the current location counter "." and prints the resulting
-        location in the mode last specified by one of the above
-        requests.
-
-      ^ This character decrements "." and prints the resulting
-        location in the mode last selected one of the above
-        requests. It is a converse to <n1>.
-
-It is illegal for the word-oriented commands to have odd
-addresses. The incrementing and decrementing of "." done by the
-<nl> and ^ requests is by one or two depending on whether the
+It  is  illegal  for  the  word-oriented  commands  to  have  odd
+addresses.  The  incrementing and decrementing of "." done by the
+<nl> and ^ requests is by one or two  depending  on  whether  the
 last command was word or byte oriented.
 
-The address portion of any of the above commands may be followed
+The address portion of any of the above commands may be  followed
 by a comma and then by an expression. In this case that number of
 sequential words or bytes specified by the expression is printed.
-"." is advanced so that it points at the last thing printed.
+"."  is advanced so that it points at the last thing printed.
+
 There are two commands to interpret the value of expressions.
 
-      = When preceded by an expression, the value of the expression
-                << page A7 is missing here >>
-        typewriter (EOT character).
+   =  When preceded by an expression, the value of the expression
 
 
-A2.4  ed
+                               A7
 
-Ed is nearly a subset of QED [reference]. When called by
+                      [Page A7 is missing]
+
+
+                               A8
+
+typewriter (EOT character).
+
+
+A2__.4_  ed__
+
+Ed__ is nearly a subset of QED [reference]. When called by
 
      ed name
 
-ed performs an automatic "r" (read) command on file name. The
-major differences between ed and QED are:
+ed__ performs an automatic "r" (read) command on  file  name____.   The
+major differences between ed__ and QED are:
 
-      1. There is no "\f" character; input mode is left by typing
-         "." alone on a line.
-
-      2. There are no buffers and hence no "\b" stream directive.
-
-      3. The commands are limited to:
-
-             a c d i p q r s w = !
-
-      4. The only special characters in regular expressions are:
-
-             * ^ $ [ .
-
-         which have the' usual meanings. However, "^" and "s" are
-         only effective if they are the first or last character
-         respectively of the regular expression. Otherwise
-         suppression of special meaning is done by preceding the
-         character by "\", which is not otherwise special.
-
-      5. In the substitute command, only the leftmost occurrence of
-         the matched regular expression is substituted.
+    1. There is no "\f" character; input mode is left  by  typing
+       "." alone on a line.
+    2. There are no buffers and hence no "\b" stream directive.
+    3.  The commands are limited to:
+           a c d i p q r s w = !
+    4. The only special characters in regular expressions are:
+           *  ^  $  [  .
+       which  have  the  usual meanings. However, "^" and "s" are
+       only effective if they are the  first  or  last  character
+       respectively   of   the   regular  expression.   Otherwise
+       suppression of special meaning is done  by  preceding  the
+       character by "\", which is not otherwise special.
+    5. In the substitute command, only the leftmost occurrence of
+       the matched regular expression is substituted.
 
 
-A2.5  tap
+A2__.5_  tap___
 
-The tap command is used as follows:
+The tap___ command is used as follows:
 
-     tap [01][crxdt][s][v] name1 ... namen -name1 ... -namen
+     tap [01][crxdt][s][v] name918 ... name9n8 -name'918 ... -name'9n8
 
-The first argument consists of characters which indicate what is
-to be done. Subsequent arguments specify a set of files.
+
+                               A9
+
+The  first argument consists of characters which indicate what is
+to be done.  Subsequent arguments specify a set of files.
 
 A digit (0 or 1) in the first argument indicates the logical unit
-number on which the tape is mounted. C, r, x, d and t are
+number on which the tape is mounted.  C_,  r_,  x_,  d_,  and  t_  are
 mutually exclusive:
 
-      c indicates the creation of a new tape. Files name1, ...,
-        namen are placed on the tape. If any of these are directories,
-        all files and subdirectories therein are placed on
-        the tape as well. Arguments preceded by "-" indicate files
-        or directories which are not to be placed on the tape even
-        though implied by one of the other arguments.
+   c  indicates the creation of a new  tape.  Files  name____918,  ...,
+      name____9n8  are  placed  on the tape. If any of these are direc-
+      tories, all files and subdirectories therein are placed  on
+      the tape as well.  Arguments preceded by "-" indicate files
+      or directories which are not___ to be placed on the tape  even
+      though implied by one of the other arguments.
+   r  indicates that the files specified (exactly as for c_)  will
+      be  added to the tape. If there was a file of the same name
+      as one of the specified files already on the tape, it  will
+      be replaced.
+   x  indicates that the specified files are to be extracted from
+      the  tape and copied onto the disk. If any directory needed
+      does not exist, it will be created.
+   d  indicates  that  the specified files are to be deleted from
+      the tape.
+   t  causes  a  partial table of contents of the tape to be pro-
+      duced, including all files implied by the  following  argu-
+      ments.  (E.g., "tap t /dmr" gives the names of all files on
+      the tape in directory "/dmr".)
 
-      r indicates that the files specified (exactly as for c) will
-        be added to the tape. If there was a file of the same name
-        as one of the specified files already on the tape, it will
-        be replaced.
+Argument  "v"  (for "v_erify") may be used in addition to the pre-
+ceding arguments. Before each file is dealt with as indicated  by
+one  of  the  preceding  arguments,  the "v" option causes tap___ to
 
-      x indicates that the specified files are to be extracted from
-        the tape and copied onto the disk. If any directory needed
-        does not exist, it will be created.
 
-      d indicates that the specified files are to be deleted from
-        the tape.
+                               A10
 
-      t causes a partial table of contents of the tape to be produced,
-        including all files implied by the following arguments.
-        (E.g., "tap t /dmr" gives the names of all files on
-        the tape in directory "/dmr".)
-
-Argument "v" (for "verify") may be used in addition to the preceding
-arguments. Before each file is dealt with as indicated by
-one of the preceding arguments, the "v" option causes tap to
-pause, type the name of the affected file, and request the user
-to decide whether the file should be treated. The reply "y"
-means "yes"; an empty line means "no"; a "q" means "no, and exit
-from the tap command." For example, by the use of "xv", files can
+pause, type the name of the affected file, and request  the  user
+to  decide  whether  the  file  should be treated.  The reply "y"
+means "yes;" an empty line means "no;" a "q" means "no, and  exit
+from the tap___ command." For example, by the use of "xv", files can
 be selectively restored.
 
-Argument "s" may be used alone or in addition to one of c, r, x,
-t, d. It causes tap to examine the tape, verify that it can be
-read properly, and produce statistics on the contents of the
+Argument  "s" may be used alone or in addition to one of c_, r_, x_,
+t_, d_.  It causes tap___ to examine the tape, verify that it  can  be
+read  properly,  and  produce  statistics  on the contents of the
 tape.
