@@ -35,3 +35,10 @@ TODO: https://www.flux.utah.edu/~mike/
   > done at Carnegie-Mellon University. Mike Hibler at the University of Utah
   > merged the core technology from MACH with the user interface described by
   > the 4.2BSD architecture manual (which was also the interface used by SunOS).
+
+- ["HPBSD: Utah's 4.3bsd port for HP9000 series machines"](https://www.flux.utah.edu/~mike/hpbsd/hpbsd.html) \
+  Mike Hibler
+  Flux Research Group, School of Computing, University of Utah
+  June 1996, updated July 1999
+
+  TODO
