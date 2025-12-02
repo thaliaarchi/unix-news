@@ -1,0 +1,26 @@
+                                                Bell Laboratories
+
+                                                600 Mountain Avenue
+                                                Murray Hill, New Jersey 07974
+                                                Phone (201) 582-3000
+
+                                           May 31, 1974
+
+
+MR. MARTIN E. NEWELL
+The University of Utah
+College of Engineering
+Salt Lake City, Utah   84112
+
+
+Dear Mr. Newell:
+
+I am sorry for the delay in delivering UNIX.  Unfortunately
+we've run out of copies of documentation.  As soon as a new
+batch comes from the printers I will send you the system.
+
+
+                                 Sincerely,
+
+                                 {signature: Ken Thompson}
+KT-gam                           KEN THOMPSON
