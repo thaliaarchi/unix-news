@@ -1,0 +1,80 @@
+Dr. Paul C. Abegglen
+Department of Chemistry
+University of Utah
+Salt Lake City, Utah 84112
+
+Dear Dr. Abegglen:
+
+Thank you for your kind letter of November 21 regarding the UNIX
+time-sharing system.
+UNIX is a proprietary system which is available, on a cost-free basis,
+to educational institutions
+under license from the Western Electric Company.
+To obtain a copy of the license agreement you may
+write to
+
+	Mr R. G. Shahpazian
+	Room 400
+	Western Electric Company
+	222 Broadway
+	New York, New York, 10038
+
+You should also send a copy of your letter to
+
+	Mr. S. P. Morgan
+	...
+
+In regard to some of your specific inquiries: essentially all the
+UNIX software comes with the system.
+Unfortunately, the only exceptions I can think of
+relate to programs in which you expressed interest.
+
+We have three text formatting programs. The simplest
+one is based on the RUNOFF-ROFF programs which came out
+of CTSS and Multics at MIT; it is reasonably powerful
+and is available with the system.
+The other programs use the same basic
+scheme but are more powerful; the difference between them is that
+one is designed for use with ordinary terminals
+while the other drives a phototypesetter.
+The latter two programs have not been released yet.
+
+The TMG compiler-compiler is available with the system.
+The newer YACC program, which is based on an LR(1) parsing scheme,
+has not been released yet, but I suspect that
+there would be no difficulty if enough interest was shown.
+
+I wouldn't count too much on the Snobol.  It is a slightly
+restricted version of Snobol III and was coded as a demonstration
+for a programming course, not as a production tool.
+We have made some use of it but it's pretty slow.
+
+Making DEC subsystems run under UNIX
+is likely to involve a fair amount of work.
+As you must have gathered from the paper, the system interface is
+completely different.
+Our assembler and PAL have also grown somewhat apart,
+although ours was pretty close to DEC's when it was first
+written (back in the days when PAL was loaded from paper tape).
+Since most of our software is written in the higher-level
+language "C" we have not felt impelled to add such things as
+macros to the assembler.
+
+The PDP 11/45 you describe is sufficient to run UNIX.
+I'm afraid I can't offer you any encouragement as far as the 11/20
+is concerned.  The version of the system for machines
+without segmentation is so different internally, and requires
+so much handcrafting to adapt it to its hardware configuration,
+that we are unable to support it.
+
+The UNIX system manual has not been released for general distribution.
+If the information I have given leaves
+you uncertain as to the suitability of the system for
+your applications, you should obtain a license
+as described above, and we will be glad to send you
+whatever documentation we have.
+
+			DMR
+
+
+copy to SPM

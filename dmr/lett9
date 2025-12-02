@@ -1,0 +1,111 @@
+Mr. B. E. Carpenter
+MPS Division
+CERN
+1211 Gene`ve 23
+Switzerland
+
+Dear Mr. Carpenter:
+
+This is in response to your letter of November 27, reference
+MPS/CO/BC/je.
+The UNIX system, its software, and its documentation
+are proprietary to the Bell System and are currently being
+released, under a license from the Western Electric Company,
+only to educational institutions.
+The possibility of extending such licenses to governmental
+and commercial organizations is being considered, however.
+To obtain information about such a license, you may write to
+
+	Mr R. G. Shahpazian
+	Room 400
+	Western Electric Company
+	222 Broadway
+	New York, New York, 10038
+
+You should also send a copy of your letter to
+
+	Mr. S. P. Morgan
+	...
+
+Mr. Shahpazian will acknowledge your letter and will
+inform you as soon as a decision has been reached.
+
+In answer to your specific questions:
+
+There is currently no user-available method to lock a process
+in core to meet real-time constraints.  This should
+be very easy to add, however, since the system
+has internal to it a flag which prevents swapping the
+process's core image.
+Somewhat more work would be required to arrange that
+physical core occupied by the process lies at the
+edge of the available space, which is desirable to prevent
+fragmentation of the physical address space.
+
+The system will run with only one RK disk, although naturally
+both response time and available disk space are better with the
+swapping disk space and user file space on
+separate devices.
+Incidentally, I think the SIGOPS conference version
+of the paper was overly optimistic about the
+amount of memory needed;
+we are unable to support machines with less than
+32K words of core.
+
+There is no automatic means of initiating a process in response to
+an interrupt.
+The approach we would take to this need is to have an existing
+process which wakens in response to the interrupt and creates
+a new process.  Unless the time requirements are very strict
+I don't think this is a problem.
+
+Although UNIX for non-segmentation PDP-11's still exists,
+we are unable to support it, since its internal structure is 
+so different from the current system and since
+it requires so much handcrafting to adapt it to the
+hardware configuration.
+
+It is trivial to introduce a new user program such as a
+compiler, since one need merely place the file
+containing the program in a particular directory.
+New device drivers are in general fairly easy,
+since the interface between the system and the drivers
+is quite clean.  It does require some
+knowledge of the way the system operates.
+
+Fortran definitely supports the floating point hardware;
+in fact we recommend it if much use is to be made of Fortran.
+The compiler generates the same kind of semi-interpretive
+"threaded code" as does the DEC Fortran; I suspect it
+is somewhat slower than DEC's since Fortran is not heavily
+used by us, and we have not felt impelled to optimize
+as carefully.
+If you are at all adventurous in this area I can advise
+using "C", which is the language in which
+UNIX itself and most of its software are written.
+C is a true compiler which generates excellent code and
+supports both single- and double-precision floating-point
+arithmetic.
+
+I can give no definite answer as far as cost is concerned.
+As I indicated, UNIX is
+currently being made available only to educational
+institutions; this is on a cost-free basis.
+I can't predict any charges that might be
+made should licenses be extended
+on a broader basis, but I doubt if they would seem excessive.
+I'm not sure what you mean by "software support."
+Of course all the ordinary software comes with the system:
+editor, language processors, utilities, and so forth.
+If you refer to continuing support,
+the situation is still not very clear.
+We hope to be able to send out occasional mailings
+describing bugs found and new software, and to
+generate tapes of the appropriate source programs.
+Still, you will have to take into account
+the fact that your only source
+of information is a 2-man operation an ocean away.
+
+			DMR
+
+Copy to SPM

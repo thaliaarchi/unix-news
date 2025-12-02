@@ -1,0 +1,52 @@
+Mr. Brian Read
+Merit Computer Network
+1037 North University  Building
+Ann Arbor, Michigan 48104
+
+Dear Mr Read:
+
+Since there has at last been a decision on the
+release of the UNIX system,
+I went through my files
+and found your letter of October 18, 1972.
+
+UNIX is now available on a royalty-free basis to educational institutions
+through a licensing agreement with Western Electric
+Company.
+No decision has been made, however, whether to extend
+such agreements to commercial firms.
+The exact situation of Merit Computer Network is not clear
+to me, but in view of its sponsorship,
+it seems possible that a license might be arranged.
+
+I am enclosing a paper on UNIX which was presented at this fall's
+SIGOPS conference and which will appear in the CACM.
+If after the passage of time, and after you read the paper,
+you are still interested in UNIX, you may write to
+
+	Mr R. G. Shahpazian
+	Room 400
+	Western Electric Company
+	222 Broadway
+	New York, New York, 10038
+
+and request a copy of the licensing agreement.
+Since it is not transparently obvious that Merit
+Computer Network is an educational institution,
+you should indicate just what your firm's situation is.
+You should also send a copy of your letter
+to
+	Mr. S. P. Morgan
+	Room ---
+	BTL
+
+Your letters
+to me and Ken Thompson indicated special interest in the
+C language.
+Since UNIX itself and much of its software
+are written in C,
+its description and
+compiler are included in the UNIX package.
+
+
+			DMR

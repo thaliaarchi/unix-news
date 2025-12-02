@@ -1,0 +1,31 @@
+Andy Tanenbaum
+Wiskundig Seminarium
+  der Vrije Universitet
+De Boelelaan 1081
+Amsterdam-11
+NETHERLANDS
+
+Dear Mr. Tanenbaum:
+
+Thank you for your letter of November 7.
+I am enclosing a copy of the
+paper by me and Ken Thompson whose abstract you read;
+it gives a fairly complete picture of the nature
+of the implementation.
+No more detailed descriptions have yet been released,
+although UNIX is being made available
+through a Western Electric Company license to educational
+institutions.
+
+As the paper indicates, UNIX is indeed written in a home-grown
+systems programming language called C.
+As the paper indicates, earlier versions of the system were written
+in assembly language.
+We are extremely happy with the new system,
+which is only one-third larger than the old and considerably
+more powerful.
+Its modest growth is attributable both to a good compiler
+and to better understanding
+of the organization of the routines and the data involved.
+
+				DMR

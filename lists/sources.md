@@ -120,7 +120,10 @@
   > The number of UNIX installations is now above 50, and many more are
   > expected.
 
-- Ken's list from Dennis_Tapes, June 27, 1975:
+- List of UNIX licensees, Ken Thompson, 27 June 1975 \
+  [Dennis_Tapes](https://www.tuhs.org/Archive/Applications/Dennis_Tapes/)
+  `dmr_tapes.tar/ken/ken.tar/distr/{form.m,nmrc}`
+  The Unix Heritage Society: \
   51 UNIX licensees listed and 55 installations listed
 
   In a DECtape donated by Dennis Ritchie is a `fed(6)`/`form(6)` form letter
@@ -129,7 +132,7 @@
   Gray's [2023-07-12 TUHS message](https://www.tuhs.org/pipermail/tuhs/2023-July/028601.html)
   discovering this.
 
-  TUHS [`Archive/Applications/Dennis_Tapes/dmr_tapes.tar/ken/ken.tar/distr/{form.m,nmrc}`](https://www.tuhs.org/Archive/Applications/Dennis_Tapes/):
+  The metadata from `dir`:
 
   ```
   Mode       UID GID  Size Date                Name
