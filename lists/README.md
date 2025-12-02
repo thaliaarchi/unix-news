@@ -26,6 +26,8 @@ members, and USENIX conference registrants.
 | end of 1978      | >600 installs                                   | Life with UNIX page 12   |
 | January 28, 1980 | 447 Boulder USENIX [TODO]                       | ;login: February 1980    |
 
+[^utah]: Letter from Ken Thompson to Martin E. Newell \
+  31 May 1974
 [^cacm74]: "The UNIX Time-Sharing System" \
   Dennis M. Ritchie and Ken Thompson \
   Bell Laboratories \
@@ -120,7 +122,7 @@ TODO: What versions are Network UNIX and MUNIX derived from?
 |     | late 1972 or early 1973     | Cosnix (V3)       | Bell System 8th-Street site in LA       | Installed                                                              | [^spencer]             |
 |     | after 8th-Street            | Cosnix (V3)       | Bell Labs Whippany                      | A newer installation than the 8th-Street Cosnix installation           | [^spencer]             |
 | \-  | February 1973               | **V3**            | -                                       | -                                                                      | [^releases]            |
-| \-  | October 16, 1973            | SOSP '73          | -                                       | -                                                                      | [^future] |
+| \-  | October 16, 1973            | SOSP '73          | -                                       | -                                                                      | [^future]              |
 | 1   | October 1973[1]             | ?                 | Columbia University                     | License granted[1], first educational license[1] [2]                   | 1[^pirzada] 2[^libes]  |
 | 2   | October 1973[1]             | V4[1] [2]         | University of Alberta                   | V4 shipped[1], PDP-11/45 #315[2]                                       | 1[^smillie] 2[^spencer]|
 | 3   | October 1973                | ?                 | The Children's Museum                   | First non-educational licensee                                         | [^pirzada]             |
@@ -128,6 +130,7 @@ TODO: What versions are Network UNIX and MUNIX derived from?
 | \-  | November 1973               | **V4**            | -                                       | -                                                                      | [^releases]            |
 | 9   | at latest winter 1973/1974  | ?                 | Harvard University                      | Start of joint work with the Children's Museum                         | [^childrens]           |
 | 14  | February 1974               | ?                 | Hebrew University of Jerusalem          | License granted, first licensee outside the US                         | [^pirzada]             |
+| 19  | June 1974                   | V4                | University of Utah                      | System sent shortly after 31 May 1974 letter announcing documentation delay | [^utah]           |
 | 23  | January 1974                | V4                | University of California, Berkeley      | V4 delivered (attended SOSP'73)                                        | [^mckusick]            |
 | 24  | May 1974                    | ?                 | Queen Mary University of London         | License granted                                                        | [^pirzada]             |
 | \-  | June 1974                   | **V5**            | -                                       | -                                                                      | [^releases]            |
@@ -224,7 +227,7 @@ List sources:
 |           |                           | Polytechnic Institute of New York, Long Island Center | Farmingdale, NY              |                                  | Mr. George Kull                |   2 3 4 |
 | 18, 18.1  |                           | University of Waterloo                                | Waterloo, ON, Canada         | Computer Science                 | Prof. R. W. Peebles            | 1 2 3 4 |
 | 18.2      |                           | University of Waterloo                                | Waterloo, ON, Canada         | Computer Science                 | Dr. Ernest Chang               |   2 3 4 |
-| 19        |                           | University of Utah                                    | Salt Lake City, UT           | Computer Science                 | Mr. Martin E. Newell           | 1 2 3 4 |
+| 19        | Jun 1974 (V4) [^utah]     | University of Utah                                    | Salt Lake City, UT           | Computer Science                 | Mr. Martin E. Newell           | 1 2 3 4 |
 | 20        |                           | Queen's University at Kingston                        | Kingston, ON, Canada         | Computing Science                | Prof. D. A. Jardine            | 1       |
 |           |                           | Queen's University at Kingston                        | Kingston, ON, Canada         | Comp. and Info. Sci.             | Prof. Jeffrey Kulick           |     3 4 |
 |           |                           | Queen's University at Kingston                        | Kingston, ON, Canada         | Comp. and Info. Sci.             | Prof. D. A. Jardine            |       4 |
