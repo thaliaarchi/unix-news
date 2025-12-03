@@ -413,6 +413,42 @@
 
   TODO: Continue reading from page 15
 
+- ["History of Computing at Bell Labs"](https://research.swtch.com/bell-labs) \
+  Doug McIlroy \
+  Bell Labs retirement talk, 1997
+
+  > 28:40 During the 60s, we undertook an enormous development project in the
+  > guise of research, which was MULTICS, and it was the notion of MULTICS was
+  > computing was the public utility of the future. Machines were very
+  > expensive, and ?indeed? like you don’t own your own electric generator, you
+  > rely on the power company to do generation for you, and it was seen that
+  > this was a good way to do computing -- time sharing -- and it was also
+  > recognized that shared data was a very good thing. MIT pioneered this and
+  > Bell Labs joined in on the MULTICS project, and this occupied five years of
+  > system programming effort, until Bell Labs pulled out, because it turned out
+  > that MULTICS was too ambitious for the hardware at the time, and also with
+  > 80 people on it was not exactly a research project. But, that led to various
+  > people who were on the project, in particular Ken Thompson -- right there --
+  > to think about how to -- Dennis Ritchie and Rudd Canaday were in on this too
+  > -- to think about how you might make a pleasant operating system with a
+  > little less resources.
+  >
+  > 30:30 And Ken found -- this is a story that’s often been told, so I won’t go
+  > into very much of unix -- Ken found an old machine cast off in the corner,
+  > the PDP-7, and put up this little operating system on it, and we had immense
+  > GE635 available at the comp center at the time, and I remember as the
+  > department head, muscling in to use this little computer to be, to get to be
+  > Unix’s first user, customer, because it was so much pleasanter to use this
+  > tiny machine than it was to use the big and capable machine in the comp
+  > center. And of course the rest of the story is known to everybody and has
+  > affected all college campuses in the country.
+
+  Talks about a team which troubleshooted a race condition in an anti-missile
+  defense system for a year.
+
+  TODO: Read referenced *A History of Engineering & Science in the Bell System:
+  Communications Sciences, 1925-1980* by S. Millman (1984)
+
 - ["TUHS Distribution Release Dates"](https://www.tuhs.org/Archive/Distributions/RELEASE_DATES),
   modified 3 March 1998
 
