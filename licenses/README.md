@@ -4,14 +4,18 @@
 | ----------------------------------- | -------- | ---------------------------------------------------------------- | ---------- | ---------- |
 | Software-Univ.—020173               | Western  | [University of California, Berkeley](univ-020173-berkeley/)      | 1973-12-01 | 1974-02-11 |
 | Software-Univ.—020173-122073        | Western  | [*partial copy (pages 2–6)*](univ-020173-060574-nijmegen/)       | -          | -          |
+| Software-Univ.—020173-122073        | Western  | [*partial copy (pages 2–4)*](univ-020173-121374-manitoba/)       | -          | -          |
 | Software-Univ.—020173-060574        | Western  | [Katholieke Universiteit Nijmegen](univ-020173-060574-nijmegen/) | 1974-12-01 | 1975-02-26 |
+| Software-Univ.—020173-060574        | Western  | [*partial copy (page 1)*](univ-020173-121374-manitoba/)          | -          | -          |
 | Software-Univ.—020173-121374        | Western  | [University of Manitoba](univ-020173-121374-manitoba/)           | 1972-02-01 | -          |
-| Software-Univ.—020173-020176        | Western  | [Katholieke Universiteit Leuven](univ-020173-020176-leuven/)     | 1977-09-01 | 1977-09-15 |
+| Software-Univ.—020173-070176        | Western  | [*partial copy (page 5)*](univ-020173-120176-leuven/)            | -          | -          |
+| Software-Univ.—020173-120176        | Western  | [Katholieke Universiteit Leuven](univ-020173-120176-leuven/)     | 1977-09-01 | 1977-09-15 |
 | Software-Customer CPU—020176-010180 | Western  | [*partial copy (pages 1,3,5,6)*](cpu-052776-090180-specimen/)    | -          | -          |
 | Software-Customer CPU—020176-090180 | Western  | [*partial copy (page 4)*](cpu-052776-090180-specimen/)           | -          | -          |
 | Software-Customer CPU—052776-090180 | Western  | [*specimen copy*](cpu-052776-090180-specimen/)                   | -          | -          |
+| Software-Corp.—020173-010182        | ?        | [*partial copy (pages 4,6,7)*](corp-020173-020182-specimen/)     | -          | -          |
 | Software-Corp.—020173-020182        | AT&T     | [*specimen copy*](corp-020173-020182-specimen/)                  | -          | -          |
-| Sys. V-Ed.-040183                   | AT&T     | [University of California](sysv-ed-020173-020182-berkeley/)      | 1983-07-01 | 1984-08-15 |
+| Sys. V-Ed.-040183                   | AT&T     | [University of California](sysv-ed-040183-berkeley/)             | 1983-07-01 | 1984-08-15 |
 
 The second date component in the license revision is the date it was last
 revised, the effective date is written on the title page, and the signed date is
